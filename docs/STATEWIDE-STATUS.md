@@ -1,4 +1,4 @@
-# Statewide build — status as of 13 Sep 2026
+# Statewide build — status as of 13 Sep 2026 (updated: SOS roster + deploy)
 
 Companion to `wilson-situs-prototype-state.md` and `situs-platform-plan.md`. This is the "county as
 config" plan executed end to end: all 95 Tennessee counties have been run through one pipeline on
@@ -28,18 +28,18 @@ public data only, with no confidential DOR roster and $0 spent on data.
 |---|---|
 | Counties run | 95 / 95 (0 failures) |
 | Rooftops placed in DOR situs polygons | 3,943,392 |
-| Business points (SOS entities + E-911 labels, rooftop-geocoded) | 323,007 across 76 counties |
+| Business points (SOS entities + E-911 labels, rooftop-geocoded) | 359,077 across all 95 counties |
 | Jurisdictional seam miles | 18,246 (9,298 cross-county) |
-| Cross-county postal businesses (both halves of the tax at risk) | 1,089 |
-| Boundary-risk businesses (≤250 ft of a seam) | 9,691 |
-| Postal-city exposure businesses | 49,305 |
-| DOR file ≠ DOR polygon (E5, >250 ft) | 55,092 rooftops |
+| Cross-county postal businesses (both halves of the tax at risk) | 5,786 |
+| Boundary-risk businesses (≤250 ft of a seam) | 11,222 |
+| Postal-city exposure businesses | 61,170 |
+| DOR file ≠ DOR polygon (E5, >250 ft) | 58,550 rooftops |
 | Official-layer disagreement (E4) | 19,111 rooftops |
 
-Top counties by business universe: Davidson 58,067 · Knox 39,862 · Rutherford 39,802 · Shelby 39,598 ·
-Williamson 25,919 · Hamilton 21,201 · Sumner 14,974 · Wilson 13,006.
+Top counties by business universe: Davidson 58,950 · Rutherford 39,862 · Shelby 39,443 · Knox 39,209 ·
+Williamson 27,253 · Hamilton 21,152 · Sumner 14,899 · Wilson 13,306.
 
-Highest cross-county-postal counts: Shelby 232, Wilson 136, Rutherford 75, Hamilton 51, Davidson 28.
+Highest cross-county-postal counts: Davidson 1,310, Wilson 521, Shelby 257, Rutherford 208, Hamilton 97.
 
 ## What was built this pass
 
@@ -55,21 +55,40 @@ Highest cross-county-postal counts: Shelby 232, Wilson 136, Rutherford 75, Hamil
 - Workbench queue banner: with no roster loaded the queue is labelled **ranked exposure, not findings**;
   once a DOR file is pasted it flips to findings mode with the Coded ≠ measured class.
 - SST fallback for 911 authorities that leave ZIP blank (DeKalb: 0.5% → 82.8% address-range match).
-- Atlas marks the 19 counties with no Secretary of State entity file as "no roster yet" rather than 0.
+- Atlas marks any county without a Secretary of State entity file as "no roster yet" (none today).
+
+## SOS roster (added 13 Sep, second pass)
+
+The business layer for all 95 counties now comes from the Secretary of State statewide RECORDS
+extract (26 Aug 2026 master) with the Oct 2025 – Aug 2026 monthly increments applied, deduplicated
+by ControlNumber (latest wins): 1,421,894 entities, 1,183,429 with a Tennessee principal-address
+county, 388,375 active for-profit, 324,393 (83.5%) geocoded to an NG911 rooftop. County assignment
+is the filer's own PrincipalAddressCounty, which is why cross-county postal rose from 1,089 to 5,786:
+an entity that tells the State it sits in Wilson County while its address says Old Hickory is exactly
+the population the audit is for (Wilson 136 → 521, Davidson 28 → 1,310). `fetch/sos_refresh.py`
+applies each new monthly increment; `deploy/DEPLOY.md` §5 has the routine.
+
+## Deployment (prepared, awaiting Dan's push)
+
+- Repo `~/Downloads/tn-situs-atlas` on Dan's Mac (two commits on `main`, clean). `site/` holds the
+  atlas + all 95 workbenches as a plain static site (172 MB); `site/CNAME` = navigationholdings.com.
+- `.github/workflows/pages.yml` deploys `site/` to GitHub Pages on push; `refresh.yml` re-pulls and
+  re-runs all 95 counties weekly and commits `site/`. `deploy/Dockerfile.site` + `railway.json`
+  (Caddy) and `deploy/Dockerfile.refresh` + `refresh.sh` for Railway.
+- Remaining steps are credentialed and Dan's: `gh repo create … --push`, Settings → Pages → source
+  GitHub Actions, custom domain, four A records + www CNAME at the registrar. All in `deploy/DEPLOY.md`.
 
 ## Known gaps
 
-- **19 counties have no SOS entity file yet** (business layer empty; rooftop analysis is complete):
-  Blount, Chester, Cocke, Decatur, Fentress, Greene, Hardeman, Hickman, Humphreys, Johnson, Loudon,
-  McNairy, Meigs, Monroe, Rhea, Robertson, Tipton, Van Buren, Washington. Pull the TN SOS county
-  entity TSVs for these and drop them in `data/sos/`; `fetch/make_configs.py` wires them.
 - Low DOR address-range match rates worth a look before selling those counties: Obion 26%,
   Unicoi 27%, Cocke 36%, McMinn 41%, Marion 51%. Probably street-name conventions in the 911 layer.
-- Knox and Williamson show 0 cross-county postal — plausible (Knoxville and Franklin postal areas are
-  home to their counties) but verify on the first roster.
-- Wilson E5 (DOR file ≠ polygon) is 12,691 — highest in the state relative to size; this is the
-  "counter-finding in the county's favour" already documented for Wilson and should be in the
-  engagement letter.
+- DeKalb's 911 layer has no ZIPs; a ZIP-less fallback (unique street+number) now carries it
+  (SST match 0.5% → 82.8%, SOS geocode 5 → 690 of 810).
+- Knox and Williamson show 0 cross-county postal — plausible but verify on the first roster.
+- Wilson E5 (DOR file ≠ polygon) is 12,691 — the "counter-finding in the county's favour"; belongs in
+  the engagement letter.
+- Published claude.ai copies of the Hamilton, Williamson and Montgomery workbenches still show the
+  pre-SOS-refresh numbers (republish was blocked); the site copies are current.
 
 ## Where everything lives
 
@@ -84,7 +103,7 @@ Highest cross-county-postal counts: Shelby 232, Wilson 136, Rutherford 75, Hamil
 ## Next
 
 1. Wilson meeting (week of 14 Sep): demo the Wilson workbench and the atlas; walk the queue banner.
-2. Fill the 19 missing SOS files; rerun those counties (`python3 run_all.py --skip-ingest --counties …`).
+2. Push the repo and turn on Pages + DNS (`deploy/DEPLOY.md`); then the site is the demo link.
 3. First roster paste (Wilson) → `calibrate.py` → confusion matrix in the bulletin.
 4. Municipal packages: every city already has a situs code and a polygon in the atlas; the
    county-and-cities package (doc 09) needs only the city list per county from `configs/`.
