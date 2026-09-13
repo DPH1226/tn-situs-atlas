@@ -75,10 +75,27 @@ Railway hosts the same two pieces as two services from this one repo:
 
 Railway CLI equivalent: `railway login && railway init && railway up` inside the repo.
 
-## 5. What the SOS roster feed needs
+## 5. The SOS roster feed
 
-`data/sos/<county>_county_all_records_from_SOS.tsv` (95 files, from the statewide RECORDS.tsv
-deduplicated with the monthly increments) is the business layer. It is in git (≈300 MB compressed
-would be too much — it is **not**; keep it out of git and provide it to the refresh job as a volume or
-a release asset). `fetch/sos_refresh.py` applies a new monthly `RECORDS.txt` increment to the county
-files.
+`data/sos/<county>_county_all_records_from_SOS.tsv` (95 files) is the business layer. The TSVs are
+not in git (340 MB); the compressed parts are (`data/sos_parts/*.zip`, ~52 MB), and `run_all.py`
+unpacks them on first use, so a fresh clone or a runner has the roster with no extra step.
+
+Monthly: download the new `Extract_Business_MONTHLY_<yyyymmdd>/RECORDS.txt` from the SOS
+(Drive folder "TN SOS up to date files"), then
+
+```bash
+python3 fetch/sos_refresh.py --increments data/sos_monthly/sos_monthly_<yyyymmdd>_RECORDS.txt
+python3 - <<'PY'
+import zipfile, glob, os
+# re-pack the parts so the runner sees the new roster
+z = zipfile.ZipFile("data/sos_parts/sos_part1.zip", "w", zipfile.ZIP_DEFLATED)
+for f in sorted(glob.glob("data/sos/*.tsv")) + ["data/sos/_manifest.json"]: z.write(f, os.path.basename(f))
+z.close(); open("data/sos_parts/sos_part2.zip", "wb").close()
+PY
+git add data/sos_parts && git commit -m "sos: <yyyymmdd> increment" && git push
+```
+
+Deduplication is by ControlNumber, latest increment wins; the current roster is the 26 Aug 2026
+statewide master with the Oct 2025 – Aug 2026 increments applied (1,421,894 entities, 1,183,429
+with a Tennessee principal-address county).
