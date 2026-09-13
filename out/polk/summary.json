@@ -1,0 +1,100 @@
+{
+  "county": "POLK",
+  "slug": "polk",
+  "generated_utc": "2026-09-13T05:43:31.560788+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7000": "Unincorporated",
+    "7001": "Benton",
+    "7002": "Copperhill",
+    "7003": "Ducktown"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 12233,
+    "unplaced": 44,
+    "sst_range_match_rate_pct": 82.6,
+    "business_points": 447,
+    "seams": 6,
+    "seam_miles": 78.6,
+    "cross_county_seam_miles": 50.0
+  },
+  "situs_distribution": {
+    "7000": 10696,
+    "7001": 821,
+    "7002": 364,
+    "7003": 352
+  },
+  "risk_bands": {
+    "NORMAL": 11002,
+    "WATCH": 925,
+    "HIGH": 285,
+    "CRITICAL": 21
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 366,
+    "E5_DOR_INTERNAL_CONFLICT": 51,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 27,
+    "E1_POSTAL_CITY_OVERSTATES": 3840,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 1,
+    "E3_BOUNDARY_PROXIMITY": 306
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 9928,
+    "REVIEW - analyst": 2230,
+    "HOLD - insufficient evidence": 54,
+    "HOLD - mandatory human adjudication": 21
+  },
+  "postal_city_profile": {
+    "BENTON": 3165,
+    "COPPERHILL": 1860,
+    "OLD FORT": 1486,
+    "OCOEE": 1274,
+    "TURTLETOWN": 1261,
+    "DELANO": 1053,
+    "RELIANCE": 924,
+    "FARNER": 390,
+    "DUCKTOWN": 337,
+    "CALHOUN": 181,
+    "CHARLESTON": 137,
+    "CONASAUGA": 114,
+    "CLEVELAND": 48,
+    "CARLESTON": 3
+  },
+  "cross_county_postal_by_city": {
+    "CALHOUN": 181,
+    "CHARLESTON": 137,
+    "CLEVELAND": 48
+  },
+  "layer_disagreement_detail": {
+    "DOR=BENTON | E911=UNINCORPORATED | COMP=BENTON": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 7001 -> file 7000": 36,
+    "polygon 7002 -> file 7000": 19,
+    "polygon 7000 -> file 7002": 10,
+    "polygon 7000 -> file 7001": 9,
+    "polygon 7003 -> file 7000": 4
+  },
+  "business_flags": {
+    "": 254,
+    "POSTAL_CITY_EXPOSURE": 170,
+    "BOUNDARY_RISK": 12,
+    "CROSS_COUNTY_POSTAL": 6
+  },
+  "label_kinds": {
+    "business": 442,
+    "place": 5
+  }
+}

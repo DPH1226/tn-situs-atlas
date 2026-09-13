@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "hamilton",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:43:06.504513+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='HAMILTON'",
+  "feature_count": 45832,
+  "sha256": "24b5f8c260927a6141b32261e3a0cf3512abeb14a3474f675fc730c33f5969e2",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/hamilton/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/hamilton/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

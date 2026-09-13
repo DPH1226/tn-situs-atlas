@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "marion",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:07:32.764030+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='MARION'",
+  "feature_count": 6663,
+  "sha256": "968324d06cdccdcfee6260993dbeb64d979a2283395b99b9ef4f765c971738d1",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/marion/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/marion/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

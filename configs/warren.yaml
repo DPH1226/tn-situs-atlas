@@ -1,0 +1,18 @@
+county: WARREN
+fips: '47177'
+situs:
+  '8900': Unincorporated
+  '8901': Mcminnville
+  '8902': Centertown
+  '8903': Morrison
+  '8904': Viola
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: warren_sos_entities
+  type: sos_tsv
+  path: data/sos/warren_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

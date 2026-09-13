@@ -1,0 +1,16 @@
+county: COCKE
+fips: '47029'
+situs:
+  '1500': Unincorporated
+  '1501': Newport
+  '1502': Parrottsville
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: cocke_sos_entities
+  type: sos_tsv
+  path: data/sos/cocke_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

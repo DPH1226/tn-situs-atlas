@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "weakley",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:56:51.793608+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='WEAKLEY'",
+  "feature_count": 6359,
+  "sha256": "33e1d8664954b6a47e5d9e2d655d347b3028fa8ecc86bb6c3a225bf406727411",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/weakley/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/weakley/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

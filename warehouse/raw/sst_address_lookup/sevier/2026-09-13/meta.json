@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "sevier",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:10:07.620837+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='SEVIER'",
+  "feature_count": 15296,
+  "sha256": "32d42e439ce23649efa572f329f5c4b3d0c3041772bd1bec767df5d7d3cdbb60",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/sevier/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/sevier/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

@@ -1,0 +1,117 @@
+{
+  "county": "BEDFORD",
+  "slug": "bedford",
+  "generated_utc": "2026-09-13T05:22:17.015557+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0200": "Unincorporated",
+    "0201": "Shelbyville",
+    "0202": "Bell Buckle",
+    "0203": "Normandy",
+    "0204": "Wartrace"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 22146,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 88.4,
+    "business_points": 1453,
+    "seams": 10,
+    "seam_miles": 184.7,
+    "cross_county_seam_miles": 116.2
+  },
+  "situs_distribution": {
+    "0200": 12405,
+    "0201": 9146,
+    "0204": 332,
+    "0202": 197,
+    "0203": 66
+  },
+  "risk_bands": {
+    "NORMAL": 17843,
+    "WATCH": 3236,
+    "HIGH": 954,
+    "CRITICAL": 113
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1314,
+    "E5_DOR_INTERNAL_CONFLICT": 104,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 111,
+    "E1_POSTAL_CITY_OVERSTATES": 9653,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 18,
+    "E3_BOUNDARY_PROXIMITY": 1067
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 18816,
+    "REVIEW - analyst": 3101,
+    "HOLD - mandatory human adjudication": 131,
+    "HOLD - insufficient evidence": 98
+  },
+  "postal_city_profile": {
+    "SHELBYVILLE": 15631,
+    "BELL BUCKLE": 1827,
+    "UNIONVILLE": 1472,
+    "WARTRACE": 1357,
+    "NORMANDY": 544,
+    "CHAPEL HILL": 455,
+    "LEWISBURG": 272,
+    "EAGLEVILLE": 158,
+    "BEECH GROVE": 118,
+    "ROCKVALE": 113,
+    "PETERSBURG": 88,
+    "TULLAHOMA": 80,
+    "FAYETTEVILLE": 29,
+    "SHELBYILLE": 1,
+    "CHRISTIANA": 1
+  },
+  "cross_county_postal_by_city": {
+    "CHAPEL HILL": 455,
+    "LEWISBURG": 272,
+    "EAGLEVILLE": 158,
+    "BEECH GROVE": 118,
+    "ROCKVALE": 113,
+    "PETERSBURG": 88,
+    "TULLAHOMA": 80,
+    "FAYETTEVILLE": 29,
+    "CHRISTIANA": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=SHELBYVILLE | COMP=SHELBYVILLE": 12,
+    "DOR=SHELBYVILLE | E911=UNINCORPORATED | COMP=SHELBYVILLE": 2,
+    "DOR=SHELBYVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=NORMANDY | COMP=NORMANDY": 1,
+    "DOR=UNINCORPORATED | E911=BELL BUCKLE | COMP=BELL BUCKLE": 1,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=SHELBYVILLE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 0201 -> file 0200": 102,
+    "polygon 0200 -> file 0201": 85,
+    "polygon 0202 -> file 0200": 13,
+    "polygon 0200 -> file 0202": 7,
+    "polygon 0203 -> file 0200": 5,
+    "polygon 0200 -> file 0204": 3
+  },
+  "business_flags": {
+    "": 720,
+    "POSTAL_CITY_EXPOSURE": 605,
+    "CROSS_COUNTY_POSTAL": 76,
+    "BOUNDARY_RISK": 37
+  },
+  "label_kinds": {
+    "business": 1438,
+    "institution": 11,
+    "place": 3,
+    "unnamed": 1
+  }
+}

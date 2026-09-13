@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "bedford",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:14:19.757668+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='BEDFORD'",
+  "feature_count": 22165,
+  "sha256": "126c211b13263976eeb9badbf884031cf70559c026578dc8462cb56374e2e891",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/bedford/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/bedford/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

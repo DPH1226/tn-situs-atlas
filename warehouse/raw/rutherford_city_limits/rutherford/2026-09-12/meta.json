@@ -1,0 +1,16 @@
+{
+  "layer": "rutherford_city_limits",
+  "scope": "rutherford",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:19.594717+00:00",
+  "source_url": "https://services.arcgis.com/36I6IHIdr660pAyH/arcgis/rest/services/City_Limits_and_UGB_WFL1/FeatureServer/1",
+  "where_clause": "1=1",
+  "feature_count": 21,
+  "sha256": "497dbf3f4c01a1ef3d3c229289b48feb2ff734203ec22c518c230e93b67cc7d2",
+  "last_edit_date": null,
+  "raw_path": "raw/rutherford_city_limits/rutherford/2026-09-12/data.geojson",
+  "parquet_path": "parquet/rutherford_city_limits/rutherford/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 7,
+  "notes": ""
+}

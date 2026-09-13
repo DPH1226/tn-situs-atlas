@@ -1,0 +1,17 @@
+county: DECATUR
+fips: '47039'
+situs:
+  '2000': Unincorporated
+  '2001': Decaturville
+  '2002': Parsons
+  '2003': Scotts Hill
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: decatur_sos_entities
+  type: sos_tsv
+  path: data/sos/decatur_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

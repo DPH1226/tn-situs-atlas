@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "weakley",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:56:53.234882+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='WEAKLEY'",
+  "feature_count": 18540,
+  "sha256": "ce1eafba4b6aa7c343ca1f85a9d4a3b3e0dfb338f289c78db646725c97109d3c",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/weakley/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/weakley/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

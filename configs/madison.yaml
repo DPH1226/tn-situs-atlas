@@ -1,0 +1,18 @@
+county: MADISON
+fips: '47113'
+situs:
+  '5700': Unincorporated
+  '5701': Jackson
+  '5704': Medon
+  '5705': Humboldt
+  '5706': Three Way
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: madison_sos_entities
+  type: sos_tsv
+  path: data/sos/madison_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

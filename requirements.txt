@@ -1,0 +1,8 @@
+geopandas>=1.0
+shapely>=2.0
+pyproj
+pandas
+pyyaml
+requests
+duckdb
+pyarrow

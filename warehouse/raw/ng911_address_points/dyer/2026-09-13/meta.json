@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "dyer",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:18:21.789862+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='DYER'",
+  "feature_count": 20737,
+  "sha256": "be0516f5a436468fbe3a5eab1838aade2835155da8708ff23aaf475721e4fee5",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/dyer/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/dyer/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

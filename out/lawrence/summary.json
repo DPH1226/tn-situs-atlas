@@ -1,0 +1,109 @@
+{
+  "county": "LAWRENCE",
+  "slug": "lawrence",
+  "generated_utc": "2026-09-13T05:38:52.339974+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "5000": "Unincorporated",
+    "5001": "Lawrenceburg",
+    "5003": "Loretto",
+    "5004": "St. Joseph",
+    "5005": "Ethridge"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 25571,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 87.9,
+    "business_points": 1075,
+    "seams": 8,
+    "seam_miles": 178.3,
+    "cross_county_seam_miles": 97.2
+  },
+  "situs_distribution": {
+    "5000": 16924,
+    "5001": 6625,
+    "5003": 1122,
+    "5004": 533,
+    "5005": 367
+  },
+  "risk_bands": {
+    "NORMAL": 21635,
+    "WATCH": 2865,
+    "HIGH": 934,
+    "CRITICAL": 137
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 696,
+    "E5_DOR_INTERNAL_CONFLICT": 621,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 184,
+    "E1_POSTAL_CITY_OVERSTATES": 9419,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 12,
+    "E3_BOUNDARY_PROXIMITY": 1071
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 21638,
+    "REVIEW - analyst": 3702,
+    "HOLD - mandatory human adjudication": 146,
+    "HOLD - insufficient evidence": 85
+  },
+  "postal_city_profile": {
+    "LAWRENCEBURG": 12609,
+    "LEOMA": 3140,
+    "LORETTO": 2612,
+    "SUMMERTOWN": 2556,
+    "ETHRIDGE": 2136,
+    "WEST POINT": 702,
+    "ST JOSEPH": 616,
+    "FIVE POINTS": 504,
+    "IRON CITY": 500,
+    "MT PLEASANT": 185,
+    "MINOR HILL": 11
+  },
+  "cross_county_postal_by_city": {
+    "IRON CITY": 500,
+    "MT PLEASANT": 185,
+    "MINOR HILL": 11
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=LORETTO | COMP=LORETTO": 6,
+    "DOR=UNINCORPORATED | E911=LAWRENCEBURG | COMP=LAWRENCEBURG": 3,
+    "DOR=UNINCORPORATED | E911=LORETTO | COMP=UNINCORPORATED": 2,
+    "DOR=LAWRENCEBURG | E911=UNINCORPORATED | COMP=LAWRENCEBURG": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 5000 -> file 5001": 398,
+    "polygon 5001 -> file 5000": 158,
+    "polygon 5000 -> file 5004": 64,
+    "polygon 5003 -> file 5000": 50,
+    "polygon 5000 -> file 5003": 43,
+    "polygon 5000 -> file 5005": 42,
+    "polygon 5005 -> file 5001": 23,
+    "polygon 5005 -> file 5000": 19,
+    "polygon 5004 -> file 5000": 5,
+    "polygon 5003 -> file 5004": 2,
+    "polygon 5004 -> file 5003": 1
+  },
+  "business_flags": {
+    "": 674,
+    "POSTAL_CITY_EXPOSURE": 330,
+    "BOUNDARY_RISK": 40,
+    "CROSS_COUNTY_POSTAL": 17
+  },
+  "label_kinds": {
+    "business": 1061,
+    "place": 9,
+    "institution": 5
+  }
+}

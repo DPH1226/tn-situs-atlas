@@ -1,0 +1,21 @@
+county: HAWKINS
+fips: '47073'
+situs:
+  '3700': Unincorporated
+  '3701': Rogersville
+  '3702': Bulls Gap
+  '3703': Church Hill
+  '3704': Mount Carmel
+  '3705': Surgoinsville
+  '3706': Kingsport
+  '3708': Bean Station
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: hawkins_sos_entities
+  type: sos_tsv
+  path: data/sos/hawkins_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

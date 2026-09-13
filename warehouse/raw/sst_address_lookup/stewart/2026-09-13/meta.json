@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "stewart",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:55:09.281008+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='STEWART'",
+  "feature_count": 2304,
+  "sha256": "9457b7c7b05b9819c8907cc640ba10cf3693bb6f3636614b615bb58637bb6df2",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/stewart/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/stewart/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

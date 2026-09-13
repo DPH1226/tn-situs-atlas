@@ -1,0 +1,18 @@
+county: CLAIBORNE
+fips: '47025'
+situs:
+  '1300': Unincorporated
+  '1301': Tazewell
+  '1302': Cumberland Gap
+  '1303': New Tazewell
+  '1304': Harrogate
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: claiborne_sos_entities
+  type: sos_tsv
+  path: data/sos/claiborne_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,18 @@
+county: PUTNAM
+fips: '47141'
+situs:
+  '7100': Unincorporated
+  '7101': Cookeville
+  '7102': Algood
+  '7103': Baxter
+  '7104': Monterey
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: putnam_sos_entities
+  type: sos_tsv
+  path: data/sos/putnam_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

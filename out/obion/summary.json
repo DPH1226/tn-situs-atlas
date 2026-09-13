@@ -1,0 +1,138 @@
+{
+  "county": "OBION",
+  "slug": "obion",
+  "generated_utc": "2026-09-13T05:43:10.435506+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6600": "Unincorporated",
+    "6601": "Union City",
+    "6602": "Hornbeak",
+    "6603": "Kenton",
+    "6604": "Obion",
+    "6605": "Rives",
+    "6606": "Samburg",
+    "6607": "South Fulton",
+    "6608": "Troy",
+    "6609": "Woodland Mills",
+    "6610": "Trimble"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 18463,
+    "unplaced": 1,
+    "sst_range_match_rate_pct": 78.4,
+    "business_points": 726,
+    "seams": 16,
+    "seam_miles": 206.8,
+    "cross_county_seam_miles": 86.8
+  },
+  "situs_distribution": {
+    "6600": 7944,
+    "6601": 6429,
+    "6607": 1339,
+    "6608": 816,
+    "6604": 572,
+    "6603": 385,
+    "6606": 321,
+    "6602": 300,
+    "6609": 193,
+    "6605": 161,
+    "6610": 3
+  },
+  "risk_bands": {
+    "NORMAL": 13805,
+    "WATCH": 3423,
+    "HIGH": 1118,
+    "CRITICAL": 117
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 86,
+    "E5_DOR_INTERNAL_CONFLICT": 170,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 92,
+    "E1_POSTAL_CITY_OVERSTATES": 7867,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 63,
+    "E3_BOUNDARY_PROXIMITY": 1235
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 13666,
+    "REVIEW - analyst": 4390,
+    "HOLD - insufficient evidence": 233,
+    "HOLD - mandatory human adjudication": 174
+  },
+  "postal_city_profile": {
+    "UNION CITY": 9298,
+    "SOUTH FULTON": 2368,
+    "TROY": 2156,
+    "HORNBEAK": 1440,
+    "OBION": 1199,
+    "KENTON": 782,
+    "RIVES": 623,
+    "SAMBURG": 317,
+    "WOODLAND MILLS": 190,
+    "MARTIN": 40,
+    "RIDGELY": 33,
+    "SHARON": 12,
+    "TRIMBLE": 4,
+    "HICKMAN": 1
+  },
+  "cross_county_postal_by_city": {
+    "MARTIN": 40,
+    "RIDGELY": 33,
+    "SHARON": 12,
+    "HICKMAN": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=KENTON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 51,
+    "DOR=TROY | E911=UNINCORPORATED | COMP=UNINCORPORATED": 5,
+    "DOR=UNINCORPORATED | E911=OBION | COMP=OBION": 3,
+    "DOR=UNINCORPORATED | E911=TROY | COMP=TROY": 2,
+    "DOR=UNINCORPORATED | E911=HORNBEAK | COMP=HORNBEAK": 1,
+    "DOR=TROY | E911=UNINCORPORATED | COMP=TROY": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 6601 -> file 6604": 67,
+    "polygon 6601 -> file 6600": 30,
+    "polygon 6600 -> file 6601": 22,
+    "polygon 6607 -> file 6600": 17,
+    "polygon 6608 -> file 6600": 17,
+    "polygon 6607 -> file 6604": 14,
+    "polygon 6604 -> file 6600": 14,
+    "polygon 6603 -> file 6600": 13,
+    "polygon 6600 -> file 6604": 13,
+    "polygon 6600 -> file 6608": 12,
+    "polygon 6600 -> file 6609": 11,
+    "polygon 6602 -> file 6600": 9,
+    "polygon 6609 -> file 6600": 8,
+    "polygon 6600 -> file 6602": 5,
+    "polygon 6607 -> file 6601": 2,
+    "polygon 6600 -> file 6607": 1,
+    "polygon 6600 -> file 6603": 1,
+    "polygon 6602 -> file 6608": 1,
+    "polygon 6603 -> file 6601": 1,
+    "polygon 6604 -> file 6607": 1,
+    "polygon 6606 -> file 6601": 1,
+    "polygon 6605 -> file 6601": 1,
+    "polygon 6608 -> file 6601": 1
+  },
+  "business_flags": {
+    "": 441,
+    "POSTAL_CITY_EXPOSURE": 226,
+    "BOUNDARY_RISK": 52,
+    "CROSS_COUNTY_POSTAL": 2
+  },
+  "label_kinds": {
+    "business": 721,
+    "place": 5
+  }
+}

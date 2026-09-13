@@ -1,0 +1,149 @@
+{
+  "generated_utc": "2026-09-12T21:47:46.724465+00:00",
+  "crs_for_distance_math": "EPSG:2274",
+  "bands_ft": [
+    {
+      "low": 0,
+      "high": 50,
+      "band": "CRITICAL",
+      "action": "mandatory human adjudication"
+    },
+    {
+      "low": 50,
+      "high": 250,
+      "band": "HIGH",
+      "action": "elevated review: verify every official layer before submission"
+    },
+    {
+      "low": 250,
+      "high": 1000,
+      "band": "WATCH",
+      "action": "automated, but re-check on any boundary change"
+    },
+    {
+      "low": 1000,
+      "high": null,
+      "band": "NORMAL",
+      "action": "normal automated processing"
+    }
+  ],
+  "sources": [
+    {
+      "layer": "TN DOR Sales Tax Rate Boundaries (Wilson + neighbours)",
+      "role": "AUTHORITATIVE tax boundary (tier 1)",
+      "custodian": "Tennessee Department of Revenue",
+      "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/REVENUE_TAX_RATE_BOUNDARIES/MapServer/0",
+      "path": "/home/claude/civvix-situs/data/raw/dor_tax_rate_boundaries_wilson_region.geojson",
+      "sha256": "2bb48606b342c1f5bdb5256955de8a8424e578ef68f970094f459a7587d2f6b8",
+      "feature_count": 71,
+      "native_crs": "EPSG:4326",
+      "downloaded_utc": "2026-09-12T21:01:46.272343+00:00",
+      "stated_effective_date": null,
+      "update_cadence": "Quarterly",
+      "notes": "What DOR actually bills against. Ground truth for sales-tax situs.",
+      "geometry_repairs": 7,
+      "repair_detail": [
+        "idx=23: Ring Self-intersection[-86.83019810864 36.2555225852064]",
+        "idx=37: Ring Self-intersection[-86.4437656980329 35.9996632238717]",
+        "idx=55: Ring Self-intersection[-86.5799417982905 36.2154029003288]",
+        "idx=58: Ring Self-intersection[-86.8293138169637 35.8405516074386]",
+        "idx=59: Ring Self-intersection[-86.3535933222785 35.8155891256011]",
+        "idx=63: Ring Self-intersection[-86.9784305813153 35.7078136340937]",
+        "idx=67: Ring Self-intersection[-86.4293311242087 36.3689403547128]"
+      ]
+    },
+    {
+      "layer": "TN municipal boundaries (all 345 cities)",
+      "role": "reference boundary (tier 3)",
+      "custodian": "TN Comptroller, Office of Local Government",
+      "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/2",
+      "path": "/home/claude/civvix-situs/data/raw/tn_sst_city_boundaries.geojson",
+      "sha256": "5dec8de70e3dafe3757b4caedeaca948c274df73cd5d75c299a8242b33929580",
+      "feature_count": 345,
+      "native_crs": "EPSG:4326",
+      "downloaded_utc": "2026-09-12T21:01:46.372343+00:00",
+      "stated_effective_date": null,
+      "update_cadence": "Monthly aggregation from local assessors",
+      "notes": "Use THIS, not ADMINISTRATIVE_BOUNDARIES/0 - that layer's own metadata dates it to June 2017 and would miss every annexation since.",
+      "geometry_repairs": 53,
+      "repair_detail": [
+        "idx=3: Ring Self-intersection[-83.9581279777223 35.8284065547474]",
+        "idx=18: Ring Self-intersection[-85.6503648479628 36.152517813204]",
+        "idx=27: Ring Self-intersection[-88.0867292260135 36.2380589363331]",
+        "idx=33: Self-intersection[-86.7163377466094 35.9606251419778]",
+        "idx=40: Ring Self-intersection[-87.2958462813812 36.0501149748913]",
+        "idx=50: Ring Self-intersection[-86.6980298822275 35.6149568497256]",
+        "idx=53: Ring Self-intersection[-85.1459233003146 35.1097464236182]",
+        "idx=56: Ring Self-intersection[-87.2118669831943 36.5270557511713]",
+        "idx=57: Ring Self-intersection[-84.8194129130977 35.172483418351]",
+        "idx=62: Ring Self-intersection[-89.6645631434762 35.0176245073659]",
+        "idx=64: Ring Self-intersection[-86.9075490494849 35.6361810034204]",
+        "idx=65: Ring Self-intersection[-85.4741050854543 36.1328533858646]",
+        "idx=70: Ring Self-intersection[-89.6254152971802 35.5415462114358]",
+        "idx=74: Ring Self-intersection[-85.0651438528859 35.9350272057298]",
+        "idx=78: Ring Self-intersection[-83.4193681785174 36.0364824672973]",
+        "idx=79: Ring Self-intersection[-85.0342352984452 35.482322702891]",
+        "idx=83: Ring Self-intersection[-87.3321178113496 36.0450282361908]",
+        "idx=92: Ring Self-intersection[-86.6450784401032 35.7739077054266]",
+        "idx=104: Ring Self-intersection[-87.0964240800244 35.9604350280087]",
+        "idx=109: Ring Self-intersection[-86.8202510580849 35.8642994030367]",
+        "idx=114: Ring Self-intersection[-86.3859315933331 36.3968610334916]",
+        "idx=140: Ring Self-intersection[-88.4129051794895 36.204125640794]",
+        "idx=149: Ring Self-intersection[-84.5404185244107 36.3909316396251]",
+        "idx=151: Ring Self-intersection[-88.8160261851052 35.695119551977]",
+        "idx=156: Ring Self-intersection[-82.3198053760021 36.263748620815]"
+      ]
+    },
+    {
+      "layer": "TN NG911 Address Points (Wilson)",
+      "role": "rooftop location evidence (tier 4)",
+      "custodian": "TN Emergency Communications Board",
+      "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+      "path": "/home/claude/civvix-situs/data/raw/wilson_ng911_address_points.geojson",
+      "sha256": "ac60af148ad1c579f1b76f7871cbba8cfb1d45475b3434602692513d50810d3a",
+      "feature_count": 88240,
+      "native_crs": "EPSG:4326",
+      "downloaded_utc": "2026-09-12T21:01:46.544343+00:00",
+      "stated_effective_date": null,
+      "update_cadence": "Monthly",
+      "notes": "Carries Inc_Muni, Post_City and Census_Plc on the same record - the three-way distinction the whole audit turns on.",
+      "geometry_repairs": 0,
+      "repair_detail": []
+    },
+    {
+      "layer": "Wilson County E-911 business points",
+      "role": "public business universe",
+      "custodian": "Wilson County Emergency Communications District",
+      "source_url": "https://services1.arcgis.com/ai5RqMP3xEKGv0of/arcgis/rest/services/Business_Labels/FeatureServer/53",
+      "path": "/home/claude/civvix-situs/data/raw/wilson_business_points.geojson",
+      "sha256": "1387c7ecad3e8cc3e2e86edba8c234fca1de789f0d32e5289d9d6ed6a96dca36",
+      "feature_count": 4781,
+      "native_crs": "EPSG:4326",
+      "downloaded_utc": "2026-09-12T21:01:46.376343+00:00",
+      "stated_effective_date": null,
+      "update_cadence": "Continuous",
+      "notes": "Rooftop-placed, so no geocoding step and no interpolation error. Name + geometry only; no address, NAICS or licence linkage.",
+      "geometry_repairs": 0,
+      "repair_detail": []
+    },
+    {
+      "layer": "Mt. Juliet annexations",
+      "role": "annexation history",
+      "custodian": "City of Mt. Juliet",
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/5e2f5bfd27984da89b2e45a726d0e37b/rest/services/Planning___Zoning/FeatureServer/0",
+      "path": "/home/claude/civvix-situs/data/raw/mtjuliet_annexations.geojson",
+      "sha256": "6f972cff045972d394b1841339d6de95c88651cc1e367f82cb0b4ed51ab80ca6",
+      "feature_count": 221,
+      "native_crs": "EPSG:4326",
+      "downloaded_utc": "2026-09-12T21:01:46.288343+00:00",
+      "stated_effective_date": null,
+      "update_cadence": null,
+      "notes": "Dates the boundary changes that move situs. Nothing at state or federal level captures this.",
+      "geometry_repairs": 2,
+      "repair_detail": [
+        "idx=117: Ring Self-intersection[-86.5431186279843 36.2293688225938]",
+        "idx=125: Ring Self-intersection[-86.5415440494554 36.2232564416713]"
+      ]
+    }
+  ]
+}

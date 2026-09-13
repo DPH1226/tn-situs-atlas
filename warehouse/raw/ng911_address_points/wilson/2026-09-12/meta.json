@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "wilson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:37:13.166176+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='WILSON'",
+  "feature_count": 88240,
+  "sha256": "ac60af148ad1c579f1b76f7871cbba8cfb1d45475b3434602692513d50810d3a",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/wilson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/wilson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

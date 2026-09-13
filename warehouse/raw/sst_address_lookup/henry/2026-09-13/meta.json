@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "henry",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:44:49.146554+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='HENRY'",
+  "feature_count": 8245,
+  "sha256": "f1239ca5f575cffa716e434f9b63b97b2a7a0ae44ffd45bb42b376e7e0889a75",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/henry/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/henry/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

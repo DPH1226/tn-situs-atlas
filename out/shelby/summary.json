@@ -1,0 +1,137 @@
+{
+  "county": "SHELBY",
+  "slug": "shelby",
+  "generated_utc": "2026-09-13T05:57:01.814440+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7900": "Unincorporated",
+    "7901": "Memphis",
+    "7902": "Arlington",
+    "7903": "Bartlett",
+    "7904": "Collierville",
+    "7905": "Germantown",
+    "7906": "Millington",
+    "7907": "Lakeland"
+  },
+  "tiers": {
+    "parcels": "county",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 351187,
+    "unplaced": 11,
+    "sst_range_match_rate_pct": 94.3,
+    "business_points": 41033,
+    "seams": 19,
+    "seam_miles": 307.8,
+    "cross_county_seam_miles": 55.3
+  },
+  "situs_distribution": {
+    "7901": 237916,
+    "7900": 41930,
+    "7903": 21754,
+    "7904": 18846,
+    "7905": 15330,
+    "7902": 5487,
+    "7907": 5235,
+    "7906": 4689
+  },
+  "risk_bands": {
+    "NORMAL": 322796,
+    "WATCH": 21832,
+    "HIGH": 6033,
+    "CRITICAL": 526
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1651,
+    "E5_DOR_INTERNAL_CONFLICT": 988,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 648,
+    "E1_POSTAL_CITY_OVERSTATES": 26470,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 288,
+    "E3_BOUNDARY_PROXIMITY": 6559
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 327268,
+    "REVIEW - analyst": 22806,
+    "HOLD - mandatory human adjudication": 777,
+    "HOLD - insufficient evidence": 336
+  },
+  "postal_city_profile": {
+    "MEMPHIS": 256633,
+    "BARTLETT": 21783,
+    "COLLIERVILLE": 19704,
+    "GERMANTOWN": 15323,
+    "CORDOVA": 13825,
+    "MILLINGTON": 10388,
+    "ARLINGTON": 6616,
+    "LAKELAND": 5264,
+    "EADS": 1376,
+    "ATOKA": 195,
+    "BRIGHTON": 79,
+    "MASON": 1
+  },
+  "cross_county_postal_by_city": {
+    "EADS": 1376,
+    "ATOKA": 195,
+    "BRIGHTON": 79,
+    "MASON": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MEMPHIS | COMP=MEMPHIS": 228,
+    "DOR=MEMPHIS | E911=UNINCORPORATED | COMP=UNINCORPORATED": 27,
+    "DOR=UNINCORPORATED | E911=COLLIERVILLE | COMP=COLLIERVILLE": 22,
+    "DOR=GERMANTOWN | E911=MEMPHIS | COMP=MEMPHIS": 6,
+    "DOR=MEMPHIS | E911=UNINCORPORATED | COMP=MEMPHIS": 2,
+    "DOR=GERMANTOWN | E911=COLLIERVILLE | COMP=COLLIERVILLE": 1,
+    "DOR=UNINCORPORATED | E911=BARTLETT | COMP=BARTLETT": 1,
+    "DOR=UNINCORPORATED | E911=MEMPHIS | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 7900 -> file 7901": 470,
+    "polygon 7901 -> file 7900": 242,
+    "polygon 7900 -> file 7903": 190,
+    "polygon 7906 -> file 7900": 184,
+    "polygon 7901 -> file 7903": 81,
+    "polygon 7900 -> file 7904": 76,
+    "polygon 7900 -> file 7906": 75,
+    "polygon 7907 -> file 7900": 74,
+    "polygon 7904 -> file 7900": 64,
+    "polygon 7903 -> file 7901": 47,
+    "polygon 7907 -> file 7902": 20,
+    "polygon 7902 -> file 7900": 18,
+    "polygon 7900 -> file 7907": 16,
+    "polygon 7905 -> file 7901": 14,
+    "polygon 7903 -> file 7900": 13,
+    "polygon 7901 -> file 7905": 10,
+    "polygon 7902 -> file 7907": 10,
+    "polygon 7907 -> file 7901": 7,
+    "polygon 7907 -> file 7903": 6,
+    "polygon 7904 -> file 7905": 6,
+    "polygon 7900 -> file 7905": 5,
+    "polygon 7900 -> file 7902": 3,
+    "polygon 7903 -> file 7902": 2,
+    "polygon 7901 -> file 7902": 1,
+    "polygon 7905 -> file 7904": 1,
+    "polygon 7905 -> file 7900": 1
+  },
+  "business_flags": {
+    "": 37267,
+    "POSTAL_CITY_EXPOSURE": 2230,
+    "BOUNDARY_RISK": 689,
+    "CROSS_COUNTY_POSTAL": 266
+  },
+  "label_kinds": {
+    "business": 40452,
+    "place": 279,
+    "institution": 272,
+    "unnamed": 30
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "wilson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:37:05.402103+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='WILSON'",
+  "feature_count": 14479,
+  "sha256": "94e246d19c803f937d8778d2c300591ce3b2064fb632fd03ba0f64c0bab9d9fb",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/wilson/2026-09-12/data.json",
+  "parquet_path": "parquet/sst_address_lookup/wilson/2026-09-12.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

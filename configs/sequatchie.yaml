@@ -1,0 +1,15 @@
+county: SEQUATCHIE
+fips: '47153'
+situs:
+  '7700': Unincorporated
+  '7701': Dunlap
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: sequatchie_sos_entities
+  type: sos_tsv
+  path: data/sos/sequatchie_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

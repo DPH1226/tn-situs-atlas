@@ -1,0 +1,20 @@
+county: BLOUNT
+fips: '47009'
+situs:
+  '0500': Unincorporated
+  '0501': Maryville
+  '0502': Alcoa
+  '0503': Friendsville
+  '0504': Townsend
+  '0505': Rockford
+  '0506': Louisville
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: blount_sos_entities
+  type: sos_tsv
+  path: data/sos/blount_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

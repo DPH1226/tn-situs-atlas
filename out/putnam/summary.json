@@ -1,0 +1,108 @@
+{
+  "county": "PUTNAM",
+  "slug": "putnam",
+  "generated_utc": "2026-09-13T05:43:55.086037+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7100": "Unincorporated",
+    "7101": "Cookeville",
+    "7102": "Algood",
+    "7103": "Baxter",
+    "7104": "Monterey"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 48279,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 94.7,
+    "business_points": 3031,
+    "seams": 12,
+    "seam_miles": 238.1,
+    "cross_county_seam_miles": 152.2
+  },
+  "situs_distribution": {
+    "7100": 21925,
+    "7101": 21049,
+    "7102": 2498,
+    "7104": 1470,
+    "7103": 1337
+  },
+  "risk_bands": {
+    "NORMAL": 40715,
+    "WATCH": 5674,
+    "HIGH": 1690,
+    "CRITICAL": 200
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 529,
+    "E5_DOR_INTERNAL_CONFLICT": 1822,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 274,
+    "E1_POSTAL_CITY_OVERSTATES": 20203,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 476,
+    "E3_BOUNDARY_PROXIMITY": 1890
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 43784,
+    "REVIEW - analyst": 3692,
+    "HOLD - mandatory human adjudication": 663,
+    "HOLD - insufficient evidence": 140
+  },
+  "postal_city_profile": {
+    "COOKEVILLE": 35023,
+    "BAXTER": 5103,
+    "MONTEREY": 3933,
+    "ALGOOD": 2498,
+    "SILVER POINT": 843,
+    "BUFFALO VALLEY": 347,
+    "BLOOMINGTON SPRINGS": 335,
+    "SPARTA": 170,
+    "GRANVILLE": 24,
+    "PUTNAM COUNTY": 3
+  },
+  "cross_county_postal_by_city": {
+    "BLOOMINGTON SPRINGS": 335,
+    "SPARTA": 170,
+    "GRANVILLE": 24
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=COOKEVILLE | COMP=COOKEVILLE": 448,
+    "DOR=UNINCORPORATED | E911=BAXTER | COMP=BAXTER": 26,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=BAXTER": 1,
+    "DOR=UNINCORPORATED | E911=BAXTER | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 7101 -> file 7100": 916,
+    "polygon 7100 -> file 7101": 750,
+    "polygon 7102 -> file 7101": 129,
+    "polygon 7103 -> file 7100": 126,
+    "polygon 7100 -> file 7103": 62,
+    "polygon 7100 -> file 7104": 46,
+    "polygon 7100 -> file 7102": 34,
+    "polygon 7104 -> file 7100": 20,
+    "polygon 7101 -> file 7102": 10,
+    "polygon 7102 -> file 7100": 3
+  },
+  "business_flags": {
+    "": 1945,
+    "POSTAL_CITY_EXPOSURE": 967,
+    "BOUNDARY_RISK": 64,
+    "CROSS_COUNTY_POSTAL": 19
+  },
+  "label_kinds": {
+    "business": 2995,
+    "place": 18,
+    "institution": 14,
+    "unnamed": 4
+  }
+}

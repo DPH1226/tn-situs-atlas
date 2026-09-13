@@ -1,0 +1,68 @@
+county: SUMNER
+fips: '47165'
+situs:
+  '8300': Unincorporated
+  '8301': Gallatin
+  '8302': Mitchellville
+  '8303': Portland
+  '8304': Westmoreland
+  '8305': Hendersonville
+  '8306': White House
+  '8307': Goodlettsville
+  '8308': Millersville
+tiers:
+  parcels: comptroller
+  business: city
+business_layers:
+- id: sumner_sos_entities
+  type: sos_tsv
+  path: data/sos/sumner_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN Secretary of State active for-profit entities, principal address geocoded
+    to NG911 rooftops. Statewide source Civvix already holds.
+- id: hendersonville_business_licenses
+  url: https://services8.arcgis.com/xMDlahVcw6bSUp5O/arcgis/rest/services/Business_License_Query/FeatureServer/5
+  geom: false
+  name_field: Doing_Business_As
+  address_field: Location_Address
+  zip_field: Zip_Code
+  situs_field: SITUS
+  notes: City-published business-tax roster WITH situs codes. Public. Looks like a
+    REP export; use as the calibration file.
+- id: sumner_ecd_named_addresses
+  url: https://services8.arcgis.com/8jhIZBvwlxdbJdGN/arcgis/rest/services/SC_Address_Points/FeatureServer/0
+  where: LOCATION_NAME IS NOT NULL AND LOCATION_NAME <> ''
+  name_field: LOCATION_NAME
+  out_fields: OBJECTID,LOCATION_NAME,STRUCTYPE,STRUCDESC,ZIP
+city_layers:
+- id: sumner_ecd_cities
+  role: limits
+  url: https://services8.arcgis.com/8jhIZBvwlxdbJdGN/arcgis/rest/services/Cities/FeatureServer/0
+  name_field: NAME
+- id: gallatin_city_limits
+  role: limits
+  name: Gallatin
+  url: https://services3.arcgis.com/JB8gMj1FT7SwoZeO/arcgis/rest/services/Gallatin_City_Limits_gpu/FeatureServer/0
+- id: hendersonville_city_limits
+  role: limits
+  name: Hendersonville
+  url: https://services8.arcgis.com/xMDlahVcw6bSUp5O/arcgis/rest/services/Hendersonville_City_Limits/FeatureServer/0
+usps_only_places:
+  OLD HICKORY: DAVIDSON
+  MADISON: DAVIDSON
+  NASHVILLE: DAVIDSON
+  CASTALIAN SPRINGS: SUMNER
+  COTTONTOWN: SUMNER
+  BETHPAGE: SUMNER
+  SPRINGFIELD: ROBERTSON
+  GREENBRIER: ROBERTSON
+  CROSS PLAINS: ROBERTSON
+  LEBANON: WILSON
+  MT JULIET: WILSON
+  HARTSVILLE: TROUSDALE
+  LAFAYETTE: MACON
+city_aliases:
+  MT JULIET:
+  - MOUNT JULIET
+  WHITE HOUSE:
+  - WHITEHOUSE

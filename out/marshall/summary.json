@@ -1,0 +1,112 @@
+{
+  "county": "MARSHALL",
+  "slug": "marshall",
+  "generated_utc": "2026-09-13T05:41:00.294069+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "5900": "Unincorporated",
+    "5901": "Lewisburg",
+    "5902": "Chapel Hill",
+    "5903": "Cornersville",
+    "5904": "Petersburg"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 19971,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 91.0,
+    "business_points": 1203,
+    "seams": 11,
+    "seam_miles": 209.4,
+    "cross_county_seam_miles": 116.4
+  },
+  "situs_distribution": {
+    "5900": 11261,
+    "5901": 6509,
+    "5902": 1410,
+    "5903": 702,
+    "5904": 89
+  },
+  "risk_bands": {
+    "NORMAL": 15687,
+    "WATCH": 3088,
+    "HIGH": 1084,
+    "CRITICAL": 112
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 662,
+    "E5_DOR_INTERNAL_CONFLICT": 2738,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 432,
+    "E1_POSTAL_CITY_OVERSTATES": 10017,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 553,
+    "E3_BOUNDARY_PROXIMITY": 1196
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 16829,
+    "REVIEW - analyst": 2383,
+    "HOLD - mandatory human adjudication": 653,
+    "HOLD - insufficient evidence": 106
+  },
+  "postal_city_profile": {
+    "LEWISBURG": 12433,
+    "CHAPEL HILL": 4226,
+    "CORNERSVILLE": 1486,
+    "BELFAST": 595,
+    "PETERSBURG": 569,
+    "CULLEOKA": 275,
+    "COLUMBIA": 248,
+    "LYNNVILLE": 59,
+    "SPRING HILL": 33,
+    "COLLEGE GROVE": 30,
+    "EAGLEVILLE": 17
+  },
+  "cross_county_postal_by_city": {
+    "CULLEOKA": 275,
+    "COLUMBIA": 248,
+    "LYNNVILLE": 59,
+    "SPRING HILL": 33,
+    "COLLEGE GROVE": 30,
+    "EAGLEVILLE": 17
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=LEWISBURG | COMP=LEWISBURG": 488,
+    "DOR=UNINCORPORATED | E911=CORNERSVILLE | COMP=CORNERSVILLE": 57,
+    "DOR=UNINCORPORATED | E911=CHAPEL HILL | COMP=CHAPEL HILL": 4,
+    "DOR=LEWISBURG | E911=UNINCORPORATED | COMP=UNINCORPORATED": 3,
+    "DOR=CORNERSVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 5900 -> file 5901": 1626,
+    "polygon 5900 -> file 5902": 781,
+    "polygon 5901 -> file 5900": 528,
+    "polygon 5900 -> file 5903": 181,
+    "polygon 5903 -> file 5900": 33,
+    "polygon 5902 -> file 5900": 10,
+    "polygon 5903 -> file 5901": 5,
+    "polygon 5904 -> file 5900": 4,
+    "polygon 5900 -> file 5904": 2
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 579,
+    "": 512,
+    "BOUNDARY_RISK": 47,
+    "CROSS_COUNTY_POSTAL": 46
+  },
+  "label_kinds": {
+    "business": 1184,
+    "institution": 16,
+    "unnamed": 2,
+    "place": 1
+  }
+}

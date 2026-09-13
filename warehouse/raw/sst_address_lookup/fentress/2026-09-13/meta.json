@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "fentress",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T04:02:30.684414+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='FENTRESS'",
+  "feature_count": 3463,
+  "sha256": "8a77c0ea608a5dc695bfd445e6339cd6f2635d0cb5dd65ac0f01dbf0a9601c88",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/fentress/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/fentress/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

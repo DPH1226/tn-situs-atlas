@@ -1,0 +1,16 @@
+county: WHITE
+fips: '47185'
+situs:
+  '9300': Unincorporated
+  '9301': Sparta
+  '9302': Doyle
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: white_sos_entities
+  type: sos_tsv
+  path: data/sos/white_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

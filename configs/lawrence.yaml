@@ -1,0 +1,18 @@
+county: LAWRENCE
+fips: '47099'
+situs:
+  '5000': Unincorporated
+  '5001': Lawrenceburg
+  '5003': Loretto
+  '5004': St. Joseph
+  '5005': Ethridge
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: lawrence_sos_entities
+  type: sos_tsv
+  path: data/sos/lawrence_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,126 @@
+{
+  "county": "BLOUNT",
+  "slug": "blount",
+  "generated_utc": "2026-09-13T05:24:18.845680+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0500": "Unincorporated",
+    "0501": "Maryville",
+    "0502": "Alcoa",
+    "0503": "Friendsville",
+    "0504": "Townsend",
+    "0505": "Rockford",
+    "0506": "Louisville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 82552,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 93.0,
+    "business_points": 5413,
+    "seams": 19,
+    "seam_miles": 355.9,
+    "cross_county_seam_miles": 115.1
+  },
+  "situs_distribution": {
+    "0500": 52793,
+    "0501": 17433,
+    "0502": 7470,
+    "0506": 2940,
+    "0504": 764,
+    "0505": 578,
+    "0503": 574
+  },
+  "risk_bands": {
+    "NORMAL": 55141,
+    "WATCH": 17926,
+    "HIGH": 8390,
+    "CRITICAL": 1095
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 4434,
+    "E5_DOR_INTERNAL_CONFLICT": 1022,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 1420,
+    "E1_POSTAL_CITY_OVERSTATES": 46441,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 947,
+    "E3_BOUNDARY_PROXIMITY": 9485
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 68958,
+    "REVIEW - analyst": 10759,
+    "HOLD - mandatory human adjudication": 2005,
+    "HOLD - insufficient evidence": 830
+  },
+  "postal_city_profile": {
+    "MARYVILLE": 49703,
+    "LOUISVILLE": 9026,
+    "ALCOA": 5450,
+    "TOWNSEND": 3925,
+    "FRIENDSVILLE": 3810,
+    "WALLAND": 3206,
+    "SEYMOUR": 2557,
+    "ROCKFORD": 2016,
+    "GREENBACK": 1737,
+    "TALLASSEE": 981,
+    "KNOXVILLE": 111,
+    "LENOIR CITY": 29,
+    "BLOUNT COUNTY": 1
+  },
+  "cross_county_postal_by_city": {
+    "SEYMOUR": 2557,
+    "GREENBACK": 1737,
+    "KNOXVILLE": 111,
+    "LENOIR CITY": 29
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=ALCOA | COMP=ALCOA": 917,
+    "DOR=UNINCORPORATED | E911=MARYVILLE | COMP=MARYVILLE": 22,
+    "DOR=ALCOA | E911=UNINCORPORATED | COMP=ALCOA": 3,
+    "DOR=MARYVILLE | E911=ALCOA | COMP=UNINCORPORATED": 1,
+    "DOR=FRIENDSVILLE | E911=UNINCORPORATED | COMP=FRIENDSVILLE": 1,
+    "DOR=ALCOA | E911=MARYVILLE | COMP=MARYVILLE": 1,
+    "DOR=MARYVILLE | E911=ALCOA | COMP=MARYVILLE": 1,
+    "DOR=ALCOA | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 0500 -> file 0502": 1045,
+    "polygon 0500 -> file 0501": 776,
+    "polygon 0501 -> file 0500": 256,
+    "polygon 0500 -> file 0505": 67,
+    "polygon 0502 -> file 0500": 58,
+    "polygon 0503 -> file 0500": 35,
+    "polygon 0506 -> file 0500": 30,
+    "polygon 0501 -> file 0502": 28,
+    "polygon 0500 -> file 0503": 26,
+    "polygon 0505 -> file 0500": 26,
+    "polygon 0500 -> file 0504": 23,
+    "polygon 0502 -> file 0501": 23,
+    "polygon 0504 -> file 0500": 19,
+    "polygon 0505 -> file 0502": 15,
+    "polygon 0500 -> file 0506": 13,
+    "polygon 0503 -> file 0501": 1,
+    "polygon 0502 -> file 0506": 1
+  },
+  "business_flags": {
+    "": 2471,
+    "POSTAL_CITY_EXPOSURE": 2436,
+    "BOUNDARY_RISK": 253,
+    "CROSS_COUNTY_POSTAL": 200
+  },
+  "label_kinds": {
+    "business": 5360,
+    "institution": 29,
+    "place": 24
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "county": "WILLIAMSON",
+  "slug": "williamson",
+  "generated_utc": "2026-09-13T05:59:33.188931+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "9400": "Unincorporated",
+    "9401": "Franklin",
+    "9402": "Fairview",
+    "9403": "Brentwood",
+    "9404": "Spring Hill",
+    "9405": "Thompson'S Station",
+    "9406": "Nolensville"
+  },
+  "tiers": {
+    "parcels": "county",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 123055,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 90.9,
+    "business_points": 28037,
+    "seams": 24,
+    "seam_miles": 403.4,
+    "cross_county_seam_miles": 121.5
+  },
+  "situs_distribution": {
+    "9401": 48569,
+    "9400": 28012,
+    "9403": 17223,
+    "9404": 13516,
+    "9406": 6026,
+    "9402": 5137,
+    "9405": 4572
+  },
+  "risk_bands": {
+    "NORMAL": 94996,
+    "WATCH": 22111,
+    "HIGH": 5481,
+    "CRITICAL": 467
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2,
+    "E5_DOR_INTERNAL_CONFLICT": 4874,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 914,
+    "E1_POSTAL_CITY_OVERSTATES": 1090,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 807,
+    "E3_BOUNDARY_PROXIMITY": 5948
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 108628,
+    "REVIEW - analyst": 12746,
+    "HOLD - mandatory human adjudication": 1247,
+    "HOLD - insufficient evidence": 434
+  },
+  "postal_city_profile": {
+    "FRANKLIN": 49187,
+    "WILLIAMSON COUNTY": 26992,
+    "BRENTWOOD": 17293,
+    "SPRING HILL": 13429,
+    "NOLENSVILLE": 6105,
+    "FAIRVIEW": 5396,
+    "THOMPSONS STATION": 4651,
+    "COLLEGE GROVE": 2
+  },
+  "cross_county_postal_by_city": {
+    "COLLEGE GROVE": 2
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=FRANKLIN | COMP=FRANKLIN": 443,
+    "DOR=UNINCORPORATED | E911=FAIRVIEW | COMP=FAIRVIEW": 167,
+    "DOR=UNINCORPORATED | E911=NOLENSVILLE | COMP=NOLENSVILLE": 88,
+    "DOR=UNINCORPORATED | E911=BRENTWOOD | COMP=BRENTWOOD": 68,
+    "DOR=FAIRVIEW | E911=UNINCORPORATED | COMP=UNINCORPORATED": 11,
+    "DOR=UNINCORPORATED | E911=THOMPSON'S STATION | COMP=THOMPSON'S STATION": 9,
+    "DOR=UNINCORPORATED | E911=FRANKLIN | COMP=UNINCORPORATED": 8,
+    "DOR=FRANKLIN | E911=UNINCORPORATED | COMP=UNINCORPORATED": 3,
+    "DOR=THOMPSON'S STATION | E911=SPRING HILL | COMP=SPRING HILL": 2,
+    "DOR=NOLENSVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=UNINCORPORATED | E911=NASHVILLE | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=SPRING HILL | COMP=SPRING HILL": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 9401 -> file 9400": 1326,
+    "polygon 9400 -> file 9401": 1300,
+    "polygon 9406 -> file 9400": 1217,
+    "polygon 9400 -> file 9402": 375,
+    "polygon 9400 -> file 9406": 328,
+    "polygon 9400 -> file 9403": 299,
+    "polygon 9405 -> file 9400": 205,
+    "polygon 9404 -> file 9405": 193,
+    "polygon 9400 -> file 9405": 185,
+    "polygon 9402 -> file 9400": 104,
+    "polygon 9406 -> file 9403": 66,
+    "polygon 9405 -> file 9401": 52,
+    "polygon 9403 -> file 9400": 38,
+    "polygon 9400 -> file 9404": 37,
+    "polygon 9403 -> file 9401": 21,
+    "polygon 9401 -> file 9403": 15,
+    "polygon 9404 -> file 9400": 15,
+    "polygon 9405 -> file 9404": 10,
+    "polygon 9404 -> file 9401": 2
+  },
+  "business_flags": {
+    "": 26007,
+    "BOUNDARY_RISK": 1614,
+    "POSTAL_CITY_EXPOSURE": 75
+  },
+  "label_kinds": {
+    "business": 27696,
+    "institution": 162,
+    "place": 158,
+    "unnamed": 21
+  }
+}

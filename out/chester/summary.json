@@ -1,0 +1,107 @@
+{
+  "county": "CHESTER",
+  "slug": "chester",
+  "generated_utc": "2026-09-13T05:24:33.343537+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1200": "Unincorporated",
+    "1201": "Henderson",
+    "1202": "Enville",
+    "1203": "Milledgeville",
+    "1204": "Silerton"
+  },
+  "tiers": {
+    "parcels": "county",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 9864,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 83.5,
+    "business_points": 352,
+    "seams": 13,
+    "seam_miles": 135.7,
+    "cross_county_seam_miles": 98.6
+  },
+  "situs_distribution": {
+    "1200": 6383,
+    "1201": 3275,
+    "1202": 150,
+    "1203": 55,
+    "1204": 1
+  },
+  "risk_bands": {
+    "NORMAL": 8060,
+    "WATCH": 1274,
+    "HIGH": 438,
+    "CRITICAL": 92
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1649,
+    "E5_DOR_INTERNAL_CONFLICT": 16,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 94,
+    "E1_POSTAL_CITY_OVERSTATES": 4261,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 3,
+    "E3_BOUNDARY_PROXIMITY": 530
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 7792,
+    "REVIEW - analyst": 1923,
+    "HOLD - mandatory human adjudication": 93,
+    "HOLD - insufficient evidence": 56
+  },
+  "postal_city_profile": {
+    "HENDERSON": 6931,
+    "ENVILLE": 755,
+    "FINGER": 421,
+    "BEECH BLUFF": 385,
+    "PINSON": 277,
+    "LURAY": 270,
+    "REAGAN": 264,
+    "JACKS CREEK": 246,
+    "BETHEL SPRINGS": 172,
+    "MEDON": 97,
+    "HORNSBY": 33,
+    "MILLEDGEVILLE": 13
+  },
+  "cross_county_postal_by_city": {
+    "FINGER": 421,
+    "BEECH BLUFF": 385,
+    "PINSON": 277,
+    "REAGAN": 264,
+    "BETHEL SPRINGS": 172,
+    "MEDON": 97,
+    "HORNSBY": 33
+  },
+  "layer_disagreement_detail": {
+    "DOR=HENDERSON | E911=UNINCORPORATED | COMP=HENDERSON": 2,
+    "DOR=UNINCORPORATED | E911=ENVILLE | COMP=ENVILLE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 1200 -> file 1201": 68,
+    "polygon 1201 -> file 1200": 33,
+    "polygon 1200 -> file 1202": 4,
+    "polygon 1203 -> file 1200": 3,
+    "polygon 1202 -> file 1200": 2
+  },
+  "business_flags": {
+    "": 155,
+    "POSTAL_CITY_EXPOSURE": 142,
+    "CROSS_COUNTY_POSTAL": 45,
+    "BOUNDARY_RISK": 6
+  },
+  "label_kinds": {
+    "business": 348,
+    "institution": 2,
+    "place": 1,
+    "unnamed": 1
+  }
+}

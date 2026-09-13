@@ -1,0 +1,16 @@
+{
+  "layer": "dor_tax_rate_boundaries",
+  "scope": "TN",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:38:08.900400+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/REVENUE_TAX_RATE_BOUNDARIES/MapServer/0",
+  "where_clause": "1=1",
+  "feature_count": 473,
+  "sha256": "7ef2e86c000c3beacc53c2108a68dd0dfd143ff9c11aa9dbca05109dc12aba10",
+  "last_edit_date": null,
+  "raw_path": "raw/dor_tax_rate_boundaries/TN/2026-09-12/data.geojson",
+  "parquet_path": "parquet/dor_tax_rate_boundaries/TN/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 24,
+  "notes": "Tennessee Department of Revenue"
+}

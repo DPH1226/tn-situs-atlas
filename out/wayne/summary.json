@@ -1,0 +1,97 @@
+{
+  "county": "WAYNE",
+  "slug": "wayne",
+  "generated_utc": "2026-09-13T05:57:27.141284+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "9100": "Unincorporated",
+    "9101": "Waynesboro",
+    "9102": "Clifton",
+    "9103": "Collinwood"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 9956,
+    "unplaced": 1,
+    "sst_range_match_rate_pct": 81.2,
+    "business_points": 277,
+    "seams": 10,
+    "seam_miles": 148.8,
+    "cross_county_seam_miles": 104.9
+  },
+  "situs_distribution": {
+    "9100": 7446,
+    "9101": 1287,
+    "9102": 612,
+    "9103": 611
+  },
+  "risk_bands": {
+    "NORMAL": 8189,
+    "WATCH": 1314,
+    "HIGH": 401,
+    "CRITICAL": 52
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 514,
+    "E5_DOR_INTERNAL_CONFLICT": 103,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 70,
+    "E1_POSTAL_CITY_OVERSTATES": 4434,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 453
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 7803,
+    "REVIEW - analyst": 1961,
+    "HOLD - insufficient evidence": 140,
+    "HOLD - mandatory human adjudication": 52
+  },
+  "postal_city_profile": {
+    "WAYNESBORO": 4029,
+    "COLLINWOOD": 1676,
+    "CLIFTON": 1239,
+    "IRON CITY": 1211,
+    "CYPRESS INN": 780,
+    "LUTTS": 460,
+    "LAWRENCEBURG": 339,
+    "WEST POINT": 114,
+    "LINDEN": 51,
+    "OLIVE HILL": 47,
+    "HOHENWALD": 10
+  },
+  "cross_county_postal_by_city": {
+    "LAWRENCEBURG": 339,
+    "WEST POINT": 114,
+    "LINDEN": 51,
+    "HOHENWALD": 10
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 9100 -> file 9101": 76,
+    "polygon 9101 -> file 9100": 55,
+    "polygon 9100 -> file 9102": 23,
+    "polygon 9102 -> file 9100": 16,
+    "polygon 9100 -> file 9103": 3
+  },
+  "business_flags": {
+    "": 150,
+    "POSTAL_CITY_EXPOSURE": 108,
+    "CROSS_COUNTY_POSTAL": 9,
+    "BOUNDARY_RISK": 6
+  },
+  "label_kinds": {
+    "business": 273,
+    "place": 3,
+    "institution": 1
+  }
+}

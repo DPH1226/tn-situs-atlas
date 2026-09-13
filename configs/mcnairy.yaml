@@ -1,0 +1,24 @@
+county: MCNAIRY
+fips: '47109'
+situs:
+  '5500': Unincorporated
+  '5501': Selmer
+  '5502': Adamsville
+  '5503': Bethel Springs
+  '5504': Michie
+  '5505': Milledgeville
+  '5506': Ramer
+  '5507': Stantonville
+  '5508': Eastview
+  '5509': Finger
+  '5511': Guys
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: mcnairy_sos_entities
+  type: sos_tsv
+  path: data/sos/mcnairy_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

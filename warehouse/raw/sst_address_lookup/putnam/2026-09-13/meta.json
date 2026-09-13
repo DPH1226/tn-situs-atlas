@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "putnam",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:51:43.474372+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='PUTNAM'",
+  "feature_count": 12089,
+  "sha256": "127e4cd6f4ff1fe309cfb1d175304a8538a34155827b71df1eff1cd9ea386755",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/putnam/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/putnam/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

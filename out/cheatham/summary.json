@@ -1,0 +1,110 @@
+{
+  "county": "CHEATHAM",
+  "slug": "cheatham",
+  "generated_utc": "2026-09-13T05:24:32.381002+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1100": "Unincorporated",
+    "1101": "Ashland City",
+    "1102": "Kingston Springs",
+    "1103": "Pegram",
+    "1104": "Pleasant View"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 19928,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 93.5,
+    "business_points": 1694,
+    "seams": 15,
+    "seam_miles": 186.8,
+    "cross_county_seam_miles": 107.0
+  },
+  "situs_distribution": {
+    "1100": 12462,
+    "1104": 2811,
+    "1101": 2372,
+    "1102": 1346,
+    "1103": 937
+  },
+  "risk_bands": {
+    "NORMAL": 16608,
+    "WATCH": 2607,
+    "HIGH": 606,
+    "CRITICAL": 107
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2044,
+    "E5_DOR_INTERNAL_CONFLICT": 352,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 121,
+    "E1_POSTAL_CITY_OVERSTATES": 9119,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 2,
+    "E3_BOUNDARY_PROXIMITY": 713
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 18070,
+    "REVIEW - analyst": 1679,
+    "HOLD - mandatory human adjudication": 109,
+    "HOLD - insufficient evidence": 70
+  },
+  "postal_city_profile": {
+    "ASHLAND CITY": 8671,
+    "PLEASANT VIEW": 2975,
+    "KINGSTON SPRINGS": 2962,
+    "PEGRAM": 1644,
+    "CHAPMANSBORO": 1627,
+    "JOELTON": 1588,
+    "WHITE BLUFF": 157,
+    "CHARLOTTE": 130,
+    "CLARKSVILLE": 91,
+    "CEDAR HILL": 77,
+    "CHEATHAM": 5,
+    "NASHVILLE": 1
+  },
+  "cross_county_postal_by_city": {
+    "JOELTON": 1588,
+    "WHITE BLUFF": 157,
+    "CHARLOTTE": 130,
+    "CLARKSVILLE": 91,
+    "CEDAR HILL": 77,
+    "NASHVILLE": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=PLEASANT VIEW | E911=COOPERTOWN | COMP=COOPERTOWN": 1,
+    "DOR=UNINCORPORATED | E911=PLEASANT VIEW | COMP=PLEASANT VIEW": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 1101 -> file 1100": 275,
+    "polygon 1104 -> file 1100": 110,
+    "polygon 1100 -> file 1104": 24,
+    "polygon 1100 -> file 1102": 20,
+    "polygon 1100 -> file 1101": 14,
+    "polygon 1104 -> file 1101": 12,
+    "polygon 1100 -> file 1103": 11,
+    "polygon 1103 -> file 1100": 6,
+    "polygon 1102 -> file 1100": 1
+  },
+  "business_flags": {
+    "": 835,
+    "POSTAL_CITY_EXPOSURE": 679,
+    "CROSS_COUNTY_POSTAL": 149,
+    "BOUNDARY_RISK": 19
+  },
+  "label_kinds": {
+    "business": 1682,
+    "institution": 7,
+    "place": 4,
+    "unnamed": 1
+  }
+}

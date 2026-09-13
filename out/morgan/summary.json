@@ -1,0 +1,106 @@
+{
+  "county": "MORGAN",
+  "slug": "morgan",
+  "generated_utc": "2026-09-13T05:42:55.635213+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6500": "Unincorporated",
+    "6501": "Wartburg",
+    "6502": "Oakdale",
+    "6503": "Oliver Springs",
+    "6504": "Sunbright"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 14151,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 84.8,
+    "business_points": 384,
+    "seams": 12,
+    "seam_miles": 147.7,
+    "cross_county_seam_miles": 118.0
+  },
+  "situs_distribution": {
+    "6500": 12923,
+    "6501": 609,
+    "6504": 420,
+    "6502": 165,
+    "6503": 34
+  },
+  "risk_bands": {
+    "NORMAL": 12850,
+    "WATCH": 982,
+    "HIGH": 250,
+    "CRITICAL": 69
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2244,
+    "E5_DOR_INTERNAL_CONFLICT": 41,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 65,
+    "E1_POSTAL_CITY_OVERSTATES": 6806,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 71,
+    "E3_BOUNDARY_PROXIMITY": 319
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 11740,
+    "REVIEW - analyst": 2258,
+    "HOLD - mandatory human adjudication": 112,
+    "HOLD - insufficient evidence": 41
+  },
+  "postal_city_profile": {
+    "WARTBURG": 3091,
+    "LANCING": 2190,
+    "OLIVER SPRINGS": 2064,
+    "SUNBRIGHT": 1775,
+    "DEER LODGE": 1687,
+    "HARRIMAN": 1439,
+    "OAKDALE": 1097,
+    "ROCKWOOD": 438,
+    "ROBBINS": 367,
+    "RUGBY": 2,
+    "MORGAN": 1
+  },
+  "cross_county_postal_by_city": {
+    "HARRIMAN": 1439,
+    "ROCKWOOD": 438,
+    "ROBBINS": 367
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=WARTBURG | COMP=WARTBURG": 27,
+    "DOR=UNINCORPORATED | E911=SUNBRIGHT | COMP=SUNBRIGHT": 24,
+    "DOR=SUNBRIGHT | E911=UNINCORPORATED | COMP=UNINCORPORATED": 13,
+    "DOR=WARTBURG | E911=UNINCORPORATED | COMP=UNINCORPORATED": 6,
+    "DOR=WARTBURG | E911=UNINCORPORATED | COMP=WARTBURG": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 6500 -> file 6504": 46,
+    "polygon 6500 -> file 6501": 35,
+    "polygon 6504 -> file 6500": 10,
+    "polygon 6503 -> file 6500": 7,
+    "polygon 6500 -> file 6502": 4,
+    "polygon 6502 -> file 6500": 2,
+    "polygon 6501 -> file 6500": 2
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 173,
+    "": 157,
+    "CROSS_COUNTY_POSTAL": 46,
+    "BOUNDARY_RISK": 1
+  },
+  "label_kinds": {
+    "business": 377,
+    "place": 5,
+    "institution": 2
+  }
+}

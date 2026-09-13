@@ -1,0 +1,19 @@
+county: ANDERSON
+fips: '47001'
+situs:
+  '0100': Unincorporated
+  '0101': Clinton
+  '0102': Rocky Top
+  '0103': Norris
+  '0104': Oak Ridge
+  '0105': Oliver Springs
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: anderson_sos_entities
+  type: sos_tsv
+  path: data/sos/anderson_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

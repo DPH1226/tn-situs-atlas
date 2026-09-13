@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "jefferson",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:46:22.292760+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='JEFFERSON'",
+  "feature_count": 7623,
+  "sha256": "e05a163fe4ef96f5e25d7f091c33971af1ea9c62009dce5a17319f1438b924a4",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/jefferson/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/jefferson/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

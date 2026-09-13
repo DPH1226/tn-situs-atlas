@@ -1,0 +1,16 @@
+county: HAMBLEN
+fips: '47063'
+situs:
+  '3200': Unincorporated
+  '3201': Morristown
+  '3202': White Pine
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: hamblen_sos_entities
+  type: sos_tsv
+  path: data/sos/hamblen_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

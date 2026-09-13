@@ -1,0 +1,16 @@
+{
+  "layer": "mtjuliet_ugb",
+  "scope": "wilson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:38:09.360071+00:00",
+  "source_url": "https://utility.arcgis.com/usrsvcs/servers/621b088a06a84f16b412e25b8d127804/rest/services/Administration_City/FeatureServer/0",
+  "where_clause": "1=1",
+  "feature_count": 1,
+  "sha256": "f0fe50f7ed72f83e3fed61d65e044cbb4bb83e5125ee44a4e830623a6fc8da0a",
+  "last_edit_date": null,
+  "raw_path": "raw/mtjuliet_ugb/wilson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/mtjuliet_ugb/wilson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "Mt. Juliet"
+}

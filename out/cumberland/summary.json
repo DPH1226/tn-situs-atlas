@@ -1,0 +1,104 @@
+{
+  "county": "CUMBERLAND",
+  "slug": "cumberland",
+  "generated_utc": "2026-09-13T05:25:39.084279+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1800": "Unincorporated",
+    "1801": "Crossville",
+    "1802": "Pleasant Hill",
+    "1803": "Crab Orchard"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 46157,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 86.9,
+    "business_points": 1885,
+    "seams": 11,
+    "seam_miles": 244.4,
+    "cross_county_seam_miles": 127.1
+  },
+  "situs_distribution": {
+    "1800": 34768,
+    "1801": 10260,
+    "1803": 596,
+    "1802": 533
+  },
+  "risk_bands": {
+    "NORMAL": 39930,
+    "WATCH": 4073,
+    "HIGH": 1854,
+    "CRITICAL": 300
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 3974,
+    "E5_DOR_INTERNAL_CONFLICT": 606,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 399,
+    "E1_POSTAL_CITY_OVERSTATES": 24042,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 242,
+    "E3_BOUNDARY_PROXIMITY": 2154
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 38398,
+    "REVIEW - analyst": 6934,
+    "HOLD - mandatory human adjudication": 516,
+    "HOLD - insufficient evidence": 309
+  },
+  "postal_city_profile": {
+    "CROSSVILLE": 33781,
+    "FAIRFIELD GLADE": 7437,
+    "ROCKWOOD": 1547,
+    "MONTEREY": 1030,
+    "CRAB ORCHARD": 965,
+    "SPARTA": 912,
+    "GRANDVIEW": 423,
+    "PIKEVILLE": 62
+  },
+  "cross_county_postal_by_city": {
+    "ROCKWOOD": 1547,
+    "MONTEREY": 1030,
+    "SPARTA": 912,
+    "GRANDVIEW": 423,
+    "PIKEVILLE": 62
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=CROSSVILLE | COMP=CROSSVILLE": 235,
+    "DOR=UNINCORPORATED | E911=CRAB ORCHARD | COMP=UNINCORPORATED": 4,
+    "DOR=UNINCORPORATED | E911=CROSSVILLE | COMP=UNINCORPORATED": 1,
+    "DOR=CROSSVILLE | E911=UNINCORPORATED | COMP=CROSSVILLE": 1,
+    "DOR=UNINCORPORATED | E911=PLEASANT HILL | COMP=PLEASANT HILL": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 1800 -> file 1801": 688,
+    "polygon 1801 -> file 1800": 265,
+    "polygon 1802 -> file 1800": 15,
+    "polygon 1803 -> file 1800": 15,
+    "polygon 1802 -> file 1801": 13,
+    "polygon 1800 -> file 1803": 8,
+    "polygon 1800 -> file 1802": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 932,
+    "": 801,
+    "CROSS_COUNTY_POSTAL": 85,
+    "BOUNDARY_RISK": 45
+  },
+  "label_kinds": {
+    "business": 1863,
+    "place": 13,
+    "institution": 8,
+    "unnamed": 1
+  }
+}

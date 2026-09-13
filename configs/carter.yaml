@@ -1,0 +1,17 @@
+county: CARTER
+fips: '47019'
+situs:
+  '1000': Unincorporated
+  '1001': Elizabethton
+  '1002': Watauga
+  '1003': Johnson City
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: carter_sos_entities
+  type: sos_tsv
+  path: data/sos/carter_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

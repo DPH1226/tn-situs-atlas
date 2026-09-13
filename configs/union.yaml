@@ -1,0 +1,17 @@
+county: UNION
+fips: '47173'
+situs:
+  '8700': Unincorporated
+  '8701': Maynardville
+  '8702': Luttrell
+  '8703': Plainview
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: union_sos_entities
+  type: sos_tsv
+  path: data/sos/union_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,88 @@
+{
+  "county": "WHITE",
+  "slug": "white",
+  "generated_utc": "2026-09-13T05:57:52.091477+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "9300": "Unincorporated",
+    "9301": "Sparta",
+    "9302": "Doyle"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 17781,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 92.3,
+    "business_points": 803,
+    "seams": 8,
+    "seam_miles": 139.4,
+    "cross_county_seam_miles": 114.4
+  },
+  "situs_distribution": {
+    "9300": 14273,
+    "9301": 3159,
+    "9302": 349
+  },
+  "risk_bands": {
+    "NORMAL": 15704,
+    "WATCH": 1605,
+    "HIGH": 421,
+    "CRITICAL": 51
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 461,
+    "E5_DOR_INTERNAL_CONFLICT": 179,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 66,
+    "E1_POSTAL_CITY_OVERSTATES": 11954,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 472
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 16023,
+    "REVIEW - analyst": 1669,
+    "HOLD - mandatory human adjudication": 51,
+    "HOLD - insufficient evidence": 38
+  },
+  "postal_city_profile": {
+    "SPARTA": 14735,
+    "WALLING": 1083,
+    "QUEBECK": 818,
+    "DOYLE": 682,
+    "COOKEVILLE": 461,
+    "WALLLING": 1,
+    "SPART": 1
+  },
+  "cross_county_postal_by_city": {
+    "COOKEVILLE": 461
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 9300 -> file 9301": 205,
+    "polygon 9301 -> file 9300": 25,
+    "polygon 9300 -> file 9302": 10,
+    "polygon 9302 -> file 9300": 5
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 481,
+    "": 284,
+    "CROSS_COUNTY_POSTAL": 20,
+    "BOUNDARY_RISK": 12
+  },
+  "label_kinds": {
+    "business": 797,
+    "unnamed": 2,
+    "place": 2,
+    "institution": 2
+  }
+}

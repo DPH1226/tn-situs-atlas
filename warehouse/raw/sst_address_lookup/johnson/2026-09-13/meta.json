@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "johnson",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:46:23.529298+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='JOHNSON'",
+  "feature_count": 3882,
+  "sha256": "92e80c1d3743aaed983b73e83e271466cbb82ba3b6c2f6f93d57199ea28d96d2",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/johnson/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/johnson/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

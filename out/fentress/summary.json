@@ -1,0 +1,83 @@
+{
+  "county": "FENTRESS",
+  "slug": "fentress",
+  "generated_utc": "2026-09-13T05:27:13.812976+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2500": "Unincorporated",
+    "2501": "Jamestown",
+    "2502": "Allardt"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 14519,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 82.2,
+    "business_points": 522,
+    "seams": 8,
+    "seam_miles": 138.5,
+    "cross_county_seam_miles": 118.0
+  },
+  "situs_distribution": {
+    "2500": 12496,
+    "2501": 1582,
+    "2502": 441
+  },
+  "risk_bands": {
+    "NORMAL": 13256,
+    "WATCH": 840,
+    "HIGH": 359,
+    "CRITICAL": 64
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 0,
+    "E5_DOR_INTERNAL_CONFLICT": 43,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 55,
+    "E1_POSTAL_CITY_OVERSTATES": 7,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 4,
+    "E3_BOUNDARY_PROXIMITY": 423
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 11621,
+    "REVIEW - analyst": 2785,
+    "HOLD - mandatory human adjudication": 65,
+    "HOLD - insufficient evidence": 48
+  },
+  "postal_city_profile": {
+    "FENTRESS COUNTY": 12504,
+    "JAMESTOWN": 1573,
+    "ALLARDT": 441,
+    "SCOTT COUNTY": 1
+  },
+  "cross_county_postal_by_city": {},
+  "layer_disagreement_detail": {
+    "DOR=JAMESTOWN | E911=UNINCORPORATED | COMP=UNINCORPORATED": 3,
+    "DOR=UNINCORPORATED | E911=JAMESTOWN | COMP=JAMESTOWN": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 2500 -> file 2501": 40,
+    "polygon 2502 -> file 2500": 36,
+    "polygon 2501 -> file 2500": 18,
+    "polygon 2500 -> file 2502": 4
+  },
+  "business_flags": {
+    "": 505,
+    "BOUNDARY_RISK": 7
+  },
+  "label_kinds": {
+    "business": 512,
+    "place": 9,
+    "institution": 1
+  }
+}

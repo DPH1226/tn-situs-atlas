@@ -1,0 +1,133 @@
+{
+  "county": "GIBSON",
+  "slug": "gibson",
+  "generated_utc": "2026-09-13T05:29:22.956019+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2700": "Unincorporated",
+    "2701": "Trenton",
+    "2702": "Bradford",
+    "2703": "Dyer",
+    "2704": "Gibson",
+    "2705": "Humboldt",
+    "2706": "Medina",
+    "2707": "Milan",
+    "2708": "Rutherford",
+    "2709": "Yorkville",
+    "2710": "Kenton"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 26797,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 80.8,
+    "business_points": 1106,
+    "seams": 21,
+    "seam_miles": 267.9,
+    "cross_county_seam_miles": 124.2
+  },
+  "situs_distribution": {
+    "2700": 9928,
+    "2705": 4691,
+    "2707": 4497,
+    "2701": 2396,
+    "2706": 2118,
+    "2703": 1179,
+    "2708": 693,
+    "2702": 591,
+    "2710": 358,
+    "2704": 205,
+    "2709": 141
+  },
+  "risk_bands": {
+    "NORMAL": 20998,
+    "WATCH": 4509,
+    "HIGH": 1144,
+    "CRITICAL": 146
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 156,
+    "E5_DOR_INTERNAL_CONFLICT": 144,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 109,
+    "E1_POSTAL_CITY_OVERSTATES": 9773,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 54,
+    "E3_BOUNDARY_PROXIMITY": 1290
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 20899,
+    "REVIEW - analyst": 5430,
+    "HOLD - insufficient evidence": 275,
+    "HOLD - mandatory human adjudication": 193
+  },
+  "postal_city_profile": {
+    "MILAN": 6448,
+    "HUMBOLDT": 5541,
+    "TRENTON": 4885,
+    "MEDINA": 2696,
+    "DYER": 1742,
+    "BRADFORD": 1723,
+    "GIBSON": 1263,
+    "RUTHERFORD": 1150,
+    "KENTON": 637,
+    "YORKVILLE": 556,
+    "ATWOOD": 131,
+    "TREZEVANT": 20,
+    "TRIMBLE": 5
+  },
+  "cross_county_postal_by_city": {
+    "ATWOOD": 131,
+    "TREZEVANT": 20,
+    "TRIMBLE": 5
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MEDINA | COMP=MEDINA": 41,
+    "DOR=UNINCORPORATED | E911=HUMBOLDT | COMP=HUMBOLDT": 9,
+    "DOR=UNINCORPORATED | E911=MILAN | COMP=UNINCORPORATED": 2,
+    "DOR=UNINCORPORATED | E911=TRENTON | COMP=TRENTON": 1,
+    "DOR=UNINCORPORATED | E911=MILAN | COMP=MILAN": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 2700 -> file 2706": 62,
+    "polygon 2704 -> file 2705": 42,
+    "polygon 2700 -> file 2707": 22,
+    "polygon 2700 -> file 2702": 19,
+    "polygon 2700 -> file 2705": 17,
+    "polygon 2709 -> file 2700": 13,
+    "polygon 2702 -> file 2700": 11,
+    "polygon 2706 -> file 2700": 11,
+    "polygon 2700 -> file 2703": 10,
+    "polygon 2700 -> file 2701": 9,
+    "polygon 2701 -> file 2700": 7,
+    "polygon 2700 -> file 2709": 6,
+    "polygon 2703 -> file 2700": 6,
+    "polygon 2708 -> file 2700": 5,
+    "polygon 2707 -> file 2700": 3,
+    "polygon 2707 -> file 2705": 3,
+    "polygon 2700 -> file 2704": 2,
+    "polygon 2704 -> file 2700": 2,
+    "polygon 2705 -> file 2700": 2,
+    "polygon 2708 -> file 2703": 1
+  },
+  "business_flags": {
+    "": 602,
+    "POSTAL_CITY_EXPOSURE": 442,
+    "BOUNDARY_RISK": 53,
+    "CROSS_COUNTY_POSTAL": 1
+  },
+  "label_kinds": {
+    "business": 1098,
+    "institution": 7,
+    "place": 1
+  }
+}

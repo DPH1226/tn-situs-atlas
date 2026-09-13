@@ -1,0 +1,16 @@
+{
+  "layer": "sumner_ecd_named_addresses",
+  "scope": "sumner",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:10.657838+00:00",
+  "source_url": "https://services8.arcgis.com/8jhIZBvwlxdbJdGN/arcgis/rest/services/SC_Address_Points/FeatureServer/0",
+  "where_clause": "LOCATION_NAME IS NOT NULL AND LOCATION_NAME <> ''",
+  "feature_count": 3113,
+  "sha256": "b3c5444e94ad1bd3ccd48e265ad894d381fc411be6ca2a613ae9df74a6690ac0",
+  "last_edit_date": null,
+  "raw_path": "raw/sumner_ecd_named_addresses/sumner/2026-09-12/data.geojson",
+  "parquet_path": "parquet/sumner_ecd_named_addresses/sumner/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": ""
+}

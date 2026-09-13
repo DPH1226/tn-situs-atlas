@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "decatur",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T04:01:27.406331+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='DECATUR'",
+  "feature_count": 3770,
+  "sha256": "92b9f36b17a5f58a51e8112aaf318feed460d969b768900b3f4f6dd579060cc8",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/decatur/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/decatur/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

@@ -1,0 +1,130 @@
+{
+  "county": "RUTHERFORD",
+  "slug": "rutherford",
+  "generated_utc": "2026-09-13T05:47:48.964956+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7500": "Unincorporated",
+    "7501": "Murfreesboro",
+    "7502": "Eagleville",
+    "7503": "Smyrna",
+    "7504": "La Vergne"
+  },
+  "tiers": {
+    "parcels": "county",
+    "business": "county"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-12",
+    "sst_address_lookup": "2026-09-12"
+  },
+  "totals": {
+    "address_points": 179755,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 92.6,
+    "business_points": 40256,
+    "seams": 20,
+    "seam_miles": 501.5,
+    "cross_county_seam_miles": 146.1
+  },
+  "situs_distribution": {
+    "7501": 82376,
+    "7500": 46988,
+    "7503": 33522,
+    "7504": 16368,
+    "7502": 501
+  },
+  "risk_bands": {
+    "NORMAL": 122361,
+    "WATCH": 42191,
+    "HIGH": 14091,
+    "CRITICAL": 1112
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2542,
+    "E5_DOR_INTERNAL_CONFLICT": 1968,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 1435,
+    "E1_POSTAL_CITY_OVERSTATES": 35135,
+    "E6_ANNEXATION_LAG": 14,
+    "E4_LAYER_DISAGREEMENT": 1990,
+    "E3_BOUNDARY_PROXIMITY": 15203
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 157150,
+    "REVIEW - analyst": 18284,
+    "HOLD - mandatory human adjudication": 3040,
+    "HOLD - insufficient evidence": 1281
+  },
+  "postal_city_profile": {
+    "MURFREESBORO": 112567,
+    "SMYRNA": 37298,
+    "LAVERGNE": 16328,
+    "CHRISTIANA": 4846,
+    "ROCKVALE": 2292,
+    "LASCASSAS": 2109,
+    "EAGLEVILLE": 1271,
+    "BELL BUCKLE": 826,
+    "READYVILLE": 712,
+    "MT JULIET": 504,
+    "MILTON": 502,
+    "ARRINGTON": 231,
+    "COLLEGE GROVE": 147,
+    "UNIONVILLE": 64,
+    "LEBANON": 26,
+    "NOLENSVILLE": 20,
+    "SHELBYVILLE": 12
+  },
+  "cross_county_postal_by_city": {
+    "BELL BUCKLE": 826,
+    "READYVILLE": 712,
+    "MT JULIET": 504,
+    "ARRINGTON": 231,
+    "COLLEGE GROVE": 147,
+    "UNIONVILLE": 64,
+    "LEBANON": 26,
+    "NOLENSVILLE": 20,
+    "SHELBYVILLE": 12
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MURFREESBORO | COMP=MURFREESBORO": 1219,
+    "DOR=UNINCORPORATED | E911=SMYRNA | COMP=SMYRNA": 726,
+    "DOR=UNINCORPORATED | E911=LAVERGNE | COMP=LAVERGNE": 18,
+    "DOR=UNINCORPORATED | E911=SMYRNA | COMP=UNINCORPORATED": 9,
+    "DOR=UNINCORPORATED | E911=MURFREESBORO | COMP=UNINCORPORATED": 6,
+    "DOR=SMYRNA | E911=LAVERGNE | COMP=LAVERGNE": 3,
+    "DOR=UNINCORPORATED | E911=EAGLEVILLE | COMP=EAGLEVILLE": 3,
+    "DOR=SMYRNA | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=MURFREESBORO | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=MURFREESBORO": 1,
+    "DOR=SMYRNA | E911=UNINCORPORATED | COMP=SMYRNA": 1,
+    "DOR=MURFREESBORO | E911=MURFREESBORO | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 7500 -> file 7501": 1319,
+    "polygon 7500 -> file 7503": 955,
+    "polygon 7501 -> file 7500": 767,
+    "polygon 7500 -> file 7502": 166,
+    "polygon 7503 -> file 7500": 138,
+    "polygon 7504 -> file 7503": 28,
+    "polygon 7500 -> file 7504": 11,
+    "polygon 7502 -> file 7500": 10,
+    "polygon 7503 -> file 7504": 7,
+    "polygon 7501 -> file 7503": 1,
+    "polygon 7503 -> file 7501": 1
+  },
+  "business_flags": {
+    "": 23489,
+    "POSTAL_CITY_EXPOSURE": 3606,
+    "BOUNDARY_RISK": 1331,
+    "CROSS_COUNTY_POSTAL": 212
+  },
+  "label_kinds": {
+    "business": 28638,
+    "place": 10115,
+    "unnamed": 1360,
+    "institution": 143
+  }
+}

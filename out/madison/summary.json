@@ -1,0 +1,105 @@
+{
+  "county": "MADISON",
+  "slug": "madison",
+  "generated_utc": "2026-09-13T05:40:31.344679+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "5700": "Unincorporated",
+    "5701": "Jackson",
+    "5704": "Medon",
+    "5705": "Humboldt",
+    "5706": "Three Way"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 51183,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 90.5,
+    "business_points": 3707,
+    "seams": 15,
+    "seam_miles": 219.6,
+    "cross_county_seam_miles": 100.9
+  },
+  "situs_distribution": {
+    "5701": 32850,
+    "5700": 17070,
+    "5706": 1124,
+    "5704": 139
+  },
+  "risk_bands": {
+    "NORMAL": 43900,
+    "WATCH": 5347,
+    "HIGH": 1775,
+    "CRITICAL": 161
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 575,
+    "E5_DOR_INTERNAL_CONFLICT": 471,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 316,
+    "E1_POSTAL_CITY_OVERSTATES": 14495,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 434,
+    "E3_BOUNDARY_PROXIMITY": 1936
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 44467,
+    "REVIEW - analyst": 6006,
+    "HOLD - mandatory human adjudication": 584,
+    "HOLD - insufficient evidence": 126
+  },
+  "postal_city_profile": {
+    "JACKSON": 45969,
+    "HUMBOLDT": 1341,
+    "PINSON": 1144,
+    "DENMARK": 972,
+    "OAKFIELD": 577,
+    "MEDINA": 564,
+    "MERCER": 454,
+    "MEDON": 151,
+    "LAVINIA": 8,
+    "BELLS": 2,
+    "BEECH BLUFF": 1
+  },
+  "cross_county_postal_by_city": {
+    "MEDINA": 564,
+    "LAVINIA": 8,
+    "BELLS": 2,
+    "BEECH BLUFF": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=JACKSON | COMP=JACKSON": 425,
+    "DOR=JACKSON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 7,
+    "DOR=THREE WAY | E911=HUMBOLDT | COMP=HUMBOLDT": 2
+  },
+  "dor_conflict_direction": {
+    "polygon 5700 -> file 5701": 537,
+    "polygon 5701 -> file 5700": 190,
+    "polygon 5700 -> file 5704": 27,
+    "polygon 5706 -> file 5700": 23,
+    "polygon 5704 -> file 5700": 5,
+    "polygon 5700 -> file 5706": 3,
+    "polygon 5706 -> file 5705": 2
+  },
+  "business_flags": {
+    "": 2845,
+    "POSTAL_CITY_EXPOSURE": 760,
+    "BOUNDARY_RISK": 40,
+    "CROSS_COUNTY_POSTAL": 29
+  },
+  "label_kinds": {
+    "business": 3674,
+    "institution": 16,
+    "place": 14,
+    "unnamed": 3
+  }
+}

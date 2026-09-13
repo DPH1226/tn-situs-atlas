@@ -1,0 +1,96 @@
+{
+  "county": "HICKMAN",
+  "slug": "hickman",
+  "generated_utc": "2026-09-13T05:34:03.555165+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "4100": "Unincorporated",
+    "4101": "Centerville"
+  },
+  "tiers": {
+    "parcels": "county",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 13376,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 81.7,
+    "business_points": 532,
+    "seams": 8,
+    "seam_miles": 159.8,
+    "cross_county_seam_miles": 115.1
+  },
+  "situs_distribution": {
+    "4100": 11414,
+    "4101": 1962
+  },
+  "risk_bands": {
+    "NORMAL": 12058,
+    "WATCH": 1032,
+    "HIGH": 254,
+    "CRITICAL": 32
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 441,
+    "E5_DOR_INTERNAL_CONFLICT": 364,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 68,
+    "E1_POSTAL_CITY_OVERSTATES": 2338,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 286
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 10730,
+    "REVIEW - analyst": 2573,
+    "HOLD - insufficient evidence": 41,
+    "HOLD - mandatory human adjudication": 32
+  },
+  "postal_city_profile": {
+    "CENTERVILLE": 4230,
+    "LYLES": 2680,
+    "BON AQUA": 2671,
+    "NUNNELLY": 2276,
+    "DUCK RIVER": 719,
+    "PRIMM SPRINGS": 253,
+    "DICKSON": 176,
+    "WILLIAMSPORT": 135,
+    "ONLY": 106,
+    "MCEWEN": 70,
+    "HOHENWALD": 38,
+    "HAMPSHIRE": 19,
+    "HURRICANE MILLS": 2,
+    "LOBELVILLE": 1
+  },
+  "cross_county_postal_by_city": {
+    "DICKSON": 176,
+    "WILLIAMSPORT": 135,
+    "MCEWEN": 70,
+    "HOHENWALD": 38,
+    "HAMPSHIRE": 19,
+    "HURRICANE MILLS": 2,
+    "LOBELVILLE": 1
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 4101 -> file 4100": 232,
+    "polygon 4100 -> file 4101": 200
+  },
+  "business_flags": {
+    "": 413,
+    "POSTAL_CITY_EXPOSURE": 87,
+    "CROSS_COUNTY_POSTAL": 19,
+    "BOUNDARY_RISK": 10
+  },
+  "label_kinds": {
+    "business": 529,
+    "place": 2,
+    "institution": 1
+  }
+}

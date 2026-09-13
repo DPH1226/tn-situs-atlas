@@ -1,0 +1,103 @@
+{
+  "county": "WASHINGTON",
+  "slug": "washington",
+  "generated_utc": "2026-09-13T06:00:45.332083+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "9000": "Unincorporated",
+    "9001": "Jonesborough",
+    "9002": "Johnson City",
+    "9003": "Watauga"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 79967,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 93.4,
+    "business_points": 4797,
+    "seams": 17,
+    "seam_miles": 309.8,
+    "cross_county_seam_miles": 94.1
+  },
+  "situs_distribution": {
+    "9002": 40304,
+    "9000": 35468,
+    "9001": 4195
+  },
+  "risk_bands": {
+    "NORMAL": 56054,
+    "WATCH": 15327,
+    "HIGH": 7736,
+    "CRITICAL": 850
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2133,
+    "E5_DOR_INTERNAL_CONFLICT": 1006,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 1001,
+    "E1_POSTAL_CITY_OVERSTATES": 16620,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 540,
+    "E3_BOUNDARY_PROXIMITY": 8586
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 67268,
+    "REVIEW - analyst": 10732,
+    "HOLD - mandatory human adjudication": 1379,
+    "HOLD - insufficient evidence": 588
+  },
+  "postal_city_profile": {
+    "JOHNSON CITY": 38962,
+    "JONESBOROUGH": 17689,
+    "GRAY": 13817,
+    "LIMESTONE": 3026,
+    "TELFORD": 2605,
+    "FALL BRANCH": 1665,
+    "CHUCKEY": 1236,
+    "KINGSPORT": 476,
+    "ERWIN": 352,
+    "PINEY FLATS": 69,
+    "WATAUGA": 63,
+    "MOUNTAIN HOME": 5,
+    "JONESBROUGH": 1,
+    "JONESSBOROUGH": 1
+  },
+  "cross_county_postal_by_city": {
+    "CHUCKEY": 1236,
+    "KINGSPORT": 476,
+    "ERWIN": 352,
+    "PINEY FLATS": 69
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=JOHNSON CITY | COMP=JOHNSON CITY": 381,
+    "DOR=UNINCORPORATED | E911=JONESBOROUGH | COMP=JONESBOROUGH": 154,
+    "DOR=JONESBOROUGH | E911=UNINCORPORATED | COMP=UNINCORPORATED": 4,
+    "DOR=JOHNSON CITY | E911=JOHNSON CITY | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 9000 -> file 9002": 1343,
+    "polygon 9000 -> file 9001": 276,
+    "polygon 9001 -> file 9000": 213,
+    "polygon 9002 -> file 9000": 175
+  },
+  "business_flags": {
+    "": 3457,
+    "POSTAL_CITY_EXPOSURE": 712,
+    "BOUNDARY_RISK": 490,
+    "CROSS_COUNTY_POSTAL": 57
+  },
+  "label_kinds": {
+    "business": 4716,
+    "place": 54,
+    "institution": 27
+  }
+}

@@ -1,0 +1,22 @@
+county: TIPTON
+fips: '47167'
+situs:
+  '8400': Unincorporated
+  '8401': Covington
+  '8402': Atoka
+  '8403': Brighton
+  '8404': Burlison
+  '8405': Garland
+  '8406': Mason
+  '8407': Munford
+  '8408': Gilt Edge
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: tipton_sos_entities
+  type: sos_tsv
+  path: data/sos/tipton_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

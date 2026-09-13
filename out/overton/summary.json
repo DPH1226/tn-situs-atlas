@@ -1,0 +1,95 @@
+{
+  "county": "OVERTON",
+  "slug": "overton",
+  "generated_utc": "2026-09-13T05:43:15.454530+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6700": "Unincorporated",
+    "6701": "Livingston"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 14666,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 85.5,
+    "business_points": 604,
+    "seams": 6,
+    "seam_miles": 116.3,
+    "cross_county_seam_miles": 98.1
+  },
+  "situs_distribution": {
+    "6700": 12163,
+    "6701": 2503
+  },
+  "risk_bands": {
+    "NORMAL": 13418,
+    "WATCH": 925,
+    "HIGH": 281,
+    "CRITICAL": 42
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 3249,
+    "E5_DOR_INTERNAL_CONFLICT": 80,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 44,
+    "E1_POSTAL_CITY_OVERSTATES": 3469,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 7,
+    "E3_BOUNDARY_PROXIMITY": 323
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 12342,
+    "REVIEW - analyst": 2203,
+    "HOLD - insufficient evidence": 76,
+    "HOLD - mandatory human adjudication": 45
+  },
+  "postal_city_profile": {
+    "LIVINGSTON": 5969,
+    "COOKEVILLE": 2222,
+    "RICKMAN": 1196,
+    "MONROE": 1109,
+    "CRAWFORD": 1040,
+    "MONTEREY": 1019,
+    "HILHAM": 907,
+    "ALLONS": 706,
+    "ALPINE": 350,
+    "WILDER": 116,
+    "ALLRED": 22,
+    "CELINA": 8,
+    "CLARKRANGE": 1,
+    "CRAWFPRD": 1
+  },
+  "cross_county_postal_by_city": {
+    "COOKEVILLE": 2222,
+    "MONTEREY": 1019,
+    "CELINA": 8
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=LIVINGSTON | COMP=LIVINGSTON": 6,
+    "DOR=UNINCORPORATED | E911=LIVINGSTON | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 6700 -> file 6701": 84,
+    "polygon 6701 -> file 6700": 40
+  },
+  "business_flags": {
+    "": 305,
+    "POSTAL_CITY_EXPOSURE": 155,
+    "CROSS_COUNTY_POSTAL": 129,
+    "BOUNDARY_RISK": 9
+  },
+  "label_kinds": {
+    "business": 598,
+    "institution": 5,
+    "place": 1
+  }
+}

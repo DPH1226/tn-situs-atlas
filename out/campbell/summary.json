@@ -1,0 +1,111 @@
+{
+  "county": "CAMPBELL",
+  "slug": "campbell",
+  "generated_utc": "2026-09-13T05:23:34.593697+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0700": "Unincorporated",
+    "0701": "Jacksboro",
+    "0702": "Jellico",
+    "0703": "Caryville",
+    "0704": "Lafollette",
+    "0705": "Rocky Top"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 24724,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 90.8,
+    "business_points": 1083,
+    "seams": 11,
+    "seam_miles": 196.5,
+    "cross_county_seam_miles": 111.3
+  },
+  "situs_distribution": {
+    "0700": 16819,
+    "0704": 4276,
+    "0703": 1304,
+    "0702": 1234,
+    "0701": 1070,
+    "0705": 21
+  },
+  "risk_bands": {
+    "NORMAL": 19440,
+    "WATCH": 3884,
+    "HIGH": 1222,
+    "CRITICAL": 178
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2089,
+    "E5_DOR_INTERNAL_CONFLICT": 194,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 231,
+    "E1_POSTAL_CITY_OVERSTATES": 14194,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 1400
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 21304,
+    "REVIEW - analyst": 3136,
+    "HOLD - mandatory human adjudication": 178,
+    "HOLD - insufficient evidence": 106
+  },
+  "postal_city_profile": {
+    "LAFOLLETTE": 11896,
+    "JACKSBORO": 5071,
+    "CARYVILLE": 2710,
+    "JELLICO": 1720,
+    "PIONEER": 980,
+    "DUFF": 875,
+    "SPEEDWELL": 624,
+    "LAKE CITY": 385,
+    "NEWCOMB": 362,
+    "CLAIRFIELD": 87,
+    "HUNTSVILLE": 13,
+    "CARRYVILLE": 1
+  },
+  "cross_county_postal_by_city": {
+    "PIONEER": 980,
+    "SPEEDWELL": 624,
+    "LAKE CITY": 385,
+    "CLAIRFIELD": 87,
+    "HUNTSVILLE": 13
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 0704 -> file 0700": 102,
+    "polygon 0703 -> file 0700": 78,
+    "polygon 0700 -> file 0704": 72,
+    "polygon 0700 -> file 0703": 49,
+    "polygon 0701 -> file 0700": 40,
+    "polygon 0700 -> file 0702": 36,
+    "polygon 0700 -> file 0701": 20,
+    "polygon 0700 -> file 0705": 11,
+    "polygon 0702 -> file 0700": 7,
+    "polygon 0701 -> file 0704": 5,
+    "polygon 0704 -> file 0701": 3,
+    "polygon 0701 -> file 0702": 1,
+    "polygon 0705 -> file 0700": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 628,
+    "": 359,
+    "CROSS_COUNTY_POSTAL": 48,
+    "BOUNDARY_RISK": 31
+  },
+  "label_kinds": {
+    "business": 1066,
+    "place": 10,
+    "institution": 7
+  }
+}

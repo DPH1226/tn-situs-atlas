@@ -1,0 +1,127 @@
+{
+  "county": "FRANKLIN",
+  "slug": "franklin",
+  "generated_utc": "2026-09-13T05:31:12.741106+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2600": "Unincorporated",
+    "2601": "Winchester",
+    "2602": "Cowan",
+    "2603": "Decherd",
+    "2604": "Estill Springs",
+    "2605": "Huntland",
+    "2606": "Tullahoma"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 24229,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 93.2,
+    "business_points": 1125,
+    "seams": 16,
+    "seam_miles": 271.9,
+    "cross_county_seam_miles": 91.9
+  },
+  "situs_distribution": {
+    "2600": 13555,
+    "2601": 5451,
+    "2603": 1582,
+    "2604": 1460,
+    "2602": 1042,
+    "2606": 664,
+    "2605": 475
+  },
+  "risk_bands": {
+    "NORMAL": 18054,
+    "WATCH": 3895,
+    "HIGH": 2101,
+    "CRITICAL": 179
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 145,
+    "E5_DOR_INTERNAL_CONFLICT": 211,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 304,
+    "E1_POSTAL_CITY_OVERSTATES": 10304,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 73,
+    "E3_BOUNDARY_PROXIMITY": 2280
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 20541,
+    "REVIEW - analyst": 3316,
+    "HOLD - mandatory human adjudication": 250,
+    "HOLD - insufficient evidence": 122
+  },
+  "postal_city_profile": {
+    "WINCHESTER": 9349,
+    "ESTILL SPRINGS": 3718,
+    "DECHERD": 3135,
+    "TULLAHOMA": 2287,
+    "BELVIDERE": 1505,
+    "SEWANEE": 1456,
+    "COWAN": 1174,
+    "HUNTLAND": 1170,
+    "SHERWOOD": 290,
+    "ELORA": 71,
+    "MONTEAGLE": 46,
+    "LYNCHBURG": 13,
+    "FLINTVILLE": 13,
+    "SOUTH PITTSBURG": 2
+  },
+  "cross_county_postal_by_city": {
+    "ELORA": 71,
+    "MONTEAGLE": 46,
+    "LYNCHBURG": 13,
+    "FLINTVILLE": 13,
+    "SOUTH PITTSBURG": 2
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MONTEAGLE | COMP=MONTEAGLE": 39,
+    "DOR=UNINCORPORATED | E911=COWAN | COMP=COWAN": 26,
+    "DOR=UNINCORPORATED | E911=DECHERD | COMP=DECHERD": 2,
+    "DOR=UNINCORPORATED | E911=WINCHESTER | COMP=WINCHESTER": 2,
+    "DOR=UNINCORPORATED | E911=ESTILL SPRINGS | COMP=ESTILL SPRINGS": 2,
+    "DOR=ESTILL SPRINGS | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1,
+    "DOR=COWAN | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 2600 -> file 2604": 127,
+    "polygon 2600 -> file 2601": 104,
+    "polygon 2601 -> file 2600": 40,
+    "polygon 2604 -> file 2600": 40,
+    "polygon 2600 -> file 2602": 38,
+    "polygon 2601 -> file 2603": 37,
+    "polygon 2600 -> file 2603": 29,
+    "polygon 2600 -> file 2607": 25,
+    "polygon 2600 -> file 2606": 21,
+    "polygon 2603 -> file 2601": 17,
+    "polygon 2602 -> file 2601": 9,
+    "polygon 2600 -> file 2605": 8,
+    "polygon 2603 -> file 2600": 7,
+    "polygon 2602 -> file 2600": 6,
+    "polygon 2605 -> file 2600": 4,
+    "polygon 2606 -> file 2600": 3
+  },
+  "business_flags": {
+    "": 582,
+    "POSTAL_CITY_EXPOSURE": 444,
+    "BOUNDARY_RISK": 81,
+    "CROSS_COUNTY_POSTAL": 4
+  },
+  "label_kinds": {
+    "business": 1111,
+    "place": 10,
+    "institution": 2,
+    "unnamed": 2
+  }
+}

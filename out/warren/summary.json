@@ -1,0 +1,95 @@
+{
+  "county": "WARREN",
+  "slug": "warren",
+  "generated_utc": "2026-09-13T05:55:52.247554+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8900": "Unincorporated",
+    "8901": "Mcminnville",
+    "8902": "Centertown",
+    "8903": "Morrison",
+    "8904": "Viola"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 23433,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 92.9,
+    "business_points": 1182,
+    "seams": 11,
+    "seam_miles": 155.5,
+    "cross_county_seam_miles": 99.5
+  },
+  "situs_distribution": {
+    "8900": 15356,
+    "8901": 7389,
+    "8903": 430,
+    "8902": 170,
+    "8904": 88
+  },
+  "risk_bands": {
+    "NORMAL": 18819,
+    "WATCH": 3475,
+    "HIGH": 985,
+    "CRITICAL": 154
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 56,
+    "E5_DOR_INTERNAL_CONFLICT": 455,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 161,
+    "E1_POSTAL_CITY_OVERSTATES": 12945,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 7,
+    "E3_BOUNDARY_PROXIMITY": 1139
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 20815,
+    "REVIEW - analyst": 2385,
+    "HOLD - mandatory human adjudication": 159,
+    "HOLD - insufficient evidence": 74
+  },
+  "postal_city_profile": {
+    "MCMINNVILLE": 18255,
+    "MORRISON": 2509,
+    "ROCK ISLAND": 2189,
+    "SMITHVILLE": 424,
+    "WOODBURY": 56
+  },
+  "cross_county_postal_by_city": {
+    "WOODBURY": 56
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=VIOLA | COMP=VIOLA": 5,
+    "DOR=UNINCORPORATED | E911=MCMINNVILLE | COMP=UNINCORPORATED": 1,
+    "DOR=VIOLA | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 8900 -> file 8901": 567,
+    "polygon 8901 -> file 8900": 25,
+    "polygon 8900 -> file 8903": 14,
+    "polygon 8904 -> file 8903": 6,
+    "polygon 8902 -> file 8900": 2,
+    "polygon 8903 -> file 8900": 2
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 581,
+    "": 549,
+    "BOUNDARY_RISK": 40,
+    "CROSS_COUNTY_POSTAL": 1
+  },
+  "label_kinds": {
+    "business": 1171,
+    "place": 8,
+    "institution": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "moore",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:09:26.604985+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='MOORE'",
+  "feature_count": 3834,
+  "sha256": "bb355cddc016f2376d352342f42f32b51413c75c2a00973e3238a1ff535d76eb",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/moore/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/moore/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

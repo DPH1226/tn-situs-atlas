@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_roads",
+  "scope": "wilson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:37:13.610923+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Road_Centerlines/FeatureServer/1",
+  "where_clause": "COUNTY_L='WILSON' OR COUNTY_R='WILSON'",
+  "feature_count": 9976,
+  "sha256": "beee2ecd13c1a0c09572501d2c864e17e361e7b7f9f3f3c1313c5872514d5cbb",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_roads/wilson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/ng911_roads/wilson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 1,
+  "notes": "TN Emergency Communications Board"
+}

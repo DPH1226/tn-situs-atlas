@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "fentress",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:18:52.995192+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='FENTRESS'",
+  "feature_count": 14554,
+  "sha256": "b6ad4aa510ebdccb4ee0df9dbec32bcb1eb3a17888f147c27291d1687bd58c05",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/fentress/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/fentress/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

@@ -1,0 +1,17 @@
+county: MAURY
+fips: '47119'
+situs:
+  '6000': Unincorporated
+  '6001': Columbia
+  '6002': Mount Pleasant
+  '6003': Spring Hill
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: maury_sos_entities
+  type: sos_tsv
+  path: data/sos/maury_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

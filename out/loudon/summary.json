@@ -1,0 +1,115 @@
+{
+  "county": "LOUDON",
+  "slug": "loudon",
+  "generated_utc": "2026-09-13T05:39:44.095540+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "5300": "Unincorporated",
+    "5301": "Loudon",
+    "5302": "Lenoir City",
+    "5303": "Greenback",
+    "5304": "Philadelphia",
+    "5305": "Farragut"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 35719,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 86.4,
+    "business_points": 2037,
+    "seams": 18,
+    "seam_miles": 252.2,
+    "cross_county_seam_miles": 116.7
+  },
+  "situs_distribution": {
+    "5300": 23587,
+    "5302": 6483,
+    "5301": 4709,
+    "5303": 621,
+    "5304": 315,
+    "5305": 4
+  },
+  "risk_bands": {
+    "NORMAL": 25373,
+    "WATCH": 7296,
+    "HIGH": 2715,
+    "CRITICAL": 335
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1194,
+    "E5_DOR_INTERNAL_CONFLICT": 151,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 302,
+    "E1_POSTAL_CITY_OVERSTATES": 22397,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 120,
+    "E3_BOUNDARY_PROXIMITY": 3050
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 28707,
+    "REVIEW - analyst": 6190,
+    "HOLD - mandatory human adjudication": 437,
+    "HOLD - insufficient evidence": 385
+  },
+  "postal_city_profile": {
+    "LENOIR CITY": 17116,
+    "LOUDON": 14322,
+    "GREENBACK": 2004,
+    "PHILADELPHIA": 1077,
+    "VONORE": 700,
+    "SWEETWATER": 238,
+    "FRIENDSVILLE": 166,
+    "CONCORD": 70,
+    "KNOXVILLE": 20,
+    "PHILAELPHIA": 3,
+    "PHILDELPHIA": 1,
+    "LENOR CITY": 1,
+    "GREENABCK": 1
+  },
+  "cross_county_postal_by_city": {
+    "VONORE": 700,
+    "SWEETWATER": 238,
+    "FRIENDSVILLE": 166,
+    "CONCORD": 70,
+    "KNOXVILLE": 20
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=LENOIR CITY | COMP=LENOIR CITY": 94,
+    "DOR=LENOIR CITY | E911=UNINCORPORATED | COMP=UNINCORPORATED": 17,
+    "DOR=UNINCORPORATED | E911=LOUDON | COMP=LOUDON": 5,
+    "DOR=LOUDON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=LENOIR CITY | E911=LENOIR CITY | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=LENOIR CITY | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 5300 -> file 5302": 217,
+    "polygon 5302 -> file 5300": 85,
+    "polygon 5300 -> file 5301": 47,
+    "polygon 5303 -> file 5300": 37,
+    "polygon 5301 -> file 5300": 30,
+    "polygon 5300 -> file 5303": 29,
+    "polygon 5300 -> file 5304": 7,
+    "polygon 5305 -> file 5300": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 1394,
+    "": 495,
+    "BOUNDARY_RISK": 80,
+    "CROSS_COUNTY_POSTAL": 46
+  },
+  "label_kinds": {
+    "business": 2015,
+    "institution": 11,
+    "place": 9,
+    "unnamed": 2
+  }
+}

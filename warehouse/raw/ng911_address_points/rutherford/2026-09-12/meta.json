@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "rutherford",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:17.957127+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='RUTHERFORD'",
+  "feature_count": 179773,
+  "sha256": "a71f6a94522290d1e4e1f083eabd03aaddd76d69a8751444f3756e68c4228545",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/rutherford/2026-09-12/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/rutherford/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

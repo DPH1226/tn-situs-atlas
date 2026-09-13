@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "rutherford",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:12.308524+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='RUTHERFORD'",
+  "feature_count": 27671,
+  "sha256": "400653dab3de4f2d9183c615bc392ca5f79e2275348cf46797d93aff08616800",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/rutherford/2026-09-12/data.json",
+  "parquet_path": "parquet/sst_address_lookup/rutherford/2026-09-12.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

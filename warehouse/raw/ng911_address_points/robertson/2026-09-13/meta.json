@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "robertson",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:09:42.706115+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='ROBERTSON'",
+  "feature_count": 42962,
+  "sha256": "e8972383a2fd7b2668eb3f80efc0bd9ae4bde70fce911d05186909a190b6873b",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/robertson/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/robertson/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

@@ -1,0 +1,19 @@
+county: CAMPBELL
+fips: '47013'
+situs:
+  '0700': Unincorporated
+  '0701': Jacksboro
+  '0702': Jellico
+  '0703': Caryville
+  '0704': Lafollette
+  '0705': Rocky Top
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: campbell_sos_entities
+  type: sos_tsv
+  path: data/sos/campbell_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

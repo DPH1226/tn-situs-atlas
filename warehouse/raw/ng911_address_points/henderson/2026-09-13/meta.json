@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "henderson",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:44:25.367585+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='HENDERSON'",
+  "feature_count": 17601,
+  "sha256": "aceb366526967c37ccc1735bc29ffed2329d6582251dc4e2b72f54cf32eeb8bd",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/henderson/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/henderson/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

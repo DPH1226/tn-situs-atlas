@@ -1,0 +1,16 @@
+{
+  "layer": "mtjuliet_city_limits",
+  "scope": "wilson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:37:13.824887+00:00",
+  "source_url": "https://utility.arcgis.com/usrsvcs/servers/621b088a06a84f16b412e25b8d127804/rest/services/Administration_City/FeatureServer/2",
+  "where_clause": "1=1",
+  "feature_count": 1,
+  "sha256": "e17f2fa0764021bba69a90b06115d58eaa539b3af678aad9920dbb189026068b",
+  "last_edit_date": null,
+  "raw_path": "raw/mtjuliet_city_limits/wilson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/mtjuliet_city_limits/wilson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 1,
+  "notes": "Mt. Juliet"
+}

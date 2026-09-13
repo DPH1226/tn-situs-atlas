@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "hardeman",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:43:32.345918+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='HARDEMAN'",
+  "feature_count": 6467,
+  "sha256": "7f4025eb3343d16997fe1c03194f346985fe6e08cfae143f64aad989b9ac7513",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/hardeman/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/hardeman/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

@@ -1,0 +1,16 @@
+{
+  "layer": "nashville_usd_annexations",
+  "scope": "davidson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:37.636333+00:00",
+  "source_url": "https://maps.nashville.gov/arcgis/rest/services/Boundaries/TaxDistricts/MapServer/3",
+  "where_clause": "1=1",
+  "feature_count": 27,
+  "sha256": "0e7c5356e60366e0221aa81e94e18a4472f1de43d996127a0cdf34961b4df7ef",
+  "last_edit_date": null,
+  "raw_path": "raw/nashville_usd_annexations/davidson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/nashville_usd_annexations/davidson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 1,
+  "notes": "Nashville USD"
+}

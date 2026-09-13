@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "union",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:56:12.889316+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='UNION'",
+  "feature_count": 3860,
+  "sha256": "3f6728cbb220c53bde8e52f5a4ab7e4e06394c584093552fa72aeb10c68f91c3",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/union/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/union/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

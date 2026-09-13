@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "obion",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:50:20.558749+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='OBION'",
+  "feature_count": 18507,
+  "sha256": "375b1891aba35ecbe578bf9a0e8c7d9a7be8dc0249e60e17cb7c7c2f19798af9",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/obion/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/obion/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

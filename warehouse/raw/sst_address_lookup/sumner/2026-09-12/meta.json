@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "sumner",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:06.061142+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='SUMNER'",
+  "feature_count": 15102,
+  "sha256": "f2a2059fae8eeca9d162efc73db516c5f8864f7bc26a5d94f40ad96d129ab07b",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/sumner/2026-09-12/data.json",
+  "parquet_path": "parquet/sst_address_lookup/sumner/2026-09-12.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

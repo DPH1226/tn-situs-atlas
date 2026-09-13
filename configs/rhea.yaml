@@ -1,0 +1,17 @@
+county: RHEA
+fips: '47143'
+situs:
+  '7200': Unincorporated
+  '7201': Dayton
+  '7202': Graysville
+  '7203': Spring City
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: rhea_sos_entities
+  type: sos_tsv
+  path: data/sos/rhea_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

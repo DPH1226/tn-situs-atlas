@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "cocke",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:16:55.336506+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='COCKE'",
+  "feature_count": 30363,
+  "sha256": "e8d2c2040c3757d8902e1cf9d925f17929255d5be968253f2214ef4ccc05d9d4",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/cocke/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/cocke/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

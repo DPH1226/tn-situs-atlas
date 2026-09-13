@@ -1,0 +1,4 @@
+# Static hosting of the Tennessee Situs Atlas (site/) — for Railway or any container host.
+FROM caddy:2-alpine
+COPY site /srv
+COPY deploy/Caddyfile /etc/caddy/Caddyfile

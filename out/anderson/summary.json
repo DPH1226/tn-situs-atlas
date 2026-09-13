@@ -1,0 +1,113 @@
+{
+  "county": "ANDERSON",
+  "slug": "anderson",
+  "generated_utc": "2026-09-13T05:22:43.400331+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0100": "Unincorporated",
+    "0101": "Clinton",
+    "0102": "Rocky Top",
+    "0103": "Norris",
+    "0104": "Oak Ridge",
+    "0105": "Oliver Springs"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 44784,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 92.3,
+    "business_points": 2570,
+    "seams": 16,
+    "seam_miles": 218.1,
+    "cross_county_seam_miles": 114.4
+  },
+  "situs_distribution": {
+    "0100": 18343,
+    "0104": 17921,
+    "0101": 5491,
+    "0105": 1288,
+    "0102": 985,
+    "0103": 756
+  },
+  "risk_bands": {
+    "NORMAL": 37953,
+    "WATCH": 5044,
+    "HIGH": 1626,
+    "CRITICAL": 161
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2726,
+    "E5_DOR_INTERNAL_CONFLICT": 128,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 151,
+    "E1_POSTAL_CITY_OVERSTATES": 9161,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 6,
+    "E3_BOUNDARY_PROXIMITY": 1787
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 40098,
+    "REVIEW - analyst": 4268,
+    "HOLD - insufficient evidence": 251,
+    "HOLD - mandatory human adjudication": 167
+  },
+  "postal_city_profile": {
+    "OAK RIDGE": 18010,
+    "CLINTON": 13959,
+    "LAKE CITY": 2911,
+    "ANDERSONVILLE": 2412,
+    "POWELL": 2296,
+    "OLIVER SPRINGS": 1888,
+    "HEISKELL": 1394,
+    "BRICEVILLE": 775,
+    "NORRIS": 691,
+    "KNOXVILLE": 427,
+    "DEVONIA": 7,
+    "MEDFORD": 5,
+    "CLAXTON": 4,
+    "HALLS CROSSROADS": 3,
+    "RIDGE": 1,
+    "MARLOW": 1
+  },
+  "cross_county_postal_by_city": {
+    "POWELL": 2296,
+    "KNOXVILLE": 427,
+    "HALLS CROSSROADS": 3
+  },
+  "layer_disagreement_detail": {
+    "DOR=CLINTON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 6
+  },
+  "dor_conflict_direction": {
+    "polygon 0101 -> file 0100": 79,
+    "polygon 0100 -> file 0103": 57,
+    "polygon 0100 -> file 0101": 50,
+    "polygon 0105 -> file 0100": 36,
+    "polygon 0103 -> file 0100": 15,
+    "polygon 0100 -> file 0105": 14,
+    "polygon 0100 -> file 0102": 12,
+    "polygon 0100 -> file 0104": 9,
+    "polygon 0102 -> file 0100": 4,
+    "polygon 0104 -> file 0100": 3
+  },
+  "business_flags": {
+    "": 1907,
+    "POSTAL_CITY_EXPOSURE": 489,
+    "CROSS_COUNTY_POSTAL": 107,
+    "BOUNDARY_RISK": 49
+  },
+  "label_kinds": {
+    "business": 2552,
+    "institution": 11,
+    "place": 6,
+    "unnamed": 1
+  }
+}

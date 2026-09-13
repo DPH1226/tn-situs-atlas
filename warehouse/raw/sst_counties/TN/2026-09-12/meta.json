@@ -1,0 +1,16 @@
+{
+  "layer": "sst_counties",
+  "scope": "TN",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:37:09.507576+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/3",
+  "where_clause": "1=1",
+  "feature_count": 95,
+  "sha256": "aafaa6d49ebc3fa43d9c8b38721662bb193a0253e4d21295ed3fc56ace7fe9ce",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_counties/TN/2026-09-12/data.geojson",
+  "parquet_path": "parquet/sst_counties/TN/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 1,
+  "notes": "TN Comptroller"
+}

@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "maury",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:07:55.422766+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='MAURY'",
+  "feature_count": 65394,
+  "sha256": "8aef3dfc4e9ba557c3c814f45207a2ad41fe7504509693d08f77868e357cfe17",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/maury/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/maury/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

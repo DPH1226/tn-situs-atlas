@@ -1,0 +1,101 @@
+{
+  "county": "UNION",
+  "slug": "union",
+  "generated_utc": "2026-09-13T05:55:32.363298+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8700": "Unincorporated",
+    "8701": "Maynardville",
+    "8702": "Luttrell",
+    "8703": "Plainview"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 12537,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 88.7,
+    "business_points": 449,
+    "seams": 9,
+    "seam_miles": 120.2,
+    "cross_county_seam_miles": 84.5
+  },
+  "situs_distribution": {
+    "8700": 9369,
+    "8701": 1565,
+    "8703": 1001,
+    "8702": 602
+  },
+  "risk_bands": {
+    "NORMAL": 10713,
+    "WATCH": 1252,
+    "HIGH": 487,
+    "CRITICAL": 85
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1430,
+    "E5_DOR_INTERNAL_CONFLICT": 48,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 56,
+    "E1_POSTAL_CITY_OVERSTATES": 6187,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 2,
+    "E3_BOUNDARY_PROXIMITY": 572
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 10680,
+    "REVIEW - analyst": 1696,
+    "HOLD - mandatory human adjudication": 85,
+    "HOLD - insufficient evidence": 76
+  },
+  "postal_city_profile": {
+    "MAYNARDVILLE": 6369,
+    "LUTTRELL": 1982,
+    "SHARPS CHAPEL": 1925,
+    "CORRYTON": 829,
+    "ANDERSONVILLE": 770,
+    "SPEEDWELL": 336,
+    "WASHBURN": 162,
+    "HEISKELL": 101,
+    "POWDER SPRINGS": 61,
+    "POWDER SPRING": 1,
+    "MAYNARDVIILE": 1
+  },
+  "cross_county_postal_by_city": {
+    "ANDERSONVILLE": 770,
+    "SPEEDWELL": 336,
+    "WASHBURN": 162,
+    "HEISKELL": 101,
+    "POWDER SPRINGS": 61
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=LUTTRELL | COMP=UNINCORPORATED": 2
+  },
+  "dor_conflict_direction": {
+    "polygon 8701 -> file 8700": 47,
+    "polygon 8700 -> file 8701": 16,
+    "polygon 8700 -> file 8702": 11,
+    "polygon 8700 -> file 8703": 10,
+    "polygon 8702 -> file 8700": 10,
+    "polygon 8703 -> file 8702": 7,
+    "polygon 8703 -> file 8700": 3
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 218,
+    "": 187,
+    "CROSS_COUNTY_POSTAL": 28,
+    "BOUNDARY_RISK": 14
+  },
+  "label_kinds": {
+    "business": 447,
+    "place": 2
+  }
+}

@@ -1,0 +1,24 @@
+county: OBION
+fips: '47131'
+situs:
+  '6600': Unincorporated
+  '6601': Union City
+  '6602': Hornbeak
+  '6603': Kenton
+  '6604': Obion
+  '6605': Rives
+  '6606': Samburg
+  '6607': South Fulton
+  '6608': Troy
+  '6609': Woodland Mills
+  '6610': Trimble
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: obion_sos_entities
+  type: sos_tsv
+  path: data/sos/obion_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

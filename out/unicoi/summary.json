@@ -1,0 +1,93 @@
+{
+  "county": "UNICOI",
+  "slug": "unicoi",
+  "generated_utc": "2026-09-13T05:55:21.530024+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8600": "Unincorporated",
+    "8601": "Erwin",
+    "8602": "Unicoi"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 10315,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 88.5,
+    "business_points": 339,
+    "seams": 8,
+    "seam_miles": 75.3,
+    "cross_county_seam_miles": 38.1
+  },
+  "situs_distribution": {
+    "8600": 4977,
+    "8601": 3368,
+    "8602": 1970
+  },
+  "risk_bands": {
+    "NORMAL": 6959,
+    "WATCH": 2528,
+    "HIGH": 722,
+    "CRITICAL": 106
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 182,
+    "E5_DOR_INTERNAL_CONFLICT": 54,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 96,
+    "E1_POSTAL_CITY_OVERSTATES": 4216,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 828
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 8444,
+    "REVIEW - analyst": 1685,
+    "HOLD - mandatory human adjudication": 106,
+    "HOLD - insufficient evidence": 80
+  },
+  "postal_city_profile": {
+    "ERWIN": 6697,
+    "UNICOI": 2690,
+    "FLAG POND": 727,
+    "JOHNSON CITY": 162,
+    "HAMPTON": 16,
+    "LIMESTONE COVE": 12,
+    "ELIZABETHTON": 4,
+    "SPIVEY": 3,
+    "MARTINS CREEK": 1,
+    "LOVE STATION": 1,
+    "TEMPLE HILL": 1,
+    "ROCK CREEK": 1
+  },
+  "cross_county_postal_by_city": {
+    "JOHNSON CITY": 162,
+    "HAMPTON": 16,
+    "ELIZABETHTON": 4
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 8600 -> file 8601": 108,
+    "polygon 8601 -> file 8600": 33,
+    "polygon 8602 -> file 8600": 7,
+    "polygon 8600 -> file 8602": 2
+  },
+  "business_flags": {
+    "": 195,
+    "POSTAL_CITY_EXPOSURE": 125,
+    "BOUNDARY_RISK": 12,
+    "CROSS_COUNTY_POSTAL": 3
+  },
+  "label_kinds": {
+    "business": 335,
+    "place": 4
+  }
+}

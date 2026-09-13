@@ -1,0 +1,90 @@
+{
+  "county": "LAUDERDALE",
+  "slug": "lauderdale",
+  "generated_utc": "2026-09-13T05:38:34.150035+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "4900": "Unincorporated",
+    "4901": "Ripley",
+    "4902": "Gates",
+    "4903": "Halls",
+    "4904": "Henning"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 12689,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 87.0,
+    "business_points": 401,
+    "seams": 9,
+    "seam_miles": 177.5,
+    "cross_county_seam_miles": 116.2
+  },
+  "situs_distribution": {
+    "4900": 6954,
+    "4901": 3620,
+    "4903": 1220,
+    "4904": 558,
+    "4902": 337
+  },
+  "risk_bands": {
+    "NORMAL": 10820,
+    "WATCH": 1286,
+    "HIGH": 525,
+    "CRITICAL": 58
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 0,
+    "E5_DOR_INTERNAL_CONFLICT": 13,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 55,
+    "E1_POSTAL_CITY_OVERSTATES": 6955,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 583
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 10614,
+    "REVIEW - analyst": 1904,
+    "HOLD - insufficient evidence": 113,
+    "HOLD - mandatory human adjudication": 58
+  },
+  "postal_city_profile": {
+    "RIPLEY": 7829,
+    "HALLS": 2383,
+    "HENNING": 1767,
+    "GATES": 710
+  },
+  "cross_county_postal_by_city": {},
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 4901 -> file 4900": 46,
+    "polygon 4900 -> file 4901": 5,
+    "polygon 4904 -> file 4900": 5,
+    "polygon 4902 -> file 4900": 3,
+    "polygon 4900 -> file 4902": 3,
+    "polygon 4900 -> file 4904": 2,
+    "polygon 4900 -> file 4903": 2,
+    "polygon 4901 -> file 4903": 1,
+    "polygon 4903 -> file 4900": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 199,
+    "": 190,
+    "BOUNDARY_RISK": 8
+  },
+  "label_kinds": {
+    "business": 397,
+    "institution": 2,
+    "place": 2
+  }
+}

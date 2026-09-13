@@ -1,0 +1,158 @@
+{
+  "county": "HAMILTON",
+  "slug": "hamilton",
+  "generated_utc": "2026-09-13T05:38:00.640043+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3300": "Unincorporated",
+    "3301": "Chattanooga",
+    "3302": "East Ridge",
+    "3303": "Lookout Mountain",
+    "3304": "Red Bank",
+    "3305": "Ridgeside",
+    "3306": "Signal Mountain",
+    "3307": "Collegedale",
+    "3308": "Soddy-Daisy",
+    "3309": "Lakesite",
+    "3310": "Walden"
+  },
+  "tiers": {
+    "parcels": "county",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 217394,
+    "unplaced": 5,
+    "sst_range_match_rate_pct": 94.8,
+    "business_points": 21262,
+    "seams": 24,
+    "seam_miles": 376.1,
+    "cross_county_seam_miles": 95.5
+  },
+  "situs_distribution": {
+    "3301": 119138,
+    "3300": 59329,
+    "3302": 11537,
+    "3304": 7542,
+    "3308": 7129,
+    "3307": 5665,
+    "3306": 3933,
+    "3309": 1041,
+    "3310": 973,
+    "3303": 945,
+    "3305": 162
+  },
+  "risk_bands": {
+    "NORMAL": 184240,
+    "WATCH": 24886,
+    "HIGH": 7524,
+    "CRITICAL": 744
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1312,
+    "E5_DOR_INTERNAL_CONFLICT": 1536,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 1089,
+    "E1_POSTAL_CITY_OVERSTATES": 19280,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 233,
+    "E3_BOUNDARY_PROXIMITY": 8268
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 200147,
+    "REVIEW - analyst": 15705,
+    "HOLD - mandatory human adjudication": 947,
+    "HOLD - insufficient evidence": 595
+  },
+  "postal_city_profile": {
+    "CHATTANOOGA": 120045,
+    "HIXSON": 23070,
+    "OOLTEWAH": 17918,
+    "SODDY DAISY": 16343,
+    "EAST RIDGE": 11553,
+    "SIGNAL MOUNTAIN": 7356,
+    "HARRISON": 6584,
+    "COLLEGEDALE": 5809,
+    "APISON": 2760,
+    "SALE CREEK": 2170,
+    "BIRCHWOOD": 1298,
+    "LOOKOUT MOUNTAIN": 946,
+    "GEORGETOWN": 869,
+    "MCDONALD": 328,
+    "LUPTON CITY": 228,
+    "CLEVELAND": 62,
+    "GRAYSVILLE": 53,
+    "PERIPHERY": 2
+  },
+  "cross_county_postal_by_city": {
+    "GEORGETOWN": 869,
+    "MCDONALD": 328,
+    "CLEVELAND": 62,
+    "GRAYSVILLE": 53
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=CHATTANOOGA | COMP=CHATTANOOGA": 142,
+    "DOR=UNINCORPORATED | E911=COLLEGEDALE | COMP=COLLEGEDALE": 46,
+    "DOR=SODDY-DAISY | E911=UNINCORPORATED | COMP=UNINCORPORATED": 13,
+    "DOR=CHATTANOOGA | E911=UNINCORPORATED | COMP=UNINCORPORATED": 10,
+    "DOR=COLLEGEDALE | E911=CHATTANOOGA | COMP=CHATTANOOGA": 6,
+    "DOR=UNINCORPORATED | E911=RED BANK | COMP=RED BANK": 4,
+    "DOR=COLLEGEDALE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 4,
+    "DOR=CHATTANOOGA | E911=COLLEGEDALE | COMP=CHATTANOOGA": 3,
+    "DOR=UNINCORPORATED | E911=SODDY-DAISY | COMP=UNINCORPORATED": 2,
+    "DOR=CHATTANOOGA | E911=RED BANK | COMP=RED BANK": 2,
+    "DOR=CHATTANOOGA | E911=LOOKOUT MOUNTAIN | COMP=CHATTANOOGA": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 3307 -> file 3300": 742,
+    "polygon 3300 -> file 3301": 601,
+    "polygon 3301 -> file 3300": 269,
+    "polygon 3300 -> file 3307": 161,
+    "polygon 3300 -> file 3308": 141,
+    "polygon 3309 -> file 3300": 138,
+    "polygon 3308 -> file 3300": 95,
+    "polygon 3301 -> file 3304": 62,
+    "polygon 3304 -> file 3301": 55,
+    "polygon 3302 -> file 3301": 52,
+    "polygon 3300 -> file 3310": 49,
+    "polygon 3300 -> file 3309": 40,
+    "polygon 3310 -> file 3300": 32,
+    "polygon 3306 -> file 3300": 28,
+    "polygon 3300 -> file 3306": 22,
+    "polygon 3309 -> file 3308": 20,
+    "polygon 3301 -> file 3307": 17,
+    "polygon 3306 -> file 3310": 16,
+    "polygon 3303 -> file 3300": 12,
+    "polygon 3310 -> file 3306": 12,
+    "polygon 3302 -> file 3300": 12,
+    "polygon 3301 -> file 3302": 11,
+    "polygon 3307 -> file 3301": 10,
+    "polygon 3308 -> file 3309": 9,
+    "polygon 3301 -> file 3305": 8,
+    "polygon 3300 -> file 3304": 3,
+    "polygon 3301 -> file 3308": 2,
+    "polygon 3305 -> file 3300": 2,
+    "polygon 3301 -> file 3303": 1,
+    "polygon 3300 -> file 3302": 1,
+    "polygon 3306 -> file 3301": 1,
+    "polygon 3305 -> file 3301": 1
+  },
+  "business_flags": {
+    "": 18559,
+    "POSTAL_CITY_EXPOSURE": 1805,
+    "BOUNDARY_RISK": 612,
+    "CROSS_COUNTY_POSTAL": 100
+  },
+  "label_kinds": {
+    "business": 21076,
+    "place": 104,
+    "institution": 69,
+    "unnamed": 13
+  }
+}

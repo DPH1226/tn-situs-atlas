@@ -1,0 +1,98 @@
+{
+  "county": "HOUSTON",
+  "slug": "houston",
+  "generated_utc": "2026-09-13T05:34:15.262609+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "4200": "Unincorporated",
+    "4201": "Erin",
+    "4202": "Tennessee Ridge"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 6042,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 72.5,
+    "business_points": 132,
+    "seams": 10,
+    "seam_miles": 98.4,
+    "cross_county_seam_miles": 72.8
+  },
+  "situs_distribution": {
+    "4200": 4358,
+    "4201": 931,
+    "4202": 753
+  },
+  "risk_bands": {
+    "NORMAL": 5069,
+    "WATCH": 705,
+    "HIGH": 221,
+    "CRITICAL": 47
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 633,
+    "E5_DOR_INTERNAL_CONFLICT": 28,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 26,
+    "E1_POSTAL_CITY_OVERSTATES": 2895,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 268
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 4178,
+    "REVIEW - analyst": 1768,
+    "HOLD - insufficient evidence": 49,
+    "HOLD - mandatory human adjudication": 47
+  },
+  "postal_city_profile": {
+    "ERIN": 3273,
+    "TENNESSEE RIDGE": 1083,
+    "STEWART": 917,
+    "CUMBERLAND CITY": 254,
+    "VANLEER": 164,
+    "CUMBERLAND": 135,
+    "MCEWEN": 115,
+    "WAVERLY": 55,
+    "CUMBERLAND FURNACE": 44,
+    "ERINTENNESSEE RIDGE": 1,
+    "DICKSON": 1
+  },
+  "cross_county_postal_by_city": {
+    "CUMBERLAND CITY": 254,
+    "VANLEER": 164,
+    "MCEWEN": 115,
+    "WAVERLY": 55,
+    "CUMBERLAND FURNACE": 44,
+    "DICKSON": 1
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 4200 -> file 4201": 18,
+    "polygon 4200 -> file 4202": 18,
+    "polygon 4202 -> file 4201": 8,
+    "polygon 4201 -> file 4200": 4,
+    "polygon 4202 -> file 4200": 4,
+    "polygon 4201 -> file 4202": 2
+  },
+  "business_flags": {
+    "": 64,
+    "POSTAL_CITY_EXPOSURE": 50,
+    "CROSS_COUNTY_POSTAL": 15,
+    "BOUNDARY_RISK": 1
+  },
+  "label_kinds": {
+    "business": 130,
+    "place": 1,
+    "institution": 1
+  }
+}

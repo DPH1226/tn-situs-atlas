@@ -1,0 +1,100 @@
+{
+  "county": "DECATUR",
+  "slug": "decatur",
+  "generated_utc": "2026-09-13T05:25:51.062750+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2000": "Unincorporated",
+    "2001": "Decaturville",
+    "2002": "Parsons",
+    "2003": "Scotts Hill"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 12514,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 70.8,
+    "business_points": 232,
+    "seams": 11,
+    "seam_miles": 141.8,
+    "cross_county_seam_miles": 105.9
+  },
+  "situs_distribution": {
+    "2000": 10092,
+    "2002": 1627,
+    "2001": 568,
+    "2003": 227
+  },
+  "risk_bands": {
+    "NORMAL": 9830,
+    "WATCH": 2196,
+    "HIGH": 422,
+    "CRITICAL": 66
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 625,
+    "E5_DOR_INTERNAL_CONFLICT": 91,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 63,
+    "E1_POSTAL_CITY_OVERSTATES": 6963,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 6,
+    "E3_BOUNDARY_PROXIMITY": 488
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 8504,
+    "REVIEW - analyst": 3846,
+    "HOLD - insufficient evidence": 94,
+    "HOLD - mandatory human adjudication": 70
+  },
+  "postal_city_profile": {
+    "PARSONS": 4612,
+    "DECATURVILLE": 4115,
+    "BATH SPRINGS": 1540,
+    "SUGAR TREE": 993,
+    "SCOTTS HILL": 629,
+    "HOLLADAY": 418,
+    "DARDEN": 159,
+    "SARDIS": 38,
+    "WILDERSVILLE": 10
+  },
+  "cross_county_postal_by_city": {
+    "HOLLADAY": 418,
+    "DARDEN": 159,
+    "SARDIS": 38,
+    "WILDERSVILLE": 10
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=PARSONS | COMP=PARSONS": 3,
+    "DOR=PARSONS | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=UNINCORPORATED | E911=DECATURVILLE | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 2000 -> file 2001": 78,
+    "polygon 2000 -> file 2002": 42,
+    "polygon 2002 -> file 2000": 18,
+    "polygon 2000 -> file 2003": 8,
+    "polygon 2003 -> file 2000": 4,
+    "polygon 2001 -> file 2000": 3,
+    "polygon 2002 -> file 2001": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 108,
+    "": 98,
+    "BOUNDARY_RISK": 17,
+    "CROSS_COUNTY_POSTAL": 8
+  },
+  "label_kinds": {
+    "business": 231,
+    "place": 1
+  }
+}

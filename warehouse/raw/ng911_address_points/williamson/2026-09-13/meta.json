@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "williamson",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:57:20.852969+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='WILLIAMSON'",
+  "feature_count": 123140,
+  "sha256": "8903d3f83cc336c931d10c5cd800c12333555381288ff4f5d55332a327b590cf",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/williamson/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/williamson/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

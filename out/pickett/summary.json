@@ -1,0 +1,88 @@
+{
+  "county": "PICKETT",
+  "slug": "pickett",
+  "generated_utc": "2026-09-13T05:43:22.195825+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6900": "Unincorporated",
+    "6901": "Byrdstown"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 4748,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 79.2,
+    "business_points": 111,
+    "seams": 5,
+    "seam_miles": 71.4,
+    "cross_county_seam_miles": 64.4
+  },
+  "situs_distribution": {
+    "6900": 4142,
+    "6901": 606
+  },
+  "risk_bands": {
+    "NORMAL": 4188,
+    "WATCH": 413,
+    "HIGH": 119,
+    "CRITICAL": 28
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 793,
+    "E5_DOR_INTERNAL_CONFLICT": 19,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 25,
+    "E1_POSTAL_CITY_OVERSTATES": 2683,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 19,
+    "E3_BOUNDARY_PROXIMITY": 147
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 3657,
+    "REVIEW - analyst": 1032,
+    "HOLD - mandatory human adjudication": 38,
+    "HOLD - insufficient evidence": 21
+  },
+  "postal_city_profile": {
+    "BYRDSTOWN": 3289,
+    "MONROE": 579,
+    "PALL MALL": 512,
+    "ALBANY": 151,
+    "ALPINE": 148,
+    "JAMESTOWN": 66,
+    "BYRTDSTOWN": 2,
+    "BYDRSTOWN": 1
+  },
+  "cross_county_postal_by_city": {
+    "MONROE": 579,
+    "ALPINE": 148,
+    "JAMESTOWN": 66
+  },
+  "layer_disagreement_detail": {
+    "DOR=BYRDSTOWN | E911=UNINCORPORATED | COMP=UNINCORPORATED": 11,
+    "DOR=UNINCORPORATED | E911=BYRDSTOWN | COMP=BYRDSTOWN": 8
+  },
+  "dor_conflict_direction": {
+    "polygon 6900 -> file 6901": 33,
+    "polygon 6901 -> file 6900": 11
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 71,
+    "": 22,
+    "CROSS_COUNTY_POSTAL": 16,
+    "BOUNDARY_RISK": 1
+  },
+  "label_kinds": {
+    "business": 110,
+    "place": 1
+  }
+}

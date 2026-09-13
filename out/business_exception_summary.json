@@ -1,0 +1,26 @@
+{
+  "businesses_placed": 4769,
+  "flags": {
+    "POSTAL_CITY_EXPOSURE": 971,
+    "BOUNDARY_RISK": 152,
+    "CROSS_COUNTY_POSTAL": 92
+  },
+  "unflagged": 3554,
+  "cross_county_postal_by_city": {
+    "OLD HICKORY": 84,
+    "ALEXANDRIA": 3,
+    "LASCASSAS": 2,
+    "AUBURNTOWN": 2,
+    "HERMITAGE": 1
+  },
+  "boundary_risk_by_band": {
+    "HIGH": 135,
+    "CRITICAL": 17
+  },
+  "situs_distribution": {
+    "9501": 2284,
+    "9503": 1234,
+    "9500": 1179,
+    "9502": 72
+  }
+}

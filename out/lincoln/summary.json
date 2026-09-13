@@ -1,0 +1,101 @@
+{
+  "county": "LINCOLN",
+  "slug": "lincoln",
+  "generated_utc": "2026-09-13T05:39:20.052400+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "5200": "Unincorporated",
+    "5201": "Fayetteville",
+    "5202": "Petersburg",
+    "5203": "Ardmore"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 20910,
+    "unplaced": 2,
+    "sst_range_match_rate_pct": 96.4,
+    "business_points": 959,
+    "seams": 10,
+    "seam_miles": 141.6,
+    "cross_county_seam_miles": 86.7
+  },
+  "situs_distribution": {
+    "5200": 15975,
+    "5201": 4616,
+    "5202": 226,
+    "5203": 93
+  },
+  "risk_bands": {
+    "NORMAL": 18640,
+    "WATCH": 1643,
+    "HIGH": 559,
+    "CRITICAL": 68
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 17,
+    "E5_DOR_INTERNAL_CONFLICT": 105,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 85,
+    "E1_POSTAL_CITY_OVERSTATES": 10409,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 9,
+    "E3_BOUNDARY_PROXIMITY": 627
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 19616,
+    "REVIEW - analyst": 1181,
+    "HOLD - mandatory human adjudication": 76,
+    "HOLD - insufficient evidence": 37
+  },
+  "postal_city_profile": {
+    "FAYETTEVILLE": 13283,
+    "FLINTVILLE": 1576,
+    "TAFT": 1417,
+    "PETERSBURG": 1259,
+    "ELORA": 889,
+    "KELSO": 843,
+    "ARDMORE": 802,
+    "MULBERRY": 362,
+    "FRANKEWING": 255,
+    "DELLROSE": 207,
+    "CORNERSVILLE": 14,
+    "PULASKI": 2,
+    "LYNCHBURG": 1
+  },
+  "cross_county_postal_by_city": {
+    "CORNERSVILLE": 14,
+    "PULASKI": 2,
+    "LYNCHBURG": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=FAYETTEVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 8,
+    "DOR=ARDMORE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 5200 -> file 5201": 90,
+    "polygon 5200 -> file 5203": 51,
+    "polygon 5201 -> file 5200": 36,
+    "polygon 5203 -> file 5200": 6,
+    "polygon 5202 -> file 5200": 5,
+    "polygon 5200 -> file 5202": 2
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 474,
+    "": 443,
+    "BOUNDARY_RISK": 30
+  },
+  "label_kinds": {
+    "business": 947,
+    "place": 10,
+    "institution": 2
+  }
+}

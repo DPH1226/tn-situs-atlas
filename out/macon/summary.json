@@ -1,0 +1,96 @@
+{
+  "county": "MACON",
+  "slug": "macon",
+  "generated_utc": "2026-09-13T05:39:54.807482+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "5600": "Unincorporated",
+    "5601": "Lafayette",
+    "5602": "Red Boiling Springs"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 16991,
+    "unplaced": 2,
+    "sst_range_match_rate_pct": 86.1,
+    "business_points": 563,
+    "seams": 7,
+    "seam_miles": 99.2,
+    "cross_county_seam_miles": 51.9
+  },
+  "situs_distribution": {
+    "5600": 12154,
+    "5601": 3942,
+    "5602": 895
+  },
+  "risk_bands": {
+    "NORMAL": 13042,
+    "WATCH": 2748,
+    "HIGH": 1084,
+    "CRITICAL": 117
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 3641,
+    "E5_DOR_INTERNAL_CONFLICT": 98,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 110,
+    "E1_POSTAL_CITY_OVERSTATES": 8247,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 4,
+    "E3_BOUNDARY_PROXIMITY": 1201
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 13781,
+    "REVIEW - analyst": 2805,
+    "HOLD - insufficient evidence": 285,
+    "HOLD - mandatory human adjudication": 120
+  },
+  "postal_city_profile": {
+    "LAFAYETTE": 10643,
+    "WESTMORELAND": 2605,
+    "RED BOILING SPRINGS": 2441,
+    "HARTSVILLE": 710,
+    "DIXON SPRINGS": 265,
+    "PLEASANT SHADE": 212,
+    "WHITLEYVILLE": 71,
+    "BETHPAGE": 43,
+    "LAFAYETE": 1
+  },
+  "cross_county_postal_by_city": {
+    "WESTMORELAND": 2605,
+    "HARTSVILLE": 710,
+    "PLEASANT SHADE": 212,
+    "WHITLEYVILLE": 71,
+    "BETHPAGE": 43
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=LAFAYETTE | COMP=LAFAYETTE": 3,
+    "DOR=LAFAYETTE | E911=UNINCORPORATED | COMP=LAFAYETTE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 5600 -> file 5601": 109,
+    "polygon 5600 -> file 5602": 56,
+    "polygon 5601 -> file 5600": 23,
+    "polygon 5602 -> file 5600": 20
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 301,
+    "": 140,
+    "CROSS_COUNTY_POSTAL": 95,
+    "BOUNDARY_RISK": 20
+  },
+  "label_kinds": {
+    "business": 556,
+    "institution": 5,
+    "place": 2
+  }
+}

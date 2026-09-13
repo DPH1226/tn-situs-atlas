@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "hawkins",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:43:55.335380+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='HAWKINS'",
+  "feature_count": 35191,
+  "sha256": "da7f77eb011e7d82522e2321e10ee2c38ed9ef093d90cc14c6d0aeb0da0d9dc6",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/hawkins/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/hawkins/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

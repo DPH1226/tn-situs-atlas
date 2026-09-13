@@ -1,0 +1,116 @@
+{
+  "county": "SULLIVAN",
+  "slug": "sullivan",
+  "generated_utc": "2026-09-13T05:52:45.430627+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8200": "Unincorporated",
+    "8202": "Bristol",
+    "8203": "Bluff City",
+    "8204": "Kingsport",
+    "8206": "Johnson City"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 91357,
+    "unplaced": 16,
+    "sst_range_match_rate_pct": 86.3,
+    "business_points": 4735,
+    "seams": 11,
+    "seam_miles": 396.1,
+    "cross_county_seam_miles": 84.9
+  },
+  "situs_distribution": {
+    "8200": 45825,
+    "8204": 25256,
+    "8202": 18855,
+    "8203": 1134,
+    "8206": 287
+  },
+  "risk_bands": {
+    "NORMAL": 68039,
+    "WATCH": 15873,
+    "HIGH": 6472,
+    "CRITICAL": 973
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 470,
+    "E5_DOR_INTERNAL_CONFLICT": 640,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 825,
+    "E1_POSTAL_CITY_OVERSTATES": 31873,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 329,
+    "E3_BOUNDARY_PROXIMITY": 7445
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 73579,
+    "REVIEW - analyst": 15295,
+    "HOLD - mandatory human adjudication": 1250,
+    "HOLD - insufficient evidence": 1233
+  },
+  "postal_city_profile": {
+    "KINGSPORT": 42956,
+    "BRISTOL": 27123,
+    "BLOUNTVILLE": 8369,
+    "BLUFF CITY": 6933,
+    "PINEY FLATS": 5488,
+    "FALL BRANCH": 223,
+    "WATAUGA": 116,
+    "ROGERSVILLE": 72,
+    "JONESBOROUGH": 43,
+    "GRAY": 16,
+    "JOHNSON CITY": 15,
+    "KINGPSORT": 2,
+    "SULLIVAN": 1
+  },
+  "cross_county_postal_by_city": {
+    "FALL BRANCH": 223,
+    "WATAUGA": 116,
+    "ROGERSVILLE": 72,
+    "JONESBOROUGH": 43,
+    "GRAY": 16
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=KINGSPORT | COMP=KINGSPORT": 180,
+    "DOR=UNINCORPORATED | E911=BRISTOL | COMP=BRISTOL": 107,
+    "DOR=UNINCORPORATED | E911=BLUFF CITY | COMP=BLUFF CITY": 22,
+    "DOR=BRISTOL | E911=UNINCORPORATED | COMP=BRISTOL": 6,
+    "DOR=BLUFF CITY | E911=UNINCORPORATED | COMP=UNINCORPORATED": 6,
+    "DOR=UNINCORPORATED | E911=BRISTOL | COMP=UNINCORPORATED": 5,
+    "DOR=UNINCORPORATED | E911=BLUFF CITY | COMP=UNINCORPORATED": 2,
+    "DOR=BRISTOL | E911=BLUFF CITY | COMP=BLUFF CITY": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 8200 -> file 8203": 312,
+    "polygon 8200 -> file 8204": 267,
+    "polygon 8204 -> file 8200": 251,
+    "polygon 8200 -> file 8206": 187,
+    "polygon 8200 -> file 8202": 166,
+    "polygon 8202 -> file 8200": 152,
+    "polygon 8206 -> file 8200": 105,
+    "polygon 8206 -> file 8203": 16,
+    "polygon 8203 -> file 8200": 9
+  },
+  "business_flags": {
+    "": 3372,
+    "POSTAL_CITY_EXPOSURE": 985,
+    "BOUNDARY_RISK": 316,
+    "CROSS_COUNTY_POSTAL": 11
+  },
+  "label_kinds": {
+    "business": 4684,
+    "place": 29,
+    "institution": 19,
+    "unnamed": 3
+  }
+}

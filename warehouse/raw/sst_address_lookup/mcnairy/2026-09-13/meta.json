@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "mcnairy",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:08:57.266726+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='MCNAIRY'",
+  "feature_count": 6388,
+  "sha256": "c5a679996d35bbd67138f306ee9b01eb4f2f0c45d5654702f04cf971ab5b597f",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/mcnairy/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/mcnairy/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

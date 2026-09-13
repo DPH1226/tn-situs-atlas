@@ -1,0 +1,108 @@
+{
+  "county": "MONROE",
+  "slug": "monroe",
+  "generated_utc": "2026-09-13T05:42:38.114803+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6200": "Unincorporated",
+    "6201": "Madisonville",
+    "6202": "Sweetwater",
+    "6203": "Tellico Plains",
+    "6204": "Vonore"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 34663,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 88.4,
+    "business_points": 960,
+    "seams": 13,
+    "seam_miles": 213.4,
+    "cross_county_seam_miles": 120.0
+  },
+  "situs_distribution": {
+    "6200": 24818,
+    "6202": 4067,
+    "6201": 3373,
+    "6204": 1535,
+    "6203": 870
+  },
+  "risk_bands": {
+    "NORMAL": 28558,
+    "WATCH": 4436,
+    "HIGH": 1534,
+    "CRITICAL": 135
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2008,
+    "E5_DOR_INTERNAL_CONFLICT": 417,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 274,
+    "E1_POSTAL_CITY_OVERSTATES": 23045,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 18,
+    "E3_BOUNDARY_PROXIMITY": 1669
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 29252,
+    "REVIEW - analyst": 5062,
+    "HOLD - insufficient evidence": 200,
+    "HOLD - mandatory human adjudication": 149
+  },
+  "postal_city_profile": {
+    "MADISONVILLE": 11615,
+    "SWEETWATER": 8552,
+    "TELLICO PLAINS": 7234,
+    "VONORE": 5254,
+    "PHILADELPHIA": 782,
+    "MARYVILLE": 654,
+    "ENGLEWOOD": 374,
+    "RELIANCE": 117,
+    "LOUDON": 77,
+    "GREENBACK": 4
+  },
+  "cross_county_postal_by_city": {
+    "PHILADELPHIA": 782,
+    "MARYVILLE": 654,
+    "ENGLEWOOD": 374,
+    "RELIANCE": 117,
+    "LOUDON": 77,
+    "GREENBACK": 4
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MADISONVILLE | COMP=MADISONVILLE": 7,
+    "DOR=UNINCORPORATED | E911=SWEETWATER | COMP=SWEETWATER": 7,
+    "DOR=UNINCORPORATED | E911=MADISONVILLE | COMP=UNINCORPORATED": 3,
+    "DOR=UNINCORPORATED | E911=VONORE | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 6200 -> file 6203": 197,
+    "polygon 6200 -> file 6201": 162,
+    "polygon 6200 -> file 6202": 108,
+    "polygon 6203 -> file 6200": 91,
+    "polygon 6201 -> file 6200": 49,
+    "polygon 6202 -> file 6200": 36,
+    "polygon 6204 -> file 6200": 36,
+    "polygon 6200 -> file 6204": 12
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 557,
+    "": 316,
+    "BOUNDARY_RISK": 41,
+    "CROSS_COUNTY_POSTAL": 40
+  },
+  "label_kinds": {
+    "business": 954,
+    "place": 4,
+    "institution": 2
+  }
+}

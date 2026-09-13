@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "hancock",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:43:16.177957+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='HANCOCK'",
+  "feature_count": 2028,
+  "sha256": "d810a035e8fb8d4dfce5d867c8f861bc217b07eed7b2163dcbf69c5cd1524c31",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/hancock/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/hancock/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "carter",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:12:27.961232+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='CARTER'",
+  "feature_count": 8150,
+  "sha256": "7aaa175b6eecf1f15fef72fd4c27a90b950134f0d24e679db8bd5990bf9d8093",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/carter/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/carter/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

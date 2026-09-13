@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "rhea",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:52:33.686114+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='RHEA'",
+  "feature_count": 7371,
+  "sha256": "f6de43ee577b5af4c1c49c5ca776a5495c7fec55e8c81dd8e04d31a28f6a9ac1",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/rhea/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/rhea/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

@@ -1,0 +1,87 @@
+{
+  "county": "HANCOCK",
+  "slug": "hancock",
+  "generated_utc": "2026-09-13T05:31:42.933901+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3400": "Unincorporated",
+    "3401": "Sneedville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 5047,
+    "unplaced": 7,
+    "sst_range_match_rate_pct": 71.7,
+    "business_points": 85,
+    "seams": 4,
+    "seam_miles": 75.3,
+    "cross_county_seam_miles": 60.7
+  },
+  "situs_distribution": {
+    "3400": 4188,
+    "3401": 859
+  },
+  "risk_bands": {
+    "NORMAL": 4430,
+    "WATCH": 516,
+    "HIGH": 85,
+    "CRITICAL": 16
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1306,
+    "E5_DOR_INTERNAL_CONFLICT": 6,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 2,
+    "E1_POSTAL_CITY_OVERSTATES": 2416,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 2,
+    "E3_BOUNDARY_PROXIMITY": 101
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 3556,
+    "REVIEW - analyst": 1454,
+    "HOLD - insufficient evidence": 21,
+    "HOLD - mandatory human adjudication": 16
+  },
+  "postal_city_profile": {
+    "SNEEDVILLE": 3275,
+    "THORN HILL": 614,
+    "KYLES FORD": 465,
+    "TAZEWELL": 379,
+    "EIDSON": 294,
+    "HARROGATE": 19,
+    "TAZZEWELL": 1
+  },
+  "cross_county_postal_by_city": {
+    "THORN HILL": 614,
+    "TAZEWELL": 379,
+    "EIDSON": 294,
+    "HARROGATE": 19
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=SNEEDVILLE | COMP=UNINCORPORATED": 1,
+    "DOR=SNEEDVILLE | E911=UNINCORPORATED | COMP=SNEEDVILLE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 3400 -> file 3401": 4,
+    "polygon 3401 -> file 3400": 4
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 46,
+    "CROSS_COUNTY_POSTAL": 21,
+    "": 16
+  },
+  "label_kinds": {
+    "business": 83,
+    "institution": 2
+  }
+}

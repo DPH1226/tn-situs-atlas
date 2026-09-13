@@ -1,0 +1,123 @@
+{
+  "county": "GILES",
+  "slug": "giles",
+  "generated_utc": "2026-09-13T05:29:58.677111+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2800": "Unincorporated",
+    "2801": "Pulaski",
+    "2802": "Ardmore",
+    "2803": "Elkton",
+    "2804": "Lynnville",
+    "2805": "Minor Hill"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 19408,
+    "unplaced": 1,
+    "sst_range_match_rate_pct": 87.6,
+    "business_points": 854,
+    "seams": 10,
+    "seam_miles": 207.6,
+    "cross_county_seam_miles": 99.6
+  },
+  "situs_distribution": {
+    "2800": 12880,
+    "2801": 4860,
+    "2802": 759,
+    "2803": 382,
+    "2805": 291,
+    "2804": 236
+  },
+  "risk_bands": {
+    "NORMAL": 15083,
+    "WATCH": 2887,
+    "HIGH": 1307,
+    "CRITICAL": 131
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1609,
+    "E5_DOR_INTERNAL_CONFLICT": 358,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 215,
+    "E1_POSTAL_CITY_OVERSTATES": 8927,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 9,
+    "E3_BOUNDARY_PROXIMITY": 1438
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 15886,
+    "REVIEW - analyst": 3209,
+    "HOLD - insufficient evidence": 176,
+    "HOLD - mandatory human adjudication": 137
+  },
+  "postal_city_profile": {
+    "PULASKI": 11333,
+    "PROSPECT": 1809,
+    "LYNNVILLE": 1743,
+    "ARDMORE": 1225,
+    "GOODSPRING": 864,
+    "MINOR HILL": 696,
+    "ETHRIDGE": 463,
+    "LAWRENCEBURG": 373,
+    "CORNERSVILLE": 203,
+    "LEOMA": 144,
+    "ELKTON": 129,
+    "DELLROSE": 108,
+    "SUMMERTOWN": 94,
+    "FRANKEWING": 74,
+    "CULLEOKA": 66,
+    "MT PLEASANT": 46,
+    "PETERSBURG": 38
+  },
+  "cross_county_postal_by_city": {
+    "ETHRIDGE": 463,
+    "LAWRENCEBURG": 373,
+    "CORNERSVILLE": 203,
+    "LEOMA": 144,
+    "DELLROSE": 108,
+    "SUMMERTOWN": 94,
+    "FRANKEWING": 74,
+    "CULLEOKA": 66,
+    "MT PLEASANT": 46,
+    "PETERSBURG": 38
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=PULASKI | COMP=PULASKI": 5,
+    "DOR=UNINCORPORATED | E911=PULASKI | COMP=UNINCORPORATED": 2,
+    "DOR=UNINCORPORATED | E911=MINOR HILL | COMP=UNINCORPORATED": 1,
+    "DOR=LYNNVILLE | E911=UNINCORPORATED | COMP=LYNNVILLE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 2800 -> file 2803": 201,
+    "polygon 2800 -> file 2801": 135,
+    "polygon 2800 -> file 2805": 80,
+    "polygon 2801 -> file 2800": 67,
+    "polygon 2802 -> file 2800": 42,
+    "polygon 2804 -> file 2800": 16,
+    "polygon 2805 -> file 2800": 13,
+    "polygon 2800 -> file 2802": 12,
+    "polygon 2800 -> file 2804": 4,
+    "polygon 2803 -> file 2800": 3
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 407,
+    "": 339,
+    "BOUNDARY_RISK": 56,
+    "CROSS_COUNTY_POSTAL": 38
+  },
+  "label_kinds": {
+    "business": 840,
+    "place": 7,
+    "institution": 7
+  }
+}

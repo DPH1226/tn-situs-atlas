@@ -1,0 +1,86 @@
+{
+  "county": "HAYWOOD",
+  "slug": "haywood",
+  "generated_utc": "2026-09-13T05:33:13.442315+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3800": "Unincorporated",
+    "3801": "Brownsville",
+    "3802": "Stanton"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 8677,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 84.8,
+    "business_points": 244,
+    "seams": 9,
+    "seam_miles": 141.1,
+    "cross_county_seam_miles": 107.6
+  },
+  "situs_distribution": {
+    "3801": 4814,
+    "3800": 3618,
+    "3802": 245
+  },
+  "risk_bands": {
+    "NORMAL": 7101,
+    "WATCH": 1205,
+    "HIGH": 347,
+    "CRITICAL": 24
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 352,
+    "E5_DOR_INTERNAL_CONFLICT": 22,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 27,
+    "E1_POSTAL_CITY_OVERSTATES": 1186,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 4,
+    "E3_BOUNDARY_PROXIMITY": 371
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 7116,
+    "REVIEW - analyst": 1460,
+    "HOLD - insufficient evidence": 74,
+    "HOLD - mandatory human adjudication": 27
+  },
+  "postal_city_profile": {
+    "BROWNSVILLE": 5445,
+    "STANTON": 800,
+    "WOODLAND": 617,
+    "HOLLY GROVE-BELLE EAGLE": 579,
+    "NUTBUSH": 466,
+    "HILLVILLE": 418,
+    "LEBANON": 352
+  },
+  "cross_county_postal_by_city": {
+    "LEBANON": 352
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=BROWNSVILLE | COMP=BROWNSVILLE": 4
+  },
+  "dor_conflict_direction": {
+    "polygon 3801 -> file 3800": 28,
+    "polygon 3800 -> file 3801": 21
+  },
+  "business_flags": {
+    "": 171,
+    "POSTAL_CITY_EXPOSURE": 47,
+    "BOUNDARY_RISK": 14,
+    "CROSS_COUNTY_POSTAL": 10
+  },
+  "label_kinds": {
+    "business": 242,
+    "place": 2
+  }
+}

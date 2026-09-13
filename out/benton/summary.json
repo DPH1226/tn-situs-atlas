@@ -1,0 +1,89 @@
+{
+  "county": "BENTON",
+  "slug": "benton",
+  "generated_utc": "2026-09-13T05:22:38.432460+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0300": "Unincorporated",
+    "0301": "Camden",
+    "0302": "Big Sandy"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 11472,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 83.8,
+    "business_points": 365,
+    "seams": 10,
+    "seam_miles": 146.2,
+    "cross_county_seam_miles": 123.6
+  },
+  "situs_distribution": {
+    "0300": 8914,
+    "0301": 2191,
+    "0302": 367
+  },
+  "risk_bands": {
+    "NORMAL": 10253,
+    "WATCH": 962,
+    "HIGH": 212,
+    "CRITICAL": 45
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 98,
+    "E5_DOR_INTERNAL_CONFLICT": 95,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 55,
+    "E1_POSTAL_CITY_OVERSTATES": 6677,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 16,
+    "E3_BOUNDARY_PROXIMITY": 257
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 9416,
+    "REVIEW - analyst": 1964,
+    "HOLD - mandatory human adjudication": 55,
+    "HOLD - insufficient evidence": 37
+  },
+  "postal_city_profile": {
+    "CAMDEN": 6769,
+    "BIG SANDY": 2466,
+    "HOLLADAY": 1702,
+    "EVA": 437,
+    "SUGAR TREE": 98
+  },
+  "cross_county_postal_by_city": {
+    "SUGAR TREE": 98
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=BIG SANDY | COMP=BIG SANDY": 8,
+    "DOR=BIG SANDY | E911=UNINCORPORATED | COMP=UNINCORPORATED": 7,
+    "DOR=CAMDEN | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 0301 -> file 0300": 73,
+    "polygon 0300 -> file 0301": 51,
+    "polygon 0300 -> file 0302": 13,
+    "polygon 0302 -> file 0300": 13
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 182,
+    "": 174,
+    "CROSS_COUNTY_POSTAL": 4,
+    "BOUNDARY_RISK": 2
+  },
+  "label_kinds": {
+    "business": 362,
+    "place": 2,
+    "institution": 1
+  }
+}

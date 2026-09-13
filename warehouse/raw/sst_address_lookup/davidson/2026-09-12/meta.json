@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "davidson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:21.418159+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='DAVIDSON'",
+  "feature_count": 47658,
+  "sha256": "071ac6399a97b4bc7a24fb0aa2ea2f11e58ab35586c06fdba72443950d6d4d6f",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/davidson/2026-09-12/data.json",
+  "parquet_path": "parquet/sst_address_lookup/davidson/2026-09-12.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

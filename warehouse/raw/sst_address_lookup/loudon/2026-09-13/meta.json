@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "loudon",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:07:06.205136+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='LOUDON'",
+  "feature_count": 10069,
+  "sha256": "869d21e52fdd4bffcc8018845d6a1fbe08218622a4a67be0012ab0530a803b2a",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/loudon/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/loudon/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

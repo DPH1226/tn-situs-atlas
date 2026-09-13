@@ -1,0 +1,92 @@
+{
+  "county": "STEWART",
+  "slug": "stewart",
+  "generated_utc": "2026-09-13T05:49:46.454487+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8100": "Unincorporated",
+    "8101": "Dover",
+    "8102": "Cumberland City"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 9149,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 80.2,
+    "business_points": 289,
+    "seams": 8,
+    "seam_miles": 85.6,
+    "cross_county_seam_miles": 53.5
+  },
+  "situs_distribution": {
+    "8100": 7889,
+    "8101": 996,
+    "8102": 264
+  },
+  "risk_bands": {
+    "NORMAL": 8007,
+    "WATCH": 793,
+    "HIGH": 320,
+    "CRITICAL": 29
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 625,
+    "E5_DOR_INTERNAL_CONFLICT": 57,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 44,
+    "E1_POSTAL_CITY_OVERSTATES": 4596,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 1,
+    "E3_BOUNDARY_PROXIMITY": 349
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 7066,
+    "REVIEW - analyst": 2013,
+    "HOLD - insufficient evidence": 41,
+    "HOLD - mandatory human adjudication": 29
+  },
+  "postal_city_profile": {
+    "DOVER": 5110,
+    "INDIAN MOUND": 1242,
+    "BIG ROCK": 901,
+    "CUMBERLAND CITY": 746,
+    "BUMPUS MILLS": 524,
+    "STEWART": 372,
+    "TENNESSEE RIDGE": 237,
+    "ERIN": 15,
+    "WOODLAWN": 1,
+    "CUMBERLAND  CITY": 1
+  },
+  "cross_county_postal_by_city": {
+    "STEWART": 372,
+    "TENNESSEE RIDGE": 237,
+    "ERIN": 15,
+    "WOODLAWN": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=DOVER | COMP=DOVER": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 8100 -> file 8101": 66,
+    "polygon 8101 -> file 8100": 28,
+    "polygon 8100 -> file 8102": 7
+  },
+  "business_flags": {
+    "": 138,
+    "POSTAL_CITY_EXPOSURE": 129,
+    "BOUNDARY_RISK": 12,
+    "CROSS_COUNTY_POSTAL": 10
+  },
+  "label_kinds": {
+    "business": 289
+  }
+}

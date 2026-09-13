@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "grundy",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:22:41.444647+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='GRUNDY'",
+  "feature_count": 3290,
+  "sha256": "ba441e5d4b2344754093a67f2ee99c8546194ebe944d44bcf80c0d1f8a5176bd",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/grundy/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/grundy/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

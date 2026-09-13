@@ -1,0 +1,52 @@
+county: WILSON
+fips: '47189'
+situs:
+  '9500': Unincorporated
+  '9501': Lebanon
+  '9502': Watertown
+  '9503': Mt. Juliet
+tiers:
+  parcels: comptroller
+  business: ecd
+business_layers:
+- id: wilson_sos_entities
+  type: sos_tsv
+  path: data/sos/wilson_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN Secretary of State active for-profit entities, principal address geocoded
+    to NG911 rooftops. Statewide source Civvix already holds.
+- id: wilson_ecd_business_points
+  url: https://services1.arcgis.com/ai5RqMP3xEKGv0of/arcgis/rest/services/Business_Labels/FeatureServer/53
+  name_field: BUSINESS_NAME
+  notes: 'Label layer: name + rooftop only. No address/NAICS/licence linkage.'
+city_layers:
+- id: mtjuliet_city_limits
+  role: limits
+  name: Mt. Juliet
+  url: https://utility.arcgis.com/usrsvcs/servers/621b088a06a84f16b412e25b8d127804/rest/services/Administration_City/FeatureServer/2
+- id: mtjuliet_annexations
+  role: annexations
+  name: Mt. Juliet
+  date_field: Annex_Num
+  url: https://utility.arcgis.com/usrsvcs/servers/5e2f5bfd27984da89b2e45a726d0e37b/rest/services/Planning___Zoning/FeatureServer/0
+- id: mtjuliet_ugb
+  role: ugb
+  name: Mt. Juliet
+  url: https://utility.arcgis.com/usrsvcs/servers/621b088a06a84f16b412e25b8d127804/rest/services/Administration_City/FeatureServer/0
+usps_only_places:
+  OLD HICKORY: DAVIDSON
+  HERMITAGE: DAVIDSON
+  ANTIOCH: DAVIDSON
+  MADISON: DAVIDSON
+  DONELSON: DAVIDSON
+  NASHVILLE: DAVIDSON
+  MILTON: RUTHERFORD
+  LASCASSAS: RUTHERFORD
+  MURFREESBORO: RUTHERFORD
+  ALEXANDRIA: DEKALB
+  LIBERTY: DEKALB
+  AUBURNTOWN: CANNON
+  GLADEVILLE: WILSON
+  NORENE: WILSON
+contacts:
+  finance: Aaron Maynard, Finance Director

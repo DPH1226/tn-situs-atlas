@@ -1,0 +1,19 @@
+county: LOUDON
+fips: '47105'
+situs:
+  '5300': Unincorporated
+  '5301': Loudon
+  '5302': Lenoir City
+  '5303': Greenback
+  '5304': Philadelphia
+  '5305': Farragut
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: loudon_sos_entities
+  type: sos_tsv
+  path: data/sos/loudon_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

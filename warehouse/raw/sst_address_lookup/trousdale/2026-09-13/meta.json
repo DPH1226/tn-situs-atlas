@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "trousdale",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:12:57.734913+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='TROUSDALE'",
+  "feature_count": 1882,
+  "sha256": "f3f15577ccd74edd7ccb907561ac75902020481f297e851566da62671b69146b",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/trousdale/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/trousdale/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

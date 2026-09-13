@@ -1,0 +1,25 @@
+# raw layers and warehouse snapshots are too large for git; they are re-pulled by the refresh job
+data/raw/
+data/stage/
+data/sos_monthly/
+data/sos_statewide_*.tsv
+warehouse/raw/*/*/*/data.*
+warehouse/raw/*/*/*/*.parquet
+warehouse/catalog.duckdb*
+out/*/address_points_scored.csv
+out/*/business_exceptions.csv
+out/*/seams.geojson
+out/*/runs/
+out/*.log
+__pycache__/
+*.pyc
+_sync/
+.DS_Store
+data/sos/*.tsv
+data/sos_old/
+data/derived/
+warehouse/parquet/
+artifact/*/
+!artifact/wb.js
+!artifact/workbench.html
+!artifact/atlas.html

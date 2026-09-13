@@ -1,0 +1,15 @@
+county: VAN BUREN
+fips: '47175'
+situs:
+  '8800': Unincorporated
+  '8801': Spencer
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: vanburen_sos_entities
+  type: sos_tsv
+  path: data/sos/vanburen_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

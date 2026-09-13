@@ -1,0 +1,143 @@
+{
+  "county": "FAYETTE",
+  "slug": "fayette",
+  "generated_utc": "2026-09-13T05:27:02.603384+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2400": "Unincorporated",
+    "2401": "Somerville",
+    "2402": "La Grange",
+    "2403": "Moscow",
+    "2404": "Oakland",
+    "2405": "Rossville",
+    "2406": "Gallaway",
+    "2407": "Braden",
+    "2408": "Williston",
+    "2409": "Piperton",
+    "2410": "Grand Junction"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 24330,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 82.8,
+    "business_points": 1493,
+    "seams": 20,
+    "seam_miles": 237.5,
+    "cross_county_seam_miles": 81.9
+  },
+  "situs_distribution": {
+    "2400": 13424,
+    "2404": 5494,
+    "2401": 1783,
+    "2409": 1636,
+    "2405": 745,
+    "2406": 384,
+    "2403": 335,
+    "2408": 210,
+    "2407": 177,
+    "2402": 127,
+    "2410": 15
+  },
+  "risk_bands": {
+    "NORMAL": 17724,
+    "WATCH": 4979,
+    "HIGH": 1525,
+    "CRITICAL": 102
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2935,
+    "E5_DOR_INTERNAL_CONFLICT": 255,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 174,
+    "E1_POSTAL_CITY_OVERSTATES": 8926,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 270,
+    "E3_BOUNDARY_PROXIMITY": 1627
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 18969,
+    "REVIEW - analyst": 4742,
+    "HOLD - mandatory human adjudication": 361,
+    "HOLD - insufficient evidence": 258
+  },
+  "postal_city_profile": {
+    "OAKLAND": 7248,
+    "SOMERVILLE": 5478,
+    "EADS": 1963,
+    "MOSCOW": 1945,
+    "ROSSVILLE": 1923,
+    "PIPERTON": 1540,
+    "ARLINGTON": 1057,
+    "MASON": 968,
+    "WILLISTON": 583,
+    "COLLIERVILLE": 539,
+    "GALLAWAY": 378,
+    "WHITEVILLE": 323,
+    "GRAND JUNCTION": 210,
+    "LA GRANGE": 126,
+    "STANTON": 37,
+    "HICKORY VALLEY": 11,
+    "GALAWAY": 1
+  },
+  "cross_county_postal_by_city": {
+    "ARLINGTON": 1057,
+    "MASON": 968,
+    "COLLIERVILLE": 539,
+    "WHITEVILLE": 323,
+    "STANTON": 37,
+    "HICKORY VALLEY": 11
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=OAKLAND | COMP=OAKLAND": 211,
+    "DOR=UNINCORPORATED | E911=ROSSVILLE | COMP=ROSSVILLE": 49,
+    "DOR=OAKLAND | E911=UNINCORPORATED | COMP=UNINCORPORATED": 3,
+    "DOR=UNINCORPORATED | E911=GALLAWAY | COMP=GALLAWAY": 3,
+    "DOR=GALLAWAY | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1,
+    "DOR=PIPERTON | E911=UNINCORPORATED | COMP=PIPERTON": 1,
+    "DOR=UNINCORPORATED | E911=ARLINGTON | COMP=ARLINGTON": 1,
+    "DOR=UNINCORPORATED | E911=WILLISTON | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 2400 -> file 2404": 196,
+    "polygon 2401 -> file 2400": 42,
+    "polygon 2400 -> file 2405": 34,
+    "polygon 2409 -> file 2400": 33,
+    "polygon 2405 -> file 2400": 26,
+    "polygon 2404 -> file 2400": 20,
+    "polygon 2400 -> file 2401": 19,
+    "polygon 2401 -> file 2404": 15,
+    "polygon 2400 -> file 2406": 10,
+    "polygon 2400 -> file 2407": 8,
+    "polygon 2406 -> file 2400": 5,
+    "polygon 2404 -> file 2405": 4,
+    "polygon 2408 -> file 2400": 3,
+    "polygon 2400 -> file 2408": 3,
+    "polygon 2403 -> file 2400": 3,
+    "polygon 2407 -> file 2400": 3,
+    "polygon 2402 -> file 2400": 2,
+    "polygon 2405 -> file 2409": 2,
+    "polygon 2400 -> file 2402": 1
+  },
+  "business_flags": {
+    "": 722,
+    "POSTAL_CITY_EXPOSURE": 541,
+    "CROSS_COUNTY_POSTAL": 142,
+    "BOUNDARY_RISK": 70
+  },
+  "label_kinds": {
+    "business": 1475,
+    "institution": 11,
+    "place": 6,
+    "unnamed": 1
+  }
+}

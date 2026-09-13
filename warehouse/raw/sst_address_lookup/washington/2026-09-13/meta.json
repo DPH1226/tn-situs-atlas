@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "washington",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T03:13:15.331407+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='WASHINGTON'",
+  "feature_count": 18496,
+  "sha256": "f0613310ee1275df77578c6ab2d01a5685f4746a0a30cdbc1d7b4f5fc31857e3",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/washington/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/washington/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

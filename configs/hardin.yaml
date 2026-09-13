@@ -1,0 +1,19 @@
+county: HARDIN
+fips: '47071'
+situs:
+  '3600': Unincorporated
+  '3601': Savannah
+  '3602': Milledgeville
+  '3603': Saltillo
+  '3604': Crump
+  '3605': Adamsville
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: hardin_sos_entities
+  type: sos_tsv
+  path: data/sos/hardin_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

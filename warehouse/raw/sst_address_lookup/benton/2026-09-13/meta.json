@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "benton",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:12:20.979926+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='BENTON'",
+  "feature_count": 5072,
+  "sha256": "9742b4bdaa9f3de65cfe3f8ceed7df7d3caaf6735bc91324bdd0f0dc7297b0fe",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/benton/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/benton/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

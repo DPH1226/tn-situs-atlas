@@ -1,0 +1,24 @@
+county: FAYETTE
+fips: '47047'
+situs:
+  '2400': Unincorporated
+  '2401': Somerville
+  '2402': La Grange
+  '2403': Moscow
+  '2404': Oakland
+  '2405': Rossville
+  '2406': Gallaway
+  '2407': Braden
+  '2408': Williston
+  '2409': Piperton
+  '2410': Grand Junction
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: fayette_sos_entities
+  type: sos_tsv
+  path: data/sos/fayette_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

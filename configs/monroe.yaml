@@ -1,0 +1,18 @@
+county: MONROE
+fips: '47123'
+situs:
+  '6200': Unincorporated
+  '6201': Madisonville
+  '6202': Sweetwater
+  '6203': Tellico Plains
+  '6204': Vonore
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: monroe_sos_entities
+  type: sos_tsv
+  path: data/sos/monroe_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

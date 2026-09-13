@@ -1,0 +1,105 @@
+{
+  "county": "CROCKETT",
+  "slug": "crockett",
+  "generated_utc": "2026-09-13T05:25:00.446407+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1700": "Unincorporated",
+    "1701": "Alamo",
+    "1702": "Bells",
+    "1703": "Friendship",
+    "1704": "Gadsden",
+    "1705": "Maury City"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 7973,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 81.3,
+    "business_points": 305,
+    "seams": 12,
+    "seam_miles": 139.5,
+    "cross_county_seam_miles": 97.4
+  },
+  "situs_distribution": {
+    "1700": 4473,
+    "1701": 1256,
+    "1702": 1118,
+    "1705": 486,
+    "1703": 356,
+    "1704": 284
+  },
+  "risk_bands": {
+    "NORMAL": 5577,
+    "WATCH": 1803,
+    "HIGH": 486,
+    "CRITICAL": 107
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 328,
+    "E5_DOR_INTERNAL_CONFLICT": 81,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 116,
+    "E1_POSTAL_CITY_OVERSTATES": 3825,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 70,
+    "E3_BOUNDARY_PROXIMITY": 593
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 6018,
+    "REVIEW - analyst": 1689,
+    "HOLD - mandatory human adjudication": 172,
+    "HOLD - insufficient evidence": 94
+  },
+  "postal_city_profile": {
+    "ALAMO": 2303,
+    "BELLS": 2034,
+    "MAURY CITY": 1119,
+    "FRIENDSHIP": 935,
+    "GADSDEN": 889,
+    "HUMBOLDT": 293,
+    "CROCKETT MILLS": 266,
+    "FROG JUMP": 99,
+    "HALLS": 35
+  },
+  "cross_county_postal_by_city": {
+    "HUMBOLDT": 293,
+    "HALLS": 35
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=ALAMO | COMP=ALAMO": 70
+  },
+  "dor_conflict_direction": {
+    "polygon 1700 -> file 1701": 68,
+    "polygon 1702 -> file 1700": 47,
+    "polygon 1700 -> file 1702": 20,
+    "polygon 1704 -> file 1700": 15,
+    "polygon 1705 -> file 1703": 12,
+    "polygon 1701 -> file 1700": 12,
+    "polygon 1703 -> file 1700": 6,
+    "polygon 1700 -> file 1704": 6,
+    "polygon 1705 -> file 1700": 4,
+    "polygon 1700 -> file 1703": 3,
+    "polygon 1705 -> file 1701": 3,
+    "polygon 1700 -> file 1705": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 150,
+    "": 119,
+    "BOUNDARY_RISK": 24,
+    "CROSS_COUNTY_POSTAL": 10
+  },
+  "label_kinds": {
+    "business": 303,
+    "place": 2
+  }
+}

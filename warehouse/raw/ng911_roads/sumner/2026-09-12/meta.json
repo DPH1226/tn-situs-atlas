@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_roads",
+  "scope": "sumner",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:10.555792+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Road_Centerlines/FeatureServer/1",
+  "where_clause": "COUNTY_L='SUMNER' OR COUNTY_R='SUMNER'",
+  "feature_count": 12571,
+  "sha256": "34a65fd14ac15dc925370f9e3d9a173fa6705df58887ad3676103b213c772a59",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_roads/sumner/2026-09-12/data.geojson",
+  "parquet_path": "parquet/ng911_roads/sumner/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 1,
+  "notes": "TN Emergency Communications Board"
+}

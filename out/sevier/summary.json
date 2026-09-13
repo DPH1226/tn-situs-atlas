@@ -1,0 +1,115 @@
+{
+  "county": "SEVIER",
+  "slug": "sevier",
+  "generated_utc": "2026-09-13T05:48:57.835820+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7800": "Unincorporated",
+    "7801": "Sevierville",
+    "7802": "Gatlinburg",
+    "7803": "Pigeon Forge",
+    "7804": "Pittman Center"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 88756,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 88.4,
+    "business_points": 6291,
+    "seams": 12,
+    "seam_miles": 285.0,
+    "cross_county_seam_miles": 100.8
+  },
+  "situs_distribution": {
+    "7800": 54062,
+    "7801": 15799,
+    "7803": 9443,
+    "7802": 8689,
+    "7804": 763
+  },
+  "risk_bands": {
+    "NORMAL": 67264,
+    "WATCH": 14767,
+    "HIGH": 6017,
+    "CRITICAL": 708
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2473,
+    "E5_DOR_INTERNAL_CONFLICT": 519,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 423,
+    "E1_POSTAL_CITY_OVERSTATES": 38476,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 722,
+    "E3_BOUNDARY_PROXIMITY": 6725
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 73168,
+    "REVIEW - analyst": 13625,
+    "HOLD - mandatory human adjudication": 1385,
+    "HOLD - insufficient evidence": 578
+  },
+  "postal_city_profile": {
+    "SEVIERVILLE": 48224,
+    "GATLINBURG": 12562,
+    "PIGEON FORGE": 10057,
+    "SEYMOUR": 9242,
+    "KODAK": 6198,
+    "STRAWBERRY PLAINS": 1144,
+    "COSBY": 1089,
+    "DANDRIDGE": 180,
+    "KNOXVILLE": 46,
+    "NEW MARKET": 11,
+    "WALLAND": 3
+  },
+  "cross_county_postal_by_city": {
+    "STRAWBERRY PLAINS": 1144,
+    "COSBY": 1089,
+    "DANDRIDGE": 180,
+    "KNOXVILLE": 46,
+    "NEW MARKET": 11,
+    "WALLAND": 3
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=SEVIERVILLE | COMP=SEVIERVILLE": 577,
+    "DOR=UNINCORPORATED | E911=PIGEON FORGE | COMP=PIGEON FORGE": 135,
+    "DOR=PIGEON FORGE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 4,
+    "DOR=SEVIERVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=UNINCORPORATED | E911=PIGEON FORGE | COMP=UNINCORPORATED": 2,
+    "DOR=UNINCORPORATED | E911=GATLINBURG | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=GATLINBURG | COMP=GATLINBURG": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 7800 -> file 7801": 225,
+    "polygon 7803 -> file 7800": 220,
+    "polygon 7800 -> file 7803": 204,
+    "polygon 7801 -> file 7800": 149,
+    "polygon 7802 -> file 7800": 86,
+    "polygon 7800 -> file 7802": 26,
+    "polygon 7804 -> file 7800": 12,
+    "polygon 7803 -> file 7801": 11,
+    "polygon 7800 -> file 7804": 5,
+    "polygon 7804 -> file 7802": 4
+  },
+  "business_flags": {
+    "": 3667,
+    "POSTAL_CITY_EXPOSURE": 2182,
+    "BOUNDARY_RISK": 242,
+    "CROSS_COUNTY_POSTAL": 77
+  },
+  "label_kinds": {
+    "business": 6168,
+    "place": 61,
+    "institution": 54,
+    "unnamed": 8
+  }
+}

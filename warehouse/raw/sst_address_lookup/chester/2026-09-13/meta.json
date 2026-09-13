@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "chester",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:16:31.493278+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='CHESTER'",
+  "feature_count": 4622,
+  "sha256": "59b14de31056920835584931ff66771061a695d730421ab34e47dd39a0740256",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/chester/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/chester/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

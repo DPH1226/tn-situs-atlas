@@ -1,0 +1,18 @@
+county: MARSHALL
+fips: '47117'
+situs:
+  '5900': Unincorporated
+  '5901': Lewisburg
+  '5902': Chapel Hill
+  '5903': Cornersville
+  '5904': Petersburg
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: marshall_sos_entities
+  type: sos_tsv
+  path: data/sos/marshall_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

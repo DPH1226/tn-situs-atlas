@@ -1,0 +1,130 @@
+{
+  "county": "CARROLL",
+  "slug": "carroll",
+  "generated_utc": "2026-09-13T05:23:56.587700+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0900": "Unincorporated",
+    "0901": "Huntingdon",
+    "0902": "Atwood",
+    "0903": "Bruceton",
+    "0904": "Clarksburg",
+    "0905": "Hollow Rock",
+    "0906": "Mckenzie",
+    "0907": "Mclemoresville",
+    "0908": "Trezevant"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 19064,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 85.9,
+    "business_points": 456,
+    "seams": 20,
+    "seam_miles": 210.0,
+    "cross_county_seam_miles": 111.2
+  },
+  "situs_distribution": {
+    "0900": 10503,
+    "0906": 2861,
+    "0901": 2646,
+    "0903": 755,
+    "0902": 601,
+    "0905": 570,
+    "0908": 570,
+    "0904": 327,
+    "0907": 231
+  },
+  "risk_bands": {
+    "NORMAL": 15372,
+    "WATCH": 2830,
+    "HIGH": 716,
+    "CRITICAL": 146
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 86,
+    "E5_DOR_INTERNAL_CONFLICT": 109,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 128,
+    "E1_POSTAL_CITY_OVERSTATES": 7482,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 10,
+    "E3_BOUNDARY_PROXIMITY": 862
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 15700,
+    "REVIEW - analyst": 3095,
+    "HOLD - mandatory human adjudication": 153,
+    "HOLD - insufficient evidence": 116
+  },
+  "postal_city_profile": {
+    "HUNTINGDON": 6198,
+    "MCKENZIE": 4588,
+    "CEDAR GROVE": 1534,
+    "BRUCETON": 1343,
+    "HOLLOW ROCK": 1135,
+    "TREZEVANT": 1078,
+    "ATWOOD": 1074,
+    "LAVINIA": 513,
+    "YUMA": 441,
+    "BUENA VISTA": 426,
+    "WESTPORT": 271,
+    "MCLEMORESVILLE": 210,
+    "CLARKSBURG": 167,
+    "JACKSON": 63,
+    "MILAN": 19,
+    "MANSFIELD": 2,
+    "HOLLADAY": 1,
+    "CAMDEN": 1
+  },
+  "cross_county_postal_by_city": {
+    "JACKSON": 63,
+    "MILAN": 19,
+    "MANSFIELD": 2,
+    "HOLLADAY": 1,
+    "CAMDEN": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=CLARKSBURG | COMP=CLARKSBURG": 5,
+    "DOR=UNINCORPORATED | E911=HUNTINGDON | COMP=HUNTINGDON": 2,
+    "DOR=ATWOOD | E911=UNINCORPORATED | COMP=ATWOOD": 1,
+    "DOR=HOLLOW ROCK | E911=UNINCORPORATED | COMP=HOLLOW ROCK": 1,
+    "DOR=UNINCORPORATED | E911=HUNTINGDON | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 0907 -> file 0908": 45,
+    "polygon 0900 -> file 0901": 36,
+    "polygon 0900 -> file 0905": 34,
+    "polygon 0901 -> file 0900": 27,
+    "polygon 0906 -> file 0900": 25,
+    "polygon 0900 -> file 0906": 14,
+    "polygon 0900 -> file 0902": 11,
+    "polygon 0907 -> file 0901": 9,
+    "polygon 0900 -> file 0904": 8,
+    "polygon 0907 -> file 0900": 7,
+    "polygon 0902 -> file 0900": 7,
+    "polygon 0905 -> file 0900": 4,
+    "polygon 0900 -> file 0908": 4,
+    "polygon 0908 -> file 0900": 4,
+    "polygon 0900 -> file 0907": 2
+  },
+  "business_flags": {
+    "": 262,
+    "POSTAL_CITY_EXPOSURE": 179,
+    "BOUNDARY_RISK": 12
+  },
+  "label_kinds": {
+    "business": 453,
+    "place": 2,
+    "institution": 1
+  }
+}

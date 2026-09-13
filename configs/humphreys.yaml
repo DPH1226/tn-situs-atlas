@@ -1,0 +1,17 @@
+county: HUMPHREYS
+fips: '47085'
+situs:
+  '4300': Unincorporated
+  '4301': Waverly
+  '4302': Mcewen
+  '4303': New Johnsonville
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: humphreys_sos_entities
+  type: sos_tsv
+  path: data/sos/humphreys_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

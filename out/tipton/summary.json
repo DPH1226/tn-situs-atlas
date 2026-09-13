@@ -1,0 +1,123 @@
+{
+  "county": "TIPTON",
+  "slug": "tipton",
+  "generated_utc": "2026-09-13T05:55:07.342282+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8400": "Unincorporated",
+    "8401": "Covington",
+    "8402": "Atoka",
+    "8403": "Brighton",
+    "8404": "Burlison",
+    "8405": "Garland",
+    "8406": "Mason",
+    "8407": "Munford",
+    "8408": "Gilt Edge"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 27948,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 93.0,
+    "business_points": 1507,
+    "seams": 16,
+    "seam_miles": 239.7,
+    "cross_county_seam_miles": 113.7
+  },
+  "situs_distribution": {
+    "8400": 13658,
+    "8401": 4758,
+    "8402": 4253,
+    "8407": 3044,
+    "8403": 1205,
+    "8406": 452,
+    "8408": 222,
+    "8404": 206,
+    "8405": 150
+  },
+  "risk_bands": {
+    "NORMAL": 21706,
+    "WATCH": 4505,
+    "HIGH": 1645,
+    "CRITICAL": 92
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1598,
+    "E5_DOR_INTERNAL_CONFLICT": 677,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 148,
+    "E1_POSTAL_CITY_OVERSTATES": 10269,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 64,
+    "E3_BOUNDARY_PROXIMITY": 1737
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 24545,
+    "REVIEW - analyst": 3156,
+    "HOLD - mandatory human adjudication": 151,
+    "HOLD - insufficient evidence": 96
+  },
+  "postal_city_profile": {
+    "COVINGTON": 7768,
+    "MUNFORD": 4972,
+    "ATOKA": 4797,
+    "BRIGHTON": 3925,
+    "DRUMMONDS": 2352,
+    "MILLINGTON": 1364,
+    "BURLISON": 1336,
+    "MASON": 1195,
+    "STANTON": 234,
+    "FRENCHMANS BAYOU": 5
+  },
+  "cross_county_postal_by_city": {
+    "MILLINGTON": 1364,
+    "STANTON": 234
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=ATOKA | COMP=ATOKA": 29,
+    "DOR=UNINCORPORATED | E911=MUNFORD | COMP=MUNFORD": 27,
+    "DOR=ATOKA | E911=UNINCORPORATED | COMP=UNINCORPORATED": 4,
+    "DOR=BRIGHTON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=GARLAND | E911=UNINCORPORATED | COMP=GARLAND": 1,
+    "DOR=UNINCORPORATED | E911=BRIGHTON | COMP=BRIGHTON": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 8400 -> file 8404": 241,
+    "polygon 8400 -> file 8408": 224,
+    "polygon 8401 -> file 8400": 100,
+    "polygon 8400 -> file 8405": 76,
+    "polygon 8400 -> file 8402": 54,
+    "polygon 8400 -> file 8407": 41,
+    "polygon 8402 -> file 8400": 16,
+    "polygon 8400 -> file 8401": 15,
+    "polygon 8400 -> file 8403": 15,
+    "polygon 8403 -> file 8400": 12,
+    "polygon 8407 -> file 8402": 10,
+    "polygon 8400 -> file 8406": 6,
+    "polygon 8402 -> file 8407": 5,
+    "polygon 8407 -> file 8400": 5,
+    "polygon 8405 -> file 8400": 2,
+    "polygon 8408 -> file 8400": 2,
+    "polygon 8404 -> file 8400": 1
+  },
+  "business_flags": {
+    "": 851,
+    "POSTAL_CITY_EXPOSURE": 492,
+    "BOUNDARY_RISK": 108,
+    "CROSS_COUNTY_POSTAL": 53
+  },
+  "label_kinds": {
+    "business": 1504,
+    "place": 2,
+    "institution": 1
+  }
+}

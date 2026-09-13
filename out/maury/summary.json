@@ -1,0 +1,112 @@
+{
+  "county": "MAURY",
+  "slug": "maury",
+  "generated_utc": "2026-09-13T05:42:02.789029+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6000": "Unincorporated",
+    "6001": "Columbia",
+    "6002": "Mount Pleasant",
+    "6003": "Spring Hill"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 65225,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 93.9,
+    "business_points": 4819,
+    "seams": 12,
+    "seam_miles": 353.0,
+    "cross_county_seam_miles": 133.3
+  },
+  "situs_distribution": {
+    "6001": 26557,
+    "6000": 20450,
+    "6003": 15430,
+    "6002": 2788
+  },
+  "risk_bands": {
+    "NORMAL": 45301,
+    "WATCH": 14455,
+    "HIGH": 4959,
+    "CRITICAL": 510
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 291,
+    "E5_DOR_INTERNAL_CONFLICT": 3936,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 1002,
+    "E1_POSTAL_CITY_OVERSTATES": 16161,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 902,
+    "E3_BOUNDARY_PROXIMITY": 5469
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 56356,
+    "REVIEW - analyst": 7184,
+    "HOLD - mandatory human adjudication": 1368,
+    "HOLD - insufficient evidence": 317
+  },
+  "postal_city_profile": {
+    "COLUMBIA": 37666,
+    "SPRING HILL": 18262,
+    "MT PLEASANT": 4457,
+    "CULLEOKA": 2372,
+    "SANTA FE": 1100,
+    "HAMPSHIRE": 568,
+    "WILLIAMSPORT": 507,
+    "PRIMM SPRINGS": 128,
+    "LEWISBURG": 67,
+    "SUMMERTOWN": 66,
+    "LYNNVILLE": 27,
+    "DUCK RIVER": 3,
+    "COL": 1,
+    "CULLEOK": 1
+  },
+  "cross_county_postal_by_city": {
+    "PRIMM SPRINGS": 128,
+    "LEWISBURG": 67,
+    "SUMMERTOWN": 66,
+    "LYNNVILLE": 27,
+    "DUCK RIVER": 3
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=COLUMBIA | COMP=COLUMBIA": 876,
+    "DOR=COLUMBIA | E911=UNINCORPORATED | COMP=UNINCORPORATED": 19,
+    "DOR=COLUMBIA | E911=COLUMBIA | COMP=UNINCORPORATED": 3,
+    "DOR=UNINCORPORATED | E911=SPRING HILL | COMP=SPRING HILL": 2,
+    "DOR=UNINCORPORATED | E911=COLUMBIA | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=COLUMBIA": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 6000 -> file 6001": 3129,
+    "polygon 6000 -> file 6003": 616,
+    "polygon 6000 -> file 6002": 507,
+    "polygon 6001 -> file 6000": 210,
+    "polygon 6001 -> file 6003": 199,
+    "polygon 6002 -> file 6001": 172,
+    "polygon 6002 -> file 6000": 89,
+    "polygon 6003 -> file 6000": 16
+  },
+  "business_flags": {
+    "": 3212,
+    "POSTAL_CITY_EXPOSURE": 1305,
+    "BOUNDARY_RISK": 244,
+    "CROSS_COUNTY_POSTAL": 6
+  },
+  "label_kinds": {
+    "business": 4767,
+    "institution": 28,
+    "place": 20,
+    "unnamed": 4
+  }
+}

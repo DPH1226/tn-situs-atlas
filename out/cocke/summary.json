@@ -1,0 +1,102 @@
+{
+  "county": "COCKE",
+  "slug": "cocke",
+  "generated_utc": "2026-09-13T05:24:53.505635+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1500": "Unincorporated",
+    "1501": "Newport",
+    "1502": "Parrottsville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 30347,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 36.1,
+    "business_points": 669,
+    "seams": 6,
+    "seam_miles": 126.3,
+    "cross_county_seam_miles": 82.0
+  },
+  "situs_distribution": {
+    "1500": 25084,
+    "1501": 5044,
+    "1502": 219
+  },
+  "risk_bands": {
+    "NORMAL": 25398,
+    "WATCH": 3437,
+    "HIGH": 1164,
+    "CRITICAL": 348
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 66,
+    "E5_DOR_INTERNAL_CONFLICT": 30,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 47,
+    "E1_POSTAL_CITY_OVERSTATES": 15234,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 33,
+    "E3_BOUNDARY_PROXIMITY": 1512
+  },
+  "dispositions": {
+    "REVIEW - analyst": 17663,
+    "READY - analyst sign-off then submit": 11367,
+    "HOLD - insufficient evidence": 966,
+    "HOLD - mandatory human adjudication": 351
+  },
+  "postal_city_profile": {
+    "NEWPORT": 17537,
+    "COSBY": 5053,
+    "PARROTTSVILLE": 2958,
+    "DEL RIO": 2524,
+    "BYBEE": 1275,
+    "HARTFORD": 929,
+    "GREENEVILLE": 60,
+    "MOSHEIM": 5,
+    "DANDRIDGE": 1,
+    "COCBY": 1,
+    "DELRIO": 1,
+    "PARROTSVILLE": 1,
+    "COCKE": 1,
+    "GREENEVLLE": 1
+  },
+  "cross_county_postal_by_city": {
+    "GREENEVILLE": 60,
+    "MOSHEIM": 5,
+    "DANDRIDGE": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=PARROTTSVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 19,
+    "DOR=UNINCORPORATED | E911=NEWPORT | COMP=UNINCORPORATED": 4,
+    "DOR=UNINCORPORATED | E911=NEWPORT | COMP=NEWPORT": 4,
+    "DOR=UNINCORPORATED | E911=PARROTTSVILLE | COMP=PARROTTSVILLE": 3,
+    "DOR=NEWPORT | E911=UNINCORPORATED | COMP=NEWPORT": 2,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=NEWPORT": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 1502 -> file 1500": 36,
+    "polygon 1500 -> file 1502": 29,
+    "polygon 1500 -> file 1501": 11,
+    "polygon 1501 -> file 1500": 1
+  },
+  "business_flags": {
+    "": 326,
+    "POSTAL_CITY_EXPOSURE": 320,
+    "BOUNDARY_RISK": 15
+  },
+  "label_kinds": {
+    "business": 661,
+    "place": 7,
+    "institution": 1
+  }
+}

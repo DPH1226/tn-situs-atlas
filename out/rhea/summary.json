@@ -1,0 +1,96 @@
+{
+  "county": "RHEA",
+  "slug": "rhea",
+  "generated_utc": "2026-09-13T05:43:45.850993+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7200": "Unincorporated",
+    "7201": "Dayton",
+    "7202": "Graysville",
+    "7203": "Spring City"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 17545,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 93.3,
+    "business_points": 845,
+    "seams": 9,
+    "seam_miles": 161.6,
+    "cross_county_seam_miles": 109.8
+  },
+  "situs_distribution": {
+    "7200": 12726,
+    "7201": 3030,
+    "7203": 1093,
+    "7202": 696
+  },
+  "risk_bands": {
+    "NORMAL": 13625,
+    "WATCH": 2848,
+    "HIGH": 988,
+    "CRITICAL": 84
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 41,
+    "E5_DOR_INTERNAL_CONFLICT": 271,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 169,
+    "E1_POSTAL_CITY_OVERSTATES": 10651,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 147,
+    "E3_BOUNDARY_PROXIMITY": 1072
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 15334,
+    "REVIEW - analyst": 1949,
+    "HOLD - mandatory human adjudication": 226,
+    "HOLD - insufficient evidence": 36
+  },
+  "postal_city_profile": {
+    "DAYTON": 9373,
+    "SPRING CITY": 5316,
+    "EVENSVILLE": 1542,
+    "GRAYSVILLE": 656,
+    "GRANDVIEW": 617,
+    "SALE CREEK": 41
+  },
+  "cross_county_postal_by_city": {
+    "SALE CREEK": 41
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=DAYTON | COMP=DAYTON": 83,
+    "DOR=SPRING CITY | E911=UNINCORPORATED | COMP=UNINCORPORATED": 48,
+    "DOR=UNINCORPORATED | E911=SPRING CITY | COMP=SPRING CITY": 14,
+    "DOR=DAYTON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2
+  },
+  "dor_conflict_direction": {
+    "polygon 7200 -> file 7201": 298,
+    "polygon 7201 -> file 7200": 50,
+    "polygon 7203 -> file 7200": 40,
+    "polygon 7200 -> file 7202": 19,
+    "polygon 7200 -> file 7203": 18,
+    "polygon 7202 -> file 7200": 14,
+    "polygon 7202 -> file 7201": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 428,
+    "": 353,
+    "BOUNDARY_RISK": 57,
+    "CROSS_COUNTY_POSTAL": 2
+  },
+  "label_kinds": {
+    "business": 840,
+    "place": 4,
+    "institution": 1
+  }
+}

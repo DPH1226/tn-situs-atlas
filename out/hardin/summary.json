@@ -1,0 +1,124 @@
+{
+  "county": "HARDIN",
+  "slug": "hardin",
+  "generated_utc": "2026-09-13T05:32:09.371377+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3600": "Unincorporated",
+    "3601": "Savannah",
+    "3602": "Milledgeville",
+    "3603": "Saltillo",
+    "3604": "Crump",
+    "3605": "Adamsville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 24064,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 82.5,
+    "business_points": 612,
+    "seams": 18,
+    "seam_miles": 167.3,
+    "cross_county_seam_miles": 86.9
+  },
+  "situs_distribution": {
+    "3600": 16848,
+    "3601": 5217,
+    "3604": 1282,
+    "3603": 643,
+    "3602": 45,
+    "3605": 29
+  },
+  "risk_bands": {
+    "NORMAL": 20475,
+    "WATCH": 2604,
+    "HIGH": 833,
+    "CRITICAL": 152
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1091,
+    "E5_DOR_INTERNAL_CONFLICT": 436,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 229,
+    "E1_POSTAL_CITY_OVERSTATES": 11297,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 580,
+    "E3_BOUNDARY_PROXIMITY": 985
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 18684,
+    "REVIEW - analyst": 4583,
+    "HOLD - mandatory human adjudication": 694,
+    "HOLD - insufficient evidence": 103
+  },
+  "postal_city_profile": {
+    "SAVANNAH": 13823,
+    "COUNCE": 3616,
+    "ADAMSVILLE": 2049,
+    "MORRIS CHAPEL": 951,
+    "SALTILLO": 940,
+    "CRUMP": 798,
+    "OLIVEHILL": 499,
+    "MICHIE": 410,
+    "CLIFTON": 378,
+    "SARDIS": 283,
+    "SHILOH": 143,
+    "MILLEDGEVILLE": 81,
+    "PICKWICK DAM": 53,
+    "OLIVE HILL": 20,
+    "MORRSI CHAPEL": 3,
+    "SAVAVNNAH": 3,
+    "SAVANAH": 2,
+    "MARRIS CHAPEL": 1,
+    "MORIS CHAPEL": 1,
+    "CLILFTON": 1,
+    "OLIVEHILLE": 1,
+    "COUCE": 1,
+    "COUCNE": 1,
+    "SAVANNATH": 1,
+    "SVANNAH": 1
+  },
+  "cross_county_postal_by_city": {
+    "MICHIE": 410,
+    "CLIFTON": 378,
+    "SARDIS": 283,
+    "OLIVE HILL": 20
+  },
+  "layer_disagreement_detail": {
+    "DOR=CRUMP | E911=UNINCORPORATED | COMP=UNINCORPORATED": 496,
+    "DOR=SALTILLO | E911=UNINCORPORATED | COMP=UNINCORPORATED": 64,
+    "DOR=UNINCORPORATED | E911=SAVANNAH | COMP=SAVANNAH": 14,
+    "DOR=UNINCORPORATED | E911=SALTILLO | COMP=SALTILLO": 6
+  },
+  "dor_conflict_direction": {
+    "polygon 3604 -> file 3600": 441,
+    "polygon 3603 -> file 3600": 93,
+    "polygon 3600 -> file 3603": 61,
+    "polygon 3600 -> file 3601": 35,
+    "polygon 3601 -> file 3600": 19,
+    "polygon 3600 -> file 3604": 9,
+    "polygon 3605 -> file 3600": 3,
+    "polygon 3600 -> file 3605": 2,
+    "polygon 3602 -> file 3600": 2
+  },
+  "business_flags": {
+    "": 364,
+    "POSTAL_CITY_EXPOSURE": 205,
+    "CROSS_COUNTY_POSTAL": 23,
+    "BOUNDARY_RISK": 11
+  },
+  "label_kinds": {
+    "business": 603,
+    "place": 7,
+    "institution": 2
+  }
+}

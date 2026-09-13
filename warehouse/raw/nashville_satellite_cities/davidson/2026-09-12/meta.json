@@ -1,0 +1,16 @@
+{
+  "layer": "nashville_satellite_cities",
+  "scope": "davidson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:37.554987+00:00",
+  "source_url": "https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/Satellite_Cities_view/FeatureServer/0",
+  "where_clause": "1=1",
+  "feature_count": 8,
+  "sha256": "a1e1e85f8a774570da4189069204d595dc4116be9c3145cbac697acc1d0fdd9f",
+  "last_edit_date": null,
+  "raw_path": "raw/nashville_satellite_cities/davidson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/nashville_satellite_cities/davidson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": ""
+}

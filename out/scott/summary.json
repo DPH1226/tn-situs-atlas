@@ -1,0 +1,105 @@
+{
+  "county": "SCOTT",
+  "slug": "scott",
+  "generated_utc": "2026-09-13T05:46:06.130026+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7600": "Unincorporated",
+    "7601": "Huntsville",
+    "7602": "Oneida",
+    "7603": "Winfield"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 14305,
+    "unplaced": 1,
+    "sst_range_match_rate_pct": 84.1,
+    "business_points": 575,
+    "seams": 9,
+    "seam_miles": 203.3,
+    "cross_county_seam_miles": 91.6
+  },
+  "situs_distribution": {
+    "7600": 10047,
+    "7602": 2563,
+    "7601": 1067,
+    "7603": 628
+  },
+  "risk_bands": {
+    "NORMAL": 10573,
+    "WATCH": 2554,
+    "HIGH": 1033,
+    "CRITICAL": 145
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 193,
+    "E5_DOR_INTERNAL_CONFLICT": 1376,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 283,
+    "E1_POSTAL_CITY_OVERSTATES": 5637,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 86,
+    "E3_BOUNDARY_PROXIMITY": 1178
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 11029,
+    "REVIEW - analyst": 2918,
+    "HOLD - mandatory human adjudication": 228,
+    "HOLD - insufficient evidence": 130
+  },
+  "postal_city_profile": {
+    "ONEIDA": 6154,
+    "HUNTSVILLE": 2023,
+    "HELENWOOD": 1966,
+    "ROBBINS": 1826,
+    "WINFIELD": 1304,
+    "PIONEER": 832,
+    "SUNBRIGHT": 190,
+    "ELGIN": 7,
+    "ALLARDT": 2,
+    "JAMESTOWN": 1
+  },
+  "cross_county_postal_by_city": {
+    "SUNBRIGHT": 190,
+    "ALLARDT": 2,
+    "JAMESTOWN": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=HUNTSVILLE | COMP=HUNTSVILLE": 68,
+    "DOR=UNINCORPORATED | E911=WINFIELD | COMP=WINFIELD": 13,
+    "DOR=UNINCORPORATED | E911=WINFIELD | COMP=UNINCORPORATED": 2,
+    "DOR=HUNTSVILLE | E911=UNINCORPORATED | COMP=HUNTSVILLE": 1,
+    "DOR=WINFIELD | E911=UNINCORPORATED | COMP=WINFIELD": 1,
+    "DOR=UNINCORPORATED | E911=HUNTSVILLE | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 7600 -> file 7602": 776,
+    "polygon 7600 -> file 7601": 520,
+    "polygon 7600 -> file 7603": 208,
+    "polygon 7601 -> file 7600": 87,
+    "polygon 7603 -> file 7600": 35,
+    "polygon 7602 -> file 7600": 21,
+    "polygon 7602 -> file 7603": 6,
+    "polygon 7603 -> file 7602": 5,
+    "polygon 7601 -> file 7602": 1
+  },
+  "business_flags": {
+    "": 336,
+    "POSTAL_CITY_EXPOSURE": 190,
+    "BOUNDARY_RISK": 41
+  },
+  "label_kinds": {
+    "business": 567,
+    "place": 6,
+    "institution": 2
+  }
+}

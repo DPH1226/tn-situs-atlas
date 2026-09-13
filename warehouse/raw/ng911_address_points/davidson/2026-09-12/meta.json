@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "davidson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:36.735734+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='DAVIDSON'",
+  "feature_count": 462543,
+  "sha256": "e16f697d6cdc8b9d5f0e0006a33eb7ea90865fe5d8f99c6379b385d2525913eb",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/davidson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/davidson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

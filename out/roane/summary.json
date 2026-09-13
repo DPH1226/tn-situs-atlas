@@ -1,0 +1,113 @@
+{
+  "county": "ROANE",
+  "slug": "roane",
+  "generated_utc": "2026-09-13T05:44:33.695249+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7300": "Unincorporated",
+    "7301": "Kingston",
+    "7302": "Harriman",
+    "7303": "Oak Ridge",
+    "7304": "Oliver Springs",
+    "7305": "Rockwood"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 33194,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 93.3,
+    "business_points": 1387,
+    "seams": 18,
+    "seam_miles": 264.6,
+    "cross_county_seam_miles": 116.6
+  },
+  "situs_distribution": {
+    "7300": 20220,
+    "7302": 3581,
+    "7301": 3298,
+    "7305": 2854,
+    "7303": 2784,
+    "7304": 457
+  },
+  "risk_bands": {
+    "NORMAL": 25315,
+    "WATCH": 5909,
+    "HIGH": 1780,
+    "CRITICAL": 190
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 3674,
+    "E5_DOR_INTERNAL_CONFLICT": 312,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 323,
+    "E1_POSTAL_CITY_OVERSTATES": 16584,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 44,
+    "E3_BOUNDARY_PROXIMITY": 1970
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 29223,
+    "REVIEW - analyst": 3655,
+    "HOLD - mandatory human adjudication": 233,
+    "HOLD - insufficient evidence": 83
+  },
+  "postal_city_profile": {
+    "HARRIMAN": 9428,
+    "KINGSTON": 9379,
+    "ROCKWOOD": 5968,
+    "OAK RIDGE": 2781,
+    "OLIVER SPRINGS": 1964,
+    "TEN MILE": 1238,
+    "PHILADELPHIA": 897,
+    "LOUDON": 766,
+    "LENOIR CITY": 750,
+    "SWEETWATER": 23
+  },
+  "cross_county_postal_by_city": {
+    "TEN MILE": 1238,
+    "PHILADELPHIA": 897,
+    "LOUDON": 766,
+    "LENOIR CITY": 750,
+    "SWEETWATER": 23
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=KINGSTON | COMP=KINGSTON": 32,
+    "DOR=UNINCORPORATED | E911=HARRIMAN | COMP=HARRIMAN": 8,
+    "DOR=UNINCORPORATED | E911=ROCKWOOD | COMP=ROCKWOOD": 3,
+    "DOR=HARRIMAN | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 7300 -> file 7305": 141,
+    "polygon 7300 -> file 7301": 124,
+    "polygon 7300 -> file 7302": 121,
+    "polygon 7300 -> file 7304": 70,
+    "polygon 7305 -> file 7300": 59,
+    "polygon 7301 -> file 7300": 43,
+    "polygon 7302 -> file 7300": 41,
+    "polygon 7304 -> file 7300": 24,
+    "polygon 7302 -> file 7305": 6,
+    "polygon 7300 -> file 7303": 3,
+    "polygon 7302 -> file 7301": 2,
+    "polygon 7303 -> file 7300": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 652,
+    "": 530,
+    "CROSS_COUNTY_POSTAL": 122,
+    "BOUNDARY_RISK": 75
+  },
+  "label_kinds": {
+    "business": 1379,
+    "place": 5,
+    "institution": 3
+  }
+}

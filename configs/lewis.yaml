@@ -1,0 +1,15 @@
+county: LEWIS
+fips: '47101'
+situs:
+  '5100': Unincorporated
+  '5101': Hohenwald
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: lewis_sos_entities
+  type: sos_tsv
+  path: data/sos/lewis_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

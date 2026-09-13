@@ -1,0 +1,127 @@
+{
+  "county": "SUMNER",
+  "source": "hendersonville_business_licenses",
+  "rows_compared": 1945,
+  "exclude_class4": true,
+  "base_rate_mismatch": 0.0031,
+  "mismatches": 6,
+  "by_class": {
+    "postal_exposure (E1+E2)": {
+      "flagged": 16,
+      "true_positive": 5,
+      "false_positive": 11,
+      "missed": 1,
+      "true_negative": 1928,
+      "precision": 0.312,
+      "recall": 0.833
+    },
+    "boundary_band (E3)": {
+      "flagged": 47,
+      "true_positive": 1,
+      "false_positive": 46,
+      "missed": 5,
+      "true_negative": 1893,
+      "precision": 0.021,
+      "recall": 0.167
+    },
+    "any_flag": {
+      "flagged": 64,
+      "true_positive": 5,
+      "false_positive": 59,
+      "missed": 1,
+      "true_negative": 1880,
+      "precision": 0.078,
+      "recall": 0.833
+    }
+  },
+  "direction": {
+    "8305 -> 8300": 5,
+    "8305 -> 8307": 1
+  },
+  "mismatch_rows": [
+    {
+      "business": "BONES CONSULTING LLC",
+      "Add_Number": 1000.0,
+      "StNam_Full": "COULSONS CT",
+      "post_city_n": "HENDERSONVILLE",
+      "coded_situs": "8305",
+      "dor_situs": "8300",
+      "dor_city": "(Unincorporated)",
+      "Inc_Muni": "Unincorporated",
+      "comp_city": "Unincorporated",
+      "nearest_seam_ft": 3874.0,
+      "risk_band": "NORMAL",
+      "flag": "CODED_MISMATCH"
+    },
+    {
+      "business": "CUMBERLAND PROPERTY MGT GROUP",
+      "Add_Number": 1119.0,
+      "StNam_Full": "FORESTPOINTE",
+      "post_city_n": "HENDERSONVILLE",
+      "coded_situs": "8305",
+      "dor_situs": "8300",
+      "dor_city": "(Unincorporated)",
+      "Inc_Muni": "Unincorporated",
+      "comp_city": "Unincorporated",
+      "nearest_seam_ft": 2729.0,
+      "risk_band": "NORMAL",
+      "flag": "CODED_MISMATCH"
+    },
+    {
+      "business": "HONKY TONK LIMO",
+      "Add_Number": 2006.0,
+      "StNam_Full": "EAGLE VIEW RD",
+      "post_city_n": "HENDERSONVILLE",
+      "coded_situs": "8305",
+      "dor_situs": "8300",
+      "dor_city": "(Unincorporated)",
+      "Inc_Muni": "Unincorporated",
+      "comp_city": "Unincorporated",
+      "nearest_seam_ft": 813.0,
+      "risk_band": "WATCH",
+      "flag": "CODED_MISMATCH"
+    },
+    {
+      "business": "LD360, LLC",
+      "Add_Number": 107.0,
+      "StNam_Full": "FLINTSHIRE LN",
+      "post_city_n": "HENDERSONVILLE",
+      "coded_situs": "8305",
+      "dor_situs": "8300",
+      "dor_city": "(Unincorporated)",
+      "Inc_Muni": "Unincorporated",
+      "comp_city": "Unincorporated",
+      "nearest_seam_ft": 123.0,
+      "risk_band": "HIGH",
+      "flag": "CODED_MISMATCH"
+    },
+    {
+      "business": "NEW HAIR AFFAIR",
+      "Add_Number": 114.0,
+      "StNam_Full": "STEPHANIE PL",
+      "post_city_n": "GOODLETTSVILLE",
+      "coded_situs": "8305",
+      "dor_situs": "8307",
+      "dor_city": "GOODLETTSVILLE",
+      "Inc_Muni": "Goodlettsville",
+      "comp_city": "Goodlettsville",
+      "nearest_seam_ft": 1003.0,
+      "risk_band": "NORMAL",
+      "flag": "CODED_MISMATCH"
+    },
+    {
+      "business": "TOOL PLANNERS, INC.",
+      "Add_Number": 1780.0,
+      "StNam_Full": "SHELL RD",
+      "post_city_n": "HENDERSONVILLE",
+      "coded_situs": "8305",
+      "dor_situs": "8300",
+      "dor_city": "(Unincorporated)",
+      "Inc_Muni": "Unincorporated",
+      "comp_city": "Unincorporated",
+      "nearest_seam_ft": 4802.0,
+      "risk_band": "NORMAL",
+      "flag": "CODED_MISMATCH"
+    }
+  ]
+}

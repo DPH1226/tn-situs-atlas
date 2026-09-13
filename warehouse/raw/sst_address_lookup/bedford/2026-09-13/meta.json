@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "bedford",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:12:20.995578+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='BEDFORD'",
+  "feature_count": 5358,
+  "sha256": "7ce44f9d151a1b035096970c9bb090f5bc767f797f084ecec7918e2ebb07ce93",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/bedford/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/bedford/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

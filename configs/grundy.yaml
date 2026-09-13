@@ -1,0 +1,21 @@
+county: GRUNDY
+fips: '47061'
+situs:
+  '3100': Unincorporated
+  '3101': Altamont
+  '3102': Beersheba Springs
+  '3103': Coalmont
+  '3104': Monteagle
+  '3105': Palmer
+  '3106': Tracy City
+  '3107': Gruetli-Laager
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: grundy_sos_entities
+  type: sos_tsv
+  path: data/sos/grundy_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

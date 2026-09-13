@@ -1,0 +1,53 @@
+# Scheduled statewide refresh. Runs where the internet is (GitHub's runners): polls the change
+# signals weekly, and when a boundary/address layer has moved re-pulls, re-runs every county,
+# rebuilds the atlas + workbenches into site/, and commits site/ (which triggers the Pages deploy).
+# Raw snapshots are kept as a workflow artifact (90 days); they are too large for git.
+name: situs-refresh
+on:
+  schedule:
+    - cron: "17 9 * * 1"        # Mondays 09:17 UTC = 04:17 Central
+  workflow_dispatch:
+    inputs:
+      county: {description: "County slug(s), space-separated (blank = all 95)", required: false}
+      force:  {description: "Force full re-pull even if nothing changed", type: boolean, default: false}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    permissions: {contents: write}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt
+      - name: Poll change signals
+        id: watch
+        run: |
+          if python3 fetch/watch.py; then echo "changed=false" >> $GITHUB_OUTPUT; else echo "changed=true" >> $GITHUB_OUTPUT; fi
+      - name: Pull statewide layers
+        if: steps.watch.outputs.changed == 'true' || inputs.force
+        run: python3 fetch/fetch_county.py --statewide --live ${{ inputs.force && '--force' || '' }}
+      - name: Pull county layers
+        if: steps.watch.outputs.changed == 'true' || inputs.force
+        run: |
+          COUNTIES="${{ inputs.county }}"
+          if [ -z "$COUNTIES" ]; then COUNTIES=$(ls configs/*.yaml | xargs -n1 basename | sed 's/\.yaml//' | grep -v -e statewide -e schema); fi
+          for c in $COUNTIES; do python3 fetch/fetch_county.py --county $c --live ${{ inputs.force && '--force' || '' }} || echo "::warning::fetch failed for $c"; done
+      - name: Run every county + bulletins
+        if: steps.watch.outputs.changed == 'true' || inputs.force
+        run: |
+          python3 fetch/postal_map.py
+          python3 run_all.py --skip-ingest --workers 4 ${{ inputs.county && format('--counties {0}', inputs.county) || '' }}
+      - name: Build site
+        if: steps.watch.outputs.changed == 'true' || inputs.force
+        run: python3 build_index.py && python3 build_site.py
+      - name: Upload snapshots
+        if: steps.watch.outputs.changed == 'true' || inputs.force
+        uses: actions/upload-artifact@v4
+        with: {name: warehouse-${{ github.run_id }}, path: warehouse/raw/**/meta.json, retention-days: 90}
+      - name: Commit outputs + site
+        if: steps.watch.outputs.changed == 'true' || inputs.force
+        run: |
+          git config user.name civvix-bot && git config user.email bot@civvix.ai
+          git add warehouse/watch_state.json configs/postal_home_county.json out/*/summary.json out/*/bulletins out/statewide_index.json site || true
+          git diff --cached --quiet || (git commit -m "refresh: $(date -u +%F)" && git push)

@@ -1,0 +1,61 @@
+county: RUTHERFORD
+fips: '47149'
+situs:
+  '7500': Unincorporated
+  '7501': Murfreesboro
+  '7502': Eagleville
+  '7503': Smyrna
+  '7504': La Vergne
+tiers:
+  parcels: county
+  business: county
+business_layers:
+- id: rutherford_sos_entities
+  type: sos_tsv
+  path: data/sos/rutherford_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN Secretary of State active for-profit entities, principal address geocoded
+    to NG911 rooftops. Statewide source Civvix already holds.
+- id: rutherford_site_addresses_commercial
+  url: https://services.arcgis.com/36I6IHIdr660pAyH/arcgis/rest/services/Site_Address_Points_Hub_Data/FeatureServer/2
+  where: ADDRCLASS=720
+  name_field: PLACENAME
+  address_field: FULLADDR
+  zip_field: ZIP
+  out_fields: OBJECTID,PLACENAME,FULLADDR,MUNICIPALITY,ZIP,ADDRCLASS,GISLINK,UNITID
+  notes: County site-address points classed Commercial & Retail (720). PLACENAME also
+    used for apartment complexes.
+parcel_layer:
+  url: https://services.arcgis.com/36I6IHIdr660pAyH/arcgis/rest/services/ParcelsCAMA1/FeatureServer/0
+city_layers:
+- id: rutherford_city_limits
+  role: limits
+  url: https://services.arcgis.com/36I6IHIdr660pAyH/arcgis/rest/services/City_Limits_and_UGB_WFL1/FeatureServer/1
+- id: murfreesboro_annexations
+  role: annexations
+  name: Murfreesboro
+  date_field: DATE_ANNEX
+  url: https://services5.arcgis.com/A5C0MR9xfkxVRwat/arcgis/rest/services/AnnexedAreaswZoning/FeatureServer/0
+- id: smyrna_annexation_history
+  role: annexations
+  name: Smyrna
+  date_field: Effective_Date
+  url: https://maps.townofsmyrna.org/server/rest/services/Annexation_History/MapServer/8
+  notes: on-prem server; may be unreachable
+usps_only_places:
+  ANTIOCH: DAVIDSON
+  NASHVILLE: DAVIDSON
+  NOLENSVILLE: WILLIAMSON
+  ARRINGTON: WILLIAMSON
+  COLLEGE GROVE: WILLIAMSON
+  CHRISTIANA: RUTHERFORD
+  ROCKVALE: RUTHERFORD
+  LASCASSAS: RUTHERFORD
+  MILTON: RUTHERFORD
+  READYVILLE: CANNON
+  WOODBURY: CANNON
+  BELL BUCKLE: BEDFORD
+  UNIONVILLE: BEDFORD
+  CHAPEL HILL: MARSHALL
+  MT JULIET: WILSON
+  LEBANON: WILSON

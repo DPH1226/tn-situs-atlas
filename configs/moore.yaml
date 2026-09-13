@@ -1,0 +1,19 @@
+county: MOORE
+fips: '47127'
+situs:
+  '6400': Unincorporated
+  '6401': Lynchburg
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: moore_sos_entities
+  type: sos_tsv
+  path: data/sos/moore_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []
+situs_merge:
+  '6400': '6401'
+notes: 'Metropolitan Lynchburg-Moore County: consolidated since 1988; both codes pay
+  one treasury.'

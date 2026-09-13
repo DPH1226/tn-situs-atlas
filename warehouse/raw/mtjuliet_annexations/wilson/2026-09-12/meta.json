@@ -1,0 +1,16 @@
+{
+  "layer": "mtjuliet_annexations",
+  "scope": "wilson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:37:14.057514+00:00",
+  "source_url": "https://utility.arcgis.com/usrsvcs/servers/5e2f5bfd27984da89b2e45a726d0e37b/rest/services/Planning___Zoning/FeatureServer/0",
+  "where_clause": "1=1",
+  "feature_count": 221,
+  "sha256": "6f972cff045972d394b1841339d6de95c88651cc1e367f82cb0b4ed51ab80ca6",
+  "last_edit_date": null,
+  "raw_path": "raw/mtjuliet_annexations/wilson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/mtjuliet_annexations/wilson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 2,
+  "notes": "Mt. Juliet"
+}

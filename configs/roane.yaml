@@ -1,0 +1,19 @@
+county: ROANE
+fips: '47145'
+situs:
+  '7300': Unincorporated
+  '7301': Kingston
+  '7302': Harriman
+  '7303': Oak Ridge
+  '7304': Oliver Springs
+  '7305': Rockwood
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: roane_sos_entities
+  type: sos_tsv
+  path: data/sos/roane_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,99 @@
+{
+  "county": "DYER",
+  "slug": "dyer",
+  "generated_utc": "2026-09-13T05:26:39.468998+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2300": "Unincorporated",
+    "2301": "Dyersburg",
+    "2302": "Newbern",
+    "2303": "Trimble"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 20734,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 85.5,
+    "business_points": 805,
+    "seams": 9,
+    "seam_miles": 157.3,
+    "cross_county_seam_miles": 90.2
+  },
+  "situs_distribution": {
+    "2301": 9935,
+    "2300": 8571,
+    "2302": 1877,
+    "2303": 351
+  },
+  "risk_bands": {
+    "NORMAL": 17338,
+    "WATCH": 2500,
+    "HIGH": 840,
+    "CRITICAL": 56
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 574,
+    "E5_DOR_INTERNAL_CONFLICT": 31,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 104,
+    "E1_POSTAL_CITY_OVERSTATES": 7546,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 896
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 16977,
+    "REVIEW - analyst": 3654,
+    "HOLD - mandatory human adjudication": 56,
+    "HOLD - insufficient evidence": 47
+  },
+  "postal_city_profile": {
+    "DYERSBURG": 15737,
+    "NEWBERN": 3546,
+    "TRIMBLE": 425,
+    "FINLEY": 400,
+    "FRIENDSHIP": 384,
+    "YORKVILLE": 107,
+    "HALLS": 49,
+    "OBION": 32,
+    "MISTON": 29,
+    "BOGOTA": 13,
+    "FINELY": 9,
+    "RIDGELY": 2,
+    "TIGRETT": 1
+  },
+  "cross_county_postal_by_city": {
+    "FRIENDSHIP": 384,
+    "YORKVILLE": 107,
+    "HALLS": 49,
+    "OBION": 32,
+    "RIDGELY": 2
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 2300 -> file 2301": 54,
+    "polygon 2302 -> file 2300": 39,
+    "polygon 2301 -> file 2300": 25,
+    "polygon 2300 -> file 2302": 17
+  },
+  "business_flags": {
+    "": 511,
+    "POSTAL_CITY_EXPOSURE": 235,
+    "BOUNDARY_RISK": 42,
+    "CROSS_COUNTY_POSTAL": 12
+  },
+  "label_kinds": {
+    "business": 800,
+    "place": 3,
+    "institution": 2
+  }
+}

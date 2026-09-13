@@ -1,0 +1,16 @@
+{
+  "layer": "murfreesboro_annexations",
+  "scope": "rutherford",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:19.655962+00:00",
+  "source_url": "https://services5.arcgis.com/A5C0MR9xfkxVRwat/arcgis/rest/services/AnnexedAreaswZoning/FeatureServer/0",
+  "where_clause": "1=1",
+  "feature_count": 331,
+  "sha256": "b00d4ef1676c69204c33bbb6211bf064bc8bfd5db06fe5f4bad64daf50628bb6",
+  "last_edit_date": null,
+  "raw_path": "raw/murfreesboro_annexations/rutherford/2026-09-12/data.geojson",
+  "parquet_path": "parquet/murfreesboro_annexations/rutherford/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 16,
+  "notes": "Murfreesboro"
+}

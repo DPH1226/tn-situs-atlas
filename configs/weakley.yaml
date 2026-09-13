@@ -1,0 +1,20 @@
+county: WEAKLEY
+fips: '47183'
+situs:
+  '9200': Unincorporated
+  '9201': Dresden
+  '9202': Gleason
+  '9203': Greenfield
+  '9204': Martin
+  '9205': Sharon
+  '9206': Mckenzie
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: weakley_sos_entities
+  type: sos_tsv
+  path: data/sos/weakley_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

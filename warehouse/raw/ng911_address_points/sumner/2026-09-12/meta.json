@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "sumner",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:10.115346+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='SUMNER'",
+  "feature_count": 107113,
+  "sha256": "0686a0240fff65097c47e5d86a85377509a1f8ab6255b106e3e302f36cc371e7",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/sumner/2026-09-12/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/sumner/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

@@ -1,0 +1,68 @@
+county: DAVIDSON
+fips: '47037'
+situs:
+  '1900': Unincorporated
+  '1901': Nashville-Davidson
+  '1902': Belle Meade
+  '1903': Berry Hill
+  '1904': Forest Hills
+  '1905': Goodlettsville
+  '1907': Oak Hill
+  '1908': Ridgetop
+tiers:
+  parcels: county
+  business: permits
+business_layers:
+- id: davidson_sos_entities
+  type: sos_tsv
+  path: data/sos/davidson_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN Secretary of State active for-profit entities, principal address geocoded
+    to NG911 rooftops. Statewide source Civvix already holds.
+- id: nashville_beer_permits
+  url: https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/Beer_Permit_Locations_Feature_Layer_view/FeatureServer/0
+  name_field: Business Name
+  notes: Permit universe only (~2.1k). No business-points or licence layer exists
+    on Metro open data; licences are County Clerk.
+parcel_layer:
+  url: https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/Parcels_view/FeatureServer/0
+city_layers:
+- id: nashville_satellite_cities
+  role: limits
+  name_field: Name
+  url: https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/Satellite_Cities_view/FeatureServer/0
+- id: nashville_usd_annexations
+  role: annexations
+  name: NASHVILLE-DAVIDSON
+  date_field: AnnexDate
+  url: https://maps.nashville.gov/arcgis/rest/services/Boundaries/TaxDistricts/MapServer/3
+usps_only_places:
+  MT JULIET: WILSON
+  LEBANON: WILSON
+  HENDERSONVILLE: SUMNER
+  BRENTWOOD: WILLIAMSON
+  FRANKLIN: WILLIAMSON
+  NOLENSVILLE: WILLIAMSON
+  LA VERGNE: RUTHERFORD
+  SMYRNA: RUTHERFORD
+  ANTIOCH: DAVIDSON
+  HERMITAGE: DAVIDSON
+  OLD HICKORY: DAVIDSON
+  MADISON: DAVIDSON
+  WHITES CREEK: DAVIDSON
+  JOELTON: DAVIDSON
+  PEGRAM: CHEATHAM
+  KINGSTON SPRINGS: CHEATHAM
+  ASHLAND CITY: CHEATHAM
+notes: Metro is consolidated. DOR's 1900 polygon is the General Services District;
+  it and 1901 (USD) pay the same government, so they are merged for audit purposes.
+  Satellite cities are the only intra-county seams.
+city_aliases:
+  NASHVILLE-DAVIDSON:
+  - NASHVILLE
+  - METRO NASHVILLE
+  - METROPOLITAN GOVERNMENT OF NASHVILLE AND DAVIDSON COUNTY
+  - NASHVILLE USD
+  - UNINCORPORATED
+situs_merge:
+  '1900': '1901'

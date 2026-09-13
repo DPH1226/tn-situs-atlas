@@ -1,0 +1,110 @@
+{
+  "county": "GREENE",
+  "slug": "greene",
+  "generated_utc": "2026-09-13T05:30:59.055493+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3000": "Unincorporated",
+    "3001": "Greeneville",
+    "3002": "Baileyton",
+    "3003": "Tusculum",
+    "3004": "Mosheim"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 41483,
+    "unplaced": 5,
+    "sst_range_match_rate_pct": 83.4,
+    "business_points": 1624,
+    "seams": 11,
+    "seam_miles": 240.7,
+    "cross_county_seam_miles": 99.9
+  },
+  "situs_distribution": {
+    "3000": 28684,
+    "3001": 10007,
+    "3004": 1417,
+    "3003": 1039,
+    "3002": 336
+  },
+  "risk_bands": {
+    "NORMAL": 34675,
+    "WATCH": 4469,
+    "HIGH": 2034,
+    "CRITICAL": 305
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2573,
+    "E5_DOR_INTERNAL_CONFLICT": 153,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 295,
+    "E1_POSTAL_CITY_OVERSTATES": 18622,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 6,
+    "E3_BOUNDARY_PROXIMITY": 2339
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 32916,
+    "REVIEW - analyst": 7914,
+    "HOLD - insufficient evidence": 345,
+    "HOLD - mandatory human adjudication": 308
+  },
+  "postal_city_profile": {
+    "GREENEVILLE": 26650,
+    "CHUCKEY": 4016,
+    "MOSHEIM": 2931,
+    "AFTON": 2875,
+    "MIDWAY": 1280,
+    "MOHAWK": 1158,
+    "LIMESTONE": 1098,
+    "BULLS GAP": 989,
+    "FALL BRANCH": 485,
+    "BYBEE": 1
+  },
+  "cross_county_postal_by_city": {
+    "LIMESTONE": 1098,
+    "BULLS GAP": 989,
+    "FALL BRANCH": 485,
+    "BYBEE": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MOSHEIM | COMP=MOSHEIM": 3,
+    "DOR=GREENEVILLE | E911=UNINCORPORATED | COMP=GREENEVILLE": 1,
+    "DOR=MOSHEIM | E911=UNINCORPORATED | COMP=MOSHEIM": 1,
+    "DOR=TUSCULUM | E911=GREENEVILLE | COMP=GREENEVILLE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 3000 -> file 3001": 170,
+    "polygon 3000 -> file 3004": 60,
+    "polygon 3001 -> file 3000": 58,
+    "polygon 3000 -> file 3003": 55,
+    "polygon 3004 -> file 3000": 47,
+    "polygon 3003 -> file 3000": 20,
+    "polygon 3001 -> file 3003": 16,
+    "polygon 3000 -> file 3002": 9,
+    "polygon 3002 -> file 3000": 8,
+    "polygon 3003 -> file 3001": 4,
+    "polygon 3004 -> file 3001": 1
+  },
+  "business_flags": {
+    "": 800,
+    "POSTAL_CITY_EXPOSURE": 683,
+    "CROSS_COUNTY_POSTAL": 85,
+    "BOUNDARY_RISK": 42
+  },
+  "label_kinds": {
+    "business": 1610,
+    "place": 8,
+    "institution": 4,
+    "unnamed": 2
+  }
+}

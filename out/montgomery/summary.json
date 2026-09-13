@@ -1,0 +1,100 @@
+{
+  "county": "MONTGOMERY",
+  "slug": "montgomery",
+  "generated_utc": "2026-09-13T05:43:03.505009+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6300": "Unincorporated",
+    "6301": "Clarksville"
+  },
+  "tiers": {
+    "parcels": "county",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 100325,
+    "unplaced": 2,
+    "sst_range_match_rate_pct": 93.6,
+    "business_points": 7415,
+    "seams": 6,
+    "seam_miles": 147.6,
+    "cross_county_seam_miles": 78.9
+  },
+  "situs_distribution": {
+    "6301": 74263,
+    "6300": 26062
+  },
+  "risk_bands": {
+    "NORMAL": 89512,
+    "WATCH": 8470,
+    "HIGH": 2254,
+    "CRITICAL": 89
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 493,
+    "E5_DOR_INTERNAL_CONFLICT": 648,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 296,
+    "E1_POSTAL_CITY_OVERSTATES": 18913,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 420,
+    "E3_BOUNDARY_PROXIMITY": 2343
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 92017,
+    "REVIEW - analyst": 7759,
+    "HOLD - mandatory human adjudication": 493,
+    "HOLD - insufficient evidence": 56
+  },
+  "postal_city_profile": {
+    "CLARKSVILLE": 93157,
+    "WOODLAWN": 1824,
+    "ADAMS": 1372,
+    "CUNNINGHAM": 1341,
+    "PALMYRA": 922,
+    "CUMBERLAND FURNACE": 610,
+    "SOUTHSIDE": 603,
+    "INDIAN MOUND": 247,
+    "CUMBERLAND CITY": 139,
+    "ASHLAND CITY": 49,
+    "CHAPMANSBORO": 24,
+    "CEDAR HILL": 20,
+    "ERIN": 12,
+    "FORT CAMPBELL": 3,
+    "TRENTON": 2
+  },
+  "cross_county_postal_by_city": {
+    "INDIAN MOUND": 247,
+    "CUMBERLAND CITY": 139,
+    "ASHLAND CITY": 49,
+    "CHAPMANSBORO": 24,
+    "CEDAR HILL": 20,
+    "ERIN": 12,
+    "TRENTON": 2
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=CLARKSVILLE | COMP=CLARKSVILLE": 420
+  },
+  "dor_conflict_direction": {
+    "polygon 6300 -> file 6301": 746,
+    "polygon 6301 -> file 6300": 198
+  },
+  "business_flags": {
+    "": 5613,
+    "POSTAL_CITY_EXPOSURE": 1569,
+    "BOUNDARY_RISK": 124,
+    "CROSS_COUNTY_POSTAL": 25
+  },
+  "label_kinds": {
+    "business": 7331,
+    "institution": 45,
+    "place": 34,
+    "unnamed": 5
+  }
+}

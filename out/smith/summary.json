@@ -1,0 +1,113 @@
+{
+  "county": "SMITH",
+  "slug": "smith",
+  "generated_utc": "2026-09-13T05:49:12.423352+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8000": "Unincorporated",
+    "8001": "Carthage",
+    "8002": "Gordonsville",
+    "8003": "South Carthage"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 11185,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 87.0,
+    "business_points": 495,
+    "seams": 10,
+    "seam_miles": 131.3,
+    "cross_county_seam_miles": 99.6
+  },
+  "situs_distribution": {
+    "8000": 8549,
+    "8001": 1194,
+    "8002": 732,
+    "8003": 710
+  },
+  "risk_bands": {
+    "NORMAL": 9864,
+    "WATCH": 1005,
+    "HIGH": 299,
+    "CRITICAL": 17
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1180,
+    "E5_DOR_INTERNAL_CONFLICT": 81,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 28,
+    "E1_POSTAL_CITY_OVERSTATES": 2645,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 31,
+    "E3_BOUNDARY_PROXIMITY": 316
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 9514,
+    "REVIEW - analyst": 1577,
+    "HOLD - mandatory human adjudication": 48,
+    "HOLD - insufficient evidence": 46
+  },
+  "postal_city_profile": {
+    "CARTHAGE": 3635,
+    "GORDONSVILLE-SMITH": 2885,
+    "DEFEATED": 1067,
+    "LEBANON": 695,
+    "PLEASANT SHADE": 641,
+    "ELMWOOD": 599,
+    "RIDDLETON": 332,
+    "CHESTNUT MOUND": 258,
+    "BRUSH CREEK": 231,
+    "GORDONSVILLE": 204,
+    "DIXON SPRINGS": 179,
+    "BUFFALO VALLEY": 145,
+    "WATERTOWN": 145,
+    "ALEXANDRIA-SMITH": 79,
+    "HICKMAN": 42,
+    "BRUSH CREEK-SMITH": 31,
+    "HILLSDALE": 15,
+    "LANCASTER": 1,
+    "ALEXANDRIA": 1
+  },
+  "cross_county_postal_by_city": {
+    "LEBANON": 695,
+    "DIXON SPRINGS": 179,
+    "BUFFALO VALLEY": 145,
+    "WATERTOWN": 145,
+    "HILLSDALE": 15,
+    "ALEXANDRIA": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=GORDONSVILLE | COMP=GORDONSVILLE": 30,
+    "DOR=UNINCORPORATED | E911=SOUTH CARTHAGE | COMP=SOUTH CARTHAGE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 8003 -> file 8001": 36,
+    "polygon 8003 -> file 8000": 19,
+    "polygon 8002 -> file 8000": 15,
+    "polygon 8000 -> file 8001": 13,
+    "polygon 8001 -> file 8003": 13,
+    "polygon 8000 -> file 8003": 10,
+    "polygon 8001 -> file 8000": 2,
+    "polygon 8000 -> file 8002": 1
+  },
+  "business_flags": {
+    "": 316,
+    "POSTAL_CITY_EXPOSURE": 134,
+    "CROSS_COUNTY_POSTAL": 35,
+    "BOUNDARY_RISK": 6
+  },
+  "label_kinds": {
+    "business": 491,
+    "institution": 2,
+    "place": 2
+  }
+}

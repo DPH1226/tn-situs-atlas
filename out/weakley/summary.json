@@ -1,0 +1,115 @@
+{
+  "county": "WEAKLEY",
+  "slug": "weakley",
+  "generated_utc": "2026-09-13T05:57:41.537841+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "9200": "Unincorporated",
+    "9201": "Dresden",
+    "9202": "Gleason",
+    "9203": "Greenfield",
+    "9204": "Martin",
+    "9205": "Sharon",
+    "9206": "Mckenzie"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 18523,
+    "unplaced": 7,
+    "sst_range_match_rate_pct": 78.7,
+    "business_points": 689,
+    "seams": 11,
+    "seam_miles": 190.1,
+    "cross_county_seam_miles": 103.6
+  },
+  "situs_distribution": {
+    "9200": 8847,
+    "9204": 5302,
+    "9201": 1701,
+    "9203": 1158,
+    "9202": 836,
+    "9205": 610,
+    "9206": 69
+  },
+  "risk_bands": {
+    "NORMAL": 14893,
+    "WATCH": 2633,
+    "HIGH": 894,
+    "CRITICAL": 103
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 307,
+    "E5_DOR_INTERNAL_CONFLICT": 78,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 80,
+    "E1_POSTAL_CITY_OVERSTATES": 7729,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 10,
+    "E3_BOUNDARY_PROXIMITY": 997
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 14025,
+    "REVIEW - analyst": 4074,
+    "HOLD - insufficient evidence": 312,
+    "HOLD - mandatory human adjudication": 112
+  },
+  "postal_city_profile": {
+    "MARTIN": 7884,
+    "DRESDEN": 3303,
+    "GREENFIELD": 2069,
+    "GLEASON": 1766,
+    "SHARON": 1334,
+    "MCKENZIE": 887,
+    "PALMERSVILLE": 597,
+    "DUKEDOM": 211,
+    "UT MARTIN": 163,
+    "SOUTH FULTON": 137,
+    "PARIS": 121,
+    "COTTAGE GROVE": 49,
+    "MACKENZIE": 1,
+    "GLEAON": 1
+  },
+  "cross_county_postal_by_city": {
+    "SOUTH FULTON": 137,
+    "PARIS": 121,
+    "COTTAGE GROVE": 49
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MARTIN | COMP=MARTIN": 9,
+    "DOR=GLEASON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 9200 -> file 9201": 48,
+    "polygon 9200 -> file 9204": 31,
+    "polygon 9201 -> file 9200": 15,
+    "polygon 9205 -> file 9200": 14,
+    "polygon 9203 -> file 9200": 13,
+    "polygon 9202 -> file 9200": 13,
+    "polygon 9204 -> file 9200": 10,
+    "polygon 9200 -> file 9205": 5,
+    "polygon 9200 -> file 9203": 4,
+    "polygon 9200 -> file 9206": 3,
+    "polygon 9200 -> file 9202": 1,
+    "polygon 9206 -> file 9200": 1
+  },
+  "business_flags": {
+    "": 400,
+    "POSTAL_CITY_EXPOSURE": 250,
+    "BOUNDARY_RISK": 23,
+    "CROSS_COUNTY_POSTAL": 9
+  },
+  "label_kinds": {
+    "business": 682,
+    "institution": 6,
+    "place": 1
+  }
+}

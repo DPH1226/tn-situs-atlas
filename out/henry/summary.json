@@ -1,0 +1,105 @@
+{
+  "county": "HENRY",
+  "slug": "henry",
+  "generated_utc": "2026-09-13T05:33:37.842304+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "4000": "Unincorporated",
+    "4001": "Paris",
+    "4002": "Cottage Grove",
+    "4003": "Henry",
+    "4004": "Puryear",
+    "4005": "Mckenzie"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 25384,
+    "unplaced": 6,
+    "sst_range_match_rate_pct": 83.1,
+    "business_points": 816,
+    "seams": 10,
+    "seam_miles": 146.7,
+    "cross_county_seam_miles": 94.5
+  },
+  "situs_distribution": {
+    "4000": 17149,
+    "4001": 7350,
+    "4004": 421,
+    "4003": 377,
+    "4002": 66,
+    "4005": 21
+  },
+  "risk_bands": {
+    "NORMAL": 22215,
+    "WATCH": 2273,
+    "HIGH": 809,
+    "CRITICAL": 87
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 15,
+    "E5_DOR_INTERNAL_CONFLICT": 80,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 101,
+    "E1_POSTAL_CITY_OVERSTATES": 8857,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 4,
+    "E3_BOUNDARY_PROXIMITY": 896
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 20404,
+    "REVIEW - analyst": 4733,
+    "HOLD - insufficient evidence": 158,
+    "HOLD - mandatory human adjudication": 89
+  },
+  "postal_city_profile": {
+    "PARIS": 12976,
+    "SPRINGVILLE": 4926,
+    "BUCHANAN": 2898,
+    "PURYEAR": 1913,
+    "HENRY": 1216,
+    "COTTAGE GROVE": 658,
+    "MANSFIELD": 451,
+    "MCKENZIE": 329,
+    "GLEASON": 15,
+    "BUCHANANA": 1,
+    "SRINGVILLE": 1
+  },
+  "cross_county_postal_by_city": {
+    "GLEASON": 15
+  },
+  "layer_disagreement_detail": {
+    "DOR=PURYEAR | E911=UNINCORPORATED | COMP=PURYEAR": 1,
+    "DOR=UNINCORPORATED | E911=HENRY | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=MCKENZIE | COMP=MCKENZIE": 1,
+    "DOR=UNINCORPORATED | E911=PARIS | COMP=PARIS": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 4003 -> file 4000": 84,
+    "polygon 4001 -> file 4000": 36,
+    "polygon 4000 -> file 4001": 30,
+    "polygon 4000 -> file 4003": 12,
+    "polygon 4004 -> file 4000": 7,
+    "polygon 4000 -> file 4002": 6,
+    "polygon 4000 -> file 4004": 3,
+    "polygon 4002 -> file 4000": 3
+  },
+  "business_flags": {
+    "": 515,
+    "POSTAL_CITY_EXPOSURE": 277,
+    "BOUNDARY_RISK": 17
+  },
+  "label_kinds": {
+    "business": 809,
+    "place": 5,
+    "institution": 2
+  }
+}

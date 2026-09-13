@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "rhea",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:52:34.902589+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='RHEA'",
+  "feature_count": 17549,
+  "sha256": "2d79ef6a82ccfa08e78c92548e3d44589458767d09040ac7d1c4c84db49246f0",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/rhea/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/rhea/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

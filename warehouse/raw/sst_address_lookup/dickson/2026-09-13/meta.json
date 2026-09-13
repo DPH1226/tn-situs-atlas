@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "dickson",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T04:01:55.598485+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='DICKSON'",
+  "feature_count": 6483,
+  "sha256": "70ae4e27163f70fe84c7563f1eaa57c8192af966a28a5195028377941afda0de",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/dickson/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/dickson/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "unicoi",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:56:00.153601+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='UNICOI'",
+  "feature_count": 10315,
+  "sha256": "51a49dee7125f7e0fcda9e117ec1f926592aecc76b630baa09745f8b29343094",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/unicoi/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/unicoi/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

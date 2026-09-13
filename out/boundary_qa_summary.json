@@ -1,0 +1,131 @@
+{
+  "county": "WILSON",
+  "generated_utc": "2026-09-12T21:47:46.725050+00:00",
+  "crs_for_distance": "EPSG:2274",
+  "confidential_dor_data_used": false,
+  "totals": {
+    "address_points_in_wilson": 88196,
+    "address_points_matching_no_dor_polygon": 0,
+    "sst_range_match_rate_pct": 87.0,
+    "business_points_in_wilson": 4769,
+    "seams_touching_wilson": 13,
+    "seam_miles": 360.3,
+    "cross_county_seam_miles": 141.4
+  },
+  "situs_distribution": {
+    "9500": 34726,
+    "9501": 30876,
+    "9503": 21811,
+    "9502": 783
+  },
+  "risk_bands": {
+    "NORMAL": 59975,
+    "WATCH": 20741,
+    "HIGH": 7101,
+    "CRITICAL": 379
+  },
+  "exceptions": {
+    "E5_DOR_INTERNAL_CONFLICT": {
+      "count": 12691,
+      "severity": 1,
+      "loss": "depends on direction",
+      "title": "DOR's address-range table disagrees with DOR's own boundary polygon",
+      "why": "The Streamlined Sales Tax address-range file assigns one situs to this address; the Department's own tax-rate polygon places the rooftop in a different one. This is an inconsistency inside the state's published data and needs no confidential file to prove."
+    },
+    "E2_CROSS_COUNTY_POSTAL": {
+      "count": 5149,
+      "severity": 1,
+      "loss": "BOTH HALVES (situs + education)",
+      "title": "Wilson rooftop carrying another county's mailing city",
+      "why": "The physical location is inside Wilson County, but the postal city on the address belongs to another county. A registration keyed to the mailing address codes to that county and Wilson loses both the situs half and the education half."
+    },
+    "E6_ANNEXATION_LAG": {
+      "count": 1004,
+      "severity": 2,
+      "loss": "SITUS HALF, time-limited",
+      "title": "Inside a municipal annexation the DOR polygon does not reflect",
+      "why": "The city's own annexation layer includes this rooftop but the Department's tax-rate polygon does not. Either the annexation has not propagated to DOR, or the city layer is ahead of its effective date. Both are findings; they point in opposite directions."
+    },
+    "E4_LAYER_DISAGREEMENT": {
+      "count": 1883,
+      "severity": 2,
+      "loss": "unknown until adjudicated",
+      "title": "Official layers disagree about the municipality",
+      "why": "DOR, the 911 addressing authority and the Comptroller's certified boundary do not agree. Protocol Rule 5: no automated submission."
+    },
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": {
+      "count": 2184,
+      "severity": 2,
+      "loss": "depends on direction",
+      "title": "DOR address-file / polygon conflict within 250 ft of a seam",
+      "why": "Same conflict as E5, but close enough to the line that boundary precision alone could explain it. Adjudicate; do not assert."
+    },
+    "E3_BOUNDARY_PROXIMITY": {
+      "count": 7480,
+      "severity": 3,
+      "loss": "risk, not yet a loss",
+      "title": "Within the boundary-risk band of a jurisdictional seam",
+      "why": "Close enough to a seam that geocoder error alone can flip the jurisdiction. Not an error; a control. These are the locations where a competitor's ZIP-based method silently guesses."
+    },
+    "E1_POSTAL_CITY_OVERSTATES": {
+      "count": 30521,
+      "severity": 4,
+      "loss": "EXPOSURE POPULATION, not a finding",
+      "title": "City mailing address on a rooftop outside that city",
+      "why": "The rooftop is not in the municipality its mailing address names. This is NOT by itself an error - it is the population in which errors occur, because a registration keyed to the mailing address would be coded to the wrong jurisdiction. Whether any given business here is actually miscoded cannot be known until the situs report arrives. Report it as exposure, never as a finding."
+    }
+  },
+  "primary_class_counts": {
+    "E1_POSTAL_CITY_OVERSTATES": 24216,
+    "E5_DOR_INTERNAL_CONFLICT": 12691,
+    "E2_CROSS_COUNTY_POSTAL": 5007,
+    "E3_BOUNDARY_PROXIMITY": 4316,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 1949,
+    "E6_ANNEXATION_LAG": 822,
+    "E4_LAYER_DISAGREEMENT": 675
+  },
+  "dispositions": {
+    "REVIEW - analyst": 69616,
+    "HOLD - insufficient evidence": 16383,
+    "HOLD - mandatory human adjudication": 2197
+  },
+  "postal_city_profile": {
+    "LEBANON": 44256,
+    "MT JULIET": 34541,
+    "OLD HICKORY": 4215,
+    "WATERTOWN": 2461,
+    "NORENE": 1399,
+    "HERMITAGE": 535,
+    "MILTON": 341,
+    "AUBURNTOWN": 164,
+    "ALEXANDRIA": 145,
+    "LIBERTY": 78,
+    "LASCASSAS": 58,
+    "MURFREESBORO": 2,
+    "BURFORD": 1
+  },
+  "business_risk_bands": {
+    "NORMAL": 3567,
+    "WATCH": 814,
+    "HIGH": 354,
+    "CRITICAL": 34
+  },
+  "dor_conflict_direction": {
+    "polygon 9501 -> address-file 9500": 7283,
+    "polygon 9503 -> address-file 9500": 4163,
+    "polygon 9500 -> address-file 9501": 1917,
+    "polygon 9500 -> address-file 9503": 1440,
+    "polygon 9500 -> address-file 9502": 52,
+    "polygon 9501 -> address-file 9503": 13,
+    "polygon 9502 -> address-file 9500": 7
+  },
+  "e5_deep_vs_boundary": {
+    "deep_conflict_over_250ft": 12691,
+    "conflict_within_250ft_of_seam": 2184
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MT JULIET | COMP=MT JULIET": 962,
+    "DOR=UNINCORPORATED | E911=LEBANON | COMP=LEBANON": 915,
+    "DOR=UNINCORPORATED | E911=WATERTOWN | COMP=WATERTOWN": 6
+  }
+}

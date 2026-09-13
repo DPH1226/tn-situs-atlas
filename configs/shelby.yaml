@@ -1,0 +1,21 @@
+county: SHELBY
+fips: '47157'
+situs:
+  '7900': Unincorporated
+  '7901': Memphis
+  '7902': Arlington
+  '7903': Bartlett
+  '7904': Collierville
+  '7905': Germantown
+  '7906': Millington
+  '7907': Lakeland
+tiers:
+  parcels: county
+  business: sos
+business_layers:
+- id: shelby_sos_entities
+  type: sos_tsv
+  path: data/sos/shelby_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

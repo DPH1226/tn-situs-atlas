@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "greene",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:21:53.857716+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='GREENE'",
+  "feature_count": 41495,
+  "sha256": "d6351a617ae162943a47d07773a6b3baa5e9eea6e03308c8c3d53cf4984fced6",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/greene/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/greene/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

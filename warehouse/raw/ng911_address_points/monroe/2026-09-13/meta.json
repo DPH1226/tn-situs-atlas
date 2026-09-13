@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "monroe",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:49:17.664801+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='MONROE'",
+  "feature_count": 34736,
+  "sha256": "0dabbb228790076f200a03288af72ca779d8ad7458149a3f43d497aebe87643e",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/monroe/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/monroe/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

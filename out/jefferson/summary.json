@@ -1,0 +1,119 @@
+{
+  "county": "JEFFERSON",
+  "slug": "jefferson",
+  "generated_utc": "2026-09-13T05:34:58.652032+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "4500": "Unincorporated",
+    "4501": "Dandridge",
+    "4502": "Jefferson City",
+    "4503": "White Pine",
+    "4504": "New Market",
+    "4505": "Baneberry"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 31958,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 90.1,
+    "business_points": 1595,
+    "seams": 15,
+    "seam_miles": 245.0,
+    "cross_county_seam_miles": 111.1
+  },
+  "situs_distribution": {
+    "4500": 23936,
+    "4502": 3629,
+    "4501": 2064,
+    "4503": 1213,
+    "4504": 758,
+    "4505": 358
+  },
+  "risk_bands": {
+    "NORMAL": 23545,
+    "WATCH": 5786,
+    "HIGH": 2307,
+    "CRITICAL": 320
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 5114,
+    "E5_DOR_INTERNAL_CONFLICT": 1134,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 362,
+    "E1_POSTAL_CITY_OVERSTATES": 19281,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 545,
+    "E3_BOUNDARY_PROXIMITY": 2627
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 26501,
+    "REVIEW - analyst": 4250,
+    "HOLD - mandatory human adjudication": 832,
+    "HOLD - insufficient evidence": 375
+  },
+  "postal_city_profile": {
+    "DANDRIDGE": 11848,
+    "JEFFERSON CITY": 6557,
+    "NEW MARKET": 4466,
+    "WHITE PINE": 3954,
+    "TALBOTT": 1972,
+    "STRAWBERRY PLAINS": 1861,
+    "SEVIERVILLE": 1099,
+    "MORRISTOWN": 130,
+    "NEWPORT": 30,
+    "KODAK": 22,
+    "JEFFERSON": 19
+  },
+  "cross_county_postal_by_city": {
+    "TALBOTT": 1972,
+    "STRAWBERRY PLAINS": 1861,
+    "SEVIERVILLE": 1099,
+    "MORRISTOWN": 130,
+    "NEWPORT": 30,
+    "KODAK": 22
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=JEFFERSON CITY | COMP=JEFFERSON CITY": 369,
+    "DOR=UNINCORPORATED | E911=DANDRIDGE | COMP=DANDRIDGE": 92,
+    "DOR=UNINCORPORATED | E911=WHITE PINE | COMP=WHITE PINE": 78,
+    "DOR=DANDRIDGE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=JEFFERSON CITY | E911=NEW MARKET | COMP=JEFFERSON CITY": 1,
+    "DOR=UNINCORPORATED | E911=WHITE PINE | COMP=UNINCORPORATED": 1,
+    "DOR=DANDRIDGE | E911=DANDRIDGE | COMP=UNINCORPORATED": 1,
+    "DOR=BANEBERRY | E911=UNINCORPORATED | COMP=BANEBERRY": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 4500 -> file 4504": 598,
+    "polygon 4500 -> file 4502": 384,
+    "polygon 4500 -> file 4501": 218,
+    "polygon 4500 -> file 4503": 170,
+    "polygon 4502 -> file 4500": 28,
+    "polygon 4504 -> file 4500": 26,
+    "polygon 4500 -> file 4505": 25,
+    "polygon 4503 -> file 4500": 22,
+    "polygon 4501 -> file 4500": 17,
+    "polygon 4505 -> file 4500": 5,
+    "polygon 4502 -> file 4504": 3
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 961,
+    "": 388,
+    "CROSS_COUNTY_POSTAL": 157,
+    "BOUNDARY_RISK": 64
+  },
+  "label_kinds": {
+    "business": 1570,
+    "place": 16,
+    "institution": 7,
+    "unnamed": 2
+  }
+}

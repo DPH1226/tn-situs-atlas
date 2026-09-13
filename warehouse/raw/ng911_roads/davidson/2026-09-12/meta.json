@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_roads",
+  "scope": "davidson",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:37.477826+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Road_Centerlines/FeatureServer/1",
+  "where_clause": "COUNTY_L='DAVIDSON' OR COUNTY_R='DAVIDSON'",
+  "feature_count": 36499,
+  "sha256": "5b248a54015c2b20c18f4bb76c76d541bbda537f965d3e3736fd4be2586a56f4",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_roads/davidson/2026-09-12/data.geojson",
+  "parquet_path": "parquet/ng911_roads/davidson/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 4,
+  "notes": "TN Emergency Communications Board"
+}

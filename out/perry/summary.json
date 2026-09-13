@@ -1,0 +1,87 @@
+{
+  "county": "PERRY",
+  "slug": "perry",
+  "generated_utc": "2026-09-13T05:43:24.393552+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6800": "Unincorporated",
+    "6801": "Linden",
+    "6802": "Lobelville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 10122,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 62.9,
+    "business_points": 214,
+    "seams": 8,
+    "seam_miles": 145.5,
+    "cross_county_seam_miles": 110.5
+  },
+  "situs_distribution": {
+    "6800": 8602,
+    "6801": 822,
+    "6802": 698
+  },
+  "risk_bands": {
+    "NORMAL": 7639,
+    "WATCH": 2065,
+    "HIGH": 335,
+    "CRITICAL": 83
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 951,
+    "E5_DOR_INTERNAL_CONFLICT": 89,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 76,
+    "E1_POSTAL_CITY_OVERSTATES": 7569,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 4,
+    "E3_BOUNDARY_PROXIMITY": 418
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 6098,
+    "REVIEW - analyst": 3852,
+    "HOLD - insufficient evidence": 89,
+    "HOLD - mandatory human adjudication": 83
+  },
+  "postal_city_profile": {
+    "LINDEN": 6625,
+    "LOBELVILLE": 2462,
+    "CLIFTON": 950,
+    "PLEASANTVILLE": 84,
+    "HOHENWALD": 1
+  },
+  "cross_county_postal_by_city": {
+    "CLIFTON": 950,
+    "HOHENWALD": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=LINDEN | COMP=UNINCORPORATED": 2,
+    "DOR=LOBELVILLE | E911=UNINCORPORATED | COMP=LOBELVILLE": 2
+  },
+  "dor_conflict_direction": {
+    "polygon 6800 -> file 6801": 93,
+    "polygon 6802 -> file 6800": 32,
+    "polygon 6800 -> file 6802": 27,
+    "polygon 6801 -> file 6800": 13
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 137,
+    "": 53,
+    "BOUNDARY_RISK": 16,
+    "CROSS_COUNTY_POSTAL": 8
+  },
+  "label_kinds": {
+    "business": 214
+  }
+}

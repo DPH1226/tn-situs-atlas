@@ -1,0 +1,25 @@
+county: ROBERTSON
+fips: '47147'
+situs:
+  '7400': Unincorporated
+  '7401': Springfield
+  '7402': Adams
+  '7403': Cedar Hill
+  '7404': Greenbrier
+  '7405': Orlinda
+  '7406': Ridgetop
+  '7407': White House
+  '7408': Cross Plains
+  '7409': Millersville
+  '7410': Coopertown
+  '7411': Portland
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: robertson_sos_entities
+  type: sos_tsv
+  path: data/sos/robertson_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

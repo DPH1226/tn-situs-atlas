@@ -1,0 +1,131 @@
+{
+  "county": "DICKSON",
+  "slug": "dickson",
+  "generated_utc": "2026-09-13T05:26:21.402056+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2200": "Unincorporated",
+    "2201": "Charlotte",
+    "2202": "Burns",
+    "2203": "Dickson",
+    "2204": "Slayden",
+    "2205": "Vanleer",
+    "2206": "White Bluff"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 29963,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 90.1,
+    "business_points": 2074,
+    "seams": 13,
+    "seam_miles": 249.2,
+    "cross_county_seam_miles": 107.3
+  },
+  "situs_distribution": {
+    "2200": 15919,
+    "2203": 9661,
+    "2206": 2186,
+    "2202": 1002,
+    "2201": 768,
+    "2205": 304,
+    "2204": 123
+  },
+  "risk_bands": {
+    "NORMAL": 23005,
+    "WATCH": 5091,
+    "HIGH": 1704,
+    "CRITICAL": 163
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1756,
+    "E5_DOR_INTERNAL_CONFLICT": 631,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 301,
+    "E1_POSTAL_CITY_OVERSTATES": 14660,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 92,
+    "E3_BOUNDARY_PROXIMITY": 1867
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 25635,
+    "REVIEW - analyst": 3884,
+    "HOLD - insufficient evidence": 225,
+    "HOLD - mandatory human adjudication": 219
+  },
+  "postal_city_profile": {
+    "DICKSON": 15200,
+    "CHARLOTTE": 4312,
+    "WHITE BLUFF": 3793,
+    "BURNS": 3579,
+    "VANLEER": 1319,
+    "BON AQUA": 619,
+    "CUMBERLAND FURNACE": 479,
+    "CUNNINGHAM": 424,
+    "FAIRVIEW": 219,
+    "SOUTHSIDE": 11,
+    "MCEWEN": 4,
+    "SLAYDEN": 2,
+    "VANLER": 1,
+    "CUMBELAND FURNACE": 1
+  },
+  "cross_county_postal_by_city": {
+    "BON AQUA": 619,
+    "CUMBERLAND FURNACE": 479,
+    "CUNNINGHAM": 424,
+    "FAIRVIEW": 219,
+    "SOUTHSIDE": 11,
+    "MCEWEN": 4
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=DICKSON | COMP=DICKSON": 46,
+    "DOR=UNINCORPORATED | E911=BURNS | COMP=BURNS": 12,
+    "DOR=DICKSON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 9,
+    "DOR=CHARLOTTE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 7,
+    "DOR=UNINCORPORATED | E911=WHITE BLUFF | COMP=WHITE BLUFF": 6,
+    "DOR=UNINCORPORATED | E911=BURNS | COMP=UNINCORPORATED": 3,
+    "DOR=UNINCORPORATED | E911=VANLEER | COMP=VANLEER": 3,
+    "DOR=UNINCORPORATED | E911=SLAYDEN | COMP=SLAYDEN": 2,
+    "DOR=UNINCORPORATED | E911=CHARLOTTE | COMP=CHARLOTTE": 2,
+    "DOR=VANLEER | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=CHARLOTTE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 2203 -> file 2200": 367,
+    "polygon 2200 -> file 2203": 115,
+    "polygon 2200 -> file 2206": 95,
+    "polygon 2206 -> file 2200": 86,
+    "polygon 2200 -> file 2202": 51,
+    "polygon 2202 -> file 2200": 36,
+    "polygon 2205 -> file 2200": 35,
+    "polygon 2200 -> file 2201": 30,
+    "polygon 2200 -> file 2204": 28,
+    "polygon 2201 -> file 2200": 25,
+    "polygon 2200 -> file 2205": 22,
+    "polygon 2202 -> file 2203": 18,
+    "polygon 2204 -> file 2200": 14,
+    "polygon 2203 -> file 2202": 9,
+    "polygon 2203 -> file 2205": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 974,
+    "": 905,
+    "CROSS_COUNTY_POSTAL": 104,
+    "BOUNDARY_RISK": 69
+  },
+  "label_kinds": {
+    "business": 2052,
+    "institution": 11,
+    "place": 10,
+    "unnamed": 1
+  }
+}

@@ -1,0 +1,15 @@
+# JSON-schema-ish description of a county config. Validated by fetch/config.py.
+required: [county, fips, situs, tiers]
+properties:
+  county:  {type: string, pattern: "^[A-Z .]+$"}
+  fips:    {type: string, pattern: "^47[0-9]{3}$"}
+  situs:   {type: object}            # code -> display name
+  tiers:
+    parcels:  {enum: [comptroller, county, city, request, none]}
+    business: {enum: [ecd, city, county, commercial, permits, none]}
+  business_layers:
+    items: {required: [id, url, name_field], optional: [where, out_fields, geom, address_field, zip_field, situs_field, notes]}
+  city_layers:
+    items: {required: [id, url, role], optional: [where, date_field, name_field, notes]}
+  usps_only_places: {type: object}   # POSTAL NAME -> HOME COUNTY
+  contacts: {type: object}

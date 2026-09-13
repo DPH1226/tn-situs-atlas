@@ -1,0 +1,20 @@
+county: WILLIAMSON
+fips: '47187'
+situs:
+  '9400': Unincorporated
+  '9401': Franklin
+  '9402': Fairview
+  '9403': Brentwood
+  '9404': Spring Hill
+  '9405': Thompson'S Station
+  '9406': Nolensville
+tiers:
+  parcels: county
+  business: sos
+business_layers:
+- id: williamson_sos_entities
+  type: sos_tsv
+  path: data/sos/williamson_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

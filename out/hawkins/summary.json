@@ -1,0 +1,130 @@
+{
+  "county": "HAWKINS",
+  "slug": "hawkins",
+  "generated_utc": "2026-09-13T05:33:02.061086+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3700": "Unincorporated",
+    "3701": "Rogersville",
+    "3702": "Bulls Gap",
+    "3703": "Church Hill",
+    "3704": "Mount Carmel",
+    "3705": "Surgoinsville",
+    "3706": "Kingsport",
+    "3708": "Bean Station"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 35185,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 85.5,
+    "business_points": 905,
+    "seams": 18,
+    "seam_miles": 247.5,
+    "cross_county_seam_miles": 120.8
+  },
+  "situs_distribution": {
+    "3700": 22609,
+    "3703": 3872,
+    "3701": 3265,
+    "3704": 2890,
+    "3705": 1133,
+    "3706": 912,
+    "3702": 498,
+    "3708": 6
+  },
+  "risk_bands": {
+    "NORMAL": 26873,
+    "WATCH": 5829,
+    "HIGH": 2118,
+    "CRITICAL": 365
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 804,
+    "E5_DOR_INTERNAL_CONFLICT": 545,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 356,
+    "E1_POSTAL_CITY_OVERSTATES": 18917,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 28,
+    "E3_BOUNDARY_PROXIMITY": 2483
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 28149,
+    "REVIEW - analyst": 6292,
+    "HOLD - mandatory human adjudication": 387,
+    "HOLD - insufficient evidence": 357
+  },
+  "postal_city_profile": {
+    "ROGERSVILLE": 13756,
+    "CHURCH HILL": 8665,
+    "MT CARMEL": 2866,
+    "SURGOINSVILLE": 2803,
+    "MOORESBURG": 2602,
+    "BULLS GAP": 2102,
+    "KINGSPORT": 994,
+    "WHITESBURG": 591,
+    "EIDSON": 495,
+    "SNEEDVILLE": 116,
+    "TREADWAY": 95,
+    "GREENEVILLE": 93,
+    "THORN HILL": 4,
+    "SURGOINVILLE": 2,
+    "BEAN STATION": 1
+  },
+  "cross_county_postal_by_city": {
+    "WHITESBURG": 591,
+    "SNEEDVILLE": 116,
+    "GREENEVILLE": 93,
+    "THORN HILL": 4
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=ROGERSVILLE | COMP=ROGERSVILLE": 13,
+    "DOR=UNINCORPORATED | E911=BEAN STATION | COMP=BEAN STATION": 8,
+    "DOR=MT CARMEL | E911=UNINCORPORATED | COMP=MT CARMEL": 2,
+    "DOR=ROGERSVILLE | E911=UNINCORPORATED | COMP=ROGERSVILLE": 1,
+    "DOR=MT CARMEL | E911=CHURCH HILL | COMP=CHURCH HILL": 1,
+    "DOR=CHURCH HILL | E911=UNINCORPORATED | COMP=CHURCH HILL": 1,
+    "DOR=UNINCORPORATED | E911=BULLS GAP | COMP=BULLS GAP": 1,
+    "DOR=ROGERSVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 3700 -> file 3701": 274,
+    "polygon 3700 -> file 3703": 204,
+    "polygon 3700 -> file 3704": 180,
+    "polygon 3700 -> file 3705": 79,
+    "polygon 3703 -> file 3700": 55,
+    "polygon 3701 -> file 3700": 41,
+    "polygon 3704 -> file 3700": 18,
+    "polygon 3705 -> file 3700": 11,
+    "polygon 3706 -> file 3700": 10,
+    "polygon 3700 -> file 3702": 8,
+    "polygon 3700 -> file 3706": 8,
+    "polygon 3700 -> file 3708": 4,
+    "polygon 3708 -> file 3700": 3,
+    "polygon 3704 -> file 3703": 3,
+    "polygon 3702 -> file 3700": 2,
+    "polygon 3705 -> file 3701": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 444,
+    "": 402,
+    "BOUNDARY_RISK": 38,
+    "CROSS_COUNTY_POSTAL": 6
+  },
+  "label_kinds": {
+    "business": 890,
+    "place": 9,
+    "institution": 5,
+    "unnamed": 1
+  }
+}

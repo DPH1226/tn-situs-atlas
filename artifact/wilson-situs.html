@@ -1,0 +1,306 @@
+<title>Wilson County Situs Control</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F4F5F2; --surface:#FFFFFF; --surface-2:#EDEFEB;
+  --ink:#16202B; --ink-2:#3D4B57; --ink-3:#6B7A86;
+  --rule:#D2D8DB; --rule-2:#E3E7E6;
+  --accent:#1F5C7A; --accent-soft:#DCE8ED;
+  --sev-crit:#A8322D; --sev-high:#B0722A; --sev-watch:#5E7686; --sev-clear:#3A7358;
+  --crit-bg:#F6E4E2; --high-bg:#F7EBDC; --watch-bg:#E6EBEE; --clear-bg:#E1EEE7;
+  --s-9500:#7C8F6B; --s-9501:#2F6E8F; --s-9502:#8A6A9E; --s-9503:#C08A3E;
+  --shadow:0 1px 2px rgba(22,32,43,.06), 0 8px 24px -12px rgba(22,32,43,.18);
+  --sans:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#10161C; --surface:#171F27; --surface-2:#1E2831;
+  --ink:#E8EDEF; --ink-2:#AFBCC5; --ink-3:#7E8D98;
+  --rule:#2C3843; --rule-2:#222D36;
+  --accent:#6FB3D2; --accent-soft:#1B333F;
+  --sev-crit:#E9827C; --sev-high:#DFA862; --sev-watch:#9CB0BD; --sev-clear:#6FBE96;
+  --crit-bg:#34201F; --high-bg:#332618; --watch-bg:#1F2A33; --clear-bg:#1B2F26;
+  --s-9500:#9DB287; --s-9501:#5C9DC0; --s-9502:#AE8CC2; --s-9503:#D7A65C;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7);
+}}
+:root[data-theme="dark"]{
+  --paper:#10161C; --surface:#171F27; --surface-2:#1E2831;
+  --ink:#E8EDEF; --ink-2:#AFBCC5; --ink-3:#7E8D98;
+  --rule:#2C3843; --rule-2:#222D36;
+  --accent:#6FB3D2; --accent-soft:#1B333F;
+  --sev-crit:#E9827C; --sev-high:#DFA862; --sev-watch:#9CB0BD; --sev-clear:#6FBE96;
+  --crit-bg:#34201F; --high-bg:#332618; --watch-bg:#1F2A33; --clear-bg:#1B2F26;
+  --s-9500:#9DB287; --s-9501:#5C9DC0; --s-9502:#AE8CC2; --s-9503:#D7A65C;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:0 72px}
+h1,h2,h3,.ui{font-family:var(--sans)}
+h2{font-size:1.32rem;font-weight:600;letter-spacing:-.011em;margin:0;text-wrap:balance}
+h3{font-size:1rem;font-weight:600;margin:0}
+p{margin:0 0 .9em}
+.lede{font-size:1.06rem;color:var(--ink-2);max-width:66ch}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--sans);font-size:.69rem;font-weight:600;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3)}
+
+/* ---------- masthead: a run header, like an audit report cover ---------- */
+header.mast{border-bottom:2px solid var(--ink);background:var(--surface)}
+.mast-in{max-width:1180px;margin:0 auto;padding:26px 20px 20px;
+  display:flex;flex-wrap:wrap;gap:22px;align-items:flex-end;justify-content:space-between}
+.mast h1{font-size:clamp(1.55rem,3.4vw,2.1rem);font-weight:700;letter-spacing:-.022em;
+  margin:.18em 0 0;line-height:1.12;text-wrap:balance}
+.mast .sub{color:var(--ink-2);font-size:.95rem;margin-top:.45em;max-width:56ch}
+.runbox{font-family:var(--mono);font-size:.72rem;line-height:1.85;color:var(--ink-2);
+  border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:10px 14px;background:var(--surface-2);min-width:270px}
+.runbox b{color:var(--ink);font-weight:600}
+.runbox .ok{color:var(--sev-clear);font-weight:600}
+
+/* ---------- section rhythm ---------- */
+section{margin-top:52px}
+.sec-head{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;
+  border-bottom:1px solid var(--rule);padding-bottom:9px;margin-bottom:20px}
+.sec-head .n{font-family:var(--mono);font-size:.78rem;color:var(--ink-3);font-weight:500}
+
+/* ---------- measurement readout ---------- */
+.readout{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));
+  gap:0;border:1px solid var(--rule);background:var(--surface)}
+.readout>div{padding:15px 16px;border-right:1px solid var(--rule-2)}
+.readout>div:last-child{border-right:0}
+.readout .k{font-family:var(--sans);font-size:.67rem;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.readout .v{font-family:var(--mono);font-size:1.42rem;font-weight:500;letter-spacing:-.02em}
+.readout .u{font-family:var(--sans);font-size:.74rem;color:var(--ink-3);margin-top:3px}
+
+/* ---------- the band ruler: this page's one subject-specific device ---------- */
+.ruler{border:1px solid var(--rule);background:var(--surface);padding:18px 18px 14px}
+.ruler-bar{display:flex;height:30px;border:1px solid var(--rule);overflow:hidden}
+.ruler-bar i{display:block;font-style:normal}
+.tickrow{display:flex;margin-top:5px;font-family:var(--mono);font-size:.68rem;color:var(--ink-3)}
+.bandkey{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:13px;
+  font-family:var(--sans);font-size:.78rem}
+.bandkey span{display:flex;align-items:center;gap:7px;color:var(--ink-2)}
+.sw{width:11px;height:11px;flex:none;border:1px solid rgba(0,0,0,.18)}
+
+/* ---------- map ---------- */
+.mapwrap{border:1px solid var(--rule);background:var(--surface);position:relative}
+#map{display:block;width:100%;height:auto;touch-action:pan-y}
+.maptools{display:flex;flex-wrap:wrap;gap:7px;padding:11px 13px;border-bottom:1px solid var(--rule-2);
+  align-items:center;background:var(--surface-2)}
+.chip{font-family:var(--sans);font-size:.76rem;font-weight:500;border:1px solid var(--rule);
+  background:var(--surface);color:var(--ink-2);padding:5px 11px;cursor:pointer;
+  display:inline-flex;align-items:center;gap:7px;border-radius:2px}
+.chip:hover{border-color:var(--accent);color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.chip .ct{font-family:var(--mono);font-size:.72rem;opacity:.75}
+.maplegend{display:flex;flex-wrap:wrap;gap:5px 16px;padding:10px 13px;border-top:1px solid var(--rule-2);
+  font-family:var(--sans);font-size:.73rem;color:var(--ink-3);background:var(--surface-2)}
+.maplegend span{display:flex;align-items:center;gap:6px}
+#tip{position:absolute;pointer-events:none;opacity:0;transition:opacity .1s;z-index:5;
+  background:var(--ink);color:var(--paper);padding:8px 11px;font-family:var(--mono);
+  font-size:.72rem;line-height:1.6;max-width:270px;box-shadow:var(--shadow)}
+#tip b{font-family:var(--sans);font-size:.78rem;display:block;margin-bottom:3px}
+
+/* ---------- finding cards ---------- */
+.findings{display:grid;gap:14px}
+.finding{border:1px solid var(--rule);background:var(--surface);display:grid;
+  grid-template-columns:6px 1fr;overflow:hidden}
+.finding .stripe{background:var(--sev-watch)}
+.finding.crit .stripe{background:var(--sev-crit)}
+.finding.high .stripe{background:var(--sev-high)}
+.finding.info .stripe{background:var(--ink-3)}
+.finding .body{padding:16px 19px}
+.finding .top{display:flex;gap:14px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}
+.finding .cnt{font-family:var(--mono);font-size:1.5rem;font-weight:500;letter-spacing:-.02em;white-space:nowrap}
+.finding .loss{font-family:var(--sans);font-size:.68rem;font-weight:600;letter-spacing:.08em;
+  text-transform:uppercase;padding:3px 8px;border:1px solid currentColor}
+.finding.crit .loss{color:var(--sev-crit)} .finding.high .loss{color:var(--sev-high)}
+.finding.info .loss{color:var(--ink-3)} .finding .loss{color:var(--sev-watch)}
+.finding p{font-size:.93rem;color:var(--ink-2);margin:.6em 0 0;max-width:70ch}
+
+/* ---------- table ---------- */
+.tablebox{border:1px solid var(--rule);background:var(--surface)}
+.tscroll{overflow-x:auto;max-height:520px;overflow-y:auto}
+table{border-collapse:collapse;width:100%;font-size:.83rem}
+thead th{position:sticky;top:0;background:var(--surface-2);z-index:2;text-align:left;
+  font-family:var(--sans);font-size:.68rem;font-weight:600;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-3);padding:10px 12px;border-bottom:1px solid var(--rule);
+  white-space:nowrap}
+tbody td{padding:9px 12px;border-bottom:1px solid var(--rule-2);vertical-align:top}
+tbody tr:hover{background:var(--surface-2)}
+tbody tr.sel{background:var(--accent-soft)}
+td.num{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.code{font-family:var(--mono);white-space:nowrap}
+.bizname{font-family:var(--sans);font-weight:600;font-size:.85rem}
+.pill{display:inline-block;font-family:var(--sans);font-size:.67rem;font-weight:600;
+  letter-spacing:.05em;padding:2px 7px;border-radius:2px;white-space:nowrap}
+.p-cc{background:var(--crit-bg);color:var(--sev-crit)}
+.p-br{background:var(--high-bg);color:var(--sev-high)}
+.p-pc{background:var(--watch-bg);color:var(--sev-watch)}
+.situs{font-family:var(--mono);font-weight:600}
+.situs .cy{opacity:.5}
+
+/* ---------- provenance ---------- */
+.src{width:100%;border-collapse:collapse;font-size:.8rem}
+.src th{text-align:left;font-family:var(--sans);font-size:.67rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-3);padding:8px 10px;border-bottom:1px solid var(--rule)}
+.src td{padding:9px 10px;border-bottom:1px solid var(--rule-2);vertical-align:top}
+.src .cost{font-family:var(--mono);font-weight:600;color:var(--sev-clear)}
+.note{border-left:3px solid var(--accent);background:var(--surface);padding:14px 18px;
+  font-size:.93rem;color:var(--ink-2);max-width:76ch}
+.note b{color:var(--ink)}
+.cols2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+ul.tight{margin:.4em 0;padding-left:1.15em}
+ul.tight li{margin:.32em 0;font-size:.93rem;color:var(--ink-2)}
+footer{margin-top:56px;border-top:1px solid var(--rule);padding-top:18px;
+  font-size:.81rem;color:var(--ink-3);max-width:80ch}
+@media (max-width:620px){
+  .readout>div{border-right:0;border-bottom:1px solid var(--rule-2)}
+  .mast-in{align-items:flex-start}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="mast">
+  <div class="mast-in">
+    <div>
+      <div class="eyebrow">Civvix &middot; Prototype for Wilson County, Tennessee</div>
+      <h1>Wilson County Situs Control</h1>
+      <div class="sub">A boundary-first audit of local option sales tax situs &mdash; built entirely
+        from public data, before any confidential Department of Revenue file is requested.</div>
+    </div>
+    <div class="runbox">
+      <div>RUN&nbsp;&nbsp;&nbsp; <b id="rundate">&mdash;</b></div>
+      <div>BASIS&nbsp; <b>TN DOR tax-rate polygons</b></div>
+      <div>CRS&nbsp;&nbsp;&nbsp; <b>EPSG:2274</b> TN State Plane ftUS</div>
+      <div>DOR&nbsp;situs&nbsp;report&nbsp; <b>not received</b></div>
+      <div>Confidential data used&nbsp; <span class="ok">NONE</span></div>
+      <div>Acquisition cost&nbsp; <span class="ok">$0.00</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section id="s1" style="margin-top:34px">
+  <div class="sec-head"><span class="n">01</span><h2>What this run proves</h2></div>
+  <p class="lede">Before Civvix tells a Finance Director that the Department of Revenue has miscoded
+  a business, it should be able to show that the geography underneath the claim is sound. This page is
+  that proof, and it doubles as a working exception queue. Every rooftop in Wilson County has been
+  placed inside the Department's own tax-rate polygon, measured against every jurisdictional seam
+  in feet, and cross-checked against three independent official layers.</p>
+  <div class="readout" id="readout"></div>
+</section>
+
+<section id="s2">
+  <div class="sec-head"><span class="n">02</span><h2>The boundary-risk surface</h2>
+    <span class="eyebrow" style="margin-left:auto">distance to nearest jurisdictional seam</span></div>
+  <p class="lede" style="margin-bottom:18px">A seam is where two different situs codes meet &mdash;
+  not merely where a polygon ends. Wilson County has <b class="mono" id="seamct"></b> of them.
+  The bands below are the control: what a location is close to determines how much human judgment
+  its situs assignment requires.</p>
+  <div class="ruler">
+    <div class="ruler-bar" id="rulerbar"></div>
+    <div class="tickrow" id="tickrow"></div>
+    <div class="bandkey" id="bandkey"></div>
+  </div>
+</section>
+
+<section id="s3">
+  <div class="sec-head"><span class="n">03</span><h2>Wilson County, coded</h2></div>
+  <p class="lede" style="margin-bottom:16px">Four situs codes cover the county. The heavy lines are
+  county seams &mdash; a business miscoded across one of those costs Wilson both halves of the local
+  option tax. The lighter lines are city seams, which cost only the situs half.
+  Points are the public business universe, rooftop-placed by the county's 911 district.</p>
+  <div class="mapwrap">
+    <div class="maptools" id="maptools"></div>
+    <canvas id="map" width="1160" height="720"></canvas>
+    <div id="tip"></div>
+    <div class="maplegend" id="maplegend"></div>
+  </div>
+</section>
+
+<section id="s4">
+  <div class="sec-head"><span class="n">04</span><h2>What the public data already shows</h2></div>
+  <div class="findings" id="findings"></div>
+</section>
+
+<section id="s5">
+  <div class="sec-head"><span class="n">05</span><h2>Exception queue</h2>
+    <span class="eyebrow" style="margin-left:auto" id="qcount"></span></div>
+  <p class="lede" style="margin-bottom:16px">Named businesses, ranked by what an error costs the county.
+  Select a row to locate it on the map above. These are <i>candidates</i>: the public data establishes
+  where each business physically sits and what jurisdiction its mailing address implies. Confirming
+  how the Department actually coded it requires the situs report.</p>
+  <div class="tablebox">
+    <div class="maptools" id="qtools"></div>
+    <div class="tscroll"><table id="qtable">
+      <thead><tr>
+        <th>Business</th><th>Address</th><th>Postal city</th><th>DOR situs</th>
+        <th style="text-align:right">Seam dist.</th><th>Class</th>
+      </tr></thead><tbody id="qbody"></tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="s6">
+  <div class="sec-head"><span class="n">06</span><h2>Where the data came from, and what it cost</h2></div>
+  <div class="note" style="margin-bottom:20px"><b>Wilson County offers six GIS layers at $75 each &mdash; $450.</b>
+  This run used none of them. Address points, road-level geography, municipal limits and the
+  authoritative tax boundary are all published free by the State of Tennessee, by the county's own
+  911 district, and by the City of Mt. Juliet. The county's parcel layer remains the one genuine
+  purchase candidate, and only if a specific exception turns on parcel geometry.</div>
+  <div class="tablebox" style="padding:4px 16px 10px">
+    <table class="src"><thead><tr><th>Layer</th><th>Custodian</th><th>Role</th><th>Refresh</th><th>Cost</th></tr></thead>
+    <tbody id="srcbody"></tbody></table>
+  </div>
+</section>
+
+<section id="s7">
+  <div class="sec-head"><span class="n">07</span><h2>What is waiting on the Department of Revenue</h2></div>
+  <div class="cols2">
+    <div>
+      <h3 style="margin-bottom:8px">Ready to send</h3>
+      <ul class="tight">
+        <li>Written request under T.C.A. &sect;&nbsp;67-1-1704(d) for the Wilson County situs report,
+            covering all four situs codes &mdash; 9500, 9501, 9502, 9503.</li>
+        <li>Contractor designation under &sect;&nbsp;67-1-1704(e), limited on its face to
+            <b>name, address and situs</b> and nothing else.</li>
+        <li>A 35-ZIP request universe: 14 ZIPs wholly or partly in Wilson, 21 in the surrounding ring,
+            each with its own written justification.</li>
+        <li>Reconciliation request for the City/County Detail and Month Detail reports from REP.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="margin-bottom:8px">What arrives with it</h3>
+      <ul class="tight">
+        <li>The roster joins to this surface on business name and address. Every row already has a
+            rooftop, a situs, a seam distance and an evidence score waiting for it.</li>
+        <li>The comparison is then mechanical: coded situs versus measured situs.</li>
+        <li>The one-year correction window means every month before the first submission is
+            unrecoverable. That is arithmetic, not salesmanship.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><b>Prepared by Civvix Inc. for Aaron Maynard, Finance Director, Wilson County, Tennessee.</b>
+  Prototype &mdash; not an audit finding. No confidential tax information was requested, received or
+  used in producing this page. Business locations come from the Wilson County Emergency Communications
+  District's public label layer, which carries a business name and a rooftop coordinate but no address,
+  NAICS code or licence linkage; names are matched to the nearest public address point within 500 feet.
+  Map geometry is simplified for display only &mdash; all measurement was performed on full-precision
+  geometry in EPSG:2274. Situs codes shown are the Department's published tax-rate polygons, not
+  taxpayer coding.</p>
+</footer>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>

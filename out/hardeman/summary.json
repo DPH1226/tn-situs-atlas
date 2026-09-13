@@ -1,0 +1,130 @@
+{
+  "county": "HARDEMAN",
+  "slug": "hardeman",
+  "generated_utc": "2026-09-13T05:31:53.556256+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3500": "Unincorporated",
+    "3501": "Bolivar",
+    "3502": "Grand Junction",
+    "3503": "Hickory Valley",
+    "3504": "Hornsby",
+    "3505": "Middleton",
+    "3506": "Saulsbury",
+    "3507": "Silerton",
+    "3508": "Toone",
+    "3509": "Whiteville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 17138,
+    "unplaced": 2,
+    "sst_range_match_rate_pct": 79.6,
+    "business_points": 386,
+    "seams": 16,
+    "seam_miles": 173.7,
+    "cross_county_seam_miles": 80.6
+  },
+  "situs_distribution": {
+    "3500": 11834,
+    "3501": 3155,
+    "3509": 791,
+    "3505": 430,
+    "3502": 266,
+    "3508": 198,
+    "3504": 196,
+    "3506": 109,
+    "3503": 85,
+    "3507": 74
+  },
+  "risk_bands": {
+    "NORMAL": 14251,
+    "WATCH": 2113,
+    "HIGH": 681,
+    "CRITICAL": 93
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 715,
+    "E5_DOR_INTERNAL_CONFLICT": 248,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 107,
+    "E1_POSTAL_CITY_OVERSTATES": 10737,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 20,
+    "E3_BOUNDARY_PROXIMITY": 774
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 13052,
+    "REVIEW - analyst": 3862,
+    "HOLD - insufficient evidence": 116,
+    "HOLD - mandatory human adjudication": 108
+  },
+  "postal_city_profile": {
+    "BOLIVAR": 5949,
+    "MIDDLETON": 3040,
+    "SAULSBURY": 2308,
+    "WHITEVILLE": 1692,
+    "GRAND JUNCTION": 993,
+    "TOONE": 867,
+    "HICKORY VALLEY": 551,
+    "HORNSBY": 547,
+    "MEDON": 472,
+    "POCAHONTAS": 431,
+    "HENDERSON": 221,
+    "MERCER": 63,
+    "POC": 1,
+    "GRANDJUNCTION": 1,
+    "MIDDLETOIN": 1,
+    "HICKROY VALLEY": 1
+  },
+  "cross_county_postal_by_city": {
+    "POCAHONTAS": 431,
+    "HENDERSON": 221,
+    "MERCER": 63
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MIDDLETON | COMP=MIDDLETON": 8,
+    "DOR=TOONE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 7,
+    "DOR=UNINCORPORATED | E911=TOONE | COMP=TOONE": 4,
+    "DOR=UNINCORPORATED | E911=GRAND JUNCTION | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 3500 -> file 3505": 203,
+    "polygon 3500 -> file 3501": 37,
+    "polygon 3501 -> file 3500": 29,
+    "polygon 3500 -> file 3502": 20,
+    "polygon 3506 -> file 3500": 12,
+    "polygon 3508 -> file 3500": 12,
+    "polygon 3500 -> file 3508": 9,
+    "polygon 3500 -> file 3509": 8,
+    "polygon 3505 -> file 3500": 6,
+    "polygon 3504 -> file 3500": 4,
+    "polygon 3500 -> file 3506": 3,
+    "polygon 3500 -> file 3504": 3,
+    "polygon 3500 -> file 3503": 2,
+    "polygon 3500 -> file 3507": 2,
+    "polygon 3503 -> file 3500": 2,
+    "polygon 3509 -> file 3501": 2,
+    "polygon 3509 -> file 3500": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 217,
+    "": 147,
+    "CROSS_COUNTY_POSTAL": 13,
+    "BOUNDARY_RISK": 6
+  },
+  "label_kinds": {
+    "business": 383,
+    "place": 2,
+    "institution": 1
+  }
+}

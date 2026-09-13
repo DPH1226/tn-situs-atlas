@@ -1,0 +1,106 @@
+{
+  "county": "COFFEE",
+  "slug": "coffee",
+  "generated_utc": "2026-09-13T05:25:05.627703+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1600": "Unincorporated",
+    "1601": "Manchester",
+    "1602": "Tullahoma"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 29814,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 94.8,
+    "business_points": 1950,
+    "seams": 12,
+    "seam_miles": 213.3,
+    "cross_county_seam_miles": 124.7
+  },
+  "situs_distribution": {
+    "1600": 14416,
+    "1602": 9295,
+    "1601": 6103
+  },
+  "risk_bands": {
+    "NORMAL": 24941,
+    "WATCH": 3331,
+    "HIGH": 1386,
+    "CRITICAL": 156
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1755,
+    "E5_DOR_INTERNAL_CONFLICT": 101,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 273,
+    "E1_POSTAL_CITY_OVERSTATES": 9022,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 249,
+    "E3_BOUNDARY_PROXIMITY": 1542
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 26850,
+    "REVIEW - analyst": 2521,
+    "HOLD - mandatory human adjudication": 360,
+    "HOLD - insufficient evidence": 83
+  },
+  "postal_city_profile": {
+    "MANCHESTER": 14260,
+    "TULLAHOMA": 10038,
+    "HILLSBORO": 2068,
+    "BEECH GROVE": 1685,
+    "MORRISON": 811,
+    "NORMANDY": 440,
+    "ESTILL SPRINGS": 232,
+    "WARTRACE": 198,
+    "BRADYVILLE": 59,
+    "CHRISTIANA": 10,
+    "BEECHGROVE": 7,
+    "DECHERD": 5,
+    "BEECH GROCE": 1
+  },
+  "cross_county_postal_by_city": {
+    "MORRISON": 811,
+    "NORMANDY": 440,
+    "ESTILL SPRINGS": 232,
+    "WARTRACE": 198,
+    "BRADYVILLE": 59,
+    "CHRISTIANA": 10,
+    "DECHERD": 5
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MANCHESTER | COMP=UNINCORPORATED": 138,
+    "DOR=UNINCORPORATED | E911=MANCHESTER | COMP=MANCHESTER": 91,
+    "DOR=MANCHESTER | E911=UNINCORPORATED | COMP=MANCHESTER": 11,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=MANCHESTER": 5,
+    "DOR=MANCHESTER | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=MANCHESTER | E911=MANCHESTER | COMP=UNINCORPORATED": 2
+  },
+  "dor_conflict_direction": {
+    "polygon 1600 -> file 1601": 214,
+    "polygon 1600 -> file 1602": 105,
+    "polygon 1601 -> file 1600": 33,
+    "polygon 1602 -> file 1600": 22
+  },
+  "business_flags": {
+    "": 1263,
+    "POSTAL_CITY_EXPOSURE": 489,
+    "BOUNDARY_RISK": 91,
+    "CROSS_COUNTY_POSTAL": 89
+  },
+  "label_kinds": {
+    "business": 1932,
+    "institution": 11,
+    "place": 7
+  }
+}

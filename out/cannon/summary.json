@@ -1,0 +1,98 @@
+{
+  "county": "CANNON",
+  "slug": "cannon",
+  "generated_utc": "2026-09-13T05:23:42.584228+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0800": "Unincorporated",
+    "0801": "Woodbury",
+    "0802": "Auburntown"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 8425,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 92.5,
+    "business_points": 449,
+    "seams": 7,
+    "seam_miles": 107.3,
+    "cross_county_seam_miles": 80.4
+  },
+  "situs_distribution": {
+    "0800": 6652,
+    "0801": 1609,
+    "0802": 164
+  },
+  "risk_bands": {
+    "NORMAL": 6486,
+    "WATCH": 1283,
+    "HIGH": 613,
+    "CRITICAL": 43
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1198,
+    "E5_DOR_INTERNAL_CONFLICT": 39,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 65,
+    "E1_POSTAL_CITY_OVERSTATES": 3858,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 21,
+    "E3_BOUNDARY_PROXIMITY": 656
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 7242,
+    "REVIEW - analyst": 1067,
+    "HOLD - mandatory human adjudication": 63,
+    "HOLD - insufficient evidence": 53
+  },
+  "postal_city_profile": {
+    "WOODBURY": 5227,
+    "BRADYVILLE": 1245,
+    "READYVILLE": 676,
+    "AUBURNTOWN": 404,
+    "LIBERTY": 351,
+    "MORRISON": 227,
+    "MCMINNVILLE": 173,
+    "SMITHVILLE": 78,
+    "MILTON": 43,
+    "BEECH GROVE": 1
+  },
+  "cross_county_postal_by_city": {
+    "READYVILLE": 676,
+    "MORRISON": 227,
+    "MCMINNVILLE": 173,
+    "SMITHVILLE": 78,
+    "MILTON": 43,
+    "BEECH GROVE": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=WOODBURY | COMP=WOODBURY": 18,
+    "DOR=UNINCORPORATED | E911=AUBURNTOWN | COMP=AUBURNTOWN": 3
+  },
+  "dor_conflict_direction": {
+    "polygon 0800 -> file 0801": 69,
+    "polygon 0802 -> file 0800": 19,
+    "polygon 0800 -> file 0802": 8,
+    "polygon 0801 -> file 0800": 8
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 210,
+    "": 135,
+    "CROSS_COUNTY_POSTAL": 70,
+    "BOUNDARY_RISK": 30
+  },
+  "label_kinds": {
+    "business": 445,
+    "institution": 3,
+    "place": 1
+  }
+}

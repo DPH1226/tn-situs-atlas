@@ -1,0 +1,123 @@
+{
+  "county": "GRUNDY",
+  "slug": "grundy",
+  "generated_utc": "2026-09-13T05:31:09.326234+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3100": "Unincorporated",
+    "3101": "Altamont",
+    "3102": "Beersheba Springs",
+    "3103": "Coalmont",
+    "3104": "Monteagle",
+    "3105": "Palmer",
+    "3106": "Tracy City",
+    "3107": "Gruetli-Laager"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 10275,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 69.2,
+    "business_points": 223,
+    "seams": 18,
+    "seam_miles": 207.7,
+    "cross_county_seam_miles": 90.2
+  },
+  "situs_distribution": {
+    "3100": 4910,
+    "3106": 1370,
+    "3107": 1085,
+    "3101": 798,
+    "3104": 754,
+    "3103": 532,
+    "3105": 427,
+    "3102": 399
+  },
+  "risk_bands": {
+    "NORMAL": 7335,
+    "WATCH": 2040,
+    "HIGH": 807,
+    "CRITICAL": 93
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 26,
+    "E5_DOR_INTERNAL_CONFLICT": 294,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 129,
+    "E1_POSTAL_CITY_OVERSTATES": 4433,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 8,
+    "E3_BOUNDARY_PROXIMITY": 900
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 6541,
+    "REVIEW - analyst": 3416,
+    "HOLD - insufficient evidence": 219,
+    "HOLD - mandatory human adjudication": 99
+  },
+  "postal_city_profile": {
+    "TRACY CITY": 2689,
+    "ALTAMONT": 1734,
+    "MONTEAGLE": 1415,
+    "GRUETLI-LAAGER": 1411,
+    "PALMER": 840,
+    "COALMONT": 808,
+    "PELHAM": 695,
+    "BEERSHEBA SPRINGS": 647,
+    "MORRISON": 16,
+    "MCMINNVILLE": 6,
+    "SEQUATCHIE": 4,
+    "CUMBERLAND HEIGHTS": 4,
+    "BEERSHEBA": 2,
+    "GRUNDY COUNTY": 1,
+    "TRACY": 1,
+    "GRUETLI": 1,
+    "BEERSHEBA SPRING": 1
+  },
+  "cross_county_postal_by_city": {
+    "MORRISON": 16,
+    "MCMINNVILLE": 6,
+    "SEQUATCHIE": 4
+  },
+  "layer_disagreement_detail": {
+    "DOR=MONTEAGLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 5,
+    "DOR=UNINCORPORATED | E911=BEERSHEBA SPRINGS | COMP=BEERSHEBA SPRINGS": 2,
+    "DOR=TRACY CITY | E911=MONTEAGLE | COMP=MONTEAGLE": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 3100 -> file 3103": 180,
+    "polygon 3100 -> file 3106": 54,
+    "polygon 3107 -> file 3100": 44,
+    "polygon 3107 -> file 3103": 31,
+    "polygon 3106 -> file 3100": 24,
+    "polygon 3100 -> file 3104": 21,
+    "polygon 3101 -> file 3100": 14,
+    "polygon 3104 -> file 3100": 14,
+    "polygon 3100 -> file 3107": 13,
+    "polygon 3100 -> file 3101": 8,
+    "polygon 3100 -> file 3105": 6,
+    "polygon 3103 -> file 3106": 5,
+    "polygon 3100 -> file 3102": 4,
+    "polygon 3105 -> file 3100": 3,
+    "polygon 3104 -> file 3106": 2
+  },
+  "business_flags": {
+    "": 102,
+    "POSTAL_CITY_EXPOSURE": 91,
+    "BOUNDARY_RISK": 27
+  },
+  "label_kinds": {
+    "business": 220,
+    "institution": 2,
+    "unnamed": 1
+  }
+}

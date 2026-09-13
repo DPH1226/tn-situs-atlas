@@ -1,0 +1,86 @@
+{
+  "county": "CLAY",
+  "slug": "clay",
+  "generated_utc": "2026-09-13T05:24:40.055903+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1400": "Unincorporated",
+    "1401": "Celina"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 6480,
+    "unplaced": 26,
+    "sst_range_match_rate_pct": 83.3,
+    "business_points": 219,
+    "seams": 5,
+    "seam_miles": 72.8,
+    "cross_county_seam_miles": 66.2
+  },
+  "situs_distribution": {
+    "1400": 5380,
+    "1401": 1100
+  },
+  "risk_bands": {
+    "NORMAL": 5835,
+    "WATCH": 514,
+    "HIGH": 118,
+    "CRITICAL": 13
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2173,
+    "E5_DOR_INTERNAL_CONFLICT": 12,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 7,
+    "E1_POSTAL_CITY_OVERSTATES": 2345,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 131
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 5329,
+    "REVIEW - analyst": 1107,
+    "HOLD - insufficient evidence": 31,
+    "HOLD - mandatory human adjudication": 13
+  },
+  "postal_city_profile": {
+    "CELINA": 3445,
+    "RED BOILING SPRINGS": 1008,
+    "MOSS": 862,
+    "HILHAM": 526,
+    "ALLONS": 458,
+    "WHITLEYVILLE": 180,
+    "MONROE": 1
+  },
+  "cross_county_postal_by_city": {
+    "RED BOILING SPRINGS": 1008,
+    "HILHAM": 526,
+    "ALLONS": 458,
+    "WHITLEYVILLE": 180,
+    "MONROE": 1
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 1401 -> file 1400": 12,
+    "polygon 1400 -> file 1401": 7
+  },
+  "business_flags": {
+    "": 87,
+    "POSTAL_CITY_EXPOSURE": 85,
+    "CROSS_COUNTY_POSTAL": 44,
+    "BOUNDARY_RISK": 1
+  },
+  "label_kinds": {
+    "business": 217,
+    "place": 2
+  }
+}

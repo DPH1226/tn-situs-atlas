@@ -1,0 +1,18 @@
+county: CHESTER
+fips: '47023'
+situs:
+  '1200': Unincorporated
+  '1201': Henderson
+  '1202': Enville
+  '1203': Milledgeville
+  '1204': Silerton
+tiers:
+  parcels: county
+  business: sos
+business_layers:
+- id: chester_sos_entities
+  type: sos_tsv
+  path: data/sos/chester_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "hickman",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:45:16.031594+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='HICKMAN'",
+  "feature_count": 13383,
+  "sha256": "1cc02e179ed16453556e581f412a3683540961d3dddb7ee5247e7b74a34d7df0",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/hickman/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/hickman/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

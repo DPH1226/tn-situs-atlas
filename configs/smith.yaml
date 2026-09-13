@@ -1,0 +1,17 @@
+county: SMITH
+fips: '47159'
+situs:
+  '8000': Unincorporated
+  '8001': Carthage
+  '8002': Gordonsville
+  '8003': South Carthage
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: smith_sos_entities
+  type: sos_tsv
+  path: data/sos/smith_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,88 @@
+{
+  "county": "JACKSON",
+  "slug": "jackson",
+  "generated_utc": "2026-09-13T05:34:35.634128+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "4400": "Unincorporated",
+    "4401": "Gainesboro"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 8565,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 87.7,
+    "business_points": 260,
+    "seams": 6,
+    "seam_miles": 108.2,
+    "cross_county_seam_miles": 88.7
+  },
+  "situs_distribution": {
+    "4400": 7895,
+    "4401": 670
+  },
+  "risk_bands": {
+    "NORMAL": 7600,
+    "WATCH": 593,
+    "HIGH": 331,
+    "CRITICAL": 41
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1915,
+    "E5_DOR_INTERNAL_CONFLICT": 51,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 32,
+    "E1_POSTAL_CITY_OVERSTATES": 4255,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 372
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 7230,
+    "REVIEW - analyst": 1258,
+    "HOLD - mandatory human adjudication": 41,
+    "HOLD - insufficient evidence": 36
+  },
+  "postal_city_profile": {
+    "GAINESBORO": 4925,
+    "COOKEVILLE": 1510,
+    "WHITLEYVILLE": 721,
+    "GRANVILLE": 531,
+    "BLOOMINGTON SPRINGS": 473,
+    "HILHAM": 214,
+    "PLEASANT SHADE": 153,
+    "RED BOILING SPRINGS": 35,
+    "CARTHAGE": 3
+  },
+  "cross_county_postal_by_city": {
+    "COOKEVILLE": 1510,
+    "HILHAM": 214,
+    "PLEASANT SHADE": 153,
+    "RED BOILING SPRINGS": 35,
+    "CARTHAGE": 3
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 4400 -> file 4401": 56,
+    "polygon 4401 -> file 4400": 27
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 109,
+    "": 81,
+    "CROSS_COUNTY_POSTAL": 56,
+    "BOUNDARY_RISK": 13
+  },
+  "label_kinds": {
+    "business": 259,
+    "place": 1
+  }
+}

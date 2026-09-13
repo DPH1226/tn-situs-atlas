@@ -1,0 +1,134 @@
+{
+  "county": "DAVIDSON",
+  "slug": "davidson",
+  "generated_utc": "2026-09-13T05:28:49.095110+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1901": "Nashville-Davidson",
+    "1902": "Belle Meade",
+    "1903": "Berry Hill",
+    "1904": "Forest Hills",
+    "1905": "Goodlettsville",
+    "1907": "Oak Hill",
+    "1908": "Ridgetop"
+  },
+  "tiers": {
+    "parcels": "county",
+    "business": "permits"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-12",
+    "sst_address_lookup": "2026-09-12"
+  },
+  "totals": {
+    "address_points": 462529,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 97.2,
+    "business_points": 59293,
+    "seams": 26,
+    "seam_miles": 142.4,
+    "cross_county_seam_miles": 105.3
+  },
+  "situs_distribution": {
+    "1901": 447150,
+    "1905": 7251,
+    "1903": 2923,
+    "1904": 2042,
+    "1907": 1978,
+    "1902": 1165,
+    "1908": 20
+  },
+  "risk_bands": {
+    "NORMAL": 442944,
+    "WATCH": 15030,
+    "HIGH": 4103,
+    "CRITICAL": 452
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 10567,
+    "E5_DOR_INTERNAL_CONFLICT": 1246,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 456,
+    "E1_POSTAL_CITY_OVERSTATES": 10943,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 32,
+    "E3_BOUNDARY_PROXIMITY": 4555
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 447842,
+    "REVIEW - analyst": 13942,
+    "HOLD - mandatory human adjudication": 474,
+    "HOLD - insufficient evidence": 271
+  },
+  "postal_city_profile": {
+    "NASHVILLE-DAVIDSON": 334100,
+    "ANTIOCH": 48621,
+    "MADISON": 23822,
+    "HERMITAGE": 22415,
+    "GOODLETTSVILLE": 10210,
+    "OLD HICKORY": 8085,
+    "BRENTWOOD": 7481,
+    "JOELTON": 2630,
+    "WHITES CREEK": 2069,
+    "NOLENSVILLE": 1954,
+    "MT JULIET": 455,
+    "ASHLAND CITY": 292,
+    "PEGRAM": 239,
+    "LA VERGNE": 99,
+    "FRANKLIN": 47,
+    "RIDGETOP": 10
+  },
+  "cross_county_postal_by_city": {
+    "BRENTWOOD": 7481,
+    "NOLENSVILLE": 1954,
+    "MT JULIET": 455,
+    "ASHLAND CITY": 292,
+    "PEGRAM": 239,
+    "LA VERGNE": 99,
+    "FRANKLIN": 47
+  },
+  "layer_disagreement_detail": {
+    "DOR=NASHVILLE-DAVIDSON | E911=NASHVILLE-DAVIDSON | COMP=OAK HILL": 8,
+    "DOR=NASHVILLE-DAVIDSON | E911=BELLE MEADE | COMP=BELLE MEADE": 6,
+    "DOR=NASHVILLE-DAVIDSON | E911=NASHVILLE-DAVIDSON | COMP=RIDGETOP": 4,
+    "DOR=NASHVILLE-DAVIDSON | E911=LAVERGNE | COMP=LAVERGNE": 4,
+    "DOR=NASHVILLE-DAVIDSON | E911=BRENTWOOD | COMP=BRENTWOOD": 3,
+    "DOR=NASHVILLE-DAVIDSON | E911=FOREST HILLS | COMP=FOREST HILLS": 3,
+    "DOR=FOREST HILLS | E911=NASHVILLE-DAVIDSON | COMP=NASHVILLE-DAVIDSON": 1,
+    "DOR=NASHVILLE-DAVIDSON | E911=GOODLETTSVILLE | COMP=GOODLETTSVILLE": 1,
+    "DOR=NASHVILLE-DAVIDSON | E911=GOODLETTSVILLE | COMP=NASHVILLE-DAVIDSON": 1,
+    "DOR=NASHVILLE-DAVIDSON | E911=MT JULIET | COMP=MT JULIET": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 1905 -> file 1901": 453,
+    "polygon 1901 -> file 1904": 341,
+    "polygon 1901 -> file 1907": 313,
+    "polygon 1904 -> file 1901": 143,
+    "polygon 1907 -> file 1901": 101,
+    "polygon 1901 -> file 1903": 84,
+    "polygon 1901 -> file 1905": 83,
+    "polygon 1903 -> file 1901": 58,
+    "polygon 1902 -> file 1901": 35,
+    "polygon 1903 -> file 1907": 33,
+    "polygon 1901 -> file 1902": 22,
+    "polygon 1907 -> file 1904": 16,
+    "polygon 1902 -> file 1904": 10,
+    "polygon 1901 -> file 1908": 5,
+    "polygon 1904 -> file 1907": 4,
+    "polygon 1904 -> file 1902": 1
+  },
+  "business_flags": {
+    "": 53951,
+    "POSTAL_CITY_EXPOSURE": 2891,
+    "CROSS_COUNTY_POSTAL": 1318,
+    "BOUNDARY_RISK": 471
+  },
+  "label_kinds": {
+    "business": 58631,
+    "place": 358,
+    "institution": 264,
+    "unnamed": 40
+  }
+}

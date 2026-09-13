@@ -1,0 +1,92 @@
+{
+  "county": "LEWIS",
+  "slug": "lewis",
+  "generated_utc": "2026-09-13T05:38:59.746748+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "5100": "Unincorporated",
+    "5101": "Hohenwald"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 9257,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 82.2,
+    "business_points": 413,
+    "seams": 6,
+    "seam_miles": 116.5,
+    "cross_county_seam_miles": 94.4
+  },
+  "situs_distribution": {
+    "5100": 6704,
+    "5101": 2553
+  },
+  "risk_bands": {
+    "NORMAL": 7661,
+    "WATCH": 1274,
+    "HIGH": 282,
+    "CRITICAL": 40
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1746,
+    "E5_DOR_INTERNAL_CONFLICT": 846,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 88,
+    "E1_POSTAL_CITY_OVERSTATES": 4958,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 2,
+    "E3_BOUNDARY_PROXIMITY": 322
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 7359,
+    "REVIEW - analyst": 1828,
+    "HOLD - mandatory human adjudication": 40,
+    "HOLD - insufficient evidence": 30
+  },
+  "postal_city_profile": {
+    "HOHENWALD": 7511,
+    "SUMMERTOWN": 1023,
+    "HAMPSHIRE": 531,
+    "MT PLEASANT": 98,
+    "WAYNESBORO": 81,
+    "LINDEN": 8,
+    "LAWRENCEBURG": 5
+  },
+  "cross_county_postal_by_city": {
+    "SUMMERTOWN": 1023,
+    "HAMPSHIRE": 531,
+    "MT PLEASANT": 98,
+    "WAYNESBORO": 81,
+    "LINDEN": 8,
+    "LAWRENCEBURG": 5
+  },
+  "layer_disagreement_detail": {
+    "DOR=HOHENWALD | E911=UNINCORPORATED | COMP=HOHENWALD": 1,
+    "DOR=UNINCORPORATED | E911=HOHENWALD | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 5100 -> file 5101": 815,
+    "polygon 5101 -> file 5100": 119
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 184,
+    "": 145,
+    "CROSS_COUNTY_POSTAL": 69,
+    "BOUNDARY_RISK": 6
+  },
+  "label_kinds": {
+    "business": 404,
+    "place": 7,
+    "unnamed": 1,
+    "institution": 1
+  }
+}

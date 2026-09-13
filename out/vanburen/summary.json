@@ -1,0 +1,87 @@
+{
+  "county": "VAN BUREN",
+  "slug": "vanburen",
+  "generated_utc": "2026-09-13T05:55:38.836039+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8800": "Unincorporated",
+    "8801": "Spencer"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 5102,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 77.9,
+    "business_points": 135,
+    "seams": 6,
+    "seam_miles": 103.8,
+    "cross_county_seam_miles": 85.1
+  },
+  "situs_distribution": {
+    "8800": 4177,
+    "8801": 925
+  },
+  "risk_bands": {
+    "NORMAL": 4402,
+    "WATCH": 593,
+    "HIGH": 100,
+    "CRITICAL": 7
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1862,
+    "E5_DOR_INTERNAL_CONFLICT": 130,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 11,
+    "E1_POSTAL_CITY_OVERSTATES": 2315,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 1,
+    "E3_BOUNDARY_PROXIMITY": 107
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 3905,
+    "REVIEW - analyst": 1167,
+    "HOLD - insufficient evidence": 23,
+    "HOLD - mandatory human adjudication": 7
+  },
+  "postal_city_profile": {
+    "SPENCER": 3240,
+    "ROCK ISLAND": 711,
+    "PIKEVILLE": 421,
+    "DOYLE": 273,
+    "SPARTA": 255,
+    "MCMINNVILLE": 201,
+    "ROCK  ISLAND": 1
+  },
+  "cross_county_postal_by_city": {
+    "ROCK ISLAND": 711,
+    "PIKEVILLE": 421,
+    "DOYLE": 273,
+    "SPARTA": 255,
+    "MCMINNVILLE": 201,
+    "ROCK  ISLAND": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=SPENCER | E911=UNINCORPORATED | COMP=SPENCER": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 8800 -> file 8801": 99,
+    "polygon 8801 -> file 8800": 42
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 78,
+    "CROSS_COUNTY_POSTAL": 36,
+    "": 21
+  },
+  "label_kinds": {
+    "business": 135
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "houston",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:45:42.528983+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='HOUSTON'",
+  "feature_count": 6049,
+  "sha256": "1fba96a8abe592ee280735928812c5b47a369ebd47470aec2712269c3c826aae",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/houston/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/houston/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

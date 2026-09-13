@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_roads",
+  "scope": "rutherford",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:18.562970+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Road_Centerlines/FeatureServer/1",
+  "where_clause": "COUNTY_L='RUTHERFORD' OR COUNTY_R='RUTHERFORD'",
+  "feature_count": 27232,
+  "sha256": "b1838445a7817f94e66b57d823d795a5b8e3a827e3099e69978f1fecd4e76fba",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_roads/rutherford/2026-09-12/data.geojson",
+  "parquet_path": "parquet/ng911_roads/rutherford/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 2,
+  "notes": "TN Emergency Communications Board"
+}

@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "lincoln",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:48:00.187336+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='LINCOLN'",
+  "feature_count": 20920,
+  "sha256": "802f6dfc43bb84875450479d1b9603b5e1841d88e7bc132e8cfdd25c8276649e",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/lincoln/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/lincoln/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

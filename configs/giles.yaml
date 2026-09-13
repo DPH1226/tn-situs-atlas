@@ -1,0 +1,19 @@
+county: GILES
+fips: '47055'
+situs:
+  '2800': Unincorporated
+  '2801': Pulaski
+  '2802': Ardmore
+  '2803': Elkton
+  '2804': Lynnville
+  '2805': Minor Hill
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: giles_sos_entities
+  type: sos_tsv
+  path: data/sos/giles_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

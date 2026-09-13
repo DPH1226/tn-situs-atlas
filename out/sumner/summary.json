@@ -1,0 +1,138 @@
+{
+  "county": "SUMNER",
+  "slug": "sumner",
+  "generated_utc": "2026-09-13T05:54:38.759280+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "8300": "Unincorporated",
+    "8301": "Gallatin",
+    "8302": "Mitchellville",
+    "8303": "Portland",
+    "8304": "Westmoreland",
+    "8305": "Hendersonville",
+    "8306": "White House",
+    "8307": "Goodlettsville",
+    "8308": "Millersville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "city"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-12",
+    "sst_address_lookup": "2026-09-12"
+  },
+  "totals": {
+    "address_points": 107045,
+    "unplaced": 5,
+    "sst_range_match_rate_pct": 93.1,
+    "business_points": 14938,
+    "seams": 31,
+    "seam_miles": 376.7,
+    "cross_county_seam_miles": 96.6
+  },
+  "situs_distribution": {
+    "8301": 32570,
+    "8305": 31393,
+    "8300": 29117,
+    "8303": 6487,
+    "8307": 2791,
+    "8308": 2676,
+    "8304": 1614,
+    "8302": 218,
+    "8306": 179
+  },
+  "risk_bands": {
+    "NORMAL": 81011,
+    "WATCH": 18763,
+    "HIGH": 6784,
+    "CRITICAL": 487
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 14,
+    "E5_DOR_INTERNAL_CONFLICT": 1051,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 831,
+    "E1_POSTAL_CITY_OVERSTATES": 25349,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 1001,
+    "E3_BOUNDARY_PROXIMITY": 7271
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 94152,
+    "REVIEW - analyst": 11010,
+    "HOLD - mandatory human adjudication": 1438,
+    "HOLD - insufficient evidence": 445
+  },
+  "postal_city_profile": {
+    "GALLATIN": 40465,
+    "HENDERSONVILLE": 35522,
+    "PORTLAND": 13051,
+    "GOODLETTSVILLE": 5966,
+    "WESTMORELAND": 3799,
+    "BETHPAGE": 2990,
+    "COTTONTOWN": 2762,
+    "CASTALIAN SPRINGS": 1706,
+    "WHITE HOUSE": 769,
+    "CROSS PLAINS": 14,
+    "WHITE HOSUE": 1
+  },
+  "cross_county_postal_by_city": {
+    "CROSS PLAINS": 14
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=PORTLAND | COMP=PORTLAND": 494,
+    "DOR=UNINCORPORATED | E911=GALLATIN | COMP=GALLATIN": 191,
+    "DOR=UNINCORPORATED | E911=WESTMORELAND | COMP=WESTMORELAND": 182,
+    "DOR=UNINCORPORATED | E911=HENDERSONVILLE | COMP=HENDERSONVILLE": 61,
+    "DOR=HENDERSONVILLE | E911=GALLATIN | COMP=GALLATIN": 44,
+    "DOR=WHITE HOUSE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 10,
+    "DOR=GALLATIN | E911=UNINCORPORATED | COMP=GALLATIN": 6,
+    "DOR=UNINCORPORATED | E911=GOODLETTSVILLE | COMP=GOODLETTSVILLE": 3,
+    "DOR=MILLERSVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=GOODLETTSVILLE | E911=UNINCORPORATED | COMP=GOODLETTSVILLE": 2,
+    "DOR=UNINCORPORATED | E911=WHITE HOUSE | COMP=WHITE HOUSE": 2,
+    "DOR=PORTLAND | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 8300 -> file 8301": 410,
+    "polygon 8300 -> file 8303": 364,
+    "polygon 8308 -> file 8307": 208,
+    "polygon 8303 -> file 8300": 182,
+    "polygon 8300 -> file 8305": 178,
+    "polygon 8300 -> file 8304": 133,
+    "polygon 8301 -> file 8300": 106,
+    "polygon 8300 -> file 8306": 100,
+    "polygon 8305 -> file 8301": 79,
+    "polygon 8300 -> file 8307": 25,
+    "polygon 8308 -> file 8300": 21,
+    "polygon 8307 -> file 8300": 17,
+    "polygon 8304 -> file 8300": 11,
+    "polygon 8302 -> file 8303": 11,
+    "polygon 8305 -> file 8300": 10,
+    "polygon 8307 -> file 8308": 9,
+    "polygon 8300 -> file 8302": 7,
+    "polygon 8300 -> file 8308": 5,
+    "polygon 8306 -> file 8300": 4,
+    "polygon 8305 -> file 8307": 2
+  },
+  "business_flags": {
+    "": 10182,
+    "POSTAL_CITY_EXPOSURE": 2306,
+    "BOUNDARY_RISK": 477,
+    "CODED_MISMATCH": 46
+  },
+  "label_kinds": {
+    "business": 13011,
+    "place": 1723,
+    "unnamed": 144,
+    "institution": 60
+  },
+  "calibration_source": {
+    "rows_with_coded_situs": 2429,
+    "coded_equals_measured": 2383,
+    "coded_ne_measured": 46
+  }
+}

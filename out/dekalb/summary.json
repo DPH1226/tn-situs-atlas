@@ -1,0 +1,110 @@
+{
+  "county": "DEKALB",
+  "slug": "dekalb",
+  "generated_utc": "2026-09-13T05:26:01.753381+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "2100": "Unincorporated",
+    "2101": "Smithville",
+    "2102": "Alexandria",
+    "2103": "Dowelltown",
+    "2104": "Liberty"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 13498,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 82.8,
+    "business_points": 690,
+    "seams": 11,
+    "seam_miles": 152.0,
+    "cross_county_seam_miles": 108.1
+  },
+  "situs_distribution": {
+    "2100": 9832,
+    "2101": 2727,
+    "2102": 521,
+    "2104": 222,
+    "2103": 196
+  },
+  "risk_bands": {
+    "NORMAL": 10862,
+    "WATCH": 2026,
+    "HIGH": 557,
+    "CRITICAL": 53
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1346,
+    "E5_DOR_INTERNAL_CONFLICT": 1010,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 117,
+    "E1_POSTAL_CITY_OVERSTATES": 59,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 14,
+    "E3_BOUNDARY_PROXIMITY": 610
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 10827,
+    "REVIEW - analyst": 2479,
+    "HOLD - insufficient evidence": 125,
+    "HOLD - mandatory human adjudication": 67
+  },
+  "postal_city_profile": {
+    "SMITHVILLE": 2774,
+    "COOKEVILLE HWY": 1711,
+    "MIDWAY": 1346,
+    "KELTONBURG": 903,
+    "TEMPERANCE HALL": 900,
+    "BLUE SPRINGS": 891,
+    "SNOW HILL": 750,
+    "JOHNSON CHAPEL": 720,
+    "LIBERTY COUNTY": 712,
+    "ALEXANDRIA": 522,
+    "SILVER PT AND WOLF CREEK": 456,
+    "BELK": 391,
+    "AUSTIN BOTTOM": 313,
+    "DOWELLTOWN COUNTY": 266,
+    "SHORT MOUNTAIN": 260,
+    "LIBERTY": 222,
+    "DOWELLTOWN": 200,
+    "SHINEY ROCK": 161
+  },
+  "cross_county_postal_by_city": {
+    "MIDWAY": 1346
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=SMITHVILLE | COMP=SMITHVILLE": 11,
+    "DOR=UNINCORPORATED | E911=ALEXANDRIA | COMP=ALEXANDRIA": 2,
+    "DOR=ALEXANDRIA | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 2100 -> file 2101": 979,
+    "polygon 2101 -> file 2100": 119,
+    "polygon 2100 -> file 2102": 15,
+    "polygon 2104 -> file 2100": 6,
+    "polygon 2100 -> file 2104": 3,
+    "polygon 2100 -> file 2103": 2,
+    "polygon 2101 -> file 2104": 2,
+    "polygon 2103 -> file 2100": 1
+  },
+  "business_flags": {
+    "": 582,
+    "CROSS_COUNTY_POSTAL": 60,
+    "BOUNDARY_RISK": 33,
+    "POSTAL_CITY_EXPOSURE": 8
+  },
+  "label_kinds": {
+    "business": 683,
+    "place": 4,
+    "institution": 3
+  }
+}

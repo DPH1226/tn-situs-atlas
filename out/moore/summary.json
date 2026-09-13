@@ -1,0 +1,89 @@
+{
+  "county": "MOORE",
+  "slug": "moore",
+  "generated_utc": "2026-09-13T05:42:45.520288+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6401": "Lynchburg"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 3801,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 91.8,
+    "business_points": 149,
+    "seams": 5,
+    "seam_miles": 100.7,
+    "cross_county_seam_miles": 100.7
+  },
+  "situs_distribution": {
+    "6401": 3801
+  },
+  "risk_bands": {
+    "NORMAL": 3406,
+    "WATCH": 268,
+    "HIGH": 122,
+    "CRITICAL": 5
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1794,
+    "E5_DOR_INTERNAL_CONFLICT": 0,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 0,
+    "E1_POSTAL_CITY_OVERSTATES": 1598,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 2,
+    "E3_BOUNDARY_PROXIMITY": 127
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 3411,
+    "REVIEW - analyst": 335,
+    "HOLD - insufficient evidence": 48,
+    "HOLD - mandatory human adjudication": 7
+  },
+  "postal_city_profile": {
+    "LYNCHBURG": 2007,
+    "TULLAHOMA": 816,
+    "FAYETTEVILLE": 245,
+    "MULBERRY": 143,
+    "SHELBYVILLE": 140,
+    "WARTRACE": 121,
+    "WINCHESTER": 91,
+    "BELVIDERE": 91,
+    "PETERSBURG": 80,
+    "NORMANDY": 67
+  },
+  "cross_county_postal_by_city": {
+    "TULLAHOMA": 816,
+    "FAYETTEVILLE": 245,
+    "MULBERRY": 143,
+    "SHELBYVILLE": 140,
+    "WARTRACE": 121,
+    "WINCHESTER": 91,
+    "BELVIDERE": 91,
+    "PETERSBURG": 80,
+    "NORMANDY": 67
+  },
+  "layer_disagreement_detail": {
+    "DOR=LYNCHBURG | E911=UNINCORPORATED | COMP=LYNCHBURG": 2
+  },
+  "dor_conflict_direction": {},
+  "business_flags": {
+    "CROSS_COUNTY_POSTAL": 65,
+    "POSTAL_CITY_EXPOSURE": 60,
+    "": 23
+  },
+  "label_kinds": {
+    "business": 148,
+    "institution": 1
+  }
+}

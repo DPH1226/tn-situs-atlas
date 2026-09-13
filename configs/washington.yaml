@@ -1,0 +1,17 @@
+county: WASHINGTON
+fips: '47179'
+situs:
+  '9000': Unincorporated
+  '9001': Jonesborough
+  '9002': Johnson City
+  '9003': Watauga
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: washington_sos_entities
+  type: sos_tsv
+  path: data/sos/washington_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,110 @@
+{
+  "county": "WILSON",
+  "slug": "wilson",
+  "generated_utc": "2026-09-13T06:01:26.345128+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "9500": "Unincorporated",
+    "9501": "Lebanon",
+    "9502": "Watertown",
+    "9503": "Mt. Juliet"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "ecd"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-12",
+    "sst_address_lookup": "2026-09-12"
+  },
+  "totals": {
+    "address_points": 88196,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 87.0,
+    "business_points": 13466,
+    "seams": 13,
+    "seam_miles": 360.3,
+    "cross_county_seam_miles": 141.4
+  },
+  "situs_distribution": {
+    "9500": 34726,
+    "9501": 30876,
+    "9503": 21811,
+    "9502": 783
+  },
+  "risk_bands": {
+    "NORMAL": 59975,
+    "WATCH": 20741,
+    "HIGH": 7101,
+    "CRITICAL": 379
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 5538,
+    "E5_DOR_INTERNAL_CONFLICT": 12697,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 2186,
+    "E1_POSTAL_CITY_OVERSTATES": 30521,
+    "E6_ANNEXATION_LAG": 1004,
+    "E4_LAYER_DISAGREEMENT": 1883,
+    "E3_BOUNDARY_PROXIMITY": 7480
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 73383,
+    "REVIEW - analyst": 11763,
+    "HOLD - mandatory human adjudication": 2197,
+    "HOLD - insufficient evidence": 853
+  },
+  "postal_city_profile": {
+    "LEBANON": 44256,
+    "MT JULIET": 34541,
+    "OLD HICKORY": 4215,
+    "WATERTOWN": 2461,
+    "NORENE": 1399,
+    "HERMITAGE": 535,
+    "MILTON": 341,
+    "AUBURNTOWN": 164,
+    "ALEXANDRIA": 145,
+    "LIBERTY": 78,
+    "LASCASSAS": 58,
+    "MURFREESBORO": 2,
+    "BURFORD": 1
+  },
+  "cross_county_postal_by_city": {
+    "OLD HICKORY": 4215,
+    "HERMITAGE": 535,
+    "MILTON": 341,
+    "AUBURNTOWN": 164,
+    "ALEXANDRIA": 145,
+    "LIBERTY": 78,
+    "LASCASSAS": 58,
+    "MURFREESBORO": 2
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MT JULIET | COMP=MT JULIET": 962,
+    "DOR=UNINCORPORATED | E911=LEBANON | COMP=LEBANON": 915,
+    "DOR=UNINCORPORATED | E911=WATERTOWN | COMP=WATERTOWN": 6
+  },
+  "dor_conflict_direction": {
+    "polygon 9501 -> file 9500": 7291,
+    "polygon 9503 -> file 9500": 4163,
+    "polygon 9500 -> file 9501": 1917,
+    "polygon 9500 -> file 9503": 1440,
+    "polygon 9500 -> file 9502": 52,
+    "polygon 9501 -> file 9503": 13,
+    "polygon 9502 -> file 9500": 7
+  },
+  "business_flags": {
+    "": 7471,
+    "POSTAL_CITY_EXPOSURE": 3700,
+    "BOUNDARY_RISK": 538,
+    "CROSS_COUNTY_POSTAL": 534
+  },
+  "label_kinds": {
+    "business": 12243,
+    "unnamed": 472,
+    "place": 465,
+    "institution": 286
+  }
+}

@@ -1,0 +1,22 @@
+county: CARROLL
+fips: '47017'
+situs:
+  0900: Unincorporated
+  0901: Huntingdon
+  0902: Atwood
+  0903: Bruceton
+  0904: Clarksburg
+  0905: Hollow Rock
+  0906: Mckenzie
+  0907: Mclemoresville
+  0908: Trezevant
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: carroll_sos_entities
+  type: sos_tsv
+  path: data/sos/carroll_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

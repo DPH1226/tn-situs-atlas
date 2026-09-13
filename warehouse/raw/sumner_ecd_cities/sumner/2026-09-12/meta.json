@@ -1,0 +1,16 @@
+{
+  "layer": "sumner_ecd_cities",
+  "scope": "sumner",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:10.985877+00:00",
+  "source_url": "https://services8.arcgis.com/8jhIZBvwlxdbJdGN/arcgis/rest/services/Cities/FeatureServer/0",
+  "where_clause": "1=1",
+  "feature_count": 10,
+  "sha256": "d579c07c6ac68a0bdc5bc10d6adf889a6b0a21f402a1d1120a2c7370b22d4a21",
+  "last_edit_date": null,
+  "raw_path": "raw/sumner_ecd_cities/sumner/2026-09-12/data.geojson",
+  "parquet_path": "parquet/sumner_ecd_cities/sumner/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 7,
+  "notes": ""
+}

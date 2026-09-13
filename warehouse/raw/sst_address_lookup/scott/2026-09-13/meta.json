@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "scott",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:53:58.783439+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='SCOTT'",
+  "feature_count": 5290,
+  "sha256": "88d221608ee0877a567de825b741873075d423535ab36a899d0ad33dbcb81e4f",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/scott/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/scott/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

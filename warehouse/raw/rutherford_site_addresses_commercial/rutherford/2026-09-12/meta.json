@@ -1,0 +1,16 @@
+{
+  "layer": "rutherford_site_addresses_commercial",
+  "scope": "rutherford",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:18.948521+00:00",
+  "source_url": "https://services.arcgis.com/36I6IHIdr660pAyH/arcgis/rest/services/Site_Address_Points_Hub_Data/FeatureServer/2",
+  "where_clause": "ADDRCLASS=720",
+  "feature_count": 23492,
+  "sha256": "38cb6cbfdeee1b64bad6d300ddc758f021182a336c43e9588be4a203fdd58b82",
+  "last_edit_date": null,
+  "raw_path": "raw/rutherford_site_addresses_commercial/rutherford/2026-09-12/data.geojson",
+  "parquet_path": "parquet/rutherford_site_addresses_commercial/rutherford/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": ""
+}

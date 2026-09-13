@@ -1,0 +1,86 @@
+{
+  "county": "HUMPHREYS",
+  "slug": "humphreys",
+  "generated_utc": "2026-09-13T05:34:26.699788+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "4300": "Unincorporated",
+    "4301": "Waverly",
+    "4302": "Mcewen",
+    "4303": "New Johnsonville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 11899,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 83.1,
+    "business_points": 438,
+    "seams": 9,
+    "seam_miles": 169.0,
+    "cross_county_seam_miles": 112.2
+  },
+  "situs_distribution": {
+    "4300": 7856,
+    "4301": 2121,
+    "4302": 985,
+    "4303": 937
+  },
+  "risk_bands": {
+    "NORMAL": 9657,
+    "WATCH": 1666,
+    "HIGH": 528,
+    "CRITICAL": 48
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 0,
+    "E5_DOR_INTERNAL_CONFLICT": 44,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 72,
+    "E1_POSTAL_CITY_OVERSTATES": 7202,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 576
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 9456,
+    "REVIEW - analyst": 2305,
+    "HOLD - insufficient evidence": 90,
+    "HOLD - mandatory human adjudication": 48
+  },
+  "postal_city_profile": {
+    "WAVERLY": 5763,
+    "MCEWEN": 3815,
+    "NEW JOHNSONVILLE": 1667,
+    "HURRICANE MILLS": 654
+  },
+  "cross_county_postal_by_city": {},
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 4301 -> file 4300": 30,
+    "polygon 4300 -> file 4301": 29,
+    "polygon 4302 -> file 4300": 26,
+    "polygon 4300 -> file 4302": 19,
+    "polygon 4300 -> file 4303": 10,
+    "polygon 4303 -> file 4300": 2
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 253,
+    "": 169,
+    "BOUNDARY_RISK": 12
+  },
+  "label_kinds": {
+    "business": 434,
+    "institution": 2,
+    "place": 1,
+    "unnamed": 1
+  }
+}

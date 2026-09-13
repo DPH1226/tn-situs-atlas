@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "sequatchie",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:54:13.135173+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='SEQUATCHIE'",
+  "feature_count": 4098,
+  "sha256": "20110153163b409cce3d176cbc651c0a8895b9e4af231e9452f32513b55b8d8f",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/sequatchie/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/sequatchie/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}

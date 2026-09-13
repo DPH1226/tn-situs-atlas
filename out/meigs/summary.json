@@ -1,0 +1,85 @@
+{
+  "county": "MEIGS",
+  "slug": "meigs",
+  "generated_utc": "2026-09-13T05:42:12.308417+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "6100": "Unincorporated",
+    "6101": "Decatur"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 8071,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 87.1,
+    "business_points": 263,
+    "seams": 6,
+    "seam_miles": 132.6,
+    "cross_county_seam_miles": 114.7
+  },
+  "situs_distribution": {
+    "6100": 7269,
+    "6101": 802
+  },
+  "risk_bands": {
+    "NORMAL": 6894,
+    "WATCH": 867,
+    "HIGH": 290,
+    "CRITICAL": 20
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1316,
+    "E5_DOR_INTERNAL_CONFLICT": 83,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 45,
+    "E1_POSTAL_CITY_OVERSTATES": 4228,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 310
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 6817,
+    "REVIEW - analyst": 1158,
+    "HOLD - insufficient evidence": 76,
+    "HOLD - mandatory human adjudication": 20
+  },
+  "postal_city_profile": {
+    "DECATUR": 5030,
+    "TEN MILE": 1725,
+    "GEORGETOWN": 649,
+    "BIRCHWOOD": 618,
+    "NIOTA": 42,
+    "PHILADELPHIA": 7
+  },
+  "cross_county_postal_by_city": {
+    "GEORGETOWN": 649,
+    "BIRCHWOOD": 618,
+    "NIOTA": 42,
+    "PHILADELPHIA": 7
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 6100 -> file 6101": 69,
+    "polygon 6101 -> file 6100": 59
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 126,
+    "": 83,
+    "CROSS_COUNTY_POSTAL": 48,
+    "BOUNDARY_RISK": 1
+  },
+  "label_kinds": {
+    "business": 258,
+    "place": 4,
+    "institution": 1
+  }
+}

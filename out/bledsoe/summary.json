@@ -1,0 +1,92 @@
+{
+  "county": "BLEDSOE",
+  "slug": "bledsoe",
+  "generated_utc": "2026-09-13T05:22:47.035977+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0400": "Unincorporated",
+    "0401": "Pikeville"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 10335,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 77.9,
+    "business_points": 246,
+    "seams": 6,
+    "seam_miles": 120.3,
+    "cross_county_seam_miles": 107.7
+  },
+  "situs_distribution": {
+    "0400": 9189,
+    "0401": 1146
+  },
+  "risk_bands": {
+    "NORMAL": 9148,
+    "WATCH": 892,
+    "HIGH": 258,
+    "CRITICAL": 37
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2754,
+    "E5_DOR_INTERNAL_CONFLICT": 21,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 19,
+    "E1_POSTAL_CITY_OVERSTATES": 5573,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 0,
+    "E3_BOUNDARY_PROXIMITY": 295
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 7866,
+    "REVIEW - analyst": 2368,
+    "HOLD - insufficient evidence": 64,
+    "HOLD - mandatory human adjudication": 37
+  },
+  "postal_city_profile": {
+    "PIKEVILLE": 6719,
+    "SPRING CITY": 1052,
+    "GRAYSVILLE": 862,
+    "DUNLAP": 755,
+    "CROSSVILLE": 482,
+    "SODDY DAISY": 212,
+    "DAYTON": 179,
+    "EVENSVILLE": 53,
+    "GRANDVIEW": 18,
+    "SPENCER": 3
+  },
+  "cross_county_postal_by_city": {
+    "SPRING CITY": 1052,
+    "DUNLAP": 755,
+    "CROSSVILLE": 482,
+    "SODDY DAISY": 212,
+    "DAYTON": 179,
+    "EVENSVILLE": 53,
+    "GRANDVIEW": 18,
+    "SPENCER": 3
+  },
+  "layer_disagreement_detail": {},
+  "dor_conflict_direction": {
+    "polygon 0400 -> file 0401": 39,
+    "polygon 0401 -> file 0400": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 111,
+    "": 72,
+    "CROSS_COUNTY_POSTAL": 56,
+    "BOUNDARY_RISK": 6
+  },
+  "label_kinds": {
+    "business": 245,
+    "place": 1
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "county": "HENDERSON",
+  "slug": "henderson",
+  "generated_utc": "2026-09-13T05:33:25.622939+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3900": "Unincorporated",
+    "3901": "Lexington",
+    "3902": "Sardis",
+    "3903": "Scotts Hill",
+    "3904": "Parkers Crossroads"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 17593,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 71.7,
+    "business_points": 410,
+    "seams": 14,
+    "seam_miles": 208.0,
+    "cross_county_seam_miles": 103.1
+  },
+  "situs_distribution": {
+    "3900": 12113,
+    "3901": 4265,
+    "3903": 512,
+    "3904": 371,
+    "3902": 332
+  },
+  "risk_bands": {
+    "NORMAL": 14099,
+    "WATCH": 2319,
+    "HIGH": 1070,
+    "CRITICAL": 105
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1040,
+    "E5_DOR_INTERNAL_CONFLICT": 71,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 82,
+    "E1_POSTAL_CITY_OVERSTATES": 6913,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 394,
+    "E3_BOUNDARY_PROXIMITY": 1175
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 11876,
+    "REVIEW - analyst": 4879,
+    "HOLD - mandatory human adjudication": 482,
+    "HOLD - insufficient evidence": 356
+  },
+  "postal_city_profile": {
+    "LEXINGTON": 10410,
+    "WILDERSVILLE": 1395,
+    "HURON": 1345,
+    "REAGAN": 1005,
+    "SCOTTS HILL": 847,
+    "CEDAR GROVE": 711,
+    "SARDIS": 705,
+    "DARDEN": 454,
+    "BEECH BLUFF": 388,
+    "LURAY": 107,
+    "YUMA": 83,
+    "DECATURVILLE": 60,
+    "SALTILLO": 37,
+    "PARSONS": 36,
+    "HOLLADAY": 6,
+    "LRXINGTON": 3,
+    "LEXINGTO": 1
+  },
+  "cross_county_postal_by_city": {
+    "CEDAR GROVE": 711,
+    "LURAY": 107,
+    "YUMA": 83,
+    "DECATURVILLE": 60,
+    "SALTILLO": 37,
+    "PARSONS": 36,
+    "HOLLADAY": 6
+  },
+  "layer_disagreement_detail": {
+    "DOR=PARKERS CROSSROADS | E911=PARKER'S CROSSROADS | COMP=PARKER'S CROSSROADS": 368,
+    "DOR=UNINCORPORATED | E911=LEXINGTON | COMP=LEXINGTON": 8,
+    "DOR=SCOTTS HILL | E911=UNINCORPORATED | COMP=UNINCORPORATED": 6,
+    "DOR=UNINCORPORATED | E911=SARDIS | COMP=UNINCORPORATED": 5,
+    "DOR=PARKERS CROSSROADS | E911=UNINCORPORATED | COMP=UNINCORPORATED": 3,
+    "DOR=UNINCORPORATED | E911=LEXINGTON | COMP=UNINCORPORATED": 2,
+    "DOR=SCOTTS HILL | E911=UNINCORPORATED | COMP=SCOTTS HILL": 1,
+    "DOR=LEXINGTON | E911=UNINCORPORATED | COMP=LEXINGTON": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 3900 -> file 3901": 39,
+    "polygon 3900 -> file 3902": 34,
+    "polygon 3900 -> file 3903": 28,
+    "polygon 3901 -> file 3900": 17,
+    "polygon 3902 -> file 3900": 15,
+    "polygon 3900 -> file 3904": 8,
+    "polygon 3903 -> file 3900": 7,
+    "polygon 3904 -> file 3900": 5
+  },
+  "business_flags": {
+    "": 180,
+    "POSTAL_CITY_EXPOSURE": 175,
+    "BOUNDARY_RISK": 31,
+    "CROSS_COUNTY_POSTAL": 22
+  },
+  "label_kinds": {
+    "business": 408,
+    "place": 2
+  }
+}

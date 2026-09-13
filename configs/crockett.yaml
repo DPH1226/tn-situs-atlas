@@ -1,0 +1,19 @@
+county: CROCKETT
+fips: '47033'
+situs:
+  '1700': Unincorporated
+  '1701': Alamo
+  '1702': Bells
+  '1703': Friendship
+  '1704': Gadsden
+  '1705': Maury City
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: crockett_sos_entities
+  type: sos_tsv
+  path: data/sos/crockett_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

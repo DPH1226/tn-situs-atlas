@@ -1,0 +1,23 @@
+county: HARDEMAN
+fips: '47069'
+situs:
+  '3500': Unincorporated
+  '3501': Bolivar
+  '3502': Grand Junction
+  '3503': Hickory Valley
+  '3504': Hornsby
+  '3505': Middleton
+  '3506': Saulsbury
+  '3507': Silerton
+  '3508': Toone
+  '3509': Whiteville
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: hardeman_sos_entities
+  type: sos_tsv
+  path: data/sos/hardeman_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,16 @@
+{
+  "layer": "hendersonville_business_licenses",
+  "scope": "sumner",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:48:10.598497+00:00",
+  "source_url": "https://services8.arcgis.com/xMDlahVcw6bSUp5O/arcgis/rest/services/Business_License_Query/FeatureServer/5",
+  "where_clause": "1=1",
+  "feature_count": 3270,
+  "sha256": "bc3f1edde8b17c8a0dde09b5be20836b45d467b198e01da9e3ecdb6970fdb14d",
+  "last_edit_date": null,
+  "raw_path": "raw/hendersonville_business_licenses/sumner/2026-09-12/data.json",
+  "parquet_path": "parquet/hendersonville_business_licenses/sumner/2026-09-12.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": ""
+}

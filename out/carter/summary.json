@@ -1,0 +1,97 @@
+{
+  "county": "CARTER",
+  "slug": "carter",
+  "generated_utc": "2026-09-13T05:24:14.892976+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "1000": "Unincorporated",
+    "1001": "Elizabethton",
+    "1002": "Watauga",
+    "1003": "Johnson City"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 34699,
+    "unplaced": 1,
+    "sst_range_match_rate_pct": 88.9,
+    "business_points": 981,
+    "seams": 15,
+    "seam_miles": 143.4,
+    "cross_county_seam_miles": 75.5
+  },
+  "situs_distribution": {
+    "1000": 25885,
+    "1001": 7714,
+    "1003": 877,
+    "1002": 223
+  },
+  "risk_bands": {
+    "NORMAL": 26890,
+    "WATCH": 5224,
+    "HIGH": 2211,
+    "CRITICAL": 374
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1296,
+    "E5_DOR_INTERNAL_CONFLICT": 1236,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 374,
+    "E1_POSTAL_CITY_OVERSTATES": 18440,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 45,
+    "E3_BOUNDARY_PROXIMITY": 2585
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 28693,
+    "REVIEW - analyst": 5353,
+    "HOLD - mandatory human adjudication": 406,
+    "HOLD - insufficient evidence": 247
+  },
+  "postal_city_profile": {
+    "ELIZABETHTON": 19444,
+    "JOHNSON CITY": 6204,
+    "ROAN MOUNTAIN": 3812,
+    "HAMPTON": 2872,
+    "BUTLER": 1295,
+    "WATAUGA": 991,
+    "MILLIGAN COLLEGE": 80,
+    "UNICOI": 1
+  },
+  "cross_county_postal_by_city": {
+    "BUTLER": 1295,
+    "UNICOI": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=ELIZABETHTON | E911=UNINCORPORATED | COMP=UNINCORPORATED": 26,
+    "DOR=UNINCORPORATED | E911=ELIZABETHTON | COMP=ELIZABETHTON": 16,
+    "DOR=UNINCORPORATED | E911=ELIZABETHTON | COMP=UNINCORPORATED": 2,
+    "DOR=WATAUGA | E911=UNINCORPORATED | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 1000 -> file 1001": 1285,
+    "polygon 1001 -> file 1000": 142,
+    "polygon 1000 -> file 1002": 116,
+    "polygon 1000 -> file 1003": 40,
+    "polygon 1003 -> file 1000": 27
+  },
+  "business_flags": {
+    "": 455,
+    "POSTAL_CITY_EXPOSURE": 452,
+    "BOUNDARY_RISK": 33,
+    "CROSS_COUNTY_POSTAL": 27
+  },
+  "label_kinds": {
+    "business": 967,
+    "place": 11,
+    "institution": 3
+  }
+}

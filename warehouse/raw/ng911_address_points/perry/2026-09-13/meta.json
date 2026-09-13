@@ -1,0 +1,16 @@
+{
+  "layer": "ng911_address_points",
+  "scope": "perry",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:51:03.895913+00:00",
+  "source_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0",
+  "where_clause": "County='PERRY'",
+  "feature_count": 10129,
+  "sha256": "0ca6a8ca8cd25e6faba3a017aad26692e19eb7bad916091e678924a07a0989be",
+  "last_edit_date": null,
+  "raw_path": "raw/ng911_address_points/perry/2026-09-13/data.geojson",
+  "parquet_path": "parquet/ng911_address_points/perry/2026-09-13.parquet",
+  "geom": true,
+  "geometry_repairs": 0,
+  "notes": "TN Emergency Communications Board"
+}

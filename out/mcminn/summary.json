@@ -1,0 +1,115 @@
+{
+  "county": "MCMINN",
+  "slug": "mcminn",
+  "generated_utc": "2026-09-13T05:41:54.740985+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "5400": "Unincorporated",
+    "5401": "Athens",
+    "5402": "Calhoun",
+    "5403": "Englewood",
+    "5404": "Etowah",
+    "5405": "Niota",
+    "5406": "Sweetwater"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 32588,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 41.3,
+    "business_points": 680,
+    "seams": 17,
+    "seam_miles": 195.2,
+    "cross_county_seam_miles": 107.2
+  },
+  "situs_distribution": {
+    "5400": 20179,
+    "5401": 8243,
+    "5404": 2155,
+    "5403": 1019,
+    "5405": 675,
+    "5402": 315,
+    "5406": 2
+  },
+  "risk_bands": {
+    "NORMAL": 26143,
+    "WATCH": 5011,
+    "HIGH": 1282,
+    "CRITICAL": 152
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 777,
+    "E5_DOR_INTERNAL_CONFLICT": 163,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 99,
+    "E1_POSTAL_CITY_OVERSTATES": 16556,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 4,
+    "E3_BOUNDARY_PROXIMITY": 1434
+  },
+  "dispositions": {
+    "REVIEW - analyst": 19218,
+    "READY - analyst sign-off then submit": 12683,
+    "HOLD - insufficient evidence": 532,
+    "HOLD - mandatory human adjudication": 155
+  },
+  "postal_city_profile": {
+    "ATHENS": 15328,
+    "ETOWAH": 4876,
+    "ENGLEWOOD": 3224,
+    "NIOTA": 2995,
+    "RICEVILLE": 2846,
+    "SWEETWATER": 1336,
+    "CALHOUN": 1206,
+    "DECATUR": 444,
+    "DELANO": 186,
+    "MADISONVILLE": 69,
+    "PHILADELPHIA": 67,
+    "TEN MILE": 11
+  },
+  "cross_county_postal_by_city": {
+    "DECATUR": 444,
+    "DELANO": 186,
+    "MADISONVILLE": 69,
+    "PHILADELPHIA": 67,
+    "TEN MILE": 11
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=SWEETWATER | COMP=SWEETWATER": 2,
+    "DOR=UNINCORPORATED | E911=CALHOUN | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=CALHOUN | COMP=CALHOUN": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 5401 -> file 5400": 94,
+    "polygon 5405 -> file 5400": 45,
+    "polygon 5400 -> file 5401": 36,
+    "polygon 5400 -> file 5405": 33,
+    "polygon 5403 -> file 5400": 15,
+    "polygon 5402 -> file 5400": 14,
+    "polygon 5400 -> file 5404": 7,
+    "polygon 5400 -> file 5406": 6,
+    "polygon 5404 -> file 5400": 5,
+    "polygon 5400 -> file 5403": 5,
+    "polygon 5400 -> file 5402": 1,
+    "polygon 5406 -> file 5400": 1
+  },
+  "business_flags": {
+    "": 581,
+    "POSTAL_CITY_EXPOSURE": 62,
+    "BOUNDARY_RISK": 35
+  },
+  "label_kinds": {
+    "business": 678,
+    "institution": 1,
+    "place": 1
+  }
+}

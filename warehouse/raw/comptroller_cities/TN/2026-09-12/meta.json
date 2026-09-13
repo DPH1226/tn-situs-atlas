@@ -1,0 +1,16 @@
+{
+  "layer": "comptroller_cities",
+  "scope": "TN",
+  "snap_date": "2026-09-12",
+  "fetched_utc": "2026-09-12T23:37:09.019419+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/2",
+  "where_clause": "1=1",
+  "feature_count": 345,
+  "sha256": "5dec8de70e3dafe3757b4caedeaca948c274df73cd5d75c299a8242b33929580",
+  "last_edit_date": null,
+  "raw_path": "raw/comptroller_cities/TN/2026-09-12/data.geojson",
+  "parquet_path": "parquet/comptroller_cities/TN/2026-09-12.parquet",
+  "geom": true,
+  "geometry_repairs": 53,
+  "notes": "TN Comptroller, Office of Local Government"
+}

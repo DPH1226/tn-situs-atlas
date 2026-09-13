@@ -1,0 +1,90 @@
+{
+  "county": "BRADLEY",
+  "slug": "bradley",
+  "generated_utc": "2026-09-13T05:23:10.646856+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "0600": "Unincorporated",
+    "0601": "Cleveland",
+    "0602": "Charleston"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 58052,
+    "unplaced": 1,
+    "sst_range_match_rate_pct": 91.8,
+    "business_points": 427,
+    "seams": 9,
+    "seam_miles": 152.4,
+    "cross_county_seam_miles": 75.2
+  },
+  "situs_distribution": {
+    "0600": 32675,
+    "0601": 24890,
+    "0602": 487
+  },
+  "risk_bands": {
+    "NORMAL": 46273,
+    "WATCH": 8484,
+    "HIGH": 2781,
+    "CRITICAL": 514
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 633,
+    "E5_DOR_INTERNAL_CONFLICT": 1369,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 635,
+    "E1_POSTAL_CITY_OVERSTATES": 28514,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 1809,
+    "E3_BOUNDARY_PROXIMITY": 3295
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 49217,
+    "REVIEW - analyst": 6453,
+    "HOLD - mandatory human adjudication": 2200,
+    "HOLD - insufficient evidence": 182
+  },
+  "postal_city_profile": {
+    "CLEVELAND": 51142,
+    "CHARLESTON": 2625,
+    "MCDONALD": 2572,
+    "GEORGETOWN": 1080,
+    "OLD FORT": 633
+  },
+  "cross_county_postal_by_city": {
+    "OLD FORT": 633
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=CLEVELAND | COMP=CLEVELAND": 1641,
+    "DOR=UNINCORPORATED | E911=CHARLESTON | COMP=CHARLESTON": 124,
+    "DOR=CLEVELAND | E911=UNINCORPORATED | COMP=UNINCORPORATED": 40,
+    "DOR=UNINCORPORATED | E911=CLEVELAND | COMP=UNINCORPORATED": 4
+  },
+  "dor_conflict_direction": {
+    "polygon 0600 -> file 0601": 1327,
+    "polygon 0601 -> file 0600": 523,
+    "polygon 0600 -> file 0602": 152,
+    "polygon 0602 -> file 0600": 2
+  },
+  "business_flags": {
+    "": 264,
+    "POSTAL_CITY_EXPOSURE": 141,
+    "BOUNDARY_RISK": 14,
+    "CROSS_COUNTY_POSTAL": 2
+  },
+  "label_kinds": {
+    "business": 421,
+    "place": 4,
+    "institution": 2
+  }
+}

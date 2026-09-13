@@ -1,0 +1,93 @@
+{
+  "county": "HAMBLEN",
+  "slug": "hamblen",
+  "generated_utc": "2026-09-13T05:31:35.971256+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "3200": "Unincorporated",
+    "3201": "Morristown",
+    "3202": "White Pine"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 35416,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 94.3,
+    "business_points": 1936,
+    "seams": 10,
+    "seam_miles": 215.7,
+    "cross_county_seam_miles": 93.4
+  },
+  "situs_distribution": {
+    "3200": 17727,
+    "3201": 17689
+  },
+  "risk_bands": {
+    "NORMAL": 25404,
+    "WATCH": 6907,
+    "HIGH": 2615,
+    "CRITICAL": 490
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 47,
+    "E5_DOR_INTERNAL_CONFLICT": 556,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 626,
+    "E1_POSTAL_CITY_OVERSTATES": 11272,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 987,
+    "E3_BOUNDARY_PROXIMITY": 3105
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 30480,
+    "REVIEW - analyst": 3486,
+    "HOLD - mandatory human adjudication": 1328,
+    "HOLD - insufficient evidence": 122
+  },
+  "postal_city_profile": {
+    "MORRISTOWN": 28681,
+    "TALBOTT": 2719,
+    "RUSSELLVILLE": 2492,
+    "WHITESBURG": 1406,
+    "WHITE PINE": 71,
+    "BULLS GAP": 46,
+    "MOHAWK": 1
+  },
+  "cross_county_postal_by_city": {
+    "BULLS GAP": 46,
+    "MOHAWK": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=MORRISTOWN | COMP=MORRISTOWN": 924,
+    "DOR=MORRISTOWN | E911=UNINCORPORATED | COMP=UNINCORPORATED": 56,
+    "DOR=UNINCORPORATED | E911=MORRISTOWN | COMP=MORRISON": 3,
+    "DOR=MORRISTOWN | E911=MORRISTOWN | COMP=MORRISON": 2,
+    "DOR=UNINCORPORATED | E911=MORRISTOWN | COMP=UNINCORPORATED": 1,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=MORRISTOWN": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 3200 -> file 3201": 926,
+    "polygon 3201 -> file 3200": 256
+  },
+  "business_flags": {
+    "": 1300,
+    "POSTAL_CITY_EXPOSURE": 481,
+    "BOUNDARY_RISK": 123,
+    "CROSS_COUNTY_POSTAL": 7
+  },
+  "label_kinds": {
+    "business": 1911,
+    "place": 14,
+    "institution": 8,
+    "unnamed": 3
+  }
+}

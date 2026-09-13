@@ -1,0 +1,95 @@
+{
+  "county": "SEQUATCHIE",
+  "slug": "sequatchie",
+  "generated_utc": "2026-09-13T05:46:26.757179+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7700": "Unincorporated",
+    "7701": "Dunlap"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 10576,
+    "unplaced": 0,
+    "sst_range_match_rate_pct": 82.8,
+    "business_points": 423,
+    "seams": 8,
+    "seam_miles": 110.7,
+    "cross_county_seam_miles": 91.5
+  },
+  "situs_distribution": {
+    "7700": 7255,
+    "7701": 3321
+  },
+  "risk_bands": {
+    "NORMAL": 9535,
+    "WATCH": 798,
+    "HIGH": 231,
+    "CRITICAL": 12
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 1728,
+    "E5_DOR_INTERNAL_CONFLICT": 134,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 36,
+    "E1_POSTAL_CITY_OVERSTATES": 4402,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 2,
+    "E3_BOUNDARY_PROXIMITY": 243
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 8625,
+    "REVIEW - analyst": 1880,
+    "HOLD - insufficient evidence": 57,
+    "HOLD - mandatory human adjudication": 14
+  },
+  "postal_city_profile": {
+    "DUNLAP": 7723,
+    "SIGNAL MTN": 1124,
+    "WHITWELL": 841,
+    "GRAYSVILLE": 681,
+    "SODDY DAISY": 147,
+    "SPENCER": 22,
+    "PALMER": 21,
+    "SIGNAL MOUNTAIN": 11,
+    "SEQUATCHIE": 5,
+    "SIGNAL MOUNTIAN": 1
+  },
+  "cross_county_postal_by_city": {
+    "WHITWELL": 841,
+    "GRAYSVILLE": 681,
+    "SODDY DAISY": 147,
+    "SPENCER": 22,
+    "PALMER": 21,
+    "SIGNAL MOUNTAIN": 11,
+    "SEQUATCHIE": 5
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=DUNLAP | COMP=DUNLAP": 2
+  },
+  "dor_conflict_direction": {
+    "polygon 7701 -> file 7700": 92,
+    "polygon 7700 -> file 7701": 78
+  },
+  "business_flags": {
+    "": 207,
+    "POSTAL_CITY_EXPOSURE": 170,
+    "CROSS_COUNTY_POSTAL": 38,
+    "BOUNDARY_RISK": 2
+  },
+  "label_kinds": {
+    "business": 417,
+    "institution": 3,
+    "place": 2,
+    "unnamed": 1
+  }
+}

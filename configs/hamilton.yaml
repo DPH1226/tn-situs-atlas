@@ -1,0 +1,24 @@
+county: HAMILTON
+fips: '47065'
+situs:
+  '3300': Unincorporated
+  '3301': Chattanooga
+  '3302': East Ridge
+  '3303': Lookout Mountain
+  '3304': Red Bank
+  '3305': Ridgeside
+  '3306': Signal Mountain
+  '3307': Collegedale
+  '3308': Soddy-Daisy
+  '3309': Lakesite
+  '3310': Walden
+tiers:
+  parcels: county
+  business: sos
+business_layers:
+- id: hamilton_sos_entities
+  type: sos_tsv
+  path: data/sos/hamilton_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

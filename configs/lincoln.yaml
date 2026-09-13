@@ -1,0 +1,17 @@
+county: LINCOLN
+fips: '47103'
+situs:
+  '5200': Unincorporated
+  '5201': Fayetteville
+  '5202': Petersburg
+  '5203': Ardmore
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: lincoln_sos_entities
+  type: sos_tsv
+  path: data/sos/lincoln_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

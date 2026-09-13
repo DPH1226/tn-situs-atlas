@@ -1,0 +1,155 @@
+{
+  "county": "ROBERTSON",
+  "slug": "robertson",
+  "generated_utc": "2026-09-13T05:45:46.098537+00:00",
+  "rubric": "v2",
+  "confidential_dor_data_used": false,
+  "situs_names": {
+    "7400": "Unincorporated",
+    "7401": "Springfield",
+    "7402": "Adams",
+    "7403": "Cedar Hill",
+    "7404": "Greenbrier",
+    "7405": "Orlinda",
+    "7406": "Ridgetop",
+    "7407": "White House",
+    "7408": "Cross Plains",
+    "7409": "Millersville",
+    "7410": "Coopertown",
+    "7411": "Portland"
+  },
+  "tiers": {
+    "parcels": "comptroller",
+    "business": "sos"
+  },
+  "sources": {
+    "dor_tax_rate_boundaries": "2026-09-12",
+    "comptroller_cities": "2026-09-12",
+    "ng911_address_points": "2026-09-13",
+    "sst_address_lookup": "2026-09-13"
+  },
+  "totals": {
+    "address_points": 38872,
+    "unplaced": 6,
+    "sst_range_match_rate_pct": 89.7,
+    "business_points": 2803,
+    "seams": 33,
+    "seam_miles": 287.5,
+    "cross_county_seam_miles": 72.9
+  },
+  "situs_distribution": {
+    "7400": 15604,
+    "7401": 9406,
+    "7407": 4999,
+    "7404": 3044,
+    "7410": 2124,
+    "7406": 920,
+    "7408": 838,
+    "7409": 731,
+    "7405": 503,
+    "7402": 402,
+    "7403": 224,
+    "7411": 77
+  },
+  "risk_bands": {
+    "NORMAL": 27016,
+    "WATCH": 8418,
+    "HIGH": 3040,
+    "CRITICAL": 398
+  },
+  "exceptions": {
+    "E2_CROSS_COUNTY_POSTAL": 2904,
+    "E5_DOR_INTERNAL_CONFLICT": 1265,
+    "E5B_DOR_CONFLICT_AT_BOUNDARY": 526,
+    "E1_POSTAL_CITY_OVERSTATES": 16575,
+    "E6_ANNEXATION_LAG": 0,
+    "E4_LAYER_DISAGREEMENT": 884,
+    "E3_BOUNDARY_PROXIMITY": 3438
+  },
+  "dispositions": {
+    "READY - analyst sign-off then submit": 31972,
+    "REVIEW - analyst": 5246,
+    "HOLD - mandatory human adjudication": 1236,
+    "HOLD - insufficient evidence": 418
+  },
+  "postal_city_profile": {
+    "SPRINGFIELD": 16312,
+    "GREENBRIER": 6799,
+    "WHITE HOUSE": 6509,
+    "CEDAR HILL": 2286,
+    "CROSS PLAINS": 1882,
+    "GOODLETTSVILLE": 1652,
+    "ADAMS": 1004,
+    "PLEASANT VIEW": 986,
+    "ORLINDA": 593,
+    "PORTLAND": 529,
+    "COTTONTOWN": 247,
+    "RIDGETOP": 32,
+    "JOELTON": 18,
+    "SPRINGIFIELD": 18,
+    "GREENRBIER": 2,
+    "CLARKSVILLE": 1,
+    "SRINGFIELD": 1,
+    "PLESANT VIEW": 1
+  },
+  "cross_county_postal_by_city": {
+    "GOODLETTSVILLE": 1652,
+    "PLEASANT VIEW": 986,
+    "COTTONTOWN": 247,
+    "JOELTON": 18,
+    "CLARKSVILLE": 1
+  },
+  "layer_disagreement_detail": {
+    "DOR=UNINCORPORATED | E911=WHITE HOUSE | COMP=WHITE HOUSE": 520,
+    "DOR=UNINCORPORATED | E911=SPRINGFIELD | COMP=SPRINGFIELD": 292,
+    "DOR=CEDAR HILL | E911=UNINCORPORATED | COMP=UNINCORPORATED": 33,
+    "DOR=WHITE HOUSE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 19,
+    "DOR=PORTLAND | E911=UNINCORPORATED | COMP=UNINCORPORATED": 3,
+    "DOR=UNINCORPORATED | E911=GREENBRIER | COMP=GREENBRIER": 3,
+    "DOR=UNINCORPORATED | E911=CEDAR HILL | COMP=CEDAR HILL": 3,
+    "DOR=UNINCORPORATED | E911=PORTLAND | COMP=PORTLAND": 3,
+    "DOR=SPRINGFIELD | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=MILLERSVILLE | E911=UNINCORPORATED | COMP=UNINCORPORATED": 2,
+    "DOR=UNINCORPORATED | E911=UNINCORPORATED | COMP=WHITE HOUSE": 1,
+    "DOR=UNINCORPORATED | E911=GREENBRIER | COMP=UNINCORPORATED": 1
+  },
+  "dor_conflict_direction": {
+    "polygon 7400 -> file 7407": 838,
+    "polygon 7400 -> file 7401": 171,
+    "polygon 7400 -> file 7409": 121,
+    "polygon 7401 -> file 7400": 87,
+    "polygon 7400 -> file 7405": 72,
+    "polygon 7400 -> file 7404": 70,
+    "polygon 7402 -> file 7400": 54,
+    "polygon 7410 -> file 7400": 53,
+    "polygon 7408 -> file 7400": 51,
+    "polygon 7405 -> file 7400": 49,
+    "polygon 7409 -> file 7407": 40,
+    "polygon 7400 -> file 7410": 31,
+    "polygon 7400 -> file 7408": 28,
+    "polygon 7407 -> file 7400": 23,
+    "polygon 7400 -> file 7411": 22,
+    "polygon 7404 -> file 7400": 17,
+    "polygon 7400 -> file 7402": 16,
+    "polygon 7400 -> file 7403": 13,
+    "polygon 7403 -> file 7400": 12,
+    "polygon 7410 -> file 7404": 9,
+    "polygon 7400 -> file 7406": 7,
+    "polygon 7404 -> file 7406": 3,
+    "polygon 7409 -> file 7406": 2,
+    "polygon 7409 -> file 7400": 1,
+    "polygon 7406 -> file 7404": 1
+  },
+  "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 1302,
+    "": 1185,
+    "CROSS_COUNTY_POSTAL": 186,
+    "BOUNDARY_RISK": 107
+  },
+  "label_kinds": {
+    "business": 2780,
+    "place": 12,
+    "institution": 7,
+    "unnamed": 4
+  }
+}

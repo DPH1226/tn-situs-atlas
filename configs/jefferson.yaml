@@ -1,0 +1,19 @@
+county: JEFFERSON
+fips: '47089'
+situs:
+  '4500': Unincorporated
+  '4501': Dandridge
+  '4502': Jefferson City
+  '4503': White Pine
+  '4504': New Market
+  '4505': Baneberry
+tiers:
+  parcels: comptroller
+  business: sos
+business_layers:
+- id: jefferson_sos_entities
+  type: sos_tsv
+  path: data/sos/jefferson_county_all_records_from_SOS.tsv
+  name_field: EntityName
+  notes: TN SOS active for-profit entities geocoded to NG911 rooftops.
+city_layers: []

@@ -1,0 +1,16 @@
+{
+  "layer": "sst_address_lookup",
+  "scope": "knox",
+  "snap_date": "2026-09-13",
+  "fetched_utc": "2026-09-13T02:46:44.916224+00:00",
+  "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/SST/MapServer/4",
+  "where_clause": "county='KNOX'",
+  "feature_count": 52889,
+  "sha256": "eb8116c8da9a21d86fca709d33a2ed707403b227cb5d553180fad18fad3a32e6",
+  "last_edit_date": null,
+  "raw_path": "raw/sst_address_lookup/knox/2026-09-13/data.json",
+  "parquet_path": "parquet/sst_address_lookup/knox/2026-09-13.parquet",
+  "geom": false,
+  "geometry_repairs": 0,
+  "notes": "Tennessee Department of Revenue"
+}
