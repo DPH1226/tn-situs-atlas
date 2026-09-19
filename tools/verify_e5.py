@@ -100,7 +100,7 @@ def verify(slug: str) -> dict | None:
     ok1 = both >= .90; ok3 = r["streets"]["e5_on_systematic_streets_pct"] >= 50; ok4 = (coh >= .85) if len(x) else True
     # wrong-street evidence: the file's own label rarely names the polygon's city, or often contradicts the rooftop's postal city
     # on a county whose streets do not flip together
-    bad_match = (len(x) > 0 and coh < .50) or (label_vs_postal.mean() >= .20 and not ok3 and not ok4)
+    bad_match = (len(x) > 0 and coh < .50) or (label_vs_postal.mean() >= .20 and not ok3)
     r["checks"] = {"referee": bool(ok1), "streets": bool(ok3), "labels": bool(ok4), "wrong_street_evidence": bool(bad_match)}
     r["verdict"] = "SUSPECT - likely a matching artifact" if bad_match else \
                    "REAL - the State's address file is the odd one out" if (ok1 and ok3 and ok4) else "MIXED - inspect before quoting"

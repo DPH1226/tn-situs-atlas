@@ -51,6 +51,7 @@ from fetch import config
 OUTD = ROOT / "out"; ART = ROOT / "artifact"
 PRIOR = {"A": 0.90, "B": 0.60, "C": 0.25}
 AVG: dict = {}          # county -> average local option tax per located business (set in main)
+VERDICT: dict = {}      # county -> REAL / MIXED / SUSPECT from tools/verify_e5.py (set in main)
 DEEP_FT = 250
 
 
@@ -174,10 +175,10 @@ def run_county(c: str, code_of, name_of, county_code) -> tuple[pd.DataFrame, str
                          zip=r.Zip_Code, tier=tier, confidence=conf, cls=cls,
                          current=cur, current_name=cn, current_county=cc, correct=corr, correct_name=rn, correct_county=rc,
                          share="both halves" if cc != rc else "situs half",
-                         value=round(AVG.get(rc, 0) * (1.0 if cc != rc else 0.5)),
+                         value=round(AVG.get(rc, 0) * (1.0 if cc != rc else 0.5)), county_verdict=VERDICT.get(rc, "not run"),
                          placement=r.evidence_score, seam_ft=r.nearest_seam_ft, lon=r.lon, lat=r.lat))
     df = pd.DataFrame(rows, columns=["id", "business", "address", "zip", "tier", "confidence", "cls", "current", "current_name", "current_county",
-                                     "correct", "correct_name", "correct_county", "share", "value", "placement", "seam_ft", "lon", "lat"])
+                                     "correct", "correct_name", "correct_county", "share", "value", "county_verdict", "placement", "seam_ft", "lon", "lat"])
     df = df.sort_values(["tier", "confidence"], ascending=[True, False])
     df.to_csv(OUTD / c / "business_flows.csv", index=False)
     return df, C
@@ -302,7 +303,7 @@ EXPLAIN_CSS = """
 .scen select,.scen input[type=number]{font:inherit;padding:6px 8px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);width:100%}
 .scen .res{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));border-top:1px solid var(--rule-2);margin-top:16px;padding-top:14px;gap:12px}
 .scen .res .k{margin-bottom:3px} .scen .res .v{font-size:1.25rem}
-td.money{font-family:"IBM Plex Mono",monospace;text-align:right;font-variant-numeric:tabular-nums} td.pos{color:var(--clear)} td.neg{color:var(--crit)}
+td.money{font-family:"IBM Plex Mono",monospace;text-align:right;font-variant-numeric:tabular-nums} .unv{font-family:Archivo,sans-serif;font-size:.66rem;color:var(--ink-3);letter-spacing:.04em} td.pos{color:var(--clear)} td.neg{color:var(--crit)}
 th.sc{background:var(--surface-2);border-left:1px solid var(--rule)} td.sc{border-left:1px solid var(--rule)}
 """
 
@@ -318,13 +319,14 @@ SCEN_JS = """
     oIn.textContent=pin.value+"%";oOut.textContent=pout.value+"%";
     var TR=0,TL=0;
     document.querySelectorAll("tr[data-owed_val_a]").forEach(function(tr){
-      var rec=sum(tr,"owed_val_",ts)*a*g,lost=sum(tr,"err_val_",ts)*b*g,net=rec-lost;
       var c=tr.querySelectorAll("td.sc");if(c.length<3)return;
+      if(tr.dataset.kind!=="county"&&tr.dataset.ver!=="REAL"){c[0].textContent="";c[1].textContent="";c[2].innerHTML='<span class="unv" title="Dollar figures are withheld until this county passes verification (tools/verify_e5.py)">'+(tr.dataset.ver==="none"?"not verified":tr.dataset.ver.toLowerCase()+" \u00b7 not quoted")+"</span>";c[2].className="sc money";return;}
+      var rec=sum(tr,"owed_val_",ts)*a*g,lost=sum(tr,"err_val_",ts)*b*g,net=rec-lost;
       c[0].textContent=rec?fmt(rec):"\u2014";c[1].textContent=lost?fmt(lost):"\u2014";c[2].textContent=fmt(net);
       c[2].className="sc money "+(net>0?"pos":net<0?"neg":"");
       if(tr.dataset.kind==="county"){TR+=rec;TL+=lost;}
     });
-    var A=parseFloat(document.getElementById("stw").dataset.tierA)*g;
+    var A=parseFloat(document.getElementById("stw").dataset.tierAVerified||0)*g;
     document.getElementById("r_gross").textContent=fmt(A);
     document.getElementById("r_prior").textContent=fmt(A*0.9);
     document.getElementById("r_cycle").textContent=fmt(A*2);
@@ -364,7 +366,11 @@ def write_page(agg: dict):
                        '<th class="n sc" colspan="3">At the scenario above (per year)</th></tr>'
                        '<tr><th class="n gl">A</th><th class="n">B</th><th class="n">C</th><th class="n">All</th><th class="n gl">A</th><th class="n">B</th><th class="n">C</th><th class="n">All</th>'
                        '<th class="n sc">Recovered</th><th class="n">Ceded</th><th class="n">Net</th></tr>')
-    def attrs(d): return " ".join(f'data-{k}="{d[k]}"' for k in d if k.startswith(("owed_val_", "err_val_")))
+    def verdict_of(d):
+        cs = d.get("counties") or [d.get("county") or d.get("jurisdiction")]
+        ws = [(VER.get(C) or {}).get("verdict", "").split(" ")[0] or "none" for C in cs]
+        return "SUSPECT" if "SUSPECT" in ws else "MIXED" if "MIXED" in ws else "REAL" if ws and all(w == "REAL" for w in ws) else "none"
+    def attrs(d): return f'data-ver="{verdict_of(d)}" ' + " ".join(f'data-{k}="{d[k]}"' for k in d if k.startswith(("owed_val_", "err_val_")))
     def cells(d): return (f'<td class="n gl owed">{n(d["owed_A"])}</td><td class="n">{n(d["owed_B"])}</td><td class="n dim">{n(d["owed_C"])}</td><td class="n">{n(d["owed"])}</td>'
                           f'<td class="n gl err">{n(d["err_A"])}</td><td class="n">{n(d["err_B"])}</td><td class="n dim">{n(d["err_C"])}</td><td class="n">{n(d["err"])}</td>'
                           '<td class="sc money"></td><td class="sc money"></td><td class="sc money"></td>')
@@ -418,7 +424,7 @@ def write_page(agg: dict):
 <li><b>The priors are assumptions, not measurements.</b> The first situs report loaded into a workbench measures each tier's actual precision, and those measured rates replace the priors on this page. Until then, Tier A means "the State disagrees with itself here" and Tier B means "the mechanism is present here" — not a probability that any named business is miscoded.</li>
 </ul></div>
 
-<div class="scen" id="stw" data-tier-a="{tierA_val}"><h3>Scenario</h3>
+<div class="scen" id="stw" data-tier-a="{tierA_val}" data-tier-a-verified="{AV.get("value", 0)}"><h3>Scenario</h3>
 <div class="ctl">
 <div><label for="pin">Share of <b>owed</b> businesses the jurisdiction recovers: <output id="pin_v">10%</output></label><input type="range" id="pin" min="0" max="50" step="1" value="10"></div>
 <div><label for="pout">Share of <b>received-in-error</b> businesses a neighbor corrects: <output id="pout_v">10%</output></label><input type="range" id="pout" min="0" max="50" step="1" value="10"></div>
@@ -426,8 +432,7 @@ def write_page(agg: dict):
 <div><label for="grow">Growth since {FY} (1.00 = as published)</label><input type="number" id="grow" min="0.5" max="2" step="0.01" value="1.00"></div>
 </div>
 <div class="res">
-<div><div class="k">Tier A · verified counties · per year</div><div class="v" style="color:var(--clear)">{usd(AV.get("value", 0))}</div><small style="color:var(--ink-3)">{n(AV.get("owed", 0))} businesses in {AV.get("counties", 0)} counties whose address-file signal passed verification (tools/verify_e5.py)</small></div>
-<div><div class="k">Tier A · all counties · per year</div><div class="v" id="r_gross">—</div><small style="color:var(--ink-3)">{n(tierA_n)} businesses; includes {usd(AU.get("value", 0))} in {n(AU.get("owed", 0))} businesses from counties marked MIXED, SUSPECT or not yet run</small></div>
+<div><div class="k">Tier A · verified counties · per year</div><div class="v" style="color:var(--clear)" id="r_gross">—</div><small style="color:var(--ink-3)">{n(AV.get("owed", 0))} businesses in {AV.get("counties", 0)} counties that passed verification (tools/verify_e5.py). Counties marked MIXED or SUSPECT hold a further {n(AU.get("owed", 0))} Tier A businesses; their dollars are withheld until they pass.</small></div>
 <div><div class="k">× 0.90 prior</div><div class="v" id="r_prior">—</div><small style="color:var(--ink-3)">the stated-prior expectation</small></div>
 <div><div class="k">Tier A · first cycle</div><div class="v" id="r_cycle">—</div><small style="color:var(--ink-3)">one-year lookback plus the first corrected year</small></div>
 <div><div class="k">Cross-county · Tier A</div><div class="v" style="color:var(--crit)">{usd(tierA_xv)}</div><small style="color:var(--ink-3)">{n(tierA_x)} businesses, both halves at stake</small></div>
@@ -459,6 +464,9 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--county", nargs="*"); a = ap.parse_args()
     code_of, name_of, county_code = codebook()
     avg, base, taxcfg = valuation(); AVG.update(avg)
+    for c in config.all_counties():
+        vp = OUTD / c / "e5_verification.json"
+        if vp.exists(): VERDICT[config.county(c)["county"]] = json.loads(vp.read_text()).get("verdict", "").split(" ")[0] or "not run"
     frames = {}
     for c in config.all_counties():
         if a.county and c not in [x.lower() for x in a.county]: continue
