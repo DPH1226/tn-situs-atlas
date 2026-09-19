@@ -1,7 +1,7 @@
 {
   "county": "WASHINGTON",
   "slug": "washington",
-  "generated_utc": "2026-09-13T06:00:45.332083+00:00",
+  "generated_utc": "2026-09-13T17:44:38.845553+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 79967,
     "unplaced": 0,
     "sst_range_match_rate_pct": 93.4,
-    "business_points": 4797,
+    "business_points": 4826,
     "seams": 17,
     "seam_miles": 309.8,
     "cross_county_seam_miles": 94.1
@@ -50,8 +50,8 @@
     "E3_BOUNDARY_PROXIMITY": 8586
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 67268,
-    "REVIEW - analyst": 10732,
+    "READY - analyst sign-off then submit": 67275,
+    "REVIEW - analyst": 10725,
     "HOLD - mandatory human adjudication": 1379,
     "HOLD - insufficient evidence": 588
   },
@@ -90,14 +90,14 @@
     "polygon 9002 -> file 9000": 175
   },
   "business_flags": {
-    "": 3457,
-    "POSTAL_CITY_EXPOSURE": 712,
-    "BOUNDARY_RISK": 490,
-    "CROSS_COUNTY_POSTAL": 57
+    "": 3478,
+    "POSTAL_CITY_EXPOSURE": 715,
+    "BOUNDARY_RISK": 492,
+    "CROSS_COUNTY_POSTAL": 58
   },
   "label_kinds": {
-    "business": 4716,
+    "business": 4743,
     "place": 54,
-    "institution": 27
+    "institution": 29
   }
 }

@@ -1,7 +1,7 @@
 {
   "county": "ROANE",
   "slug": "roane",
-  "generated_utc": "2026-09-13T05:44:33.695249+00:00",
+  "generated_utc": "2026-09-13T17:32:39.123091+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -26,7 +26,7 @@
     "address_points": 33194,
     "unplaced": 0,
     "sst_range_match_rate_pct": 93.3,
-    "business_points": 1387,
+    "business_points": 1392,
     "seams": 18,
     "seam_miles": 264.6,
     "cross_county_seam_miles": 116.6
@@ -100,13 +100,13 @@
     "polygon 7303 -> file 7300": 1
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 652,
-    "": 530,
+    "POSTAL_CITY_EXPOSURE": 656,
+    "": 531,
     "CROSS_COUNTY_POSTAL": 122,
     "BOUNDARY_RISK": 75
   },
   "label_kinds": {
-    "business": 1379,
+    "business": 1384,
     "place": 5,
     "institution": 3
   }

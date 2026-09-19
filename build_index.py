@@ -43,6 +43,35 @@ for r in sorted(rows, key=lambda r: -(r.get("rooftops") or 0)):
     trs.append(f'<tr><td>{name}</td><td class="n">{r["situs"]}</td><td class="n">{n(r["rooftops"])}</td><td class="n">{bizcell(r)}</td>'
                f'<td class="n">{r["seam_mi"]:.0f}</td><td class="n">{r["xc_mi"]:.0f}</td><td class="n">{r["sst"]:.0f}%</td>'
                f'<td class="n crit">{n(r["cc"])}</td><td class="n high">{n(r["br"])}</td><td class="n watch">{n(r["pe"])}</td><td class="n">{n(r["E5"])}</td><td class="n">{n(r["E4"])}</td></tr>')
+
+# ---- statewide map: every county, shaded by cross-county-postal businesses per 1,000 businesses, linked
+MAP = json.loads((ROOT / "configs" / "tn_county_paths.json").read_text())
+def _shade(rate):
+    # 0 -> paper, high -> crit; quantized so the legend is honest
+    if rate is None: return "var(--surface-2)"
+    for cut, col in ((5, "#dfe6ec"), (15, "#b9cad8"), (40, "#d6a29e"), (90, "#b25a55")):
+        if rate < cut: return col
+    return "#8f2f2a"
+_by = {r["county"].upper().replace(" ", ""): r for r in rows}
+svg_paths, labels = [], []
+for key, m in MAP["counties"].items():
+    r = _by.get(key); nm = key.title()
+    if r and not r["pending"]:
+        rate = (r["cc"] / r["biz"] * 1000) if r["biz"] else None
+        tip = f'{r["county"].title()} — {r["rooftops"]:,} rooftops · {r["biz"]:,} businesses · {r["cc"]:,} cross-county postal · {r["br"]:,} boundary risk'
+        href = r["link"] or ""
+        inner = f'<path d="{m["d"]}" fill="{_shade(rate)}"><title>{tip}</title></path>'
+        svg_paths.append(f'<a href="{href}">{inner}</a>' if href else inner)
+    else:
+        svg_paths.append(f'<path d="{m["d"]}" fill="var(--surface-2)"><title>{nm} — pending</title></path>')
+    if r and not r["pending"] and r["biz"] > 20000:
+        labels.append(f'<text x="{m["cx"]}" y="{m["cy"]}">{r["county"].title()}</text>')
+MAP_SVG = (f'<svg class="tnmap" viewBox="0 0 {MAP["w"]} {MAP["h"]}" role="img" aria-label="Tennessee counties shaded by cross-county postal exposure">'
+           + "".join(svg_paths) + "".join(labels) + "</svg>")
+MAP_LEGEND = ('<div class="maplegend"><span><i style="background:#dfe6ec"></i>&lt;5</span><span><i style="background:#b9cad8"></i>5–15</span>'
+              '<span><i style="background:#d6a29e"></i>15–40</span><span><i style="background:#b25a55"></i>40–90</span><span><i style="background:#8f2f2a"></i>90+</span>'
+              '<em>cross-county-postal businesses per 1,000 placed businesses · hover for counts · click to open the county workbench</em></div>')
+
 html = f'''<title>Tennessee Situs Atlas</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -63,6 +92,12 @@ table{{border-collapse:collapse;width:100%;font-size:.82rem}} th{{position:stick
 td{{padding:7px 10px;border-bottom:1px solid var(--rule-2)}} td.n{{font-family:"IBM Plex Mono",monospace;text-align:right;font-variant-numeric:tabular-nums}} tr:hover{{background:var(--surface-2)}}
 td.crit{{color:var(--crit);font-weight:600}} td.high{{color:var(--high)}} td.watch{{color:var(--watch)}} tr.pend td{{color:var(--ink-3)}} .nosos{{font-family:Archivo,sans-serif;font-size:.68rem;color:var(--ink-3);font-style:italic}}
 .pendtxt{{font-style:italic;font-family:"Source Serif 4",serif}}
+.mapwrap{{margin:26px 0 8px}} .mapwrap h2{{font-family:Archivo,sans-serif;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:0 0 8px}}
+.tnmap{{width:100%;height:auto;max-width:100%;display:block;background:var(--surface);border:1px solid var(--rule-2);border-radius:6px}}
+.tnmap path{{stroke:var(--surface);stroke-width:1.2;transition:opacity .15s}} .tnmap a:hover path,.tnmap a:focus path{{opacity:.75;stroke:var(--ink);stroke-width:1.6;cursor:pointer}}
+.tnmap text{{font-family:Archivo,sans-serif;font-size:11px;fill:var(--ink);text-anchor:middle;pointer-events:none;paint-order:stroke;stroke:var(--surface);stroke-width:3px}}
+.maplegend{{display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-family:Archivo,sans-serif;font-size:.7rem;color:var(--ink-2);margin-top:8px}}
+.maplegend i{{display:inline-block;width:14px;height:10px;margin-right:5px;vertical-align:middle;border:1px solid var(--rule)}} .maplegend em{{font-style:normal;color:var(--ink-3)}}
 a{{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}} a:hover{{border-bottom-color:var(--accent)}}
 .note{{border-left:3px solid var(--accent);background:var(--surface);padding:12px 16px;margin:22px 0;color:var(--ink-2);max-width:78ch;font-size:.92rem}}
 footer{{margin-top:36px;font-size:.8rem;color:var(--ink-3);max-width:80ch}}
@@ -71,6 +106,7 @@ footer{{margin-top:36px;font-size:.8rem;color:var(--ink-3);max-width:80ch}}
 <div class="sub">Every Tennessee county's rooftops placed inside the Department of Revenue's own sales-tax situs polygons, measured to the nearest jurisdictional seam, and cross-checked against the Comptroller's certified city limits and the 911 addressing authority. No confidential data was used. Counties with a published workbench are linked.</div></div></header>
 <div class="wrap">
 <div class="tiles"><div><div class="k">Counties run</div><div class="v">{tot["n"]} / 95</div></div><div><div class="k">Rooftops placed</div><div class="v">{tot["rooftops"]:,}</div></div><div><div class="k">Business points</div><div class="v">{tot["biz"]:,}</div></div><div><div class="k">Seam miles</div><div class="v">{tot["seam_mi"]:,.0f}</div></div><div><div class="k">Cross-county miles</div><div class="v">{tot["xc_mi"]:,.0f}</div></div><div><div class="k">Cross-county postal (biz)</div><div class="v" style="color:var(--crit)">{tot["cc"]:,}</div></div><div><div class="k">DOR file ≠ polygon</div><div class="v">{tot["E5"]:,}</div></div></div>
+<section class="mapwrap"><h2>Statewide view</h2>{MAP_SVG}{MAP_LEGEND}</section>
 <div class="note"><b>How to read this.</b> <i>Cross-county postal</i> is a named business physically inside the county whose mailing city belongs to another county — the population where both halves of the local option tax are at risk. <i>Boundary risk</i> is within 250 ft of a seam. <i>Postal exposure</i> is a city mailing address on a rooftop outside that city. <i>DOR file ≠ polygon</i> counts rooftops where the State's own address-range file and its own tax polygon disagree by more than 250 ft. None of these is a finding until a situs report is compared; all of them rank where findings will be. <i>No roster yet</i> means the Secretary of State entity file for that county has not been loaded, so no business points exist there yet; the rooftop-level columns are complete regardless.</div>
 <div class="tbox"><table><thead><tr><th>County</th><th>Situs codes</th><th>Rooftops</th><th>Businesses</th><th>Seam mi</th><th>Cross-county mi</th><th>DOR range match</th><th>Cross-county postal</th><th>Boundary risk</th><th>Postal exposure</th><th>DOR file ≠ polygon</th><th>Layers disagree</th></tr></thead><tbody>{"".join(trs)}</tbody></table></div>
 <footer>Sources: TN Department of Revenue sales-tax rate boundaries and SST address-range file; TN Comptroller municipal boundaries; TN Emergency Communications Board NG911 address points; TN Secretary of State entity records; county 911 districts and city GIS where published. All distance math in EPSG:2274 (Tennessee State Plane, US ft). Business counts are named businesses only — subdivision, lot, utility and institutional labels are excluded. Prototype; not an audit finding.</footer>

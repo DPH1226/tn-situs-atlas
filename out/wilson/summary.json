@@ -1,7 +1,7 @@
 {
   "county": "WILSON",
   "slug": "wilson",
-  "generated_utc": "2026-09-13T06:01:26.345128+00:00",
+  "generated_utc": "2026-09-13T17:45:22.593862+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 88196,
     "unplaced": 0,
     "sst_range_match_rate_pct": 87.0,
-    "business_points": 13466,
+    "business_points": 13512,
     "seams": 13,
     "seam_miles": 360.3,
     "cross_county_seam_miles": 141.4
@@ -51,8 +51,8 @@
     "E3_BOUNDARY_PROXIMITY": 7480
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 73383,
-    "REVIEW - analyst": 11763,
+    "READY - analyst sign-off then submit": 73387,
+    "REVIEW - analyst": 11759,
     "HOLD - mandatory human adjudication": 2197,
     "HOLD - insufficient evidence": 853
   },
@@ -96,13 +96,13 @@
     "polygon 9502 -> file 9500": 7
   },
   "business_flags": {
-    "": 7471,
-    "POSTAL_CITY_EXPOSURE": 3700,
-    "BOUNDARY_RISK": 538,
-    "CROSS_COUNTY_POSTAL": 534
+    "": 7493,
+    "POSTAL_CITY_EXPOSURE": 3719,
+    "BOUNDARY_RISK": 540,
+    "CROSS_COUNTY_POSTAL": 537
   },
   "label_kinds": {
-    "business": 12243,
+    "business": 12289,
     "unnamed": 472,
     "place": 465,
     "institution": 286

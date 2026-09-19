@@ -1,7 +1,7 @@
 {
   "county": "ANDERSON",
   "slug": "anderson",
-  "generated_utc": "2026-09-13T05:22:43.400331+00:00",
+  "generated_utc": "2026-09-13T17:15:39.684219+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -26,7 +26,7 @@
     "address_points": 44784,
     "unplaced": 0,
     "sst_range_match_rate_pct": 92.3,
-    "business_points": 2570,
+    "business_points": 2584,
     "seams": 16,
     "seam_miles": 218.1,
     "cross_county_seam_miles": 114.4
@@ -99,13 +99,13 @@
     "polygon 0104 -> file 0100": 3
   },
   "business_flags": {
-    "": 1907,
-    "POSTAL_CITY_EXPOSURE": 489,
+    "": 1920,
+    "POSTAL_CITY_EXPOSURE": 490,
     "CROSS_COUNTY_POSTAL": 107,
     "BOUNDARY_RISK": 49
   },
   "label_kinds": {
-    "business": 2552,
+    "business": 2566,
     "institution": 11,
     "place": 6,
     "unnamed": 1

@@ -1,7 +1,7 @@
 {
   "county": "BLOUNT",
   "slug": "blount",
-  "generated_utc": "2026-09-13T05:24:18.845680+00:00",
+  "generated_utc": "2026-09-13T17:16:54.291317+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -27,7 +27,7 @@
     "address_points": 82552,
     "unplaced": 0,
     "sst_range_match_rate_pct": 93.0,
-    "business_points": 5413,
+    "business_points": 5435,
     "seams": 19,
     "seam_miles": 355.9,
     "cross_county_seam_miles": 115.1
@@ -113,13 +113,13 @@
     "polygon 0502 -> file 0506": 1
   },
   "business_flags": {
-    "": 2471,
-    "POSTAL_CITY_EXPOSURE": 2436,
+    "": 2479,
+    "POSTAL_CITY_EXPOSURE": 2450,
     "BOUNDARY_RISK": 253,
     "CROSS_COUNTY_POSTAL": 200
   },
   "label_kinds": {
-    "business": 5360,
+    "business": 5382,
     "institution": 29,
     "place": 24
   }

@@ -1,7 +1,7 @@
 {
   "county": "BRADLEY",
   "slug": "bradley",
-  "generated_utc": "2026-09-13T05:23:10.646856+00:00",
+  "generated_utc": "2026-09-13T17:16:08.699506+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 58052,
     "unplaced": 1,
     "sst_range_match_rate_pct": 91.8,
-    "business_points": 427,
+    "business_points": 430,
     "seams": 9,
     "seam_miles": 152.4,
     "cross_county_seam_miles": 75.2
@@ -49,8 +49,8 @@
     "E3_BOUNDARY_PROXIMITY": 3295
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 49217,
-    "REVIEW - analyst": 6453,
+    "READY - analyst sign-off then submit": 49218,
+    "REVIEW - analyst": 6452,
     "HOLD - mandatory human adjudication": 2200,
     "HOLD - insufficient evidence": 182
   },
@@ -77,13 +77,13 @@
     "polygon 0602 -> file 0600": 2
   },
   "business_flags": {
-    "": 264,
-    "POSTAL_CITY_EXPOSURE": 141,
-    "BOUNDARY_RISK": 14,
+    "": 265,
+    "POSTAL_CITY_EXPOSURE": 142,
+    "BOUNDARY_RISK": 15,
     "CROSS_COUNTY_POSTAL": 2
   },
   "label_kinds": {
-    "business": 421,
+    "business": 424,
     "place": 4,
     "institution": 2
   }

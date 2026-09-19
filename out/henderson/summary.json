@@ -1,7 +1,7 @@
 {
   "county": "HENDERSON",
   "slug": "henderson",
-  "generated_utc": "2026-09-13T05:33:25.622939+00:00",
+  "generated_utc": "2026-09-13T17:24:14.133073+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 17593,
     "unplaced": 0,
     "sst_range_match_rate_pct": 71.7,
-    "business_points": 410,
+    "business_points": 412,
     "seams": 14,
     "seam_miles": 208.0,
     "cross_county_seam_miles": 103.1
@@ -107,13 +107,13 @@
     "polygon 3904 -> file 3900": 5
   },
   "business_flags": {
-    "": 180,
-    "POSTAL_CITY_EXPOSURE": 175,
+    "": 181,
+    "POSTAL_CITY_EXPOSURE": 176,
     "BOUNDARY_RISK": 31,
     "CROSS_COUNTY_POSTAL": 22
   },
   "label_kinds": {
-    "business": 408,
+    "business": 410,
     "place": 2
   }
 }

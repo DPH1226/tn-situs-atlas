@@ -1,7 +1,7 @@
 {
   "county": "GREENE",
   "slug": "greene",
-  "generated_utc": "2026-09-13T05:30:59.055493+00:00",
+  "generated_utc": "2026-09-13T17:22:24.819385+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 41483,
     "unplaced": 5,
     "sst_range_match_rate_pct": 83.4,
-    "business_points": 1624,
+    "business_points": 1631,
     "seams": 11,
     "seam_miles": 240.7,
     "cross_county_seam_miles": 99.9
@@ -96,13 +96,13 @@
     "polygon 3004 -> file 3001": 1
   },
   "business_flags": {
-    "": 800,
-    "POSTAL_CITY_EXPOSURE": 683,
-    "CROSS_COUNTY_POSTAL": 85,
+    "": 804,
+    "POSTAL_CITY_EXPOSURE": 685,
+    "CROSS_COUNTY_POSTAL": 86,
     "BOUNDARY_RISK": 42
   },
   "label_kinds": {
-    "business": 1610,
+    "business": 1617,
     "place": 8,
     "institution": 4,
     "unnamed": 2

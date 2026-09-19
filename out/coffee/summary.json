@@ -1,7 +1,7 @@
 {
   "county": "COFFEE",
   "slug": "coffee",
-  "generated_utc": "2026-09-13T05:25:05.627703+00:00",
+  "generated_utc": "2026-09-13T17:17:35.041117+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 29814,
     "unplaced": 0,
     "sst_range_match_rate_pct": 94.8,
-    "business_points": 1950,
+    "business_points": 1960,
     "seams": 12,
     "seam_miles": 213.3,
     "cross_county_seam_miles": 124.7
@@ -49,8 +49,8 @@
     "E3_BOUNDARY_PROXIMITY": 1542
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 26850,
-    "REVIEW - analyst": 2521,
+    "READY - analyst sign-off then submit": 26851,
+    "REVIEW - analyst": 2520,
     "HOLD - mandatory human adjudication": 360,
     "HOLD - insufficient evidence": 83
   },
@@ -93,13 +93,13 @@
     "polygon 1602 -> file 1600": 22
   },
   "business_flags": {
-    "": 1263,
-    "POSTAL_CITY_EXPOSURE": 489,
+    "": 1270,
+    "POSTAL_CITY_EXPOSURE": 491,
     "BOUNDARY_RISK": 91,
-    "CROSS_COUNTY_POSTAL": 89
+    "CROSS_COUNTY_POSTAL": 90
   },
   "label_kinds": {
-    "business": 1932,
+    "business": 1942,
     "institution": 11,
     "place": 7
   }

@@ -2,22 +2,37 @@
  {
   "county": "BEDFORD",
   "ok": true,
-  "secs": 34,
+  "secs": 46,
   "rooftops": 22146,
-  "biz": 1453,
+  "biz": 1459,
   "E2": 1314,
   "E5": 104,
   "flags": {
-   "": 720,
-   "POSTAL_CITY_EXPOSURE": 605,
+   "": 722,
+   "POSTAL_CITY_EXPOSURE": 609,
    "CROSS_COUNTY_POSTAL": 76,
    "BOUNDARY_RISK": 37
   }
  },
  {
+  "county": "ANDERSON",
+  "ok": true,
+  "secs": 58,
+  "rooftops": 44784,
+  "biz": 2584,
+  "E2": 2726,
+  "E5": 128,
+  "flags": {
+   "": 1920,
+   "POSTAL_CITY_EXPOSURE": 490,
+   "CROSS_COUNTY_POSTAL": 107,
+   "BOUNDARY_RISK": 49
+  }
+ },
+ {
   "county": "BENTON",
   "ok": true,
-  "secs": 19,
+  "secs": 13,
   "rooftops": 11472,
   "biz": 365,
   "E2": 98,
@@ -30,30 +45,15 @@
   }
  },
  {
-  "county": "ANDERSON",
-  "ok": true,
-  "secs": 57,
-  "rooftops": 44784,
-  "biz": 2570,
-  "E2": 2726,
-  "E5": 128,
-  "flags": {
-   "": 1907,
-   "POSTAL_CITY_EXPOSURE": 489,
-   "CROSS_COUNTY_POSTAL": 107,
-   "BOUNDARY_RISK": 49
-  }
- },
- {
   "county": "BLEDSOE",
   "ok": true,
   "secs": 7,
   "rooftops": 10335,
-  "biz": 246,
+  "biz": 247,
   "E2": 2754,
   "E5": 21,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 111,
+   "POSTAL_CITY_EXPOSURE": 112,
    "": 72,
    "CROSS_COUNTY_POSTAL": 56,
    "BOUNDARY_RISK": 6
@@ -62,29 +62,29 @@
  {
   "county": "BRADLEY",
   "ok": true,
-  "secs": 24,
+  "secs": 23,
   "rooftops": 58052,
-  "biz": 427,
+  "biz": 430,
   "E2": 633,
   "E5": 1369,
   "flags": {
-   "": 264,
-   "POSTAL_CITY_EXPOSURE": 141,
-   "BOUNDARY_RISK": 14,
+   "": 265,
+   "POSTAL_CITY_EXPOSURE": 142,
+   "BOUNDARY_RISK": 15,
    "CROSS_COUNTY_POSTAL": 2
   }
  },
  {
   "county": "CAMPBELL",
   "ok": true,
-  "secs": 24,
+  "secs": 18,
   "rooftops": 24724,
-  "biz": 1083,
+  "biz": 1089,
   "E2": 2089,
   "E5": 194,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 628,
-   "": 359,
+   "POSTAL_CITY_EXPOSURE": 632,
+   "": 361,
    "CROSS_COUNTY_POSTAL": 48,
    "BOUNDARY_RISK": 31
   }
@@ -92,14 +92,14 @@
  {
   "county": "CANNON",
   "ok": true,
-  "secs": 7,
+  "secs": 6,
   "rooftops": 8425,
-  "biz": 449,
+  "biz": 451,
   "E2": 1198,
   "E5": 39,
   "flags": {
    "POSTAL_CITY_EXPOSURE": 210,
-   "": 135,
+   "": 137,
    "CROSS_COUNTY_POSTAL": 70,
    "BOUNDARY_RISK": 30
   }
@@ -107,75 +107,75 @@
  {
   "county": "CARROLL",
   "ok": true,
-  "secs": 14,
+  "secs": 11,
   "rooftops": 19064,
-  "biz": 456,
+  "biz": 458,
   "E2": 86,
   "E5": 109,
   "flags": {
-   "": 262,
+   "": 263,
    "POSTAL_CITY_EXPOSURE": 179,
-   "BOUNDARY_RISK": 12
-  }
- },
- {
-  "county": "CARTER",
-  "ok": true,
-  "secs": 19,
-  "rooftops": 34699,
-  "biz": 981,
-  "E2": 1296,
-  "E5": 1236,
-  "flags": {
-   "": 455,
-   "POSTAL_CITY_EXPOSURE": 452,
-   "BOUNDARY_RISK": 33,
-   "CROSS_COUNTY_POSTAL": 27
+   "BOUNDARY_RISK": 13
   }
  },
  {
   "county": "BLOUNT",
   "ok": true,
-  "secs": 97,
+  "secs": 74,
   "rooftops": 82552,
-  "biz": 5413,
+  "biz": 5435,
   "E2": 4434,
   "E5": 1022,
   "flags": {
-   "": 2471,
-   "POSTAL_CITY_EXPOSURE": 2436,
+   "": 2479,
+   "POSTAL_CITY_EXPOSURE": 2450,
    "BOUNDARY_RISK": 253,
    "CROSS_COUNTY_POSTAL": 200
   }
  },
  {
+  "county": "CARTER",
+  "ok": true,
+  "secs": 16,
+  "rooftops": 34699,
+  "biz": 986,
+  "E2": 1296,
+  "E5": 1236,
+  "flags": {
+   "POSTAL_CITY_EXPOSURE": 456,
+   "": 455,
+   "BOUNDARY_RISK": 33,
+   "CROSS_COUNTY_POSTAL": 27
+  }
+ },
+ {
   "county": "CHEATHAM",
   "ok": true,
-  "secs": 18,
+  "secs": 14,
   "rooftops": 19928,
-  "biz": 1694,
+  "biz": 1706,
   "E2": 2044,
   "E5": 352,
   "flags": {
-   "": 835,
-   "POSTAL_CITY_EXPOSURE": 679,
-   "CROSS_COUNTY_POSTAL": 149,
+   "": 841,
+   "POSTAL_CITY_EXPOSURE": 683,
+   "CROSS_COUNTY_POSTAL": 151,
    "BOUNDARY_RISK": 19
   }
  },
  {
   "county": "CHESTER",
   "ok": true,
-  "secs": 12,
+  "secs": 9,
   "rooftops": 9864,
-  "biz": 352,
+  "biz": 355,
   "E2": 1649,
   "E5": 16,
   "flags": {
-   "": 155,
-   "POSTAL_CITY_EXPOSURE": 142,
+   "": 156,
+   "POSTAL_CITY_EXPOSURE": 143,
    "CROSS_COUNTY_POSTAL": 45,
-   "BOUNDARY_RISK": 6
+   "BOUNDARY_RISK": 7
   }
  },
  {
@@ -183,12 +183,12 @@
   "ok": true,
   "secs": 5,
   "rooftops": 6480,
-  "biz": 219,
+  "biz": 222,
   "E2": 2173,
   "E5": 12,
   "flags": {
+   "POSTAL_CITY_EXPOSURE": 88,
    "": 87,
-   "POSTAL_CITY_EXPOSURE": 85,
    "CROSS_COUNTY_POSTAL": 44,
    "BOUNDARY_RISK": 1
   }
@@ -196,35 +196,35 @@
  {
   "county": "CLAIBORNE",
   "ok": true,
-  "secs": 14,
+  "secs": 11,
   "rooftops": 20343,
-  "biz": 625,
+  "biz": 632,
   "E2": 78,
   "E5": 75,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 307,
-   "": 288,
+   "POSTAL_CITY_EXPOSURE": 310,
+   "": 292,
    "BOUNDARY_RISK": 16
   }
  },
  {
   "county": "COCKE",
   "ok": true,
-  "secs": 14,
+  "secs": 13,
   "rooftops": 30347,
-  "biz": 669,
+  "biz": 675,
   "E2": 66,
   "E5": 30,
   "flags": {
-   "": 326,
-   "POSTAL_CITY_EXPOSURE": 320,
+   "": 328,
+   "POSTAL_CITY_EXPOSURE": 324,
    "BOUNDARY_RISK": 15
   }
  },
  {
   "county": "CROCKETT",
   "ok": true,
-  "secs": 7,
+  "secs": 6,
   "rooftops": 7973,
   "biz": 305,
   "E2": 328,
@@ -239,37 +239,37 @@
  {
   "county": "COFFEE",
   "ok": true,
-  "secs": 18,
+  "secs": 14,
   "rooftops": 29814,
-  "biz": 1950,
+  "biz": 1960,
   "E2": 1755,
   "E5": 101,
   "flags": {
-   "": 1263,
-   "POSTAL_CITY_EXPOSURE": 489,
+   "": 1270,
+   "POSTAL_CITY_EXPOSURE": 491,
    "BOUNDARY_RISK": 91,
-   "CROSS_COUNTY_POSTAL": 89
+   "CROSS_COUNTY_POSTAL": 90
   }
  },
  {
   "county": "CUMBERLAND",
   "ok": true,
-  "secs": 40,
+  "secs": 32,
   "rooftops": 46157,
-  "biz": 1885,
+  "biz": 1894,
   "E2": 3974,
   "E5": 606,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 932,
-   "": 801,
+   "POSTAL_CITY_EXPOSURE": 938,
+   "": 803,
    "CROSS_COUNTY_POSTAL": 85,
-   "BOUNDARY_RISK": 45
+   "BOUNDARY_RISK": 46
   }
  },
  {
   "county": "DECATUR",
   "ok": true,
-  "secs": 11,
+  "secs": 9,
   "rooftops": 12514,
   "biz": 232,
   "E2": 625,
@@ -284,29 +284,29 @@
  {
   "county": "DEKALB",
   "ok": true,
-  "secs": 10,
+  "secs": 9,
   "rooftops": 13498,
-  "biz": 690,
+  "biz": 695,
   "E2": 1346,
   "E5": 1010,
   "flags": {
-   "": 582,
+   "": 586,
    "CROSS_COUNTY_POSTAL": 60,
    "BOUNDARY_RISK": 33,
-   "POSTAL_CITY_EXPOSURE": 8
+   "POSTAL_CITY_EXPOSURE": 9
   }
  },
  {
   "county": "DICKSON",
   "ok": true,
-  "secs": 20,
+  "secs": 15,
   "rooftops": 29963,
-  "biz": 2074,
+  "biz": 2084,
   "E2": 1756,
   "E5": 631,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 974,
-   "": 905,
+   "POSTAL_CITY_EXPOSURE": 979,
+   "": 910,
    "CROSS_COUNTY_POSTAL": 104,
    "BOUNDARY_RISK": 69
   }
@@ -314,13 +314,13 @@
  {
   "county": "DYER",
   "ok": true,
-  "secs": 18,
+  "secs": 15,
   "rooftops": 20734,
-  "biz": 805,
+  "biz": 807,
   "E2": 574,
   "E5": 31,
   "flags": {
-   "": 511,
+   "": 512,
    "POSTAL_CITY_EXPOSURE": 235,
    "BOUNDARY_RISK": 42,
    "CROSS_COUNTY_POSTAL": 12
@@ -329,57 +329,57 @@
  {
   "county": "FAYETTE",
   "ok": true,
-  "secs": 24,
+  "secs": 20,
   "rooftops": 24330,
-  "biz": 1493,
+  "biz": 1503,
   "E2": 2935,
   "E5": 255,
   "flags": {
-   "": 722,
-   "POSTAL_CITY_EXPOSURE": 541,
-   "CROSS_COUNTY_POSTAL": 142,
+   "": 726,
+   "POSTAL_CITY_EXPOSURE": 543,
+   "CROSS_COUNTY_POSTAL": 146,
    "BOUNDARY_RISK": 70
   }
  },
  {
   "county": "FENTRESS",
   "ok": true,
-  "secs": 10,
+  "secs": 8,
   "rooftops": 14519,
-  "biz": 522,
+  "biz": 523,
   "E2": 0,
   "E5": 43,
   "flags": {
-   "": 505,
+   "": 506,
    "BOUNDARY_RISK": 7
   }
  },
  {
   "county": "DAVIDSON",
   "ok": true,
-  "secs": 240,
+  "secs": 199,
   "rooftops": 462529,
-  "biz": 59293,
+  "biz": 59646,
   "E2": 10567,
   "E5": 1246,
   "flags": {
-   "": 53951,
-   "POSTAL_CITY_EXPOSURE": 2891,
-   "CROSS_COUNTY_POSTAL": 1318,
-   "BOUNDARY_RISK": 471
+   "": 54279,
+   "POSTAL_CITY_EXPOSURE": 2907,
+   "CROSS_COUNTY_POSTAL": 1322,
+   "BOUNDARY_RISK": 472
   }
  },
  {
   "county": "GIBSON",
   "ok": true,
-  "secs": 18,
+  "secs": 15,
   "rooftops": 26797,
-  "biz": 1106,
+  "biz": 1109,
   "E2": 156,
   "E5": 144,
   "flags": {
-   "": 602,
-   "POSTAL_CITY_EXPOSURE": 442,
+   "": 604,
+   "POSTAL_CITY_EXPOSURE": 443,
    "BOUNDARY_RISK": 53,
    "CROSS_COUNTY_POSTAL": 1
   }
@@ -387,13 +387,13 @@
  {
   "county": "GILES",
   "ok": true,
-  "secs": 36,
+  "secs": 30,
   "rooftops": 19408,
-  "biz": 854,
+  "biz": 855,
   "E2": 1609,
   "E5": 358,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 407,
+   "POSTAL_CITY_EXPOSURE": 408,
    "": 339,
    "BOUNDARY_RISK": 56,
    "CROSS_COUNTY_POSTAL": 38
@@ -402,73 +402,73 @@
  {
   "county": "GRAINGER",
   "ok": true,
-  "secs": 28,
+  "secs": 22,
   "rooftops": 17630,
-  "biz": 550,
+  "biz": 554,
   "E2": 248,
   "E5": 79,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 303,
+   "POSTAL_CITY_EXPOSURE": 307,
    "": 215,
    "CROSS_COUNTY_POSTAL": 12,
    "BOUNDARY_RISK": 9
   }
  },
  {
+  "county": "FRANKLIN",
+  "ok": true,
+  "secs": 177,
+  "rooftops": 24229,
+  "biz": 1136,
+  "E2": 145,
+  "E5": 211,
+  "flags": {
+   "": 591,
+   "POSTAL_CITY_EXPOSURE": 446,
+   "BOUNDARY_RISK": 81,
+   "CROSS_COUNTY_POSTAL": 4
+  }
+ },
+ {
   "county": "GREENE",
   "ok": true,
-  "secs": 32,
+  "secs": 24,
   "rooftops": 41483,
-  "biz": 1624,
+  "biz": 1631,
   "E2": 2573,
   "E5": 153,
   "flags": {
-   "": 800,
-   "POSTAL_CITY_EXPOSURE": 683,
-   "CROSS_COUNTY_POSTAL": 85,
+   "": 804,
+   "POSTAL_CITY_EXPOSURE": 685,
+   "CROSS_COUNTY_POSTAL": 86,
    "BOUNDARY_RISK": 42
   }
  },
  {
   "county": "GRUNDY",
   "ok": true,
-  "secs": 9,
+  "secs": 7,
   "rooftops": 10275,
-  "biz": 223,
+  "biz": 225,
   "E2": 26,
   "E5": 294,
   "flags": {
-   "": 102,
+   "": 104,
    "POSTAL_CITY_EXPOSURE": 91,
    "BOUNDARY_RISK": 27
   }
  },
  {
-  "county": "FRANKLIN",
-  "ok": true,
-  "secs": 246,
-  "rooftops": 24229,
-  "biz": 1125,
-  "E2": 145,
-  "E5": 211,
-  "flags": {
-   "": 582,
-   "POSTAL_CITY_EXPOSURE": 444,
-   "BOUNDARY_RISK": 81,
-   "CROSS_COUNTY_POSTAL": 4
-  }
- },
- {
   "county": "HAMBLEN",
   "ok": true,
-  "secs": 27,
+  "secs": 21,
   "rooftops": 35416,
-  "biz": 1936,
+  "biz": 1945,
   "E2": 47,
   "E5": 556,
   "flags": {
-   "": 1300,
-   "POSTAL_CITY_EXPOSURE": 481,
+   "": 1305,
+   "POSTAL_CITY_EXPOSURE": 485,
    "BOUNDARY_RISK": 123,
    "CROSS_COUNTY_POSTAL": 7
   }
@@ -476,14 +476,14 @@
  {
   "county": "HANCOCK",
   "ok": true,
-  "secs": 5,
+  "secs": 4,
   "rooftops": 5047,
-  "biz": 85,
+  "biz": 87,
   "E2": 1306,
   "E5": 6,
   "flags": {
    "POSTAL_CITY_EXPOSURE": 46,
-   "CROSS_COUNTY_POSTAL": 21,
+   "CROSS_COUNTY_POSTAL": 23,
    "": 16
   }
  },
@@ -492,12 +492,12 @@
   "ok": true,
   "secs": 11,
   "rooftops": 17138,
-  "biz": 386,
+  "biz": 388,
   "E2": 715,
   "E5": 248,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 217,
-   "": 147,
+   "POSTAL_CITY_EXPOSURE": 218,
+   "": 148,
    "CROSS_COUNTY_POSTAL": 13,
    "BOUNDARY_RISK": 6
   }
@@ -505,22 +505,22 @@
  {
   "county": "HARDIN",
   "ok": true,
-  "secs": 17,
+  "secs": 14,
   "rooftops": 24064,
-  "biz": 612,
+  "biz": 622,
   "E2": 1091,
   "E5": 436,
   "flags": {
-   "": 364,
-   "POSTAL_CITY_EXPOSURE": 205,
+   "": 368,
+   "POSTAL_CITY_EXPOSURE": 210,
    "CROSS_COUNTY_POSTAL": 23,
-   "BOUNDARY_RISK": 11
+   "BOUNDARY_RISK": 12
   }
  },
  {
   "county": "HAWKINS",
   "ok": true,
-  "secs": 55,
+  "secs": 42,
   "rooftops": 35185,
   "biz": 905,
   "E2": 804,
@@ -535,13 +535,13 @@
  {
   "county": "HAYWOOD",
   "ok": true,
-  "secs": 9,
+  "secs": 8,
   "rooftops": 8677,
-  "biz": 244,
+  "biz": 247,
   "E2": 352,
   "E5": 22,
   "flags": {
-   "": 171,
+   "": 174,
    "POSTAL_CITY_EXPOSURE": 47,
    "BOUNDARY_RISK": 14,
    "CROSS_COUNTY_POSTAL": 10
@@ -550,14 +550,14 @@
  {
   "county": "HENDERSON",
   "ok": true,
-  "secs": 12,
+  "secs": 10,
   "rooftops": 17593,
-  "biz": 410,
+  "biz": 412,
   "E2": 1040,
   "E5": 71,
   "flags": {
-   "": 180,
-   "POSTAL_CITY_EXPOSURE": 175,
+   "": 181,
+   "POSTAL_CITY_EXPOSURE": 176,
    "BOUNDARY_RISK": 31,
    "CROSS_COUNTY_POSTAL": 22
   }
@@ -567,26 +567,26 @@
   "ok": true,
   "secs": 12,
   "rooftops": 25384,
-  "biz": 816,
+  "biz": 820,
   "E2": 15,
   "E5": 80,
   "flags": {
-   "": 515,
-   "POSTAL_CITY_EXPOSURE": 277,
+   "": 518,
+   "POSTAL_CITY_EXPOSURE": 278,
    "BOUNDARY_RISK": 17
   }
  },
  {
   "county": "HICKMAN",
   "ok": true,
-  "secs": 27,
+  "secs": 22,
   "rooftops": 13376,
-  "biz": 532,
+  "biz": 536,
   "E2": 441,
   "E5": 364,
   "flags": {
-   "": 413,
-   "POSTAL_CITY_EXPOSURE": 87,
+   "": 414,
+   "POSTAL_CITY_EXPOSURE": 90,
    "CROSS_COUNTY_POSTAL": 19,
    "BOUNDARY_RISK": 10
   }
@@ -594,7 +594,7 @@
  {
   "county": "HOUSTON",
   "ok": true,
-  "secs": 10,
+  "secs": 8,
   "rooftops": 6042,
   "biz": 132,
   "E2": 633,
@@ -609,13 +609,13 @@
  {
   "county": "HUMPHREYS",
   "ok": true,
-  "secs": 11,
+  "secs": 10,
   "rooftops": 11899,
-  "biz": 438,
+  "biz": 442,
   "E2": 0,
   "E5": 44,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 253,
+   "POSTAL_CITY_EXPOSURE": 257,
    "": 169,
    "BOUNDARY_RISK": 12
   }
@@ -623,29 +623,29 @@
  {
   "county": "JACKSON",
   "ok": true,
-  "secs": 9,
+  "secs": 7,
   "rooftops": 8565,
-  "biz": 260,
+  "biz": 261,
   "E2": 1915,
   "E5": 51,
   "flags": {
    "POSTAL_CITY_EXPOSURE": 109,
    "": 81,
-   "CROSS_COUNTY_POSTAL": 56,
+   "CROSS_COUNTY_POSTAL": 57,
    "BOUNDARY_RISK": 13
   }
  },
  {
   "county": "JEFFERSON",
   "ok": true,
-  "secs": 24,
+  "secs": 19,
   "rooftops": 31958,
-  "biz": 1595,
+  "biz": 1600,
   "E2": 5114,
   "E5": 1134,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 961,
-   "": 388,
+   "POSTAL_CITY_EXPOSURE": 965,
+   "": 389,
    "CROSS_COUNTY_POSTAL": 157,
    "BOUNDARY_RISK": 64
   }
@@ -653,36 +653,36 @@
  {
   "county": "JOHNSON",
   "ok": true,
-  "secs": 8,
+  "secs": 6,
   "rooftops": 11979,
-  "biz": 415,
+  "biz": 416,
   "E2": 0,
   "E5": 18,
   "flags": {
    "POSTAL_CITY_EXPOSURE": 217,
-   "": 184,
+   "": 185,
    "BOUNDARY_RISK": 2
   }
  },
  {
   "county": "HAMILTON",
   "ok": true,
-  "secs": 408,
+  "secs": 294,
   "rooftops": 217394,
-  "biz": 21262,
+  "biz": 21382,
   "E2": 1312,
   "E5": 1536,
   "flags": {
-   "": 18559,
-   "POSTAL_CITY_EXPOSURE": 1805,
-   "BOUNDARY_RISK": 612,
+   "": 18669,
+   "POSTAL_CITY_EXPOSURE": 1812,
+   "BOUNDARY_RISK": 615,
    "CROSS_COUNTY_POSTAL": 100
   }
  },
  {
   "county": "LAKE",
   "ok": true,
-  "secs": 6,
+  "secs": 5,
   "rooftops": 2901,
   "biz": 69,
   "E2": 0,
@@ -696,7 +696,7 @@
  {
   "county": "LAUDERDALE",
   "ok": true,
-  "secs": 21,
+  "secs": 16,
   "rooftops": 12689,
   "biz": 401,
   "E2": 0,
@@ -710,14 +710,14 @@
  {
   "county": "LAWRENCE",
   "ok": true,
-  "secs": 17,
+  "secs": 14,
   "rooftops": 25571,
-  "biz": 1075,
+  "biz": 1079,
   "E2": 696,
   "E5": 621,
   "flags": {
-   "": 674,
-   "POSTAL_CITY_EXPOSURE": 330,
+   "": 676,
+   "POSTAL_CITY_EXPOSURE": 332,
    "BOUNDARY_RISK": 40,
    "CROSS_COUNTY_POSTAL": 17
   }
@@ -725,13 +725,13 @@
  {
   "county": "LEWIS",
   "ok": true,
-  "secs": 7,
+  "secs": 5,
   "rooftops": 9257,
-  "biz": 413,
+  "biz": 414,
   "E2": 1746,
   "E5": 846,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 184,
+   "POSTAL_CITY_EXPOSURE": 185,
    "": 145,
    "CROSS_COUNTY_POSTAL": 69,
    "BOUNDARY_RISK": 6
@@ -740,28 +740,28 @@
  {
   "county": "LINCOLN",
   "ok": true,
-  "secs": 21,
+  "secs": 18,
   "rooftops": 20910,
-  "biz": 959,
+  "biz": 962,
   "E2": 17,
   "E5": 105,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 474,
-   "": 443,
+   "POSTAL_CITY_EXPOSURE": 476,
+   "": 444,
    "BOUNDARY_RISK": 30
   }
  },
  {
   "county": "LOUDON",
   "ok": true,
-  "secs": 24,
+  "secs": 19,
   "rooftops": 35719,
-  "biz": 2037,
+  "biz": 2049,
   "E2": 1194,
   "E5": 151,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 1394,
-   "": 495,
+   "POSTAL_CITY_EXPOSURE": 1404,
+   "": 497,
    "BOUNDARY_RISK": 80,
    "CROSS_COUNTY_POSTAL": 46
   }
@@ -769,14 +769,14 @@
  {
   "county": "MACON",
   "ok": true,
-  "secs": 10,
+  "secs": 9,
   "rooftops": 16991,
-  "biz": 563,
+  "biz": 566,
   "E2": 3641,
   "E5": 98,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 301,
-   "": 140,
+   "POSTAL_CITY_EXPOSURE": 302,
+   "": 142,
    "CROSS_COUNTY_POSTAL": 95,
    "BOUNDARY_RISK": 20
   }
@@ -784,43 +784,29 @@
  {
   "county": "MADISON",
   "ok": true,
-  "secs": 38,
+  "secs": 31,
   "rooftops": 51183,
-  "biz": 3707,
+  "biz": 3732,
   "E2": 575,
   "E5": 471,
   "flags": {
-   "": 2845,
-   "POSTAL_CITY_EXPOSURE": 760,
+   "": 2863,
+   "POSTAL_CITY_EXPOSURE": 766,
    "BOUNDARY_RISK": 40,
    "CROSS_COUNTY_POSTAL": 29
   }
  },
  {
-  "county": "KNOX",
-  "ok": true,
-  "secs": 341,
-  "rooftops": 292950,
-  "biz": 39725,
-  "E2": 0,
-  "E5": 1587,
-  "flags": {
-   "": 29307,
-   "POSTAL_CITY_EXPOSURE": 8457,
-   "BOUNDARY_RISK": 1471
-  }
- },
- {
   "county": "MARION",
   "ok": true,
-  "secs": 18,
+  "secs": 14,
   "rooftops": 19388,
-  "biz": 722,
+  "biz": 725,
   "E2": 1572,
   "E5": 30,
   "flags": {
-   "": 340,
-   "POSTAL_CITY_EXPOSURE": 288,
+   "": 342,
+   "POSTAL_CITY_EXPOSURE": 289,
    "CROSS_COUNTY_POSTAL": 58,
    "BOUNDARY_RISK": 29
   }
@@ -828,57 +814,71 @@
  {
   "county": "MARSHALL",
   "ok": true,
-  "secs": 12,
+  "secs": 10,
   "rooftops": 19971,
-  "biz": 1203,
+  "biz": 1212,
   "E2": 662,
   "E5": 2738,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 579,
-   "": 512,
-   "BOUNDARY_RISK": 47,
-   "CROSS_COUNTY_POSTAL": 46
+   "POSTAL_CITY_EXPOSURE": 582,
+   "": 517,
+   "CROSS_COUNTY_POSTAL": 47,
+   "BOUNDARY_RISK": 47
   }
  },
  {
-  "county": "MCMINN",
+  "county": "KNOX",
   "ok": true,
-  "secs": 56,
-  "rooftops": 32588,
-  "biz": 680,
-  "E2": 777,
-  "E5": 163,
+  "secs": 264,
+  "rooftops": 292950,
+  "biz": 39920,
+  "E2": 0,
+  "E5": 1587,
   "flags": {
-   "": 581,
-   "POSTAL_CITY_EXPOSURE": 62,
-   "BOUNDARY_RISK": 35
+   "": 29458,
+   "POSTAL_CITY_EXPOSURE": 8491,
+   "BOUNDARY_RISK": 1481
   }
  },
  {
   "county": "MAURY",
   "ok": true,
-  "secs": 75,
+  "secs": 54,
   "rooftops": 65225,
-  "biz": 4819,
+  "biz": 4850,
   "E2": 291,
   "E5": 3936,
   "flags": {
-   "": 3212,
-   "POSTAL_CITY_EXPOSURE": 1305,
-   "BOUNDARY_RISK": 244,
+   "": 3229,
+   "POSTAL_CITY_EXPOSURE": 1316,
+   "BOUNDARY_RISK": 247,
    "CROSS_COUNTY_POSTAL": 6
+  }
+ },
+ {
+  "county": "MCMINN",
+  "ok": true,
+  "secs": 39,
+  "rooftops": 32588,
+  "biz": 681,
+  "E2": 777,
+  "E5": 163,
+  "flags": {
+   "": 582,
+   "POSTAL_CITY_EXPOSURE": 62,
+   "BOUNDARY_RISK": 35
   }
  },
  {
   "county": "MEIGS",
   "ok": true,
-  "secs": 8,
+  "secs": 5,
   "rooftops": 8071,
-  "biz": 263,
+  "biz": 265,
   "E2": 1316,
   "E5": 83,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 126,
+   "POSTAL_CITY_EXPOSURE": 128,
    "": 83,
    "CROSS_COUNTY_POSTAL": 48,
    "BOUNDARY_RISK": 1
@@ -887,14 +887,14 @@
  {
   "county": "MCNAIRY",
   "ok": true,
-  "secs": 28,
+  "secs": 21,
   "rooftops": 17688,
-  "biz": 591,
+  "biz": 594,
   "E2": 291,
   "E5": 123,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 284,
-   "": 277,
+   "POSTAL_CITY_EXPOSURE": 286,
+   "": 278,
    "BOUNDARY_RISK": 19,
    "CROSS_COUNTY_POSTAL": 6
   }
@@ -902,14 +902,14 @@
  {
   "county": "MONROE",
   "ok": true,
-  "secs": 26,
+  "secs": 21,
   "rooftops": 34663,
-  "biz": 960,
+  "biz": 965,
   "E2": 2008,
   "E5": 417,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 557,
-   "": 316,
+   "POSTAL_CITY_EXPOSURE": 561,
+   "": 317,
    "BOUNDARY_RISK": 41,
    "CROSS_COUNTY_POSTAL": 40
   }
@@ -917,7 +917,7 @@
  {
   "county": "MOORE",
   "ok": true,
-  "secs": 7,
+  "secs": 6,
   "rooftops": 3801,
   "biz": 149,
   "E2": 1794,
@@ -931,29 +931,29 @@
  {
   "county": "MORGAN",
   "ok": true,
-  "secs": 10,
+  "secs": 8,
   "rooftops": 14151,
-  "biz": 384,
+  "biz": 389,
   "E2": 2244,
   "E5": 41,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 173,
-   "": 157,
-   "CROSS_COUNTY_POSTAL": 46,
+   "POSTAL_CITY_EXPOSURE": 174,
+   "": 160,
+   "CROSS_COUNTY_POSTAL": 47,
    "BOUNDARY_RISK": 1
   }
  },
  {
   "county": "MONTGOMERY",
   "ok": true,
-  "secs": 41,
+  "secs": 34,
   "rooftops": 100325,
-  "biz": 7415,
+  "biz": 7468,
   "E2": 493,
   "E5": 648,
   "flags": {
-   "": 5613,
-   "POSTAL_CITY_EXPOSURE": 1569,
+   "": 5656,
+   "POSTAL_CITY_EXPOSURE": 1579,
    "BOUNDARY_RISK": 124,
    "CROSS_COUNTY_POSTAL": 25
   }
@@ -961,14 +961,14 @@
  {
   "county": "OBION",
   "ok": true,
-  "secs": 15,
+  "secs": 13,
   "rooftops": 18463,
-  "biz": 726,
+  "biz": 729,
   "E2": 86,
   "E5": 170,
   "flags": {
-   "": 441,
-   "POSTAL_CITY_EXPOSURE": 226,
+   "": 442,
+   "POSTAL_CITY_EXPOSURE": 228,
    "BOUNDARY_RISK": 52,
    "CROSS_COUNTY_POSTAL": 2
   }
@@ -976,14 +976,14 @@
  {
   "county": "OVERTON",
   "ok": true,
-  "secs": 10,
+  "secs": 7,
   "rooftops": 14666,
-  "biz": 604,
+  "biz": 605,
   "E2": 3249,
   "E5": 80,
   "flags": {
    "": 305,
-   "POSTAL_CITY_EXPOSURE": 155,
+   "POSTAL_CITY_EXPOSURE": 156,
    "CROSS_COUNTY_POSTAL": 129,
    "BOUNDARY_RISK": 9
   }
@@ -991,13 +991,13 @@
  {
   "county": "PICKETT",
   "ok": true,
-  "secs": 7,
+  "secs": 6,
   "rooftops": 4748,
-  "biz": 111,
+  "biz": 113,
   "E2": 793,
   "E5": 19,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 71,
+   "POSTAL_CITY_EXPOSURE": 73,
    "": 22,
    "CROSS_COUNTY_POSTAL": 16,
    "BOUNDARY_RISK": 1
@@ -1006,7 +1006,7 @@
  {
   "county": "PERRY",
   "ok": true,
-  "secs": 15,
+  "secs": 11,
   "rooftops": 10122,
   "biz": 214,
   "E2": 951,
@@ -1021,14 +1021,14 @@
  {
   "county": "POLK",
   "ok": true,
-  "secs": 9,
+  "secs": 7,
   "rooftops": 12233,
-  "biz": 447,
+  "biz": 452,
   "E2": 366,
   "E5": 51,
   "flags": {
-   "": 254,
-   "POSTAL_CITY_EXPOSURE": 170,
+   "": 258,
+   "POSTAL_CITY_EXPOSURE": 171,
    "BOUNDARY_RISK": 12,
    "CROSS_COUNTY_POSTAL": 6
   }
@@ -1036,14 +1036,14 @@
  {
   "county": "RHEA",
   "ok": true,
-  "secs": 15,
+  "secs": 12,
   "rooftops": 17545,
-  "biz": 845,
+  "biz": 849,
   "E2": 41,
   "E5": 271,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 428,
-   "": 353,
+   "POSTAL_CITY_EXPOSURE": 431,
+   "": 354,
    "BOUNDARY_RISK": 57,
    "CROSS_COUNTY_POSTAL": 2
   }
@@ -1051,14 +1051,14 @@
  {
   "county": "PUTNAM",
   "ok": true,
-  "secs": 30,
+  "secs": 23,
   "rooftops": 48279,
-  "biz": 3031,
+  "biz": 3039,
   "E2": 529,
   "E5": 1822,
   "flags": {
-   "": 1945,
-   "POSTAL_CITY_EXPOSURE": 967,
+   "": 1949,
+   "POSTAL_CITY_EXPOSURE": 971,
    "BOUNDARY_RISK": 64,
    "CROSS_COUNTY_POSTAL": 19
   }
@@ -1066,14 +1066,14 @@
  {
   "county": "ROANE",
   "ok": true,
-  "secs": 49,
+  "secs": 38,
   "rooftops": 33194,
-  "biz": 1387,
+  "biz": 1392,
   "E2": 3674,
   "E5": 312,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 652,
-   "": 530,
+   "POSTAL_CITY_EXPOSURE": 656,
+   "": 531,
    "CROSS_COUNTY_POSTAL": 122,
    "BOUNDARY_RISK": 75
   }
@@ -1081,36 +1081,36 @@
  {
   "county": "ROBERTSON",
   "ok": true,
-  "secs": 115,
+  "secs": 87,
   "rooftops": 38872,
-  "biz": 2803,
+  "biz": 2812,
   "E2": 2904,
   "E5": 1265,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 1302,
-   "": 1185,
-   "CROSS_COUNTY_POSTAL": 186,
+   "POSTAL_CITY_EXPOSURE": 1306,
+   "": 1189,
+   "CROSS_COUNTY_POSTAL": 187,
    "BOUNDARY_RISK": 107
   }
  },
  {
   "county": "SCOTT",
   "ok": true,
-  "secs": 16,
+  "secs": 13,
   "rooftops": 14305,
-  "biz": 575,
+  "biz": 578,
   "E2": 193,
   "E5": 1376,
   "flags": {
-   "": 336,
-   "POSTAL_CITY_EXPOSURE": 190,
+   "": 337,
+   "POSTAL_CITY_EXPOSURE": 192,
    "BOUNDARY_RISK": 41
   }
  },
  {
   "county": "SEQUATCHIE",
   "ok": true,
-  "secs": 21,
+  "secs": 18,
   "rooftops": 10576,
   "biz": 423,
   "E2": 1728,
@@ -1125,29 +1125,29 @@
  {
   "county": "RUTHERFORD",
   "ok": true,
-  "secs": 213,
+  "secs": 163,
   "rooftops": 179755,
-  "biz": 40256,
+  "biz": 40349,
   "E2": 2542,
   "E5": 1968,
   "flags": {
-   "": 23489,
-   "POSTAL_CITY_EXPOSURE": 3606,
-   "BOUNDARY_RISK": 1331,
-   "CROSS_COUNTY_POSTAL": 212
+   "": 23561,
+   "POSTAL_CITY_EXPOSURE": 3621,
+   "BOUNDARY_RISK": 1336,
+   "CROSS_COUNTY_POSTAL": 213
   }
  },
  {
   "county": "SEVIER",
   "ok": true,
-  "secs": 154,
+  "secs": 119,
   "rooftops": 88756,
-  "biz": 6291,
+  "biz": 6329,
   "E2": 2473,
   "E5": 519,
   "flags": {
-   "": 3667,
-   "POSTAL_CITY_EXPOSURE": 2182,
+   "": 3682,
+   "POSTAL_CITY_EXPOSURE": 2203,
    "BOUNDARY_RISK": 242,
    "CROSS_COUNTY_POSTAL": 77
   }
@@ -1155,13 +1155,13 @@
  {
   "county": "SMITH",
   "ok": true,
-  "secs": 11,
+  "secs": 9,
   "rooftops": 11185,
-  "biz": 495,
+  "biz": 499,
   "E2": 1180,
   "E5": 81,
   "flags": {
-   "": 316,
+   "": 320,
    "POSTAL_CITY_EXPOSURE": 134,
    "CROSS_COUNTY_POSTAL": 35,
    "BOUNDARY_RISK": 6
@@ -1170,14 +1170,14 @@
  {
   "county": "STEWART",
   "ok": true,
-  "secs": 36,
+  "secs": 25,
   "rooftops": 9149,
-  "biz": 289,
+  "biz": 291,
   "E2": 625,
   "E5": 57,
   "flags": {
-   "": 138,
-   "POSTAL_CITY_EXPOSURE": 129,
+   "": 139,
+   "POSTAL_CITY_EXPOSURE": 130,
    "BOUNDARY_RISK": 12,
    "CROSS_COUNTY_POSTAL": 10
   }
@@ -1185,14 +1185,14 @@
  {
   "county": "SULLIVAN",
   "ok": true,
-  "secs": 182,
+  "secs": 133,
   "rooftops": 91357,
-  "biz": 4735,
+  "biz": 4761,
   "E2": 470,
   "E5": 640,
   "flags": {
-   "": 3372,
-   "POSTAL_CITY_EXPOSURE": 985,
+   "": 3389,
+   "POSTAL_CITY_EXPOSURE": 994,
    "BOUNDARY_RISK": 316,
    "CROSS_COUNTY_POSTAL": 11
   }
@@ -1200,29 +1200,29 @@
  {
   "county": "SUMNER",
   "ok": true,
-  "secs": 114,
+  "secs": 93,
   "rooftops": 107045,
-  "biz": 14938,
+  "biz": 14987,
   "E2": 14,
   "E5": 1051,
   "flags": {
-   "": 10182,
-   "POSTAL_CITY_EXPOSURE": 2306,
-   "BOUNDARY_RISK": 477,
+   "": 10218,
+   "POSTAL_CITY_EXPOSURE": 2316,
+   "BOUNDARY_RISK": 478,
    "CODED_MISMATCH": 46
   }
  },
  {
   "county": "TIPTON",
   "ok": true,
-  "secs": 24,
+  "secs": 20,
   "rooftops": 27948,
-  "biz": 1507,
+  "biz": 1514,
   "E2": 1598,
   "E5": 677,
   "flags": {
-   "": 851,
-   "POSTAL_CITY_EXPOSURE": 492,
+   "": 855,
+   "POSTAL_CITY_EXPOSURE": 494,
    "BOUNDARY_RISK": 108,
    "CROSS_COUNTY_POSTAL": 53
   }
@@ -1232,19 +1232,19 @@
   "ok": true,
   "secs": 7,
   "rooftops": 6315,
-  "biz": 297,
+  "biz": 298,
   "E2": 1588,
   "E5": 0,
   "flags": {
    "POSTAL_CITY_EXPOSURE": 151,
-   "": 85,
+   "": 86,
    "CROSS_COUNTY_POSTAL": 56
   }
  },
  {
   "county": "UNICOI",
   "ok": true,
-  "secs": 7,
+  "secs": 6,
   "rooftops": 10315,
   "biz": 339,
   "E2": 182,
@@ -1259,14 +1259,14 @@
  {
   "county": "UNION",
   "ok": true,
-  "secs": 11,
+  "secs": 9,
   "rooftops": 12537,
-  "biz": 449,
+  "biz": 452,
   "E2": 1430,
   "E5": 48,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 218,
-   "": 187,
+   "POSTAL_CITY_EXPOSURE": 219,
+   "": 189,
    "CROSS_COUNTY_POSTAL": 28,
    "BOUNDARY_RISK": 14
   }
@@ -1288,14 +1288,14 @@
  {
   "county": "WARREN",
   "ok": true,
-  "secs": 14,
+  "secs": 12,
   "rooftops": 23433,
-  "biz": 1182,
+  "biz": 1187,
   "E2": 56,
   "E5": 455,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 581,
-   "": 549,
+   "POSTAL_CITY_EXPOSURE": 585,
+   "": 550,
    "BOUNDARY_RISK": 40,
    "CROSS_COUNTY_POSTAL": 1
   }
@@ -1303,28 +1303,28 @@
  {
   "county": "SHELBY",
   "ok": true,
-  "secs": 543,
+  "secs": 403,
   "rooftops": 351187,
-  "biz": 41033,
+  "biz": 41275,
   "E2": 1651,
   "E5": 988,
   "flags": {
-   "": 37267,
-   "POSTAL_CITY_EXPOSURE": 2230,
-   "BOUNDARY_RISK": 689,
+   "": 37492,
+   "POSTAL_CITY_EXPOSURE": 2243,
+   "BOUNDARY_RISK": 692,
    "CROSS_COUNTY_POSTAL": 266
   }
  },
  {
   "county": "WAYNE",
   "ok": true,
-  "secs": 16,
+  "secs": 12,
   "rooftops": 9956,
-  "biz": 277,
+  "biz": 282,
   "E2": 514,
   "E5": 103,
   "flags": {
-   "": 150,
+   "": 155,
    "POSTAL_CITY_EXPOSURE": 108,
    "CROSS_COUNTY_POSTAL": 9,
    "BOUNDARY_RISK": 6
@@ -1333,14 +1333,14 @@
  {
   "county": "WEAKLEY",
   "ok": true,
-  "secs": 14,
+  "secs": 12,
   "rooftops": 18523,
-  "biz": 689,
+  "biz": 694,
   "E2": 307,
   "E5": 78,
   "flags": {
-   "": 400,
-   "POSTAL_CITY_EXPOSURE": 250,
+   "": 402,
+   "POSTAL_CITY_EXPOSURE": 253,
    "BOUNDARY_RISK": 23,
    "CROSS_COUNTY_POSTAL": 9
   }
@@ -1348,14 +1348,14 @@
  {
   "county": "WHITE",
   "ok": true,
-  "secs": 10,
+  "secs": 9,
   "rooftops": 17781,
-  "biz": 803,
+  "biz": 808,
   "E2": 461,
   "E5": 179,
   "flags": {
-   "POSTAL_CITY_EXPOSURE": 481,
-   "": 284,
+   "POSTAL_CITY_EXPOSURE": 485,
+   "": 285,
    "CROSS_COUNTY_POSTAL": 20,
    "BOUNDARY_RISK": 12
   }
@@ -1363,45 +1363,45 @@
  {
   "county": "WILLIAMSON",
   "ok": true,
-  "secs": 106,
+  "secs": 80,
   "rooftops": 123055,
-  "biz": 28037,
+  "biz": 28157,
   "E2": 2,
   "E5": 4874,
   "flags": {
-   "": 26007,
-   "BOUNDARY_RISK": 1614,
-   "POSTAL_CITY_EXPOSURE": 75
+   "": 26119,
+   "BOUNDARY_RISK": 1619,
+   "POSTAL_CITY_EXPOSURE": 76
   }
  },
  {
   "county": "WASHINGTON",
   "ok": true,
-  "secs": 298,
+  "secs": 198,
   "rooftops": 79967,
-  "biz": 4797,
+  "biz": 4826,
   "E2": 2133,
   "E5": 1006,
   "flags": {
-   "": 3457,
-   "POSTAL_CITY_EXPOSURE": 712,
-   "BOUNDARY_RISK": 490,
-   "CROSS_COUNTY_POSTAL": 57
+   "": 3478,
+   "POSTAL_CITY_EXPOSURE": 715,
+   "BOUNDARY_RISK": 492,
+   "CROSS_COUNTY_POSTAL": 58
   }
  },
  {
   "county": "WILSON",
   "ok": true,
-  "secs": 114,
+  "secs": 87,
   "rooftops": 88196,
-  "biz": 13466,
+  "biz": 13512,
   "E2": 5538,
   "E5": 12697,
   "flags": {
-   "": 7471,
-   "POSTAL_CITY_EXPOSURE": 3700,
-   "BOUNDARY_RISK": 538,
-   "CROSS_COUNTY_POSTAL": 534
+   "": 7493,
+   "POSTAL_CITY_EXPOSURE": 3719,
+   "BOUNDARY_RISK": 540,
+   "CROSS_COUNTY_POSTAL": 537
   }
  }
 ]

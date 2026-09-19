@@ -1,7 +1,7 @@
 {
   "county": "TIPTON",
   "slug": "tipton",
-  "generated_utc": "2026-09-13T05:55:07.342282+00:00",
+  "generated_utc": "2026-09-13T17:40:44.158876+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -29,7 +29,7 @@
     "address_points": 27948,
     "unplaced": 0,
     "sst_range_match_rate_pct": 93.0,
-    "business_points": 1507,
+    "business_points": 1514,
     "seams": 16,
     "seam_miles": 239.7,
     "cross_county_seam_miles": 113.7
@@ -61,8 +61,8 @@
     "E3_BOUNDARY_PROXIMITY": 1737
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 24545,
-    "REVIEW - analyst": 3156,
+    "READY - analyst sign-off then submit": 24548,
+    "REVIEW - analyst": 3153,
     "HOLD - mandatory human adjudication": 151,
     "HOLD - insufficient evidence": 96
   },
@@ -110,14 +110,14 @@
     "polygon 8404 -> file 8400": 1
   },
   "business_flags": {
-    "": 851,
-    "POSTAL_CITY_EXPOSURE": 492,
+    "": 855,
+    "POSTAL_CITY_EXPOSURE": 494,
     "BOUNDARY_RISK": 108,
     "CROSS_COUNTY_POSTAL": 53
   },
   "label_kinds": {
-    "business": 1504,
+    "business": 1510,
     "place": 2,
-    "institution": 1
+    "institution": 2
   }
 }

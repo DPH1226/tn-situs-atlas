@@ -1,7 +1,7 @@
 {
   "county": "HARDEMAN",
   "slug": "hardeman",
-  "generated_utc": "2026-09-13T05:31:53.556256+00:00",
+  "generated_utc": "2026-09-13T17:23:00.209965+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -30,7 +30,7 @@
     "address_points": 17138,
     "unplaced": 2,
     "sst_range_match_rate_pct": 79.6,
-    "business_points": 386,
+    "business_points": 388,
     "seams": 16,
     "seam_miles": 173.7,
     "cross_county_seam_miles": 80.6
@@ -117,13 +117,13 @@
     "polygon 3509 -> file 3500": 1
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 217,
-    "": 147,
+    "POSTAL_CITY_EXPOSURE": 218,
+    "": 148,
     "CROSS_COUNTY_POSTAL": 13,
     "BOUNDARY_RISK": 6
   },
   "label_kinds": {
-    "business": 383,
+    "business": 385,
     "place": 2,
     "institution": 1
   }

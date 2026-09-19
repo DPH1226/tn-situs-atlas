@@ -1,7 +1,7 @@
 {
   "county": "SHELBY",
   "slug": "shelby",
-  "generated_utc": "2026-09-13T05:57:01.814440+00:00",
+  "generated_utc": "2026-09-13T17:41:58.413091+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -28,7 +28,7 @@
     "address_points": 351187,
     "unplaced": 11,
     "sst_range_match_rate_pct": 94.3,
-    "business_points": 41033,
+    "business_points": 41275,
     "seams": 19,
     "seam_miles": 307.8,
     "cross_county_seam_miles": 55.3
@@ -59,8 +59,8 @@
     "E3_BOUNDARY_PROXIMITY": 6559
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 327268,
-    "REVIEW - analyst": 22806,
+    "READY - analyst sign-off then submit": 327288,
+    "REVIEW - analyst": 22786,
     "HOLD - mandatory human adjudication": 777,
     "HOLD - insufficient evidence": 336
   },
@@ -123,14 +123,14 @@
     "polygon 7905 -> file 7900": 1
   },
   "business_flags": {
-    "": 37267,
-    "POSTAL_CITY_EXPOSURE": 2230,
-    "BOUNDARY_RISK": 689,
+    "": 37492,
+    "POSTAL_CITY_EXPOSURE": 2243,
+    "BOUNDARY_RISK": 692,
     "CROSS_COUNTY_POSTAL": 266
   },
   "label_kinds": {
-    "business": 40452,
-    "place": 279,
+    "business": 40693,
+    "place": 280,
     "institution": 272,
     "unnamed": 30
   }

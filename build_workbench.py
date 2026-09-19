@@ -87,6 +87,7 @@ def build(county: str) -> Path:
         P["roads"] = {"type": "FeatureCollection", "features": []}
     sc = pd.read_csv(OUT / "address_points_scored.csv", low_memory=False)
     bb = sc[sc.risk_band.isin(["CRITICAL", "HIGH"])]
+    P["band_total"] = int(len(bb))          # every rooftop within 250 ft of a seam; the map draws a sample of 12,000
     if len(bb) > 12000: bb = bb.sample(12000, random_state=3)
     P["band_pts"] = [[round(float(a), 6), round(float(b), 6), 0 if c == "CRITICAL" else 1] for a, b, c in zip(bb.lon, bb.lat, bb.risk_band)]
     F = ["id", "business", "kind", "source", "house_no", "street", "unit", "zip", "post_city", "e911_muni", "census_place", "placement", "parcel_id",

@@ -1,7 +1,7 @@
 {
   "county": "BEDFORD",
   "slug": "bedford",
-  "generated_utc": "2026-09-13T05:22:17.015557+00:00",
+  "generated_utc": "2026-09-13T17:15:27.316271+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 22146,
     "unplaced": 0,
     "sst_range_match_rate_pct": 88.4,
-    "business_points": 1453,
+    "business_points": 1459,
     "seams": 10,
     "seam_miles": 184.7,
     "cross_county_seam_miles": 116.2
@@ -103,13 +103,13 @@
     "polygon 0200 -> file 0204": 3
   },
   "business_flags": {
-    "": 720,
-    "POSTAL_CITY_EXPOSURE": 605,
+    "": 722,
+    "POSTAL_CITY_EXPOSURE": 609,
     "CROSS_COUNTY_POSTAL": 76,
     "BOUNDARY_RISK": 37
   },
   "label_kinds": {
-    "business": 1438,
+    "business": 1444,
     "institution": 11,
     "place": 3,
     "unnamed": 1

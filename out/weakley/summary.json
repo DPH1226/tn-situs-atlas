@@ -1,7 +1,7 @@
 {
   "county": "WEAKLEY",
   "slug": "weakley",
-  "generated_utc": "2026-09-13T05:57:41.537841+00:00",
+  "generated_utc": "2026-09-13T17:42:30.069054+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -27,7 +27,7 @@
     "address_points": 18523,
     "unplaced": 7,
     "sst_range_match_rate_pct": 78.7,
-    "business_points": 689,
+    "business_points": 694,
     "seams": 11,
     "seam_miles": 190.1,
     "cross_county_seam_miles": 103.6
@@ -102,13 +102,13 @@
     "polygon 9206 -> file 9200": 1
   },
   "business_flags": {
-    "": 400,
-    "POSTAL_CITY_EXPOSURE": 250,
+    "": 402,
+    "POSTAL_CITY_EXPOSURE": 253,
     "BOUNDARY_RISK": 23,
     "CROSS_COUNTY_POSTAL": 9
   },
   "label_kinds": {
-    "business": 682,
+    "business": 687,
     "institution": 6,
     "place": 1
   }

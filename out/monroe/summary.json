@@ -1,7 +1,7 @@
 {
   "county": "MONROE",
   "slug": "monroe",
-  "generated_utc": "2026-09-13T05:42:38.114803+00:00",
+  "generated_utc": "2026-09-13T17:31:07.622206+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 34663,
     "unplaced": 0,
     "sst_range_match_rate_pct": 88.4,
-    "business_points": 960,
+    "business_points": 965,
     "seams": 13,
     "seam_miles": 213.4,
     "cross_county_seam_miles": 120.0
@@ -95,13 +95,13 @@
     "polygon 6200 -> file 6204": 12
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 557,
-    "": 316,
+    "POSTAL_CITY_EXPOSURE": 561,
+    "": 317,
     "BOUNDARY_RISK": 41,
     "CROSS_COUNTY_POSTAL": 40
   },
   "label_kinds": {
-    "business": 954,
+    "business": 959,
     "place": 4,
     "institution": 2
   }

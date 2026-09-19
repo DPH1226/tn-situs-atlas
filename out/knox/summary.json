@@ -1,7 +1,7 @@
 {
   "county": "KNOX",
   "slug": "knox",
-  "generated_utc": "2026-09-13T05:40:37.811808+00:00",
+  "generated_utc": "2026-09-13T17:29:55.337166+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 292950,
     "unplaced": 0,
     "sst_range_match_rate_pct": 94.5,
-    "business_points": 39725,
+    "business_points": 39920,
     "seams": 20,
     "seam_miles": 503.7,
     "cross_county_seam_miles": 138.5
@@ -49,10 +49,10 @@
     "E3_BOUNDARY_PROXIMITY": 18401
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 264419,
-    "REVIEW - analyst": 25840,
+    "READY - analyst sign-off then submit": 264428,
+    "REVIEW - analyst": 25832,
     "HOLD - mandatory human adjudication": 1948,
-    "HOLD - insufficient evidence": 743
+    "HOLD - insufficient evidence": 742
   },
   "postal_city_profile": {
     "KNOXVILLE": 227756,
@@ -77,12 +77,12 @@
     "polygon 4701 -> file 4702": 3
   },
   "business_flags": {
-    "": 29307,
-    "POSTAL_CITY_EXPOSURE": 8457,
-    "BOUNDARY_RISK": 1471
+    "": 29458,
+    "POSTAL_CITY_EXPOSURE": 8491,
+    "BOUNDARY_RISK": 1481
   },
   "label_kinds": {
-    "business": 39235,
+    "business": 39430,
     "place": 267,
     "institution": 191,
     "unnamed": 32

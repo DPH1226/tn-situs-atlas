@@ -1,7 +1,7 @@
 {
   "county": "FENTRESS",
   "slug": "fentress",
-  "generated_utc": "2026-09-13T05:27:13.812976+00:00",
+  "generated_utc": "2026-09-13T17:19:22.080870+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 14519,
     "unplaced": 0,
     "sst_range_match_rate_pct": 82.2,
-    "business_points": 522,
+    "business_points": 523,
     "seams": 8,
     "seam_miles": 138.5,
     "cross_county_seam_miles": 118.0
@@ -72,11 +72,11 @@
     "polygon 2500 -> file 2502": 4
   },
   "business_flags": {
-    "": 505,
+    "": 506,
     "BOUNDARY_RISK": 7
   },
   "label_kinds": {
-    "business": 512,
+    "business": 513,
     "place": 9,
     "institution": 1
   }

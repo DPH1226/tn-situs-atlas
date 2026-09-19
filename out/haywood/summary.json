@@ -1,7 +1,7 @@
 {
   "county": "HAYWOOD",
   "slug": "haywood",
-  "generated_utc": "2026-09-13T05:33:13.442315+00:00",
+  "generated_utc": "2026-09-13T17:24:04.053307+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 8677,
     "unplaced": 0,
     "sst_range_match_rate_pct": 84.8,
-    "business_points": 244,
+    "business_points": 247,
     "seams": 9,
     "seam_miles": 141.1,
     "cross_county_seam_miles": 107.6
@@ -74,13 +74,13 @@
     "polygon 3800 -> file 3801": 21
   },
   "business_flags": {
-    "": 171,
+    "": 174,
     "POSTAL_CITY_EXPOSURE": 47,
     "BOUNDARY_RISK": 14,
     "CROSS_COUNTY_POSTAL": 10
   },
   "label_kinds": {
-    "business": 242,
+    "business": 245,
     "place": 2
   }
 }

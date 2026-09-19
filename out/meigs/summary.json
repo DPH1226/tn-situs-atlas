@@ -1,7 +1,7 @@
 {
   "county": "MEIGS",
   "slug": "meigs",
-  "generated_utc": "2026-09-13T05:42:12.308417+00:00",
+  "generated_utc": "2026-09-13T17:30:47.601735+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 8071,
     "unplaced": 0,
     "sst_range_match_rate_pct": 87.1,
-    "business_points": 263,
+    "business_points": 265,
     "seams": 6,
     "seam_miles": 132.6,
     "cross_county_seam_miles": 114.7
@@ -72,13 +72,13 @@
     "polygon 6101 -> file 6100": 59
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 126,
+    "POSTAL_CITY_EXPOSURE": 128,
     "": 83,
     "CROSS_COUNTY_POSTAL": 48,
     "BOUNDARY_RISK": 1
   },
   "label_kinds": {
-    "business": 258,
+    "business": 260,
     "place": 4,
     "institution": 1
   }

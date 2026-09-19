@@ -1,7 +1,7 @@
 {
   "county": "UNION",
   "slug": "union",
-  "generated_utc": "2026-09-13T05:55:32.363298+00:00",
+  "generated_utc": "2026-09-13T17:41:07.954176+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 12537,
     "unplaced": 0,
     "sst_range_match_rate_pct": 88.7,
-    "business_points": 449,
+    "business_points": 452,
     "seams": 9,
     "seam_miles": 120.2,
     "cross_county_seam_miles": 84.5
@@ -89,13 +89,13 @@
     "polygon 8703 -> file 8700": 3
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 218,
-    "": 187,
+    "POSTAL_CITY_EXPOSURE": 219,
+    "": 189,
     "CROSS_COUNTY_POSTAL": 28,
     "BOUNDARY_RISK": 14
   },
   "label_kinds": {
-    "business": 447,
+    "business": 450,
     "place": 2
   }
 }

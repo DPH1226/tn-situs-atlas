@@ -1,7 +1,7 @@
 {
   "county": "CHESTER",
   "slug": "chester",
-  "generated_utc": "2026-09-13T05:24:33.343537+00:00",
+  "generated_utc": "2026-09-13T17:17:09.560096+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 9864,
     "unplaced": 0,
     "sst_range_match_rate_pct": 83.5,
-    "business_points": 352,
+    "business_points": 355,
     "seams": 13,
     "seam_miles": 135.7,
     "cross_county_seam_miles": 98.6
@@ -93,13 +93,13 @@
     "polygon 1202 -> file 1200": 2
   },
   "business_flags": {
-    "": 155,
-    "POSTAL_CITY_EXPOSURE": 142,
+    "": 156,
+    "POSTAL_CITY_EXPOSURE": 143,
     "CROSS_COUNTY_POSTAL": 45,
-    "BOUNDARY_RISK": 6
+    "BOUNDARY_RISK": 7
   },
   "label_kinds": {
-    "business": 348,
+    "business": 351,
     "institution": 2,
     "place": 1,
     "unnamed": 1

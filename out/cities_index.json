@@ -1,0 +1,7326 @@
+{
+ "totals": {
+  "rooftops": 2308593,
+  "biz": 235758,
+  "cc": 1651,
+  "br": 8621,
+  "pe": 49188,
+  "file_elsewhere": 25199,
+  "file_uninc": 22190,
+  "file_claims": 53678,
+  "layers_claim": 17081
+ },
+ "cities": [
+  {
+   "city": "Adams",
+   "slug": "adams",
+   "counties": [
+    "ROBERTSON"
+   ],
+   "codes": [
+    "7402"
+   ],
+   "rooftops": 402,
+   "file_elsewhere": 44,
+   "file_uninc": 44,
+   "file_claims": 16,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.02
+  },
+  {
+   "city": "Adamsville",
+   "slug": "adamsville",
+   "counties": [
+    "HARDIN",
+    "MCNAIRY"
+   ],
+   "codes": [
+    "3605",
+    "5502"
+   ],
+   "rooftops": 1399,
+   "file_elsewhere": 44,
+   "file_uninc": 44,
+   "file_claims": 10,
+   "layers_claim": 0,
+   "biz": 2,
+   "cc": 0,
+   "br": 1,
+   "pe": 28,
+   "labels": 31,
+   "mb": 0.61
+  },
+  {
+   "city": "Alamo",
+   "slug": "alamo",
+   "counties": [
+    "CROCKETT"
+   ],
+   "codes": [
+    "1701"
+   ],
+   "rooftops": 1256,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 71,
+   "layers_claim": 70,
+   "biz": 61,
+   "cc": 0,
+   "br": 5,
+   "pe": 24,
+   "labels": 86,
+   "mb": 0.05
+  },
+  {
+   "city": "Alcoa",
+   "slug": "alcoa",
+   "counties": [
+    "BLOUNT"
+   ],
+   "codes": [
+    "0502"
+   ],
+   "rooftops": 7470,
+   "file_elsewhere": 10,
+   "file_uninc": 10,
+   "file_claims": 1088,
+   "layers_claim": 917,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 1.1
+  },
+  {
+   "city": "Alexandria",
+   "slug": "alexandria",
+   "counties": [
+    "DEKALB"
+   ],
+   "codes": [
+    "2102"
+   ],
+   "rooftops": 521,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 15,
+   "layers_claim": 2,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.05
+  },
+  {
+   "city": "Algood",
+   "slug": "algood",
+   "counties": [
+    "PUTNAM"
+   ],
+   "codes": [
+    "7102"
+   ],
+   "rooftops": 2498,
+   "file_elsewhere": 129,
+   "file_uninc": 0,
+   "file_claims": 44,
+   "layers_claim": 0,
+   "biz": 123,
+   "cc": 0,
+   "br": 4,
+   "pe": 0,
+   "labels": 131,
+   "mb": 0.17
+  },
+  {
+   "city": "Allardt",
+   "slug": "allardt",
+   "counties": [
+    "FENTRESS"
+   ],
+   "codes": [
+    "2502"
+   ],
+   "rooftops": 441,
+   "file_elsewhere": 15,
+   "file_uninc": 15,
+   "file_claims": 4,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.02
+  },
+  {
+   "city": "Altamont",
+   "slug": "altamont",
+   "counties": [
+    "GRUNDY"
+   ],
+   "codes": [
+    "3101"
+   ],
+   "rooftops": 798,
+   "file_elsewhere": 12,
+   "file_uninc": 12,
+   "file_claims": 8,
+   "layers_claim": 0,
+   "biz": 23,
+   "cc": 0,
+   "br": 0,
+   "pe": 21,
+   "labels": 45,
+   "mb": 0.12
+  },
+  {
+   "city": "Ardmore",
+   "slug": "ardmore",
+   "counties": [
+    "GILES",
+    "LINCOLN"
+   ],
+   "codes": [
+    "2802",
+    "5203"
+   ],
+   "rooftops": 852,
+   "file_elsewhere": 9,
+   "file_uninc": 9,
+   "file_claims": 63,
+   "layers_claim": 0,
+   "biz": 75,
+   "cc": 0,
+   "br": 26,
+   "pe": 45,
+   "labels": 120,
+   "mb": 0.13
+  },
+  {
+   "city": "Arlington",
+   "slug": "arlington",
+   "counties": [
+    "SHELBY"
+   ],
+   "codes": [
+    "7902"
+   ],
+   "rooftops": 5487,
+   "file_elsewhere": 7,
+   "file_uninc": 4,
+   "file_claims": 26,
+   "layers_claim": 0,
+   "biz": 595,
+   "cc": 0,
+   "br": 9,
+   "pe": 120,
+   "labels": 723,
+   "mb": 0.7
+  },
+  {
+   "city": "Ashland City",
+   "slug": "ashland-city",
+   "counties": [
+    "CHEATHAM"
+   ],
+   "codes": [
+    "1101"
+   ],
+   "rooftops": 2372,
+   "file_elsewhere": 240,
+   "file_uninc": 240,
+   "file_claims": 26,
+   "layers_claim": 0,
+   "biz": 237,
+   "cc": 0,
+   "br": 8,
+   "pe": 439,
+   "labels": 681,
+   "mb": 0.35
+  },
+  {
+   "city": "Athens",
+   "slug": "athens",
+   "counties": [
+    "MCMINN"
+   ],
+   "codes": [
+    "5401"
+   ],
+   "rooftops": 8243,
+   "file_elsewhere": 65,
+   "file_uninc": 65,
+   "file_claims": 36,
+   "layers_claim": 0,
+   "biz": 450,
+   "cc": 0,
+   "br": 23,
+   "pe": 42,
+   "labels": 494,
+   "mb": 1.29
+  },
+  {
+   "city": "Atoka",
+   "slug": "atoka",
+   "counties": [
+    "TIPTON"
+   ],
+   "codes": [
+    "8402"
+   ],
+   "rooftops": 4253,
+   "file_elsewhere": 10,
+   "file_uninc": 5,
+   "file_claims": 64,
+   "layers_claim": 29,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.22
+  },
+  {
+   "city": "Atwood",
+   "slug": "atwood",
+   "counties": [
+    "CARROLL"
+   ],
+   "codes": [
+    "0902"
+   ],
+   "rooftops": 601,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 11,
+   "layers_claim": 0,
+   "biz": 7,
+   "cc": 0,
+   "br": 1,
+   "pe": 12,
+   "labels": 19,
+   "mb": 0.03
+  },
+  {
+   "city": "Auburntown",
+   "slug": "auburntown",
+   "counties": [
+    "CANNON"
+   ],
+   "codes": [
+    "0802"
+   ],
+   "rooftops": 164,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 8,
+   "layers_claim": 3,
+   "biz": 9,
+   "cc": 0,
+   "br": 6,
+   "pe": 22,
+   "labels": 31,
+   "mb": 0.03
+  },
+  {
+   "city": "Baileyton",
+   "slug": "baileyton",
+   "counties": [
+    "GREENE"
+   ],
+   "codes": [
+    "3002"
+   ],
+   "rooftops": 336,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 9,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "Baneberry",
+   "slug": "baneberry",
+   "counties": [
+    "JEFFERSON"
+   ],
+   "codes": [
+    "4505"
+   ],
+   "rooftops": 358,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 25,
+   "layers_claim": 0,
+   "biz": 13,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 13,
+   "mb": 0.07
+  },
+  {
+   "city": "Bartlett",
+   "slug": "bartlett",
+   "counties": [
+    "SHELBY"
+   ],
+   "codes": [
+    "7903"
+   ],
+   "rooftops": 21754,
+   "file_elsewhere": 12,
+   "file_uninc": 4,
+   "file_claims": 277,
+   "layers_claim": 1,
+   "biz": 2178,
+   "cc": 0,
+   "br": 55,
+   "pe": 1,
+   "labels": 2205,
+   "mb": 2.21
+  },
+  {
+   "city": "Baxter",
+   "slug": "baxter",
+   "counties": [
+    "PUTNAM"
+   ],
+   "codes": [
+    "7103"
+   ],
+   "rooftops": 1337,
+   "file_elsewhere": 106,
+   "file_uninc": 106,
+   "file_claims": 62,
+   "layers_claim": 27,
+   "biz": 56,
+   "cc": 0,
+   "br": 18,
+   "pe": 187,
+   "labels": 245,
+   "mb": 0.17
+  },
+  {
+   "city": "Bean Station",
+   "slug": "bean-station",
+   "counties": [
+    "GRAINGER",
+    "HAWKINS"
+   ],
+   "codes": [
+    "2903",
+    "3708"
+   ],
+   "rooftops": 2034,
+   "file_elsewhere": 13,
+   "file_uninc": 13,
+   "file_claims": 35,
+   "layers_claim": 8,
+   "biz": 57,
+   "cc": 9,
+   "br": 7,
+   "pe": 83,
+   "labels": 145,
+   "mb": 1.37
+  },
+  {
+   "city": "Beersheba Springs",
+   "slug": "beersheba-springs",
+   "counties": [
+    "GRUNDY"
+   ],
+   "codes": [
+    "3102"
+   ],
+   "rooftops": 399,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 4,
+   "layers_claim": 2,
+   "biz": 2,
+   "cc": 0,
+   "br": 0,
+   "pe": 2,
+   "labels": 4,
+   "mb": 0.09
+  },
+  {
+   "city": "Bell Buckle",
+   "slug": "bell-buckle",
+   "counties": [
+    "BEDFORD"
+   ],
+   "codes": [
+    "0202"
+   ],
+   "rooftops": 197,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 7,
+   "layers_claim": 1,
+   "biz": 11,
+   "cc": 0,
+   "br": 0,
+   "pe": 112,
+   "labels": 123,
+   "mb": 0.13
+  },
+  {
+   "city": "Belle Meade",
+   "slug": "belle-meade",
+   "counties": [
+    "DAVIDSON"
+   ],
+   "codes": [
+    "1902"
+   ],
+   "rooftops": 1165,
+   "file_elsewhere": 15,
+   "file_uninc": 0,
+   "file_claims": 23,
+   "layers_claim": 6,
+   "biz": 500,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 544,
+   "mb": 1.05
+  },
+  {
+   "city": "Bells",
+   "slug": "bells",
+   "counties": [
+    "CROCKETT"
+   ],
+   "codes": [
+    "1702"
+   ],
+   "rooftops": 1118,
+   "file_elsewhere": 9,
+   "file_uninc": 9,
+   "file_claims": 20,
+   "layers_claim": 0,
+   "biz": 57,
+   "cc": 0,
+   "br": 18,
+   "pe": 71,
+   "labels": 129,
+   "mb": 0.11
+  },
+  {
+   "city": "Benton",
+   "slug": "benton",
+   "counties": [
+    "POLK"
+   ],
+   "codes": [
+    "7001"
+   ],
+   "rooftops": 821,
+   "file_elsewhere": 16,
+   "file_uninc": 16,
+   "file_claims": 9,
+   "layers_claim": 0,
+   "biz": 20,
+   "cc": 0,
+   "br": 4,
+   "pe": 76,
+   "labels": 96,
+   "mb": 0.06
+  },
+  {
+   "city": "Berry Hill",
+   "slug": "berry-hill",
+   "counties": [
+    "DAVIDSON"
+   ],
+   "codes": [
+    "1903"
+   ],
+   "rooftops": 2923,
+   "file_elsewhere": 16,
+   "file_uninc": 0,
+   "file_claims": 84,
+   "layers_claim": 0,
+   "biz": 690,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 707,
+   "mb": 1.16
+  },
+  {
+   "city": "Bethel Springs",
+   "slug": "bethel-springs",
+   "counties": [
+    "MCNAIRY"
+   ],
+   "codes": [
+    "5503"
+   ],
+   "rooftops": 525,
+   "file_elsewhere": 4,
+   "file_uninc": 3,
+   "file_claims": 5,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.53
+  },
+  {
+   "city": "Big Sandy",
+   "slug": "big-sandy",
+   "counties": [
+    "BENTON"
+   ],
+   "codes": [
+    "0302"
+   ],
+   "rooftops": 367,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 13,
+   "layers_claim": 8,
+   "biz": 5,
+   "cc": 0,
+   "br": 0,
+   "pe": 48,
+   "labels": 54,
+   "mb": 0.09
+  },
+  {
+   "city": "Blaine",
+   "slug": "blaine",
+   "counties": [
+    "GRAINGER"
+   ],
+   "codes": [
+    "2902"
+   ],
+   "rooftops": 1280,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 11,
+   "layers_claim": 0,
+   "biz": 59,
+   "cc": 0,
+   "br": 0,
+   "pe": 67,
+   "labels": 128,
+   "mb": 0.31
+  },
+  {
+   "city": "Bluff City",
+   "slug": "bluff-city",
+   "counties": [
+    "SULLIVAN"
+   ],
+   "codes": [
+    "8203"
+   ],
+   "rooftops": 1134,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 328,
+   "layers_claim": 23,
+   "biz": 34,
+   "cc": 0,
+   "br": 8,
+   "pe": 190,
+   "labels": 265,
+   "mb": 0.66
+  },
+  {
+   "city": "Bolivar",
+   "slug": "bolivar",
+   "counties": [
+    "HARDEMAN"
+   ],
+   "codes": [
+    "3501"
+   ],
+   "rooftops": 3155,
+   "file_elsewhere": 13,
+   "file_uninc": 13,
+   "file_claims": 39,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.13
+  },
+  {
+   "city": "Braden",
+   "slug": "braden",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2407"
+   ],
+   "rooftops": 177,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 8,
+   "layers_claim": 0,
+   "biz": 11,
+   "cc": 11,
+   "br": 0,
+   "pe": 0,
+   "labels": 13,
+   "mb": 0.13
+  },
+  {
+   "city": "Bradford",
+   "slug": "bradford",
+   "counties": [
+    "GIBSON"
+   ],
+   "codes": [
+    "2702"
+   ],
+   "rooftops": 591,
+   "file_elsewhere": 5,
+   "file_uninc": 5,
+   "file_claims": 19,
+   "layers_claim": 0,
+   "biz": 11,
+   "cc": 0,
+   "br": 1,
+   "pe": 46,
+   "labels": 57,
+   "mb": 0.05
+  },
+  {
+   "city": "Brentwood",
+   "slug": "brentwood",
+   "counties": [
+    "WILLIAMSON"
+   ],
+   "codes": [
+    "9403"
+   ],
+   "rooftops": 17223,
+   "file_elsewhere": 43,
+   "file_uninc": 24,
+   "file_claims": 380,
+   "layers_claim": 68,
+   "biz": 7511,
+   "cc": 0,
+   "br": 718,
+   "pe": 2,
+   "labels": 3895,
+   "mb": 2.18
+  },
+  {
+   "city": "Brighton",
+   "slug": "brighton",
+   "counties": [
+    "TIPTON"
+   ],
+   "codes": [
+    "8403"
+   ],
+   "rooftops": 1205,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 15,
+   "layers_claim": 1,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.17
+  },
+  {
+   "city": "Bristol",
+   "slug": "bristol",
+   "counties": [
+    "SULLIVAN"
+   ],
+   "codes": [
+    "8202"
+   ],
+   "rooftops": 18855,
+   "file_elsewhere": 37,
+   "file_uninc": 37,
+   "file_claims": 166,
+   "layers_claim": 107,
+   "biz": 1137,
+   "cc": 0,
+   "br": 99,
+   "pe": 209,
+   "labels": 1361,
+   "mb": 1.02
+  },
+  {
+   "city": "Brownsville",
+   "slug": "brownsville",
+   "counties": [
+    "HAYWOOD"
+   ],
+   "codes": [
+    "3801"
+   ],
+   "rooftops": 4814,
+   "file_elsewhere": 11,
+   "file_uninc": 11,
+   "file_claims": 21,
+   "layers_claim": 4,
+   "biz": 103,
+   "cc": 0,
+   "br": 14,
+   "pe": 35,
+   "labels": 138,
+   "mb": 0.25
+  },
+  {
+   "city": "Bruceton",
+   "slug": "bruceton",
+   "counties": [
+    "CARROLL"
+   ],
+   "codes": [
+    "0903"
+   ],
+   "rooftops": 755,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 11,
+   "cc": 0,
+   "br": 2,
+   "pe": 15,
+   "labels": 26,
+   "mb": 0.03
+  },
+  {
+   "city": "Bulls Gap",
+   "slug": "bulls-gap",
+   "counties": [
+    "HAWKINS"
+   ],
+   "codes": [
+    "3702"
+   ],
+   "rooftops": 498,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 8,
+   "layers_claim": 1,
+   "biz": 7,
+   "cc": 0,
+   "br": 2,
+   "pe": 38,
+   "labels": 46,
+   "mb": 0.15
+  },
+  {
+   "city": "Burlison",
+   "slug": "burlison",
+   "counties": [
+    "TIPTON"
+   ],
+   "codes": [
+    "8404"
+   ],
+   "rooftops": 206,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 241,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.07
+  },
+  {
+   "city": "Burns",
+   "slug": "burns",
+   "counties": [
+    "DICKSON"
+   ],
+   "codes": [
+    "2202"
+   ],
+   "rooftops": 1002,
+   "file_elsewhere": 40,
+   "file_uninc": 24,
+   "file_claims": 60,
+   "layers_claim": 12,
+   "biz": 43,
+   "cc": 0,
+   "br": 13,
+   "pe": 191,
+   "labels": 234,
+   "mb": 0.2
+  },
+  {
+   "city": "Byrdstown",
+   "slug": "byrdstown",
+   "counties": [
+    "PICKETT"
+   ],
+   "codes": [
+    "6901"
+   ],
+   "rooftops": 606,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 33,
+   "layers_claim": 8,
+   "biz": 16,
+   "cc": 0,
+   "br": 1,
+   "pe": 71,
+   "labels": 88,
+   "mb": 0.07
+  },
+  {
+   "city": "Calhoun",
+   "slug": "calhoun",
+   "counties": [
+    "MCMINN"
+   ],
+   "codes": [
+    "5402"
+   ],
+   "rooftops": 315,
+   "file_elsewhere": 9,
+   "file_uninc": 9,
+   "file_claims": 1,
+   "layers_claim": 1,
+   "biz": 8,
+   "cc": 0,
+   "br": 1,
+   "pe": 2,
+   "labels": 10,
+   "mb": 0.04
+  },
+  {
+   "city": "Camden",
+   "slug": "camden",
+   "counties": [
+    "BENTON"
+   ],
+   "codes": [
+    "0301"
+   ],
+   "rooftops": 2191,
+   "file_elsewhere": 47,
+   "file_uninc": 47,
+   "file_claims": 51,
+   "layers_claim": 0,
+   "biz": 125,
+   "cc": 0,
+   "br": 1,
+   "pe": 131,
+   "labels": 258,
+   "mb": 0.71
+  },
+  {
+   "city": "Carthage",
+   "slug": "carthage",
+   "counties": [
+    "SMITH"
+   ],
+   "codes": [
+    "8001"
+   ],
+   "rooftops": 1194,
+   "file_elsewhere": 13,
+   "file_uninc": 0,
+   "file_claims": 49,
+   "layers_claim": 0,
+   "biz": 55,
+   "cc": 0,
+   "br": 4,
+   "pe": 125,
+   "labels": 182,
+   "mb": 0.28
+  },
+  {
+   "city": "Caryville",
+   "slug": "caryville",
+   "counties": [
+    "CAMPBELL"
+   ],
+   "codes": [
+    "0703"
+   ],
+   "rooftops": 1304,
+   "file_elsewhere": 54,
+   "file_uninc": 54,
+   "file_claims": 49,
+   "layers_claim": 0,
+   "biz": 63,
+   "cc": 4,
+   "br": 1,
+   "pe": 51,
+   "labels": 116,
+   "mb": 0.3
+  },
+  {
+   "city": "Cedar Hill",
+   "slug": "cedar-hill",
+   "counties": [
+    "ROBERTSON"
+   ],
+   "codes": [
+    "7403"
+   ],
+   "rooftops": 224,
+   "file_elsewhere": 12,
+   "file_uninc": 12,
+   "file_claims": 13,
+   "layers_claim": 3,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "Celina",
+   "slug": "celina",
+   "counties": [
+    "CLAY"
+   ],
+   "codes": [
+    "1401"
+   ],
+   "rooftops": 1100,
+   "file_elsewhere": 12,
+   "file_uninc": 12,
+   "file_claims": 7,
+   "layers_claim": 0,
+   "biz": 49,
+   "cc": 0,
+   "br": 1,
+   "pe": 83,
+   "labels": 133,
+   "mb": 0.09
+  },
+  {
+   "city": "Centertown",
+   "slug": "centertown",
+   "counties": [
+    "WARREN"
+   ],
+   "codes": [
+    "8902"
+   ],
+   "rooftops": 170,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 4,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 6,
+   "mb": 0.01
+  },
+  {
+   "city": "Centerville",
+   "slug": "centerville",
+   "counties": [
+    "HICKMAN"
+   ],
+   "codes": [
+    "4101"
+   ],
+   "rooftops": 1962,
+   "file_elsewhere": 201,
+   "file_uninc": 201,
+   "file_claims": 200,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 1.45
+  },
+  {
+   "city": "Chapel Hill",
+   "slug": "chapel-hill",
+   "counties": [
+    "MARSHALL"
+   ],
+   "codes": [
+    "5902"
+   ],
+   "rooftops": 1410,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 781,
+   "layers_claim": 4,
+   "biz": 134,
+   "cc": 0,
+   "br": 21,
+   "pe": 213,
+   "labels": 359,
+   "mb": 0.21
+  },
+  {
+   "city": "Charleston",
+   "slug": "charleston",
+   "counties": [
+    "BRADLEY"
+   ],
+   "codes": [
+    "0602"
+   ],
+   "rooftops": 487,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 152,
+   "layers_claim": 124,
+   "biz": 3,
+   "cc": 0,
+   "br": 0,
+   "pe": 7,
+   "labels": 10,
+   "mb": 0.04
+  },
+  {
+   "city": "Charlotte",
+   "slug": "charlotte",
+   "counties": [
+    "DICKSON"
+   ],
+   "codes": [
+    "2201"
+   ],
+   "rooftops": 768,
+   "file_elsewhere": 16,
+   "file_uninc": 16,
+   "file_claims": 30,
+   "layers_claim": 3,
+   "biz": 40,
+   "cc": 0,
+   "br": 6,
+   "pe": 134,
+   "labels": 176,
+   "mb": 0.14
+  },
+  {
+   "city": "Chattanooga",
+   "slug": "chattanooga",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3301"
+   ],
+   "rooftops": 119138,
+   "file_elsewhere": 158,
+   "file_uninc": 107,
+   "file_claims": 720,
+   "layers_claim": 148,
+   "biz": 13108,
+   "cc": 0,
+   "br": 257,
+   "pe": 1370,
+   "labels": 4826,
+   "mb": 4.78
+  },
+  {
+   "city": "Church Hill",
+   "slug": "church-hill",
+   "counties": [
+    "HAWKINS"
+   ],
+   "codes": [
+    "3703"
+   ],
+   "rooftops": 3872,
+   "file_elsewhere": 42,
+   "file_uninc": 42,
+   "file_claims": 207,
+   "layers_claim": 1,
+   "biz": 96,
+   "cc": 0,
+   "br": 9,
+   "pe": 102,
+   "labels": 202,
+   "mb": 0.69
+  },
+  {
+   "city": "Clarksburg",
+   "slug": "clarksburg",
+   "counties": [
+    "CARROLL"
+   ],
+   "codes": [
+    "0904"
+   ],
+   "rooftops": 327,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 8,
+   "layers_claim": 5,
+   "biz": 5,
+   "cc": 0,
+   "br": 0,
+   "pe": 5,
+   "labels": 10,
+   "mb": 0.03
+  },
+  {
+   "city": "Clarksville",
+   "slug": "clarksville",
+   "counties": [
+    "MONTGOMERY"
+   ],
+   "codes": [
+    "6301"
+   ],
+   "rooftops": 74263,
+   "file_elsewhere": 151,
+   "file_uninc": 151,
+   "file_claims": 746,
+   "layers_claim": 420,
+   "biz": 5205,
+   "cc": 0,
+   "br": 123,
+   "pe": 1484,
+   "labels": 4687,
+   "mb": 2.17
+  },
+  {
+   "city": "Cleveland",
+   "slug": "cleveland",
+   "counties": [
+    "BRADLEY"
+   ],
+   "codes": [
+    "0601"
+   ],
+   "rooftops": 24890,
+   "file_elsewhere": 352,
+   "file_uninc": 352,
+   "file_claims": 1327,
+   "layers_claim": 1641,
+   "biz": 122,
+   "cc": 0,
+   "br": 11,
+   "pe": 126,
+   "labels": 256,
+   "mb": 0.29
+  },
+  {
+   "city": "Clifton",
+   "slug": "clifton",
+   "counties": [
+    "WAYNE"
+   ],
+   "codes": [
+    "9102"
+   ],
+   "rooftops": 612,
+   "file_elsewhere": 10,
+   "file_uninc": 10,
+   "file_claims": 23,
+   "layers_claim": 0,
+   "biz": 27,
+   "cc": 0,
+   "br": 0,
+   "pe": 12,
+   "labels": 41,
+   "mb": 0.45
+  },
+  {
+   "city": "Clinton",
+   "slug": "clinton",
+   "counties": [
+    "ANDERSON"
+   ],
+   "codes": [
+    "0101"
+   ],
+   "rooftops": 5491,
+   "file_elsewhere": 47,
+   "file_uninc": 47,
+   "file_claims": 50,
+   "layers_claim": 0,
+   "biz": 382,
+   "cc": 0,
+   "br": 25,
+   "pe": 441,
+   "labels": 829,
+   "mb": 0.71
+  },
+  {
+   "city": "Coalmont",
+   "slug": "coalmont",
+   "counties": [
+    "GRUNDY"
+   ],
+   "codes": [
+    "3103"
+   ],
+   "rooftops": 532,
+   "file_elsewhere": 5,
+   "file_uninc": 0,
+   "file_claims": 211,
+   "layers_claim": 0,
+   "biz": 5,
+   "cc": 0,
+   "br": 1,
+   "pe": 7,
+   "labels": 15,
+   "mb": 0.08
+  },
+  {
+   "city": "Collegedale",
+   "slug": "collegedale",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3307"
+   ],
+   "rooftops": 5665,
+   "file_elsewhere": 550,
+   "file_uninc": 547,
+   "file_claims": 178,
+   "layers_claim": 46,
+   "biz": 437,
+   "cc": 0,
+   "br": 108,
+   "pe": 31,
+   "labels": 513,
+   "mb": 1.24
+  },
+  {
+   "city": "Collierville",
+   "slug": "collierville",
+   "counties": [
+    "SHELBY"
+   ],
+   "codes": [
+    "7904"
+   ],
+   "rooftops": 18846,
+   "file_elsewhere": 67,
+   "file_uninc": 62,
+   "file_claims": 77,
+   "layers_claim": 23,
+   "biz": 2797,
+   "cc": 0,
+   "br": 30,
+   "pe": 173,
+   "labels": 2998,
+   "mb": 1.36
+  },
+  {
+   "city": "Collinwood",
+   "slug": "collinwood",
+   "counties": [
+    "WAYNE"
+   ],
+   "codes": [
+    "9103"
+   ],
+   "rooftops": 611,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 12,
+   "cc": 0,
+   "br": 0,
+   "pe": 21,
+   "labels": 33,
+   "mb": 0.24
+  },
+  {
+   "city": "Columbia",
+   "slug": "columbia",
+   "counties": [
+    "MAURY"
+   ],
+   "codes": [
+    "6001"
+   ],
+   "rooftops": 26557,
+   "file_elsewhere": 208,
+   "file_uninc": 88,
+   "file_claims": 3301,
+   "layers_claim": 877,
+   "biz": 1990,
+   "cc": 0,
+   "br": 166,
+   "pe": 959,
+   "labels": 2995,
+   "mb": 2.23
+  },
+  {
+   "city": "Cookeville",
+   "slug": "cookeville",
+   "counties": [
+    "PUTNAM"
+   ],
+   "codes": [
+    "7101"
+   ],
+   "rooftops": 21049,
+   "file_elsewhere": 839,
+   "file_uninc": 830,
+   "file_claims": 879,
+   "layers_claim": 448,
+   "biz": 1693,
+   "cc": 0,
+   "br": 39,
+   "pe": 689,
+   "labels": 2412,
+   "mb": 1.06
+  },
+  {
+   "city": "Coopertown",
+   "slug": "coopertown",
+   "counties": [
+    "ROBERTSON"
+   ],
+   "codes": [
+    "7410"
+   ],
+   "rooftops": 2124,
+   "file_elsewhere": 46,
+   "file_uninc": 39,
+   "file_claims": 31,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 1.91
+  },
+  {
+   "city": "Copperhill",
+   "slug": "copperhill",
+   "counties": [
+    "POLK"
+   ],
+   "codes": [
+    "7002"
+   ],
+   "rooftops": 364,
+   "file_elsewhere": 18,
+   "file_uninc": 18,
+   "file_claims": 10,
+   "layers_claim": 0,
+   "biz": 31,
+   "cc": 0,
+   "br": 0,
+   "pe": 83,
+   "labels": 117,
+   "mb": 0.11
+  },
+  {
+   "city": "Cornersville",
+   "slug": "cornersville",
+   "counties": [
+    "MARSHALL"
+   ],
+   "codes": [
+    "5903"
+   ],
+   "rooftops": 702,
+   "file_elsewhere": 29,
+   "file_uninc": 28,
+   "file_claims": 181,
+   "layers_claim": 57,
+   "biz": 43,
+   "cc": 0,
+   "br": 6,
+   "pe": 39,
+   "labels": 86,
+   "mb": 0.1
+  },
+  {
+   "city": "Cottage Grove",
+   "slug": "cottage-grove",
+   "counties": [
+    "HENRY"
+   ],
+   "codes": [
+    "4002"
+   ],
+   "rooftops": 66,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 6,
+   "layers_claim": 0,
+   "biz": 1,
+   "cc": 0,
+   "br": 0,
+   "pe": 25,
+   "labels": 26,
+   "mb": 0.01
+  },
+  {
+   "city": "Covington",
+   "slug": "covington",
+   "counties": [
+    "TIPTON"
+   ],
+   "codes": [
+    "8401"
+   ],
+   "rooftops": 4758,
+   "file_elsewhere": 89,
+   "file_uninc": 89,
+   "file_claims": 15,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.24
+  },
+  {
+   "city": "Cowan",
+   "slug": "cowan",
+   "counties": [
+    "FRANKLIN"
+   ],
+   "codes": [
+    "2602"
+   ],
+   "rooftops": 1042,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 38,
+   "layers_claim": 26,
+   "biz": 9,
+   "cc": 0,
+   "br": 3,
+   "pe": 8,
+   "labels": 17,
+   "mb": 1.76
+  },
+  {
+   "city": "Crab Orchard",
+   "slug": "crab-orchard",
+   "counties": [
+    "CUMBERLAND"
+   ],
+   "codes": [
+    "1803"
+   ],
+   "rooftops": 596,
+   "file_elsewhere": 12,
+   "file_uninc": 12,
+   "file_claims": 8,
+   "layers_claim": 0,
+   "biz": 10,
+   "cc": 0,
+   "br": 0,
+   "pe": 9,
+   "labels": 19,
+   "mb": 0.03
+  },
+  {
+   "city": "Cross Plains",
+   "slug": "cross-plains",
+   "counties": [
+    "ROBERTSON"
+   ],
+   "codes": [
+    "7408"
+   ],
+   "rooftops": 838,
+   "file_elsewhere": 31,
+   "file_uninc": 31,
+   "file_claims": 28,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.2
+  },
+  {
+   "city": "Crossville",
+   "slug": "crossville",
+   "counties": [
+    "CUMBERLAND"
+   ],
+   "codes": [
+    "1801"
+   ],
+   "rooftops": 10260,
+   "file_elsewhere": 179,
+   "file_uninc": 179,
+   "file_claims": 701,
+   "layers_claim": 235,
+   "biz": 666,
+   "cc": 0,
+   "br": 44,
+   "pe": 913,
+   "labels": 1597,
+   "mb": 1.23
+  },
+  {
+   "city": "Crump",
+   "slug": "crump",
+   "counties": [
+    "HARDIN"
+   ],
+   "codes": [
+    "3604"
+   ],
+   "rooftops": 1282,
+   "file_elsewhere": 359,
+   "file_uninc": 359,
+   "file_claims": 9,
+   "layers_claim": 0,
+   "biz": 17,
+   "cc": 0,
+   "br": 0,
+   "pe": 1,
+   "labels": 18,
+   "mb": 0.06
+  },
+  {
+   "city": "Cumberland City",
+   "slug": "cumberland-city",
+   "counties": [
+    "STEWART"
+   ],
+   "codes": [
+    "8102"
+   ],
+   "rooftops": 264,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 7,
+   "layers_claim": 0,
+   "biz": 8,
+   "cc": 0,
+   "br": 1,
+   "pe": 13,
+   "labels": 21,
+   "mb": 1.33
+  },
+  {
+   "city": "Cumberland Gap",
+   "slug": "cumberland-gap",
+   "counties": [
+    "CLAIBORNE"
+   ],
+   "codes": [
+    "1302"
+   ],
+   "rooftops": 189,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 10,
+   "cc": 0,
+   "br": 1,
+   "pe": 46,
+   "labels": 57,
+   "mb": 0.09
+  },
+  {
+   "city": "Dandridge",
+   "slug": "dandridge",
+   "counties": [
+    "JEFFERSON"
+   ],
+   "codes": [
+    "4501"
+   ],
+   "rooftops": 2064,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 218,
+   "layers_claim": 92,
+   "biz": 163,
+   "cc": 0,
+   "br": 19,
+   "pe": 518,
+   "labels": 695,
+   "mb": 0.56
+  },
+  {
+   "city": "Dayton",
+   "slug": "dayton",
+   "counties": [
+    "RHEA"
+   ],
+   "codes": [
+    "7201"
+   ],
+   "rooftops": 3030,
+   "file_elsewhere": 10,
+   "file_uninc": 10,
+   "file_claims": 299,
+   "layers_claim": 83,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.19
+  },
+  {
+   "city": "Decatur",
+   "slug": "decatur",
+   "counties": [
+    "MEIGS"
+   ],
+   "codes": [
+    "6101"
+   ],
+   "rooftops": 802,
+   "file_elsewhere": 51,
+   "file_uninc": 51,
+   "file_claims": 69,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.06
+  },
+  {
+   "city": "Decaturville",
+   "slug": "decaturville",
+   "counties": [
+    "DECATUR"
+   ],
+   "codes": [
+    "2001"
+   ],
+   "rooftops": 568,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 79,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "Decherd",
+   "slug": "decherd",
+   "counties": [
+    "FRANKLIN"
+   ],
+   "codes": [
+    "2603"
+   ],
+   "rooftops": 1582,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 66,
+   "layers_claim": 2,
+   "biz": 87,
+   "cc": 0,
+   "br": 6,
+   "pe": 59,
+   "labels": 157,
+   "mb": 5.29
+  },
+  {
+   "city": "Dickson",
+   "slug": "dickson",
+   "counties": [
+    "DICKSON"
+   ],
+   "codes": [
+    "2203"
+   ],
+   "rooftops": 9661,
+   "file_elsewhere": 322,
+   "file_uninc": 313,
+   "file_claims": 133,
+   "layers_claim": 46,
+   "biz": 685,
+   "cc": 0,
+   "br": 11,
+   "pe": 263,
+   "labels": 959,
+   "mb": 0.46
+  },
+  {
+   "city": "Dover",
+   "slug": "dover",
+   "counties": [
+    "STEWART"
+   ],
+   "codes": [
+    "8101"
+   ],
+   "rooftops": 996,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 66,
+   "layers_claim": 1,
+   "biz": 61,
+   "cc": 0,
+   "br": 10,
+   "pe": 116,
+   "labels": 177,
+   "mb": 0.65
+  },
+  {
+   "city": "Dowelltown",
+   "slug": "dowelltown",
+   "counties": [
+    "DEKALB"
+   ],
+   "codes": [
+    "2103"
+   ],
+   "rooftops": 196,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "Doyle",
+   "slug": "doyle",
+   "counties": [
+    "WHITE"
+   ],
+   "codes": [
+    "9302"
+   ],
+   "rooftops": 349,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 10,
+   "layers_claim": 0,
+   "biz": 6,
+   "cc": 0,
+   "br": 0,
+   "pe": 13,
+   "labels": 19,
+   "mb": 0.02
+  },
+  {
+   "city": "Dresden",
+   "slug": "dresden",
+   "counties": [
+    "WEAKLEY"
+   ],
+   "codes": [
+    "9201"
+   ],
+   "rooftops": 1701,
+   "file_elsewhere": 10,
+   "file_uninc": 10,
+   "file_claims": 48,
+   "layers_claim": 0,
+   "biz": 51,
+   "cc": 0,
+   "br": 0,
+   "pe": 41,
+   "labels": 93,
+   "mb": 0.11
+  },
+  {
+   "city": "Ducktown",
+   "slug": "ducktown",
+   "counties": [
+    "POLK"
+   ],
+   "codes": [
+    "7003"
+   ],
+   "rooftops": 352,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 15,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 15,
+   "mb": 0.07
+  },
+  {
+   "city": "Dunlap",
+   "slug": "dunlap",
+   "counties": [
+    "SEQUATCHIE"
+   ],
+   "codes": [
+    "7701"
+   ],
+   "rooftops": 3321,
+   "file_elsewhere": 78,
+   "file_uninc": 78,
+   "file_claims": 78,
+   "layers_claim": 2,
+   "biz": 152,
+   "cc": 0,
+   "br": 1,
+   "pe": 163,
+   "labels": 320,
+   "mb": 1.16
+  },
+  {
+   "city": "Dyer",
+   "slug": "dyer",
+   "counties": [
+    "GIBSON"
+   ],
+   "codes": [
+    "2703"
+   ],
+   "rooftops": 1179,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 11,
+   "layers_claim": 0,
+   "biz": 34,
+   "cc": 0,
+   "br": 3,
+   "pe": 21,
+   "labels": 56,
+   "mb": 0.05
+  },
+  {
+   "city": "Dyersburg",
+   "slug": "dyersburg",
+   "counties": [
+    "DYER"
+   ],
+   "codes": [
+    "2301"
+   ],
+   "rooftops": 9935,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 54,
+   "layers_claim": 0,
+   "biz": 488,
+   "cc": 0,
+   "br": 29,
+   "pe": 180,
+   "labels": 673,
+   "mb": 0.52
+  },
+  {
+   "city": "Eagleville",
+   "slug": "eagleville",
+   "counties": [
+    "RUTHERFORD"
+   ],
+   "codes": [
+    "7502"
+   ],
+   "rooftops": 501,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 166,
+   "layers_claim": 3,
+   "biz": 51,
+   "cc": 0,
+   "br": 13,
+   "pe": 94,
+   "labels": 159,
+   "mb": 0.26
+  },
+  {
+   "city": "East Ridge",
+   "slug": "east-ridge",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3302"
+   ],
+   "rooftops": 11537,
+   "file_elsewhere": 38,
+   "file_uninc": 7,
+   "file_claims": 12,
+   "layers_claim": 0,
+   "biz": 896,
+   "cc": 0,
+   "br": 2,
+   "pe": 0,
+   "labels": 902,
+   "mb": 1.16
+  },
+  {
+   "city": "Eastview",
+   "slug": "eastview",
+   "counties": [
+    "MCNAIRY"
+   ],
+   "codes": [
+    "5508"
+   ],
+   "rooftops": 484,
+   "file_elsewhere": 5,
+   "file_uninc": 1,
+   "file_claims": 18,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.6
+  },
+  {
+   "city": "Elizabethton",
+   "slug": "elizabethton",
+   "counties": [
+    "CARTER"
+   ],
+   "codes": [
+    "1001"
+   ],
+   "rooftops": 7714,
+   "file_elsewhere": 58,
+   "file_uninc": 58,
+   "file_claims": 1285,
+   "layers_claim": 16,
+   "biz": 376,
+   "cc": 0,
+   "br": 28,
+   "pe": 295,
+   "labels": 683,
+   "mb": 0.56
+  },
+  {
+   "city": "Elkton",
+   "slug": "elkton",
+   "counties": [
+    "GILES"
+   ],
+   "codes": [
+    "2803"
+   ],
+   "rooftops": 382,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 201,
+   "layers_claim": 0,
+   "biz": 11,
+   "cc": 0,
+   "br": 1,
+   "pe": 0,
+   "labels": 15,
+   "mb": 0.07
+  },
+  {
+   "city": "Englewood",
+   "slug": "englewood",
+   "counties": [
+    "MCMINN"
+   ],
+   "codes": [
+    "5403"
+   ],
+   "rooftops": 1019,
+   "file_elsewhere": 4,
+   "file_uninc": 4,
+   "file_claims": 5,
+   "layers_claim": 0,
+   "biz": 24,
+   "cc": 0,
+   "br": 1,
+   "pe": 10,
+   "labels": 34,
+   "mb": 0.14
+  },
+  {
+   "city": "Enville",
+   "slug": "enville",
+   "counties": [
+    "CHESTER"
+   ],
+   "codes": [
+    "1202"
+   ],
+   "rooftops": 150,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 4,
+   "layers_claim": 1,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.03
+  },
+  {
+   "city": "Erin",
+   "slug": "erin",
+   "counties": [
+    "HOUSTON"
+   ],
+   "codes": [
+    "4201"
+   ],
+   "rooftops": 931,
+   "file_elsewhere": 3,
+   "file_uninc": 1,
+   "file_claims": 26,
+   "layers_claim": 0,
+   "biz": 39,
+   "cc": 0,
+   "br": 0,
+   "pe": 38,
+   "labels": 78,
+   "mb": 0.62
+  },
+  {
+   "city": "Erwin",
+   "slug": "erwin",
+   "counties": [
+    "UNICOI"
+   ],
+   "codes": [
+    "8601"
+   ],
+   "rooftops": 3368,
+   "file_elsewhere": 4,
+   "file_uninc": 4,
+   "file_claims": 108,
+   "layers_claim": 0,
+   "biz": 70,
+   "cc": 0,
+   "br": 9,
+   "pe": 29,
+   "labels": 101,
+   "mb": 0.09
+  },
+  {
+   "city": "Estill Springs",
+   "slug": "estill-springs",
+   "counties": [
+    "FRANKLIN"
+   ],
+   "codes": [
+    "2604"
+   ],
+   "rooftops": 1460,
+   "file_elsewhere": 5,
+   "file_uninc": 5,
+   "file_claims": 127,
+   "layers_claim": 2,
+   "biz": 58,
+   "cc": 0,
+   "br": 19,
+   "pe": 91,
+   "labels": 150,
+   "mb": 5.27
+  },
+  {
+   "city": "Ethridge",
+   "slug": "ethridge",
+   "counties": [
+    "LAWRENCE"
+   ],
+   "codes": [
+    "5005"
+   ],
+   "rooftops": 367,
+   "file_elsewhere": 34,
+   "file_uninc": 11,
+   "file_claims": 42,
+   "layers_claim": 0,
+   "biz": 10,
+   "cc": 0,
+   "br": 1,
+   "pe": 44,
+   "labels": 56,
+   "mb": 0.07
+  },
+  {
+   "city": "Etowah",
+   "slug": "etowah",
+   "counties": [
+    "MCMINN"
+   ],
+   "codes": [
+    "5404"
+   ],
+   "rooftops": 2155,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 7,
+   "layers_claim": 0,
+   "biz": 79,
+   "cc": 0,
+   "br": 8,
+   "pe": 0,
+   "labels": 79,
+   "mb": 0.14
+  },
+  {
+   "city": "Fairview",
+   "slug": "fairview",
+   "counties": [
+    "WILLIAMSON"
+   ],
+   "codes": [
+    "9402"
+   ],
+   "rooftops": 5137,
+   "file_elsewhere": 57,
+   "file_uninc": 57,
+   "file_claims": 375,
+   "layers_claim": 167,
+   "biz": 509,
+   "cc": 0,
+   "br": 51,
+   "pe": 22,
+   "labels": 552,
+   "mb": 0.37
+  },
+  {
+   "city": "Farragut",
+   "slug": "farragut",
+   "counties": [
+    "KNOX",
+    "LOUDON"
+   ],
+   "codes": [
+    "4702",
+    "5305"
+   ],
+   "rooftops": 12012,
+   "file_elsewhere": 14,
+   "file_uninc": 14,
+   "file_claims": 115,
+   "layers_claim": 38,
+   "biz": 1875,
+   "cc": 0,
+   "br": 75,
+   "pe": 0,
+   "labels": 1905,
+   "mb": 1.66
+  },
+  {
+   "city": "Fayetteville",
+   "slug": "fayetteville",
+   "counties": [
+    "LINCOLN"
+   ],
+   "codes": [
+    "5201"
+   ],
+   "rooftops": 4616,
+   "file_elsewhere": 24,
+   "file_uninc": 24,
+   "file_claims": 90,
+   "layers_claim": 0,
+   "biz": 234,
+   "cc": 0,
+   "br": 22,
+   "pe": 409,
+   "labels": 653,
+   "mb": 0.82
+  },
+  {
+   "city": "Finger",
+   "slug": "finger",
+   "counties": [
+    "MCNAIRY"
+   ],
+   "codes": [
+    "5509"
+   ],
+   "rooftops": 198,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "Forest Hills",
+   "slug": "forest-hills",
+   "counties": [
+    "DAVIDSON"
+   ],
+   "codes": [
+    "1904"
+   ],
+   "rooftops": 2042,
+   "file_elsewhere": 92,
+   "file_uninc": 0,
+   "file_claims": 367,
+   "layers_claim": 3,
+   "biz": 794,
+   "cc": 53,
+   "br": 0,
+   "pe": 0,
+   "labels": 846,
+   "mb": 1.13
+  },
+  {
+   "city": "Franklin",
+   "slug": "franklin",
+   "counties": [
+    "WILLIAMSON"
+   ],
+   "codes": [
+    "9401"
+   ],
+   "rooftops": 48569,
+   "file_elsewhere": 1204,
+   "file_uninc": 1189,
+   "file_claims": 1375,
+   "layers_claim": 443,
+   "biz": 10188,
+   "cc": 0,
+   "br": 416,
+   "pe": 49,
+   "labels": 3896,
+   "mb": 3.62
+  },
+  {
+   "city": "Friendship",
+   "slug": "friendship",
+   "counties": [
+    "CROCKETT"
+   ],
+   "codes": [
+    "1703"
+   ],
+   "rooftops": 356,
+   "file_elsewhere": 4,
+   "file_uninc": 4,
+   "file_claims": 15,
+   "layers_claim": 0,
+   "biz": 5,
+   "cc": 0,
+   "br": 0,
+   "pe": 14,
+   "labels": 19,
+   "mb": 0.02
+  },
+  {
+   "city": "Friendsville",
+   "slug": "friendsville",
+   "counties": [
+    "BLOUNT"
+   ],
+   "codes": [
+    "0503"
+   ],
+   "rooftops": 574,
+   "file_elsewhere": 25,
+   "file_uninc": 24,
+   "file_claims": 26,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.25
+  },
+  {
+   "city": "Gadsden",
+   "slug": "gadsden",
+   "counties": [
+    "CROCKETT"
+   ],
+   "codes": [
+    "1704"
+   ],
+   "rooftops": 284,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 6,
+   "layers_claim": 0,
+   "biz": 6,
+   "cc": 0,
+   "br": 0,
+   "pe": 21,
+   "labels": 27,
+   "mb": 0.02
+  },
+  {
+   "city": "Gainesboro",
+   "slug": "gainesboro",
+   "counties": [
+    "JACKSON"
+   ],
+   "codes": [
+    "4401"
+   ],
+   "rooftops": 670,
+   "file_elsewhere": 19,
+   "file_uninc": 19,
+   "file_claims": 56,
+   "layers_claim": 0,
+   "biz": 34,
+   "cc": 0,
+   "br": 11,
+   "pe": 109,
+   "labels": 144,
+   "mb": 0.32
+  },
+  {
+   "city": "Gallatin",
+   "slug": "gallatin",
+   "counties": [
+    "SUMNER"
+   ],
+   "codes": [
+    "8301"
+   ],
+   "rooftops": 32570,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 489,
+   "layers_claim": 235,
+   "biz": 2995,
+   "cc": 0,
+   "br": 178,
+   "pe": 827,
+   "labels": 4199,
+   "mb": 2.99
+  },
+  {
+   "city": "Gallaway",
+   "slug": "gallaway",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2406"
+   ],
+   "rooftops": 384,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 10,
+   "layers_claim": 3,
+   "biz": 13,
+   "cc": 1,
+   "br": 0,
+   "pe": 0,
+   "labels": 13,
+   "mb": 0.1
+  },
+  {
+   "city": "Garland",
+   "slug": "garland",
+   "counties": [
+    "TIPTON"
+   ],
+   "codes": [
+    "8405"
+   ],
+   "rooftops": 150,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 76,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "Gates",
+   "slug": "gates",
+   "counties": [
+    "LAUDERDALE"
+   ],
+   "codes": [
+    "4902"
+   ],
+   "rooftops": 337,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 8,
+   "cc": 0,
+   "br": 1,
+   "pe": 5,
+   "labels": 13,
+   "mb": 0.27
+  },
+  {
+   "city": "Gatlinburg",
+   "slug": "gatlinburg",
+   "counties": [
+    "SEVIER"
+   ],
+   "codes": [
+    "7802"
+   ],
+   "rooftops": 8689,
+   "file_elsewhere": 36,
+   "file_uninc": 36,
+   "file_claims": 30,
+   "layers_claim": 1,
+   "biz": 560,
+   "cc": 0,
+   "br": 26,
+   "pe": 128,
+   "labels": 715,
+   "mb": 0.5
+  },
+  {
+   "city": "Germantown",
+   "slug": "germantown",
+   "counties": [
+    "SHELBY"
+   ],
+   "codes": [
+    "7905"
+   ],
+   "rooftops": 15330,
+   "file_elsewhere": 4,
+   "file_uninc": 1,
+   "file_claims": 21,
+   "layers_claim": 0,
+   "biz": 2875,
+   "cc": 0,
+   "br": 42,
+   "pe": 0,
+   "labels": 2914,
+   "mb": 2.09
+  },
+  {
+   "city": "Gibson",
+   "slug": "gibson",
+   "counties": [
+    "GIBSON"
+   ],
+   "codes": [
+    "2704"
+   ],
+   "rooftops": 205,
+   "file_elsewhere": 40,
+   "file_uninc": 0,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 4,
+   "cc": 0,
+   "br": 1,
+   "pe": 30,
+   "labels": 34,
+   "mb": 0.03
+  },
+  {
+   "city": "Gilt Edge",
+   "slug": "gilt-edge",
+   "counties": [
+    "TIPTON"
+   ],
+   "codes": [
+    "8408"
+   ],
+   "rooftops": 222,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 224,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.06
+  },
+  {
+   "city": "Gleason",
+   "slug": "gleason",
+   "counties": [
+    "WEAKLEY"
+   ],
+   "codes": [
+    "9202"
+   ],
+   "rooftops": 836,
+   "file_elsewhere": 10,
+   "file_uninc": 10,
+   "file_claims": 1,
+   "layers_claim": 0,
+   "biz": 25,
+   "cc": 0,
+   "br": 4,
+   "pe": 13,
+   "labels": 38,
+   "mb": 0.02
+  },
+  {
+   "city": "Goodlettsville",
+   "slug": "goodlettsville",
+   "counties": [
+    "DAVIDSON",
+    "SUMNER"
+   ],
+   "codes": [
+    "1905",
+    "8307"
+   ],
+   "rooftops": 10042,
+   "file_elsewhere": 375,
+   "file_uninc": 9,
+   "file_claims": 318,
+   "layers_claim": 4,
+   "biz": 1202,
+   "cc": 0,
+   "br": 95,
+   "pe": 575,
+   "labels": 2292,
+   "mb": 1.93
+  },
+  {
+   "city": "Gordonsville",
+   "slug": "gordonsville",
+   "counties": [
+    "SMITH"
+   ],
+   "codes": [
+    "8002"
+   ],
+   "rooftops": 732,
+   "file_elsewhere": 15,
+   "file_uninc": 15,
+   "file_claims": 1,
+   "layers_claim": 30,
+   "biz": 54,
+   "cc": 0,
+   "br": 0,
+   "pe": 9,
+   "labels": 63,
+   "mb": 0.11
+  },
+  {
+   "city": "Grand Junction",
+   "slug": "grand-junction",
+   "counties": [
+    "FAYETTE",
+    "HARDEMAN"
+   ],
+   "codes": [
+    "2410",
+    "3502"
+   ],
+   "rooftops": 281,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 20,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 4,
+   "labels": 4,
+   "mb": 0.04
+  },
+  {
+   "city": "Graysville",
+   "slug": "graysville",
+   "counties": [
+    "RHEA"
+   ],
+   "codes": [
+    "7202"
+   ],
+   "rooftops": 696,
+   "file_elsewhere": 6,
+   "file_uninc": 5,
+   "file_claims": 19,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.17
+  },
+  {
+   "city": "Greenback",
+   "slug": "greenback",
+   "counties": [
+    "LOUDON"
+   ],
+   "codes": [
+    "5303"
+   ],
+   "rooftops": 621,
+   "file_elsewhere": 15,
+   "file_uninc": 15,
+   "file_claims": 29,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.11
+  },
+  {
+   "city": "Greenbrier",
+   "slug": "greenbrier",
+   "counties": [
+    "ROBERTSON"
+   ],
+   "codes": [
+    "7404"
+   ],
+   "rooftops": 3044,
+   "file_elsewhere": 5,
+   "file_uninc": 4,
+   "file_claims": 80,
+   "layers_claim": 3,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.81
+  },
+  {
+   "city": "Greeneville",
+   "slug": "greeneville",
+   "counties": [
+    "GREENE"
+   ],
+   "codes": [
+    "3001"
+   ],
+   "rooftops": 10007,
+   "file_elsewhere": 15,
+   "file_uninc": 9,
+   "file_claims": 175,
+   "layers_claim": 1,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.52
+  },
+  {
+   "city": "Greenfield",
+   "slug": "greenfield",
+   "counties": [
+    "WEAKLEY"
+   ],
+   "codes": [
+    "9203"
+   ],
+   "rooftops": 1158,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 4,
+   "layers_claim": 0,
+   "biz": 36,
+   "cc": 0,
+   "br": 3,
+   "pe": 46,
+   "labels": 83,
+   "mb": 0.06
+  },
+  {
+   "city": "Gruetli-Laager",
+   "slug": "gruetli-laager",
+   "counties": [
+    "GRUNDY"
+   ],
+   "codes": [
+    "3107"
+   ],
+   "rooftops": 1085,
+   "file_elsewhere": 53,
+   "file_uninc": 23,
+   "file_claims": 13,
+   "layers_claim": 0,
+   "biz": 10,
+   "cc": 0,
+   "br": 1,
+   "pe": 5,
+   "labels": 15,
+   "mb": 0.1
+  },
+  {
+   "city": "Guys",
+   "slug": "guys",
+   "counties": [
+    "MCNAIRY"
+   ],
+   "codes": [
+    "5511"
+   ],
+   "rooftops": 314,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 9,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.11
+  },
+  {
+   "city": "Halls",
+   "slug": "halls",
+   "counties": [
+    "LAUDERDALE"
+   ],
+   "codes": [
+    "4903"
+   ],
+   "rooftops": 1220,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 48,
+   "cc": 0,
+   "br": 2,
+   "pe": 44,
+   "labels": 93,
+   "mb": 0.31
+  },
+  {
+   "city": "Harriman",
+   "slug": "harriman",
+   "counties": [
+    "ROANE"
+   ],
+   "codes": [
+    "7302"
+   ],
+   "rooftops": 3581,
+   "file_elsewhere": 13,
+   "file_uninc": 13,
+   "file_claims": 121,
+   "layers_claim": 8,
+   "biz": 154,
+   "cc": 0,
+   "br": 31,
+   "pe": 198,
+   "labels": 354,
+   "mb": 0.84
+  },
+  {
+   "city": "Harrogate",
+   "slug": "harrogate",
+   "counties": [
+    "CLAIBORNE"
+   ],
+   "codes": [
+    "1304"
+   ],
+   "rooftops": 2165,
+   "file_elsewhere": 13,
+   "file_uninc": 13,
+   "file_claims": 17,
+   "layers_claim": 0,
+   "biz": 128,
+   "cc": 0,
+   "br": 5,
+   "pe": 31,
+   "labels": 162,
+   "mb": 0.13
+  },
+  {
+   "city": "Hartsville",
+   "slug": "hartsville",
+   "counties": [
+    "TROUSDALE"
+   ],
+   "codes": [
+    "8501"
+   ],
+   "rooftops": 6315,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 288,
+   "cc": 56,
+   "br": 0,
+   "pe": 0,
+   "labels": 293,
+   "mb": 0.16
+  },
+  {
+   "city": "Henderson",
+   "slug": "henderson",
+   "counties": [
+    "CHESTER"
+   ],
+   "codes": [
+    "1201"
+   ],
+   "rooftops": 3275,
+   "file_elsewhere": 9,
+   "file_uninc": 9,
+   "file_claims": 68,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.37
+  },
+  {
+   "city": "Hendersonville",
+   "slug": "hendersonville",
+   "counties": [
+    "SUMNER"
+   ],
+   "codes": [
+    "8305"
+   ],
+   "rooftops": 31393,
+   "file_elsewhere": 54,
+   "file_uninc": 3,
+   "file_claims": 178,
+   "layers_claim": 61,
+   "biz": 3951,
+   "cc": 0,
+   "br": 127,
+   "pe": 683,
+   "labels": 4773,
+   "mb": 3.41
+  },
+  {
+   "city": "Henning",
+   "slug": "henning",
+   "counties": [
+    "LAUDERDALE"
+   ],
+   "codes": [
+    "4904"
+   ],
+   "rooftops": 558,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 8,
+   "cc": 0,
+   "br": 0,
+   "pe": 25,
+   "labels": 33,
+   "mb": 0.55
+  },
+  {
+   "city": "Henry",
+   "slug": "henry",
+   "counties": [
+    "HENRY"
+   ],
+   "codes": [
+    "4003"
+   ],
+   "rooftops": 377,
+   "file_elsewhere": 47,
+   "file_uninc": 47,
+   "file_claims": 12,
+   "layers_claim": 0,
+   "biz": 8,
+   "cc": 0,
+   "br": 3,
+   "pe": 25,
+   "labels": 33,
+   "mb": 0.03
+  },
+  {
+   "city": "Hickory Valley",
+   "slug": "hickory-valley",
+   "counties": [
+    "HARDEMAN"
+   ],
+   "codes": [
+    "3503"
+   ],
+   "rooftops": 85,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "Hohenwald",
+   "slug": "hohenwald",
+   "counties": [
+    "LEWIS"
+   ],
+   "codes": [
+    "5101"
+   ],
+   "rooftops": 2553,
+   "file_elsewhere": 98,
+   "file_uninc": 98,
+   "file_claims": 815,
+   "layers_claim": 0,
+   "biz": 151,
+   "cc": 0,
+   "br": 6,
+   "pe": 183,
+   "labels": 343,
+   "mb": 0.15
+  },
+  {
+   "city": "Hollow Rock",
+   "slug": "hollow-rock",
+   "counties": [
+    "CARROLL"
+   ],
+   "codes": [
+    "0905"
+   ],
+   "rooftops": 570,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 34,
+   "layers_claim": 0,
+   "biz": 7,
+   "cc": 0,
+   "br": 1,
+   "pe": 6,
+   "labels": 13,
+   "mb": 0.03
+  },
+  {
+   "city": "Hornbeak",
+   "slug": "hornbeak",
+   "counties": [
+    "OBION"
+   ],
+   "codes": [
+    "6602"
+   ],
+   "rooftops": 300,
+   "file_elsewhere": 6,
+   "file_uninc": 5,
+   "file_claims": 5,
+   "layers_claim": 1,
+   "biz": 5,
+   "cc": 0,
+   "br": 1,
+   "pe": 4,
+   "labels": 9,
+   "mb": 0.02
+  },
+  {
+   "city": "Hornsby",
+   "slug": "hornsby",
+   "counties": [
+    "HARDEMAN"
+   ],
+   "codes": [
+    "3504"
+   ],
+   "rooftops": 196,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "Humboldt",
+   "slug": "humboldt",
+   "counties": [
+    "GIBSON",
+    "MADISON"
+   ],
+   "codes": [
+    "2705",
+    "5705"
+   ],
+   "rooftops": 4691,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 64,
+   "layers_claim": 11,
+   "biz": 111,
+   "cc": 0,
+   "br": 13,
+   "pe": 84,
+   "labels": 197,
+   "mb": 0.54
+  },
+  {
+   "city": "Huntingdon",
+   "slug": "huntingdon",
+   "counties": [
+    "CARROLL"
+   ],
+   "codes": [
+    "0901"
+   ],
+   "rooftops": 2646,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 45,
+   "layers_claim": 2,
+   "biz": 74,
+   "cc": 0,
+   "br": 5,
+   "pe": 79,
+   "labels": 153,
+   "mb": 0.33
+  },
+  {
+   "city": "Huntland",
+   "slug": "huntland",
+   "counties": [
+    "FRANKLIN"
+   ],
+   "codes": [
+    "2605"
+   ],
+   "rooftops": 475,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 8,
+   "layers_claim": 0,
+   "biz": 21,
+   "cc": 0,
+   "br": 3,
+   "pe": 16,
+   "labels": 37,
+   "mb": 0.1
+  },
+  {
+   "city": "Huntsville",
+   "slug": "huntsville",
+   "counties": [
+    "SCOTT"
+   ],
+   "codes": [
+    "7601"
+   ],
+   "rooftops": 1067,
+   "file_elsewhere": 66,
+   "file_uninc": 65,
+   "file_claims": 520,
+   "layers_claim": 68,
+   "biz": 96,
+   "cc": 0,
+   "br": 11,
+   "pe": 33,
+   "labels": 151,
+   "mb": 0.18
+  },
+  {
+   "city": "Jacksboro",
+   "slug": "jacksboro",
+   "counties": [
+    "CAMPBELL"
+   ],
+   "codes": [
+    "0701"
+   ],
+   "rooftops": 1070,
+   "file_elsewhere": 24,
+   "file_uninc": 23,
+   "file_claims": 23,
+   "layers_claim": 0,
+   "biz": 89,
+   "cc": 0,
+   "br": 6,
+   "pe": 176,
+   "labels": 268,
+   "mb": 0.42
+  },
+  {
+   "city": "Jackson",
+   "slug": "jackson",
+   "counties": [
+    "MADISON"
+   ],
+   "codes": [
+    "5701"
+   ],
+   "rooftops": 32850,
+   "file_elsewhere": 128,
+   "file_uninc": 128,
+   "file_claims": 537,
+   "layers_claim": 425,
+   "biz": 2758,
+   "cc": 0,
+   "br": 40,
+   "pe": 680,
+   "labels": 3471,
+   "mb": 1.75
+  },
+  {
+   "city": "Jamestown",
+   "slug": "jamestown",
+   "counties": [
+    "FENTRESS"
+   ],
+   "codes": [
+    "2501"
+   ],
+   "rooftops": 1582,
+   "file_elsewhere": 4,
+   "file_uninc": 4,
+   "file_claims": 40,
+   "layers_claim": 1,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.12
+  },
+  {
+   "city": "Jasper",
+   "slug": "jasper",
+   "counties": [
+    "MARION"
+   ],
+   "codes": [
+    "5801"
+   ],
+   "rooftops": 1981,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 19,
+   "layers_claim": 1,
+   "biz": 108,
+   "cc": 0,
+   "br": 2,
+   "pe": 92,
+   "labels": 202,
+   "mb": 0.27
+  },
+  {
+   "city": "Jefferson City",
+   "slug": "jefferson-city",
+   "counties": [
+    "JEFFERSON"
+   ],
+   "codes": [
+    "4502"
+   ],
+   "rooftops": 3629,
+   "file_elsewhere": 15,
+   "file_uninc": 15,
+   "file_claims": 384,
+   "layers_claim": 369,
+   "biz": 200,
+   "cc": 0,
+   "br": 29,
+   "pe": 141,
+   "labels": 361,
+   "mb": 0.52
+  },
+  {
+   "city": "Jellico",
+   "slug": "jellico",
+   "counties": [
+    "CAMPBELL"
+   ],
+   "codes": [
+    "0702"
+   ],
+   "rooftops": 1234,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 37,
+   "layers_claim": 0,
+   "biz": 3,
+   "cc": 0,
+   "br": 0,
+   "pe": 3,
+   "labels": 6,
+   "mb": 0.17
+  },
+  {
+   "city": "Johnson City",
+   "slug": "johnson-city",
+   "counties": [
+    "CARTER",
+    "SULLIVAN",
+    "WASHINGTON"
+   ],
+   "codes": [
+    "1003",
+    "8206",
+    "9002"
+   ],
+   "rooftops": 41468,
+   "file_elsewhere": 99,
+   "file_uninc": 99,
+   "file_claims": 1570,
+   "layers_claim": 381,
+   "biz": 42,
+   "cc": 0,
+   "br": 16,
+   "pe": 133,
+   "labels": 194,
+   "mb": 4.24
+  },
+  {
+   "city": "Jonesborough",
+   "slug": "jonesborough",
+   "counties": [
+    "WASHINGTON"
+   ],
+   "codes": [
+    "9001"
+   ],
+   "rooftops": 4195,
+   "file_elsewhere": 93,
+   "file_uninc": 93,
+   "file_claims": 276,
+   "layers_claim": 154,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 3.3
+  },
+  {
+   "city": "Kenton",
+   "slug": "kenton",
+   "counties": [
+    "GIBSON",
+    "OBION"
+   ],
+   "codes": [
+    "2710",
+    "6603"
+   ],
+   "rooftops": 743,
+   "file_elsewhere": 8,
+   "file_uninc": 8,
+   "file_claims": 1,
+   "layers_claim": 0,
+   "biz": 8,
+   "cc": 0,
+   "br": 0,
+   "pe": 15,
+   "labels": 24,
+   "mb": 0.03
+  },
+  {
+   "city": "Kimball",
+   "slug": "kimball",
+   "counties": [
+    "MARION"
+   ],
+   "codes": [
+    "5802"
+   ],
+   "rooftops": 837,
+   "file_elsewhere": 5,
+   "file_uninc": 0,
+   "file_claims": 12,
+   "layers_claim": 0,
+   "biz": 53,
+   "cc": 0,
+   "br": 4,
+   "pe": 0,
+   "labels": 54,
+   "mb": 0.32
+  },
+  {
+   "city": "Kingsport",
+   "slug": "kingsport",
+   "counties": [
+    "HAWKINS",
+    "SULLIVAN"
+   ],
+   "codes": [
+    "3706",
+    "8204"
+   ],
+   "rooftops": 26168,
+   "file_elsewhere": 41,
+   "file_uninc": 41,
+   "file_claims": 275,
+   "layers_claim": 180,
+   "biz": 1791,
+   "cc": 0,
+   "br": 164,
+   "pe": 386,
+   "labels": 2204,
+   "mb": 3.1
+  },
+  {
+   "city": "Kingston",
+   "slug": "kingston",
+   "counties": [
+    "ROANE"
+   ],
+   "codes": [
+    "7301"
+   ],
+   "rooftops": 3298,
+   "file_elsewhere": 23,
+   "file_uninc": 23,
+   "file_claims": 126,
+   "layers_claim": 32,
+   "biz": 231,
+   "cc": 0,
+   "br": 23,
+   "pe": 300,
+   "labels": 537,
+   "mb": 0.59
+  },
+  {
+   "city": "Kingston Springs",
+   "slug": "kingston-springs",
+   "counties": [
+    "CHEATHAM"
+   ],
+   "codes": [
+    "1102"
+   ],
+   "rooftops": 1346,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 20,
+   "layers_claim": 0,
+   "biz": 142,
+   "cc": 0,
+   "br": 2,
+   "pe": 140,
+   "labels": 284,
+   "mb": 0.17
+  },
+  {
+   "city": "Knoxville",
+   "slug": "knoxville",
+   "counties": [
+    "KNOX"
+   ],
+   "codes": [
+    "4701"
+   ],
+   "rooftops": 131055,
+   "file_elsewhere": 554,
+   "file_uninc": 552,
+   "file_claims": 2533,
+   "layers_claim": 128,
+   "biz": 24096,
+   "cc": 0,
+   "br": 942,
+   "pe": 8297,
+   "labels": 12742,
+   "mb": 7.88
+  },
+  {
+   "city": "La Grange",
+   "slug": "la-grange",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2402"
+   ],
+   "rooftops": 127,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 1,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "La Vergne",
+   "slug": "la-vergne",
+   "counties": [
+    "RUTHERFORD"
+   ],
+   "codes": [
+    "7504"
+   ],
+   "rooftops": 16368,
+   "file_elsewhere": 18,
+   "file_uninc": 0,
+   "file_claims": 18,
+   "layers_claim": 0,
+   "biz": 1716,
+   "cc": 1,
+   "br": 27,
+   "pe": 0,
+   "labels": 1745,
+   "mb": 2.21
+  },
+  {
+   "city": "Lafayette",
+   "slug": "lafayette",
+   "counties": [
+    "MACON"
+   ],
+   "codes": [
+    "5601"
+   ],
+   "rooftops": 3942,
+   "file_elsewhere": 8,
+   "file_uninc": 8,
+   "file_claims": 109,
+   "layers_claim": 3,
+   "biz": 127,
+   "cc": 0,
+   "br": 17,
+   "pe": 236,
+   "labels": 367,
+   "mb": 0.31
+  },
+  {
+   "city": "Lafollette",
+   "slug": "lafollette",
+   "counties": [
+    "CAMPBELL"
+   ],
+   "codes": [
+    "0704"
+   ],
+   "rooftops": 4276,
+   "file_elsewhere": 28,
+   "file_uninc": 28,
+   "file_claims": 77,
+   "layers_claim": 0,
+   "biz": 228,
+   "cc": 0,
+   "br": 17,
+   "pe": 303,
+   "labels": 541,
+   "mb": 0.32
+  },
+  {
+   "city": "Lakeland",
+   "slug": "lakeland",
+   "counties": [
+    "SHELBY"
+   ],
+   "codes": [
+    "7907"
+   ],
+   "rooftops": 5235,
+   "file_elsewhere": 45,
+   "file_uninc": 26,
+   "file_claims": 26,
+   "layers_claim": 0,
+   "biz": 603,
+   "cc": 0,
+   "br": 23,
+   "pe": 5,
+   "labels": 612,
+   "mb": 1.6
+  },
+  {
+   "city": "Lakesite",
+   "slug": "lakesite",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3309"
+   ],
+   "rooftops": 1041,
+   "file_elsewhere": 69,
+   "file_uninc": 58,
+   "file_claims": 49,
+   "layers_claim": 0,
+   "biz": 69,
+   "cc": 0,
+   "br": 24,
+   "pe": 0,
+   "labels": 75,
+   "mb": 0.16
+  },
+  {
+   "city": "Lawrenceburg",
+   "slug": "lawrenceburg",
+   "counties": [
+    "LAWRENCE"
+   ],
+   "codes": [
+    "5001"
+   ],
+   "rooftops": 6625,
+   "file_elsewhere": 138,
+   "file_uninc": 138,
+   "file_claims": 421,
+   "layers_claim": 3,
+   "biz": 359,
+   "cc": 0,
+   "br": 19,
+   "pe": 174,
+   "labels": 538,
+   "mb": 0.28
+  },
+  {
+   "city": "Lebanon",
+   "slug": "lebanon",
+   "counties": [
+    "WILSON"
+   ],
+   "codes": [
+    "9501"
+   ],
+   "rooftops": 30876,
+   "file_elsewhere": 6336,
+   "file_uninc": 6330,
+   "file_claims": 1917,
+   "layers_claim": 915,
+   "biz": 4280,
+   "cc": 0,
+   "br": 213,
+   "pe": 1741,
+   "labels": 5824,
+   "mb": 4.29
+  },
+  {
+   "city": "Lenoir City",
+   "slug": "lenoir-city",
+   "counties": [
+    "LOUDON"
+   ],
+   "codes": [
+    "5302"
+   ],
+   "rooftops": 6483,
+   "file_elsewhere": 20,
+   "file_uninc": 20,
+   "file_claims": 217,
+   "layers_claim": 94,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.27
+  },
+  {
+   "city": "Lewisburg",
+   "slug": "lewisburg",
+   "counties": [
+    "MARSHALL"
+   ],
+   "codes": [
+    "5901"
+   ],
+   "rooftops": 6509,
+   "file_elsewhere": 283,
+   "file_uninc": 283,
+   "file_claims": 1631,
+   "layers_claim": 488,
+   "biz": 365,
+   "cc": 0,
+   "br": 20,
+   "pe": 302,
+   "labels": 672,
+   "mb": 0.32
+  },
+  {
+   "city": "Lexington",
+   "slug": "lexington",
+   "counties": [
+    "HENDERSON"
+   ],
+   "codes": [
+    "3901"
+   ],
+   "rooftops": 4265,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 39,
+   "layers_claim": 8,
+   "biz": 113,
+   "cc": 0,
+   "br": 25,
+   "pe": 159,
+   "labels": 273,
+   "mb": 0.23
+  },
+  {
+   "city": "Liberty",
+   "slug": "liberty",
+   "counties": [
+    "DEKALB"
+   ],
+   "codes": [
+    "2104"
+   ],
+   "rooftops": 222,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 5,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "Linden",
+   "slug": "linden",
+   "counties": [
+    "PERRY"
+   ],
+   "codes": [
+    "6801"
+   ],
+   "rooftops": 822,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 93,
+   "layers_claim": 0,
+   "biz": 33,
+   "cc": 0,
+   "br": 8,
+   "pe": 98,
+   "labels": 131,
+   "mb": 0.53
+  },
+  {
+   "city": "Livingston",
+   "slug": "livingston",
+   "counties": [
+    "OVERTON"
+   ],
+   "codes": [
+    "6701"
+   ],
+   "rooftops": 2503,
+   "file_elsewhere": 13,
+   "file_uninc": 13,
+   "file_claims": 84,
+   "layers_claim": 6,
+   "biz": 166,
+   "cc": 0,
+   "br": 7,
+   "pe": 152,
+   "labels": 322,
+   "mb": 0.19
+  },
+  {
+   "city": "Lobelville",
+   "slug": "lobelville",
+   "counties": [
+    "PERRY"
+   ],
+   "codes": [
+    "6802"
+   ],
+   "rooftops": 698,
+   "file_elsewhere": 6,
+   "file_uninc": 6,
+   "file_claims": 27,
+   "layers_claim": 0,
+   "biz": 33,
+   "cc": 0,
+   "br": 7,
+   "pe": 38,
+   "labels": 71,
+   "mb": 0.11
+  },
+  {
+   "city": "Lookout Mountain",
+   "slug": "lookout-mountain",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3303"
+   ],
+   "rooftops": 945,
+   "file_elsewhere": 10,
+   "file_uninc": 10,
+   "file_claims": 1,
+   "layers_claim": 0,
+   "biz": 192,
+   "cc": 0,
+   "br": 29,
+   "pe": 0,
+   "labels": 193,
+   "mb": 1.28
+  },
+  {
+   "city": "Loretto",
+   "slug": "loretto",
+   "counties": [
+    "LAWRENCE"
+   ],
+   "codes": [
+    "5003"
+   ],
+   "rooftops": 1122,
+   "file_elsewhere": 18,
+   "file_uninc": 16,
+   "file_claims": 44,
+   "layers_claim": 6,
+   "biz": 47,
+   "cc": 0,
+   "br": 8,
+   "pe": 36,
+   "labels": 87,
+   "mb": 0.3
+  },
+  {
+   "city": "Loudon",
+   "slug": "loudon",
+   "counties": [
+    "LOUDON"
+   ],
+   "codes": [
+    "5301"
+   ],
+   "rooftops": 4709,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 47,
+   "layers_claim": 5,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.2
+  },
+  {
+   "city": "Louisville",
+   "slug": "louisville",
+   "counties": [
+    "BLOUNT"
+   ],
+   "codes": [
+    "0506"
+   ],
+   "rooftops": 2940,
+   "file_elsewhere": 16,
+   "file_uninc": 16,
+   "file_claims": 14,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.71
+  },
+  {
+   "city": "Luttrell",
+   "slug": "luttrell",
+   "counties": [
+    "UNION"
+   ],
+   "codes": [
+    "8702"
+   ],
+   "rooftops": 602,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 18,
+   "layers_claim": 0,
+   "biz": 18,
+   "cc": 0,
+   "br": 3,
+   "pe": 19,
+   "labels": 37,
+   "mb": 0.22
+  },
+  {
+   "city": "Lynchburg",
+   "slug": "lynchburg",
+   "counties": [
+    "MOORE"
+   ],
+   "codes": [
+    "6401"
+   ],
+   "rooftops": 3801,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 147,
+   "cc": 64,
+   "br": 0,
+   "pe": 0,
+   "labels": 148,
+   "mb": 0.19
+  },
+  {
+   "city": "Lynnville",
+   "slug": "lynnville",
+   "counties": [
+    "GILES"
+   ],
+   "codes": [
+    "2804"
+   ],
+   "rooftops": 236,
+   "file_elsewhere": 5,
+   "file_uninc": 5,
+   "file_claims": 4,
+   "layers_claim": 0,
+   "biz": 4,
+   "cc": 0,
+   "br": 1,
+   "pe": 97,
+   "labels": 102,
+   "mb": 0.05
+  },
+  {
+   "city": "Madisonville",
+   "slug": "madisonville",
+   "counties": [
+    "MONROE"
+   ],
+   "codes": [
+    "6201"
+   ],
+   "rooftops": 3373,
+   "file_elsewhere": 19,
+   "file_uninc": 19,
+   "file_claims": 162,
+   "layers_claim": 7,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.27
+  },
+  {
+   "city": "Manchester",
+   "slug": "manchester",
+   "counties": [
+    "COFFEE"
+   ],
+   "codes": [
+    "1601"
+   ],
+   "rooftops": 6103,
+   "file_elsewhere": 4,
+   "file_uninc": 4,
+   "file_claims": 214,
+   "layers_claim": 96,
+   "biz": 488,
+   "cc": 0,
+   "br": 56,
+   "pe": 447,
+   "labels": 945,
+   "mb": 0.57
+  },
+  {
+   "city": "Martin",
+   "slug": "martin",
+   "counties": [
+    "WEAKLEY"
+   ],
+   "codes": [
+    "9204"
+   ],
+   "rooftops": 5302,
+   "file_elsewhere": 5,
+   "file_uninc": 5,
+   "file_claims": 31,
+   "layers_claim": 9,
+   "biz": 266,
+   "cc": 0,
+   "br": 15,
+   "pe": 121,
+   "labels": 391,
+   "mb": 0.37
+  },
+  {
+   "city": "Maryville",
+   "slug": "maryville",
+   "counties": [
+    "BLOUNT"
+   ],
+   "codes": [
+    "0501"
+   ],
+   "rooftops": 17433,
+   "file_elsewhere": 116,
+   "file_uninc": 100,
+   "file_claims": 800,
+   "layers_claim": 23,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.77
+  },
+  {
+   "city": "Mason",
+   "slug": "mason",
+   "counties": [
+    "TIPTON"
+   ],
+   "codes": [
+    "8406"
+   ],
+   "rooftops": 452,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 6,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.09
+  },
+  {
+   "city": "Maury City",
+   "slug": "maury-city",
+   "counties": [
+    "CROCKETT"
+   ],
+   "codes": [
+    "1705"
+   ],
+   "rooftops": 486,
+   "file_elsewhere": 17,
+   "file_uninc": 2,
+   "file_claims": 1,
+   "layers_claim": 0,
+   "biz": 4,
+   "cc": 0,
+   "br": 1,
+   "pe": 11,
+   "labels": 15,
+   "mb": 0.02
+  },
+  {
+   "city": "Maynardville",
+   "slug": "maynardville",
+   "counties": [
+    "UNION"
+   ],
+   "codes": [
+    "8701"
+   ],
+   "rooftops": 1565,
+   "file_elsewhere": 30,
+   "file_uninc": 30,
+   "file_claims": 16,
+   "layers_claim": 0,
+   "biz": 79,
+   "cc": 0,
+   "br": 10,
+   "pe": 162,
+   "labels": 243,
+   "mb": 0.14
+  },
+  {
+   "city": "Mcewen",
+   "slug": "mcewen",
+   "counties": [
+    "HUMPHREYS"
+   ],
+   "codes": [
+    "4302"
+   ],
+   "rooftops": 985,
+   "file_elsewhere": 12,
+   "file_uninc": 12,
+   "file_claims": 19,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.15
+  },
+  {
+   "city": "Mckenzie",
+   "slug": "mckenzie",
+   "counties": [
+    "CARROLL",
+    "HENRY",
+    "WEAKLEY"
+   ],
+   "codes": [
+    "0906",
+    "4005",
+    "9206"
+   ],
+   "rooftops": 2951,
+   "file_elsewhere": 8,
+   "file_uninc": 8,
+   "file_claims": 17,
+   "layers_claim": 1,
+   "biz": 80,
+   "cc": 0,
+   "br": 3,
+   "pe": 47,
+   "labels": 129,
+   "mb": 0.11
+  },
+  {
+   "city": "Mclemoresville",
+   "slug": "mclemoresville",
+   "counties": [
+    "CARROLL"
+   ],
+   "codes": [
+    "0907"
+   ],
+   "rooftops": 231,
+   "file_elsewhere": 61,
+   "file_uninc": 7,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 2,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 2,
+   "mb": 0.01
+  },
+  {
+   "city": "Mcminnville",
+   "slug": "mcminnville",
+   "counties": [
+    "WARREN"
+   ],
+   "codes": [
+    "8901"
+   ],
+   "rooftops": 7389,
+   "file_elsewhere": 15,
+   "file_uninc": 15,
+   "file_claims": 567,
+   "layers_claim": 0,
+   "biz": 467,
+   "cc": 0,
+   "br": 35,
+   "pe": 486,
+   "labels": 962,
+   "mb": 0.49
+  },
+  {
+   "city": "Medina",
+   "slug": "medina",
+   "counties": [
+    "GIBSON"
+   ],
+   "codes": [
+    "2706"
+   ],
+   "rooftops": 2118,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 62,
+   "layers_claim": 41,
+   "biz": 112,
+   "cc": 0,
+   "br": 12,
+   "pe": 24,
+   "labels": 138,
+   "mb": 0.1
+  },
+  {
+   "city": "Medon",
+   "slug": "medon",
+   "counties": [
+    "MADISON"
+   ],
+   "codes": [
+    "5704"
+   ],
+   "rooftops": 139,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 27,
+   "layers_claim": 0,
+   "biz": 3,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 3,
+   "mb": 0.02
+  },
+  {
+   "city": "Memphis",
+   "slug": "memphis",
+   "counties": [
+    "SHELBY"
+   ],
+   "codes": [
+    "7901"
+   ],
+   "rooftops": 237916,
+   "file_elsewhere": 198,
+   "file_uninc": 136,
+   "file_claims": 538,
+   "layers_claim": 234,
+   "biz": 25696,
+   "cc": 0,
+   "br": 387,
+   "pe": 1555,
+   "labels": 5411,
+   "mb": 5.36
+  },
+  {
+   "city": "Michie",
+   "slug": "michie",
+   "counties": [
+    "MCNAIRY"
+   ],
+   "codes": [
+    "5504"
+   ],
+   "rooftops": 504,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 10,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.09
+  },
+  {
+   "city": "Middleton",
+   "slug": "middleton",
+   "counties": [
+    "HARDEMAN"
+   ],
+   "codes": [
+    "3505"
+   ],
+   "rooftops": 430,
+   "file_elsewhere": 6,
+   "file_uninc": 6,
+   "file_claims": 203,
+   "layers_claim": 8,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "Milan",
+   "slug": "milan",
+   "counties": [
+    "GIBSON"
+   ],
+   "codes": [
+    "2707"
+   ],
+   "rooftops": 4497,
+   "file_elsewhere": 6,
+   "file_uninc": 3,
+   "file_claims": 22,
+   "layers_claim": 1,
+   "biz": 234,
+   "cc": 0,
+   "br": 12,
+   "pe": 117,
+   "labels": 352,
+   "mb": 0.2
+  },
+  {
+   "city": "Milledgeville",
+   "slug": "milledgeville",
+   "counties": [
+    "CHESTER",
+    "HARDIN",
+    "MCNAIRY"
+   ],
+   "codes": [
+    "1203",
+    "3602",
+    "5505"
+   ],
+   "rooftops": 242,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 1,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 1,
+   "mb": 0.07
+  },
+  {
+   "city": "Millersville",
+   "slug": "millersville",
+   "counties": [
+    "ROBERTSON",
+    "SUMNER"
+   ],
+   "codes": [
+    "7409",
+    "8308"
+   ],
+   "rooftops": 3407,
+   "file_elsewhere": 228,
+   "file_uninc": 11,
+   "file_claims": 135,
+   "layers_claim": 1,
+   "biz": 174,
+   "cc": 0,
+   "br": 1,
+   "pe": 0,
+   "labels": 583,
+   "mb": 1.0
+  },
+  {
+   "city": "Millington",
+   "slug": "millington",
+   "counties": [
+    "SHELBY"
+   ],
+   "codes": [
+    "7906"
+   ],
+   "rooftops": 4689,
+   "file_elsewhere": 128,
+   "file_uninc": 128,
+   "file_claims": 75,
+   "layers_claim": 0,
+   "biz": 303,
+   "cc": 0,
+   "br": 5,
+   "pe": 355,
+   "labels": 663,
+   "mb": 0.33
+  },
+  {
+   "city": "Minor Hill",
+   "slug": "minor-hill",
+   "counties": [
+    "GILES"
+   ],
+   "codes": [
+    "2805"
+   ],
+   "rooftops": 291,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 80,
+   "layers_claim": 0,
+   "biz": 13,
+   "cc": 0,
+   "br": 6,
+   "pe": 20,
+   "labels": 35,
+   "mb": 0.15
+  },
+  {
+   "city": "Mitchellville",
+   "slug": "mitchellville",
+   "counties": [
+    "SUMNER"
+   ],
+   "codes": [
+    "8302"
+   ],
+   "rooftops": 218,
+   "file_elsewhere": 9,
+   "file_uninc": 0,
+   "file_claims": 7,
+   "layers_claim": 0,
+   "biz": 11,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 11,
+   "mb": 0.17
+  },
+  {
+   "city": "Monteagle",
+   "slug": "monteagle",
+   "counties": [
+    "GRUNDY",
+    "MARION"
+   ],
+   "codes": [
+    "3104",
+    "5807"
+   ],
+   "rooftops": 1233,
+   "file_elsewhere": 1,
+   "file_uninc": 0,
+   "file_claims": 33,
+   "layers_claim": 1,
+   "biz": 48,
+   "cc": 0,
+   "br": 30,
+   "pe": 23,
+   "labels": 71,
+   "mb": 0.22
+  },
+  {
+   "city": "Monterey",
+   "slug": "monterey",
+   "counties": [
+    "PUTNAM"
+   ],
+   "codes": [
+    "7104"
+   ],
+   "rooftops": 1470,
+   "file_elsewhere": 6,
+   "file_uninc": 6,
+   "file_claims": 46,
+   "layers_claim": 0,
+   "biz": 53,
+   "cc": 0,
+   "br": 3,
+   "pe": 78,
+   "labels": 131,
+   "mb": 0.12
+  },
+  {
+   "city": "Morrison",
+   "slug": "morrison",
+   "counties": [
+    "WARREN"
+   ],
+   "codes": [
+    "8903"
+   ],
+   "rooftops": 430,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 20,
+   "layers_claim": 0,
+   "biz": 39,
+   "cc": 0,
+   "br": 5,
+   "pe": 92,
+   "labels": 133,
+   "mb": 0.2
+  },
+  {
+   "city": "Morristown",
+   "slug": "morristown",
+   "counties": [
+    "HAMBLEN"
+   ],
+   "codes": [
+    "3201"
+   ],
+   "rooftops": 17689,
+   "file_elsewhere": 128,
+   "file_uninc": 128,
+   "file_claims": 926,
+   "layers_claim": 925,
+   "biz": 1154,
+   "cc": 0,
+   "br": 113,
+   "pe": 479,
+   "labels": 1660,
+   "mb": 1.14
+  },
+  {
+   "city": "Moscow",
+   "slug": "moscow",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2403"
+   ],
+   "rooftops": 335,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 12,
+   "cc": 0,
+   "br": 1,
+   "pe": 102,
+   "labels": 116,
+   "mb": 0.08
+  },
+  {
+   "city": "Mosheim",
+   "slug": "mosheim",
+   "counties": [
+    "GREENE"
+   ],
+   "codes": [
+    "3004"
+   ],
+   "rooftops": 1417,
+   "file_elsewhere": 5,
+   "file_uninc": 5,
+   "file_claims": 60,
+   "layers_claim": 3,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.46
+  },
+  {
+   "city": "Mountain City",
+   "slug": "mountain-city",
+   "counties": [
+    "JOHNSON"
+   ],
+   "codes": [
+    "4601"
+   ],
+   "rooftops": 1725,
+   "file_elsewhere": 9,
+   "file_uninc": 9,
+   "file_claims": 39,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.03
+  },
+  {
+   "city": "Mount Carmel",
+   "slug": "mount-carmel",
+   "counties": [
+    "HAWKINS"
+   ],
+   "codes": [
+    "3704"
+   ],
+   "rooftops": 2890,
+   "file_elsewhere": 1,
+   "file_uninc": 0,
+   "file_claims": 180,
+   "layers_claim": 0,
+   "biz": 73,
+   "cc": 0,
+   "br": 7,
+   "pe": 0,
+   "labels": 82,
+   "mb": 0.26
+  },
+  {
+   "city": "Mt. Juliet",
+   "slug": "mt-juliet",
+   "counties": [
+    "WILSON"
+   ],
+   "codes": [
+    "9503"
+   ],
+   "rooftops": 21811,
+   "file_elsewhere": 3644,
+   "file_uninc": 3644,
+   "file_claims": 1453,
+   "layers_claim": 962,
+   "biz": 3612,
+   "cc": 189,
+   "br": 308,
+   "pe": 1733,
+   "labels": 5627,
+   "mb": 4.21
+  },
+  {
+   "city": "Mount Pleasant",
+   "slug": "mount-pleasant",
+   "counties": [
+    "MAURY"
+   ],
+   "codes": [
+    "6002"
+   ],
+   "rooftops": 2788,
+   "file_elsewhere": 248,
+   "file_uninc": 77,
+   "file_claims": 507,
+   "layers_claim": 0,
+   "biz": 151,
+   "cc": 0,
+   "br": 7,
+   "pe": 71,
+   "labels": 234,
+   "mb": 0.59
+  },
+  {
+   "city": "Munford",
+   "slug": "munford",
+   "counties": [
+    "TIPTON"
+   ],
+   "codes": [
+    "8407"
+   ],
+   "rooftops": 3044,
+   "file_elsewhere": 5,
+   "file_uninc": 0,
+   "file_claims": 46,
+   "layers_claim": 27,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.22
+  },
+  {
+   "city": "Murfreesboro",
+   "slug": "murfreesboro",
+   "counties": [
+    "RUTHERFORD"
+   ],
+   "codes": [
+    "7501"
+   ],
+   "rooftops": 82376,
+   "file_elsewhere": 575,
+   "file_uninc": 575,
+   "file_claims": 1320,
+   "layers_claim": 1220,
+   "biz": 15963,
+   "cc": 0,
+   "br": 789,
+   "pe": 3052,
+   "labels": 18270,
+   "mb": 8.02
+  },
+  {
+   "city": "Nashville-Davidson",
+   "slug": "nashville-davidson",
+   "counties": [
+    "DAVIDSON"
+   ],
+   "codes": [
+    "1901"
+   ],
+   "rooftops": 447150,
+   "file_elsewhere": 727,
+   "file_uninc": 0,
+   "file_claims": 790,
+   "layers_claim": 0,
+   "biz": 54908,
+   "cc": 1239,
+   "br": 407,
+   "pe": 2527,
+   "labels": 8198,
+   "mb": 9.78
+  },
+  {
+   "city": "New Hope",
+   "slug": "new-hope",
+   "counties": [
+    "MARION"
+   ],
+   "codes": [
+    "5808"
+   ],
+   "rooftops": 587,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 15,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 15,
+   "mb": 0.3
+  },
+  {
+   "city": "New Johnsonville",
+   "slug": "new-johnsonville",
+   "counties": [
+    "HUMPHREYS"
+   ],
+   "codes": [
+    "4303"
+   ],
+   "rooftops": 937,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 10,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "New Market",
+   "slug": "new-market",
+   "counties": [
+    "JEFFERSON"
+   ],
+   "codes": [
+    "4504"
+   ],
+   "rooftops": 758,
+   "file_elsewhere": 8,
+   "file_uninc": 8,
+   "file_claims": 601,
+   "layers_claim": 0,
+   "biz": 29,
+   "cc": 0,
+   "br": 4,
+   "pe": 204,
+   "labels": 235,
+   "mb": 0.32
+  },
+  {
+   "city": "New Tazewell",
+   "slug": "new-tazewell",
+   "counties": [
+    "CLAIBORNE"
+   ],
+   "codes": [
+    "1303"
+   ],
+   "rooftops": 1944,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 7,
+   "layers_claim": 0,
+   "biz": 50,
+   "cc": 0,
+   "br": 1,
+   "pe": 95,
+   "labels": 150,
+   "mb": 0.23
+  },
+  {
+   "city": "Newbern",
+   "slug": "newbern",
+   "counties": [
+    "DYER"
+   ],
+   "codes": [
+    "2302"
+   ],
+   "rooftops": 1877,
+   "file_elsewhere": 11,
+   "file_uninc": 11,
+   "file_claims": 17,
+   "layers_claim": 0,
+   "biz": 43,
+   "cc": 0,
+   "br": 5,
+   "pe": 45,
+   "labels": 88,
+   "mb": 0.2
+  },
+  {
+   "city": "Newport",
+   "slug": "newport",
+   "counties": [
+    "COCKE"
+   ],
+   "codes": [
+    "1501"
+   ],
+   "rooftops": 5044,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 11,
+   "layers_claim": 5,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.14
+  },
+  {
+   "city": "Niota",
+   "slug": "niota",
+   "counties": [
+    "MCMINN"
+   ],
+   "codes": [
+    "5405"
+   ],
+   "rooftops": 675,
+   "file_elsewhere": 41,
+   "file_uninc": 41,
+   "file_claims": 33,
+   "layers_claim": 0,
+   "biz": 31,
+   "cc": 0,
+   "br": 2,
+   "pe": 5,
+   "labels": 36,
+   "mb": 0.08
+  },
+  {
+   "city": "Nolensville",
+   "slug": "nolensville",
+   "counties": [
+    "WILLIAMSON"
+   ],
+   "codes": [
+    "9406"
+   ],
+   "rooftops": 6026,
+   "file_elsewhere": 1120,
+   "file_uninc": 1057,
+   "file_claims": 328,
+   "layers_claim": 88,
+   "biz": 1034,
+   "cc": 0,
+   "br": 99,
+   "pe": 2,
+   "labels": 1111,
+   "mb": 0.62
+  },
+  {
+   "city": "Normandy",
+   "slug": "normandy",
+   "counties": [
+    "BEDFORD"
+   ],
+   "codes": [
+    "0203"
+   ],
+   "rooftops": 66,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 0,
+   "layers_claim": 1,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 27,
+   "labels": 27,
+   "mb": 0.03
+  },
+  {
+   "city": "Norris",
+   "slug": "norris",
+   "counties": [
+    "ANDERSON"
+   ],
+   "codes": [
+    "0103"
+   ],
+   "rooftops": 756,
+   "file_elsewhere": 6,
+   "file_uninc": 6,
+   "file_claims": 57,
+   "layers_claim": 0,
+   "biz": 50,
+   "cc": 0,
+   "br": 5,
+   "pe": 0,
+   "labels": 57,
+   "mb": 0.44
+  },
+  {
+   "city": "Oak Hill",
+   "slug": "oak-hill",
+   "counties": [
+    "DAVIDSON"
+   ],
+   "codes": [
+    "1907"
+   ],
+   "rooftops": 1978,
+   "file_elsewhere": 33,
+   "file_uninc": 0,
+   "file_claims": 350,
+   "layers_claim": 8,
+   "biz": 614,
+   "cc": 18,
+   "br": 0,
+   "pe": 0,
+   "labels": 649,
+   "mb": 1.49
+  },
+  {
+   "city": "Oak Ridge",
+   "slug": "oak-ridge",
+   "counties": [
+    "ANDERSON",
+    "ROANE"
+   ],
+   "codes": [
+    "0104",
+    "7303"
+   ],
+   "rooftops": 20705,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 12,
+   "layers_claim": 0,
+   "biz": 1261,
+   "cc": 0,
+   "br": 12,
+   "pe": 7,
+   "labels": 1281,
+   "mb": 1.08
+  },
+  {
+   "city": "Oakdale",
+   "slug": "oakdale",
+   "counties": [
+    "MORGAN"
+   ],
+   "codes": [
+    "6502"
+   ],
+   "rooftops": 165,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 4,
+   "layers_claim": 0,
+   "biz": 1,
+   "cc": 0,
+   "br": 0,
+   "pe": 41,
+   "labels": 42,
+   "mb": 0.04
+  },
+  {
+   "city": "Oakland",
+   "slug": "oakland",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2404"
+   ],
+   "rooftops": 5494,
+   "file_elsewhere": 17,
+   "file_uninc": 13,
+   "file_claims": 211,
+   "layers_claim": 211,
+   "biz": 281,
+   "cc": 0,
+   "br": 60,
+   "pe": 119,
+   "labels": 407,
+   "mb": 0.37
+  },
+  {
+   "city": "Obion",
+   "slug": "obion",
+   "counties": [
+    "OBION"
+   ],
+   "codes": [
+    "6604"
+   ],
+   "rooftops": 572,
+   "file_elsewhere": 5,
+   "file_uninc": 4,
+   "file_claims": 94,
+   "layers_claim": 3,
+   "biz": 3,
+   "cc": 0,
+   "br": 0,
+   "pe": 15,
+   "labels": 18,
+   "mb": 0.1
+  },
+  {
+   "city": "Oliver Springs",
+   "slug": "oliver-springs",
+   "counties": [
+    "ANDERSON",
+    "MORGAN",
+    "ROANE"
+   ],
+   "codes": [
+    "0105",
+    "6503",
+    "7304"
+   ],
+   "rooftops": 1779,
+   "file_elsewhere": 44,
+   "file_uninc": 44,
+   "file_claims": 84,
+   "layers_claim": 0,
+   "biz": 81,
+   "cc": 0,
+   "br": 9,
+   "pe": 92,
+   "labels": 176,
+   "mb": 0.32
+  },
+  {
+   "city": "Oneida",
+   "slug": "oneida",
+   "counties": [
+    "SCOTT"
+   ],
+   "codes": [
+    "7602"
+   ],
+   "rooftops": 2563,
+   "file_elsewhere": 8,
+   "file_uninc": 7,
+   "file_claims": 782,
+   "layers_claim": 0,
+   "biz": 159,
+   "cc": 0,
+   "br": 19,
+   "pe": 127,
+   "labels": 289,
+   "mb": 0.48
+  },
+  {
+   "city": "Orlinda",
+   "slug": "orlinda",
+   "counties": [
+    "ROBERTSON"
+   ],
+   "codes": [
+    "7405"
+   ],
+   "rooftops": 503,
+   "file_elsewhere": 27,
+   "file_uninc": 27,
+   "file_claims": 72,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.14
+  },
+  {
+   "city": "Orme",
+   "slug": "orme",
+   "counties": [
+    "MARION"
+   ],
+   "codes": [
+    "5803"
+   ],
+   "rooftops": 77,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 1,
+   "layers_claim": 0,
+   "biz": 1,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 1,
+   "mb": 0.03
+  },
+  {
+   "city": "Palmer",
+   "slug": "palmer",
+   "counties": [
+    "GRUNDY"
+   ],
+   "codes": [
+    "3105"
+   ],
+   "rooftops": 427,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 6,
+   "layers_claim": 0,
+   "biz": 9,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 10,
+   "mb": 0.07
+  },
+  {
+   "city": "Paris",
+   "slug": "paris",
+   "counties": [
+    "HENRY"
+   ],
+   "codes": [
+    "4001"
+   ],
+   "rooftops": 7350,
+   "file_elsewhere": 19,
+   "file_uninc": 19,
+   "file_claims": 30,
+   "layers_claim": 1,
+   "biz": 376,
+   "cc": 0,
+   "br": 13,
+   "pe": 166,
+   "labels": 544,
+   "mb": 0.25
+  },
+  {
+   "city": "Parkers Crossroads",
+   "slug": "parkers-crossroads",
+   "counties": [
+    "HENDERSON"
+   ],
+   "codes": [
+    "3904"
+   ],
+   "rooftops": 371,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 8,
+   "layers_claim": 0,
+   "biz": 5,
+   "cc": 1,
+   "br": 1,
+   "pe": 0,
+   "labels": 5,
+   "mb": 0.08
+  },
+  {
+   "city": "Parrottsville",
+   "slug": "parrottsville",
+   "counties": [
+    "COCKE"
+   ],
+   "codes": [
+    "1502"
+   ],
+   "rooftops": 219,
+   "file_elsewhere": 6,
+   "file_uninc": 6,
+   "file_claims": 29,
+   "layers_claim": 3,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.02
+  },
+  {
+   "city": "Parsons",
+   "slug": "parsons",
+   "counties": [
+    "DECATUR"
+   ],
+   "codes": [
+    "2002"
+   ],
+   "rooftops": 1627,
+   "file_elsewhere": 3,
+   "file_uninc": 2,
+   "file_claims": 42,
+   "layers_claim": 3,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.29
+  },
+  {
+   "city": "Pegram",
+   "slug": "pegram",
+   "counties": [
+    "CHEATHAM"
+   ],
+   "codes": [
+    "1103"
+   ],
+   "rooftops": 937,
+   "file_elsewhere": 4,
+   "file_uninc": 4,
+   "file_claims": 11,
+   "layers_claim": 0,
+   "biz": 87,
+   "cc": 0,
+   "br": 1,
+   "pe": 61,
+   "labels": 151,
+   "mb": 0.14
+  },
+  {
+   "city": "Petersburg",
+   "slug": "petersburg",
+   "counties": [
+    "LINCOLN",
+    "MARSHALL"
+   ],
+   "codes": [
+    "5202",
+    "5904"
+   ],
+   "rooftops": 315,
+   "file_elsewhere": 4,
+   "file_uninc": 4,
+   "file_claims": 4,
+   "layers_claim": 0,
+   "biz": 8,
+   "cc": 0,
+   "br": 0,
+   "pe": 61,
+   "labels": 70,
+   "mb": 0.06
+  },
+  {
+   "city": "Philadelphia",
+   "slug": "philadelphia",
+   "counties": [
+    "LOUDON"
+   ],
+   "codes": [
+    "5304"
+   ],
+   "rooftops": 315,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 7,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "Pigeon Forge",
+   "slug": "pigeon-forge",
+   "counties": [
+    "SEVIER"
+   ],
+   "codes": [
+    "7803"
+   ],
+   "rooftops": 9443,
+   "file_elsewhere": 154,
+   "file_uninc": 150,
+   "file_claims": 204,
+   "layers_claim": 135,
+   "biz": 783,
+   "cc": 0,
+   "br": 19,
+   "pe": 39,
+   "labels": 846,
+   "mb": 1.93
+  },
+  {
+   "city": "Pikeville",
+   "slug": "pikeville",
+   "counties": [
+    "BLEDSOE"
+   ],
+   "codes": [
+    "0401"
+   ],
+   "rooftops": 1146,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 39,
+   "layers_claim": 0,
+   "biz": 51,
+   "cc": 0,
+   "br": 6,
+   "pe": 105,
+   "labels": 157,
+   "mb": 0.11
+  },
+  {
+   "city": "Piperton",
+   "slug": "piperton",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2409"
+   ],
+   "rooftops": 1636,
+   "file_elsewhere": 6,
+   "file_uninc": 6,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 172,
+   "cc": 0,
+   "br": 6,
+   "pe": 0,
+   "labels": 174,
+   "mb": 0.21
+  },
+  {
+   "city": "Pittman Center",
+   "slug": "pittman-center",
+   "counties": [
+    "SEVIER"
+   ],
+   "codes": [
+    "7804"
+   ],
+   "rooftops": 763,
+   "file_elsewhere": 6,
+   "file_uninc": 5,
+   "file_claims": 5,
+   "layers_claim": 0,
+   "biz": 31,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 32,
+   "mb": 0.22
+  },
+  {
+   "city": "Plainview",
+   "slug": "plainview",
+   "counties": [
+    "UNION"
+   ],
+   "codes": [
+    "8703"
+   ],
+   "rooftops": 1001,
+   "file_elsewhere": 7,
+   "file_uninc": 1,
+   "file_claims": 10,
+   "layers_claim": 0,
+   "biz": 34,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 34,
+   "mb": 0.2
+  },
+  {
+   "city": "Pleasant Hill",
+   "slug": "pleasant-hill",
+   "counties": [
+    "CUMBERLAND"
+   ],
+   "codes": [
+    "1802"
+   ],
+   "rooftops": 533,
+   "file_elsewhere": 23,
+   "file_uninc": 10,
+   "file_claims": 1,
+   "layers_claim": 1,
+   "biz": 5,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 6,
+   "mb": 0.01
+  },
+  {
+   "city": "Pleasant View",
+   "slug": "pleasant-view",
+   "counties": [
+    "CHEATHAM"
+   ],
+   "codes": [
+    "1104"
+   ],
+   "rooftops": 2811,
+   "file_elsewhere": 58,
+   "file_uninc": 46,
+   "file_claims": 24,
+   "layers_claim": 1,
+   "biz": 275,
+   "cc": 0,
+   "br": 7,
+   "pe": 29,
+   "labels": 305,
+   "mb": 0.35
+  },
+  {
+   "city": "Portland",
+   "slug": "portland",
+   "counties": [
+    "ROBERTSON",
+    "SUMNER"
+   ],
+   "codes": [
+    "7411",
+    "8303"
+   ],
+   "rooftops": 6564,
+   "file_elsewhere": 82,
+   "file_uninc": 82,
+   "file_claims": 397,
+   "layers_claim": 497,
+   "biz": 385,
+   "cc": 0,
+   "br": 65,
+   "pe": 401,
+   "labels": 916,
+   "mb": 0.89
+  },
+  {
+   "city": "Powells Crossroads",
+   "slug": "powells-crossroads",
+   "counties": [
+    "MARION"
+   ],
+   "codes": [
+    "5809"
+   ],
+   "rooftops": 669,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 10,
+   "layers_claim": 0,
+   "biz": 12,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 12,
+   "mb": 0.04
+  },
+  {
+   "city": "Pulaski",
+   "slug": "pulaski",
+   "counties": [
+    "GILES"
+   ],
+   "codes": [
+    "2801"
+   ],
+   "rooftops": 4860,
+   "file_elsewhere": 28,
+   "file_uninc": 28,
+   "file_claims": 135,
+   "layers_claim": 5,
+   "biz": 238,
+   "cc": 0,
+   "br": 29,
+   "pe": 263,
+   "labels": 515,
+   "mb": 1.38
+  },
+  {
+   "city": "Puryear",
+   "slug": "puryear",
+   "counties": [
+    "HENRY"
+   ],
+   "codes": [
+    "4004"
+   ],
+   "rooftops": 421,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 9,
+   "cc": 0,
+   "br": 1,
+   "pe": 55,
+   "labels": 65,
+   "mb": 0.03
+  },
+  {
+   "city": "Ramer",
+   "slug": "ramer",
+   "counties": [
+    "MCNAIRY"
+   ],
+   "codes": [
+    "5506"
+   ],
+   "rooftops": 236,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 18,
+   "layers_claim": 16,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.02
+  },
+  {
+   "city": "Red Bank",
+   "slug": "red-bank",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3304"
+   ],
+   "rooftops": 7542,
+   "file_elsewhere": 13,
+   "file_uninc": 0,
+   "file_claims": 65,
+   "layers_claim": 6,
+   "biz": 519,
+   "cc": 0,
+   "br": 5,
+   "pe": 0,
+   "labels": 526,
+   "mb": 1.11
+  },
+  {
+   "city": "Red Boiling Springs",
+   "slug": "red-boiling-springs",
+   "counties": [
+    "MACON"
+   ],
+   "codes": [
+    "5602"
+   ],
+   "rooftops": 895,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 56,
+   "layers_claim": 0,
+   "biz": 21,
+   "cc": 0,
+   "br": 3,
+   "pe": 65,
+   "labels": 86,
+   "mb": 0.08
+  },
+  {
+   "city": "Ridgely",
+   "slug": "ridgely",
+   "counties": [
+    "LAKE"
+   ],
+   "codes": [
+    "4802"
+   ],
+   "rooftops": 797,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 2,
+   "layers_claim": 5,
+   "biz": 24,
+   "cc": 0,
+   "br": 2,
+   "pe": 10,
+   "labels": 34,
+   "mb": 0.03
+  },
+  {
+   "city": "Ridgeside",
+   "slug": "ridgeside",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3305"
+   ],
+   "rooftops": 162,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 8,
+   "layers_claim": 0,
+   "biz": 23,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 26,
+   "mb": 0.83
+  },
+  {
+   "city": "Ridgetop",
+   "slug": "ridgetop",
+   "counties": [
+    "DAVIDSON",
+    "ROBERTSON"
+   ],
+   "codes": [
+    "1908",
+    "7406"
+   ],
+   "rooftops": 940,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 17,
+   "layers_claim": 4,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 1.06
+  },
+  {
+   "city": "Ripley",
+   "slug": "ripley",
+   "counties": [
+    "LAUDERDALE"
+   ],
+   "codes": [
+    "4901"
+   ],
+   "rooftops": 3620,
+   "file_elsewhere": 10,
+   "file_uninc": 9,
+   "file_claims": 5,
+   "layers_claim": 0,
+   "biz": 130,
+   "cc": 0,
+   "br": 4,
+   "pe": 114,
+   "labels": 247,
+   "mb": 0.63
+  },
+  {
+   "city": "Rives",
+   "slug": "rives",
+   "counties": [
+    "OBION"
+   ],
+   "codes": [
+    "6605"
+   ],
+   "rooftops": 161,
+   "file_elsewhere": 1,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 9,
+   "labels": 9,
+   "mb": 0.01
+  },
+  {
+   "city": "Rockford",
+   "slug": "rockford",
+   "counties": [
+    "BLOUNT"
+   ],
+   "codes": [
+    "0505"
+   ],
+   "rooftops": 578,
+   "file_elsewhere": 10,
+   "file_uninc": 6,
+   "file_claims": 67,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.57
+  },
+  {
+   "city": "Rockwood",
+   "slug": "rockwood",
+   "counties": [
+    "ROANE"
+   ],
+   "codes": [
+    "7305"
+   ],
+   "rooftops": 2854,
+   "file_elsewhere": 26,
+   "file_uninc": 26,
+   "file_claims": 147,
+   "layers_claim": 3,
+   "biz": 90,
+   "cc": 0,
+   "br": 9,
+   "pe": 112,
+   "labels": 205,
+   "mb": 0.7
+  },
+  {
+   "city": "Rocky Top",
+   "slug": "rocky-top",
+   "counties": [
+    "ANDERSON",
+    "CAMPBELL"
+   ],
+   "codes": [
+    "0102",
+    "0705"
+   ],
+   "rooftops": 1006,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 23,
+   "layers_claim": 0,
+   "biz": 35,
+   "cc": 0,
+   "br": 2,
+   "pe": 0,
+   "labels": 35,
+   "mb": 0.14
+  },
+  {
+   "city": "Rogersville",
+   "slug": "rogersville",
+   "counties": [
+    "HAWKINS"
+   ],
+   "codes": [
+    "3701"
+   ],
+   "rooftops": 3265,
+   "file_elsewhere": 19,
+   "file_uninc": 19,
+   "file_claims": 275,
+   "layers_claim": 13,
+   "biz": 121,
+   "cc": 0,
+   "br": 8,
+   "pe": 242,
+   "labels": 369,
+   "mb": 0.42
+  },
+  {
+   "city": "Rossville",
+   "slug": "rossville",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2405"
+   ],
+   "rooftops": 745,
+   "file_elsewhere": 26,
+   "file_uninc": 24,
+   "file_claims": 38,
+   "layers_claim": 49,
+   "biz": 45,
+   "cc": 0,
+   "br": 0,
+   "pe": 65,
+   "labels": 111,
+   "mb": 0.18
+  },
+  {
+   "city": "Rutherford",
+   "slug": "rutherford",
+   "counties": [
+    "GIBSON"
+   ],
+   "codes": [
+    "2708"
+   ],
+   "rooftops": 693,
+   "file_elsewhere": 3,
+   "file_uninc": 2,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 22,
+   "cc": 0,
+   "br": 1,
+   "pe": 16,
+   "labels": 39,
+   "mb": 0.04
+  },
+  {
+   "city": "Rutledge",
+   "slug": "rutledge",
+   "counties": [
+    "GRAINGER"
+   ],
+   "codes": [
+    "2901"
+   ],
+   "rooftops": 898,
+   "file_elsewhere": 16,
+   "file_uninc": 16,
+   "file_claims": 40,
+   "layers_claim": 0,
+   "biz": 43,
+   "cc": 0,
+   "br": 1,
+   "pe": 151,
+   "labels": 196,
+   "mb": 0.19
+  },
+  {
+   "city": "Saltillo",
+   "slug": "saltillo",
+   "counties": [
+    "HARDIN"
+   ],
+   "codes": [
+    "3603"
+   ],
+   "rooftops": 643,
+   "file_elsewhere": 15,
+   "file_uninc": 15,
+   "file_claims": 61,
+   "layers_claim": 6,
+   "biz": 4,
+   "cc": 0,
+   "br": 1,
+   "pe": 7,
+   "labels": 12,
+   "mb": 0.14
+  },
+  {
+   "city": "Samburg",
+   "slug": "samburg",
+   "counties": [
+    "OBION"
+   ],
+   "codes": [
+    "6606"
+   ],
+   "rooftops": 321,
+   "file_elsewhere": 1,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.0
+  },
+  {
+   "city": "Sardis",
+   "slug": "sardis",
+   "counties": [
+    "HENDERSON"
+   ],
+   "codes": [
+    "3902"
+   ],
+   "rooftops": 332,
+   "file_elsewhere": 13,
+   "file_uninc": 13,
+   "file_claims": 34,
+   "layers_claim": 0,
+   "biz": 3,
+   "cc": 0,
+   "br": 1,
+   "pe": 6,
+   "labels": 9,
+   "mb": 0.08
+  },
+  {
+   "city": "Saulsbury",
+   "slug": "saulsbury",
+   "counties": [
+    "HARDEMAN"
+   ],
+   "codes": [
+    "3506"
+   ],
+   "rooftops": 109,
+   "file_elsewhere": 6,
+   "file_uninc": 6,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "Savannah",
+   "slug": "savannah",
+   "counties": [
+    "HARDIN"
+   ],
+   "codes": [
+    "3601"
+   ],
+   "rooftops": 5217,
+   "file_elsewhere": 9,
+   "file_uninc": 9,
+   "file_claims": 35,
+   "layers_claim": 14,
+   "biz": 262,
+   "cc": 0,
+   "br": 9,
+   "pe": 165,
+   "labels": 431,
+   "mb": 0.34
+  },
+  {
+   "city": "Scotts Hill",
+   "slug": "scotts-hill",
+   "counties": [
+    "DECATUR",
+    "HENDERSON"
+   ],
+   "codes": [
+    "2003",
+    "3903"
+   ],
+   "rooftops": 739,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 36,
+   "layers_claim": 0,
+   "biz": 9,
+   "cc": 0,
+   "br": 2,
+   "pe": 5,
+   "labels": 14,
+   "mb": 0.11
+  },
+  {
+   "city": "Selmer",
+   "slug": "selmer",
+   "counties": [
+    "MCNAIRY"
+   ],
+   "codes": [
+    "5501"
+   ],
+   "rooftops": 2758,
+   "file_elsewhere": 9,
+   "file_uninc": 9,
+   "file_claims": 32,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.6
+  },
+  {
+   "city": "Sevierville",
+   "slug": "sevierville",
+   "counties": [
+    "SEVIER"
+   ],
+   "codes": [
+    "7801"
+   ],
+   "rooftops": 15799,
+   "file_elsewhere": 76,
+   "file_uninc": 76,
+   "file_claims": 236,
+   "layers_claim": 577,
+   "biz": 1578,
+   "cc": 0,
+   "br": 148,
+   "pe": 1979,
+   "labels": 3625,
+   "mb": 3.09
+  },
+  {
+   "city": "Sharon",
+   "slug": "sharon",
+   "counties": [
+    "WEAKLEY"
+   ],
+   "codes": [
+    "9205"
+   ],
+   "rooftops": 610,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 5,
+   "layers_claim": 0,
+   "biz": 11,
+   "cc": 0,
+   "br": 1,
+   "pe": 13,
+   "labels": 24,
+   "mb": 0.03
+  },
+  {
+   "city": "Shelbyville",
+   "slug": "shelbyville",
+   "counties": [
+    "BEDFORD"
+   ],
+   "codes": [
+    "0201"
+   ],
+   "rooftops": 9146,
+   "file_elsewhere": 46,
+   "file_uninc": 46,
+   "file_claims": 85,
+   "layers_claim": 13,
+   "biz": 649,
+   "cc": 0,
+   "br": 35,
+   "pe": 366,
+   "labels": 1027,
+   "mb": 0.73
+  },
+  {
+   "city": "Signal Mountain",
+   "slug": "signal-mountain",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3306"
+   ],
+   "rooftops": 3933,
+   "file_elsewhere": 25,
+   "file_uninc": 22,
+   "file_claims": 34,
+   "layers_claim": 0,
+   "biz": 474,
+   "cc": 0,
+   "br": 55,
+   "pe": 401,
+   "labels": 880,
+   "mb": 1.39
+  },
+  {
+   "city": "Silerton",
+   "slug": "silerton",
+   "counties": [
+    "CHESTER",
+    "HARDEMAN"
+   ],
+   "codes": [
+    "1204",
+    "3507"
+   ],
+   "rooftops": 75,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.03
+  },
+  {
+   "city": "Slayden",
+   "slug": "slayden",
+   "counties": [
+    "DICKSON"
+   ],
+   "codes": [
+    "2204"
+   ],
+   "rooftops": 123,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 28,
+   "layers_claim": 2,
+   "biz": 1,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 2,
+   "mb": 0.06
+  },
+  {
+   "city": "Smithville",
+   "slug": "smithville",
+   "counties": [
+    "DEKALB"
+   ],
+   "codes": [
+    "2101"
+   ],
+   "rooftops": 2727,
+   "file_elsewhere": 113,
+   "file_uninc": 111,
+   "file_claims": 979,
+   "layers_claim": 11,
+   "biz": 1,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 1,
+   "mb": 0.21
+  },
+  {
+   "city": "Smyrna",
+   "slug": "smyrna",
+   "counties": [
+    "RUTHERFORD"
+   ],
+   "codes": [
+    "7503"
+   ],
+   "rooftops": 33522,
+   "file_elsewhere": 43,
+   "file_uninc": 43,
+   "file_claims": 984,
+   "layers_claim": 726,
+   "biz": 6179,
+   "cc": 0,
+   "br": 469,
+   "pe": 368,
+   "labels": 4416,
+   "mb": 3.01
+  },
+  {
+   "city": "Sneedville",
+   "slug": "sneedville",
+   "counties": [
+    "HANCOCK"
+   ],
+   "codes": [
+    "3401"
+   ],
+   "rooftops": 859,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 4,
+   "layers_claim": 0,
+   "biz": 13,
+   "cc": 0,
+   "br": 0,
+   "pe": 46,
+   "labels": 61,
+   "mb": 0.07
+  },
+  {
+   "city": "Soddy-Daisy",
+   "slug": "soddy-daisy",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3308"
+   ],
+   "rooftops": 7129,
+   "file_elsewhere": 41,
+   "file_uninc": 40,
+   "file_claims": 163,
+   "layers_claim": 0,
+   "biz": 409,
+   "cc": 0,
+   "br": 14,
+   "pe": 0,
+   "labels": 420,
+   "mb": 1.25
+  },
+  {
+   "city": "Somerville",
+   "slug": "somerville",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2401"
+   ],
+   "rooftops": 1783,
+   "file_elsewhere": 48,
+   "file_uninc": 33,
+   "file_claims": 19,
+   "layers_claim": 0,
+   "biz": 75,
+   "cc": 0,
+   "br": 0,
+   "pe": 195,
+   "labels": 276,
+   "mb": 0.33
+  },
+  {
+   "city": "South Carthage",
+   "slug": "south-carthage",
+   "counties": [
+    "SMITH"
+   ],
+   "codes": [
+    "8003"
+   ],
+   "rooftops": 710,
+   "file_elsewhere": 42,
+   "file_uninc": 6,
+   "file_claims": 23,
+   "layers_claim": 1,
+   "biz": 43,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 43,
+   "mb": 0.23
+  },
+  {
+   "city": "South Fulton",
+   "slug": "south-fulton",
+   "counties": [
+    "OBION"
+   ],
+   "codes": [
+    "6607"
+   ],
+   "rooftops": 1339,
+   "file_elsewhere": 25,
+   "file_uninc": 9,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 3,
+   "cc": 0,
+   "br": 1,
+   "pe": 23,
+   "labels": 26,
+   "mb": 0.15
+  },
+  {
+   "city": "South Pittsburg",
+   "slug": "south-pittsburg",
+   "counties": [
+    "MARION"
+   ],
+   "codes": [
+    "5805"
+   ],
+   "rooftops": 1802,
+   "file_elsewhere": 1,
+   "file_uninc": 0,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 58,
+   "cc": 0,
+   "br": 0,
+   "pe": 61,
+   "labels": 120,
+   "mb": 0.26
+  },
+  {
+   "city": "Sparta",
+   "slug": "sparta",
+   "counties": [
+    "WHITE"
+   ],
+   "codes": [
+    "9301"
+   ],
+   "rooftops": 3159,
+   "file_elsewhere": 20,
+   "file_uninc": 20,
+   "file_claims": 205,
+   "layers_claim": 0,
+   "biz": 207,
+   "cc": 0,
+   "br": 9,
+   "pe": 379,
+   "labels": 590,
+   "mb": 0.29
+  },
+  {
+   "city": "Spencer",
+   "slug": "spencer",
+   "counties": [
+    "VAN BUREN"
+   ],
+   "codes": [
+    "8801"
+   ],
+   "rooftops": 925,
+   "file_elsewhere": 36,
+   "file_uninc": 36,
+   "file_claims": 99,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.11
+  },
+  {
+   "city": "Spring City",
+   "slug": "spring-city",
+   "counties": [
+    "RHEA"
+   ],
+   "codes": [
+    "7203"
+   ],
+   "rooftops": 1093,
+   "file_elsewhere": 27,
+   "file_uninc": 27,
+   "file_claims": 18,
+   "layers_claim": 14,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.11
+  },
+  {
+   "city": "Spring Hill",
+   "slug": "spring-hill",
+   "counties": [
+    "MAURY",
+    "WILLIAMSON"
+   ],
+   "codes": [
+    "6003",
+    "9404"
+   ],
+   "rooftops": 28946,
+   "file_elsewhere": 203,
+   "file_uninc": 21,
+   "file_claims": 862,
+   "layers_claim": 5,
+   "biz": 2476,
+   "cc": 0,
+   "br": 144,
+   "pe": 262,
+   "labels": 2778,
+   "mb": 2.17
+  },
+  {
+   "city": "Springfield",
+   "slug": "springfield",
+   "counties": [
+    "ROBERTSON"
+   ],
+   "codes": [
+    "7401"
+   ],
+   "rooftops": 9406,
+   "file_elsewhere": 70,
+   "file_uninc": 70,
+   "file_claims": 171,
+   "layers_claim": 292,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.43
+  },
+  {
+   "city": "St. Joseph",
+   "slug": "st-joseph",
+   "counties": [
+    "LAWRENCE"
+   ],
+   "codes": [
+    "5004"
+   ],
+   "rooftops": 533,
+   "file_elsewhere": 6,
+   "file_uninc": 5,
+   "file_claims": 66,
+   "layers_claim": 0,
+   "biz": 14,
+   "cc": 0,
+   "br": 0,
+   "pe": 2,
+   "labels": 17,
+   "mb": 0.27
+  },
+  {
+   "city": "Stanton",
+   "slug": "stanton",
+   "counties": [
+    "HAYWOOD"
+   ],
+   "codes": [
+    "3802"
+   ],
+   "rooftops": 245,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 7,
+   "cc": 0,
+   "br": 0,
+   "pe": 12,
+   "labels": 20,
+   "mb": 0.01
+  },
+  {
+   "city": "Stantonville",
+   "slug": "stantonville",
+   "counties": [
+    "MCNAIRY"
+   ],
+   "codes": [
+    "5507"
+   ],
+   "rooftops": 208,
+   "file_elsewhere": 11,
+   "file_uninc": 11,
+   "file_claims": 7,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "Sunbright",
+   "slug": "sunbright",
+   "counties": [
+    "MORGAN"
+   ],
+   "codes": [
+    "6504"
+   ],
+   "rooftops": 420,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 46,
+   "layers_claim": 24,
+   "biz": 22,
+   "cc": 0,
+   "br": 1,
+   "pe": 46,
+   "labels": 68,
+   "mb": 0.08
+  },
+  {
+   "city": "Surgoinsville",
+   "slug": "surgoinsville",
+   "counties": [
+    "HAWKINS"
+   ],
+   "codes": [
+    "3705"
+   ],
+   "rooftops": 1133,
+   "file_elsewhere": 4,
+   "file_uninc": 3,
+   "file_claims": 79,
+   "layers_claim": 0,
+   "biz": 34,
+   "cc": 0,
+   "br": 0,
+   "pe": 57,
+   "labels": 92,
+   "mb": 0.51
+  },
+  {
+   "city": "Sweetwater",
+   "slug": "sweetwater",
+   "counties": [
+    "MCMINN",
+    "MONROE"
+   ],
+   "codes": [
+    "5406",
+    "6202"
+   ],
+   "rooftops": 4069,
+   "file_elsewhere": 13,
+   "file_uninc": 13,
+   "file_claims": 114,
+   "layers_claim": 9,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 2,
+   "labels": 2,
+   "mb": 0.23
+  },
+  {
+   "city": "Tazewell",
+   "slug": "tazewell",
+   "counties": [
+    "CLAIBORNE"
+   ],
+   "codes": [
+    "1301"
+   ],
+   "rooftops": 1492,
+   "file_elsewhere": 33,
+   "file_uninc": 33,
+   "file_claims": 26,
+   "layers_claim": 0,
+   "biz": 57,
+   "cc": 0,
+   "br": 9,
+   "pe": 126,
+   "labels": 187,
+   "mb": 0.25
+  },
+  {
+   "city": "Tellico Plains",
+   "slug": "tellico-plains",
+   "counties": [
+    "MONROE"
+   ],
+   "codes": [
+    "6203"
+   ],
+   "rooftops": 870,
+   "file_elsewhere": 58,
+   "file_uninc": 58,
+   "file_claims": 197,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.04
+  },
+  {
+   "city": "Tennessee Ridge",
+   "slug": "tennessee-ridge",
+   "counties": [
+    "HOUSTON"
+   ],
+   "codes": [
+    "4202"
+   ],
+   "rooftops": 753,
+   "file_elsewhere": 7,
+   "file_uninc": 0,
+   "file_claims": 20,
+   "layers_claim": 0,
+   "biz": 12,
+   "cc": 0,
+   "br": 0,
+   "pe": 11,
+   "labels": 23,
+   "mb": 0.61
+  },
+  {
+   "city": "Thompson'S Station",
+   "slug": "thompson-s-station",
+   "counties": [
+    "WILLIAMSON"
+   ],
+   "codes": [
+    "9405"
+   ],
+   "rooftops": 4572,
+   "file_elsewhere": 175,
+   "file_uninc": 158,
+   "file_claims": 378,
+   "layers_claim": 9,
+   "biz": 762,
+   "cc": 0,
+   "br": 43,
+   "pe": 0,
+   "labels": 817,
+   "mb": 0.83
+  },
+  {
+   "city": "Three Way",
+   "slug": "three-way",
+   "counties": [
+    "MADISON"
+   ],
+   "codes": [
+    "5706"
+   ],
+   "rooftops": 1124,
+   "file_elsewhere": 2,
+   "file_uninc": 2,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 45,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 45,
+   "mb": 0.52
+  },
+  {
+   "city": "Tiptonville",
+   "slug": "tiptonville",
+   "counties": [
+    "LAKE"
+   ],
+   "codes": [
+    "4801"
+   ],
+   "rooftops": 975,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 5,
+   "layers_claim": 5,
+   "biz": 25,
+   "cc": 0,
+   "br": 3,
+   "pe": 9,
+   "labels": 35,
+   "mb": 0.31
+  },
+  {
+   "city": "Toone",
+   "slug": "toone",
+   "counties": [
+    "HARDEMAN"
+   ],
+   "codes": [
+    "3508"
+   ],
+   "rooftops": 198,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 9,
+   "layers_claim": 4,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "Townsend",
+   "slug": "townsend",
+   "counties": [
+    "BLOUNT"
+   ],
+   "codes": [
+    "0504"
+   ],
+   "rooftops": 764,
+   "file_elsewhere": 5,
+   "file_uninc": 5,
+   "file_claims": 23,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.09
+  },
+  {
+   "city": "Tracy City",
+   "slug": "tracy-city",
+   "counties": [
+    "GRUNDY"
+   ],
+   "codes": [
+    "3106"
+   ],
+   "rooftops": 1370,
+   "file_elsewhere": 11,
+   "file_uninc": 11,
+   "file_claims": 61,
+   "layers_claim": 0,
+   "biz": 22,
+   "cc": 0,
+   "br": 0,
+   "pe": 35,
+   "labels": 58,
+   "mb": 0.14
+  },
+  {
+   "city": "Trenton",
+   "slug": "trenton",
+   "counties": [
+    "GIBSON"
+   ],
+   "codes": [
+    "2701"
+   ],
+   "rooftops": 2396,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 9,
+   "layers_claim": 1,
+   "biz": 60,
+   "cc": 0,
+   "br": 0,
+   "pe": 75,
+   "labels": 137,
+   "mb": 0.09
+  },
+  {
+   "city": "Trezevant",
+   "slug": "trezevant",
+   "counties": [
+    "CARROLL"
+   ],
+   "codes": [
+    "0908"
+   ],
+   "rooftops": 570,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 49,
+   "layers_claim": 0,
+   "biz": 4,
+   "cc": 0,
+   "br": 0,
+   "pe": 7,
+   "labels": 12,
+   "mb": 0.02
+  },
+  {
+   "city": "Trimble",
+   "slug": "trimble",
+   "counties": [
+    "DYER",
+    "OBION"
+   ],
+   "codes": [
+    "2303",
+    "6610"
+   ],
+   "rooftops": 354,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 0,
+   "biz": 11,
+   "cc": 0,
+   "br": 8,
+   "pe": 3,
+   "labels": 14,
+   "mb": 0.03
+  },
+  {
+   "city": "Troy",
+   "slug": "troy",
+   "counties": [
+    "OBION"
+   ],
+   "codes": [
+    "6608"
+   ],
+   "rooftops": 816,
+   "file_elsewhere": 1,
+   "file_uninc": 0,
+   "file_claims": 13,
+   "layers_claim": 2,
+   "biz": 5,
+   "cc": 0,
+   "br": 0,
+   "pe": 27,
+   "labels": 32,
+   "mb": 0.06
+  },
+  {
+   "city": "Tullahoma",
+   "slug": "tullahoma",
+   "counties": [
+    "COFFEE",
+    "FRANKLIN"
+   ],
+   "codes": [
+    "1602",
+    "2606"
+   ],
+   "rooftops": 9959,
+   "file_elsewhere": 12,
+   "file_uninc": 12,
+   "file_claims": 126,
+   "layers_claim": 0,
+   "biz": 739,
+   "cc": 5,
+   "br": 39,
+   "pe": 107,
+   "labels": 855,
+   "mb": 0.63
+  },
+  {
+   "city": "Tusculum",
+   "slug": "tusculum",
+   "counties": [
+    "GREENE"
+   ],
+   "codes": [
+    "3003"
+   ],
+   "rooftops": 1039,
+   "file_elsewhere": 9,
+   "file_uninc": 9,
+   "file_claims": 71,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.34
+  },
+  {
+   "city": "Unicoi",
+   "slug": "unicoi",
+   "counties": [
+    "UNICOI"
+   ],
+   "codes": [
+    "8602"
+   ],
+   "rooftops": 1970,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 2,
+   "layers_claim": 0,
+   "biz": 25,
+   "cc": 0,
+   "br": 0,
+   "pe": 15,
+   "labels": 40,
+   "mb": 0.11
+  },
+  {
+   "city": "Union City",
+   "slug": "union-city",
+   "counties": [
+    "OBION"
+   ],
+   "codes": [
+    "6601"
+   ],
+   "rooftops": 6429,
+   "file_elsewhere": 76,
+   "file_uninc": 9,
+   "file_claims": 28,
+   "layers_claim": 0,
+   "biz": 38,
+   "cc": 0,
+   "br": 2,
+   "pe": 67,
+   "labels": 107,
+   "mb": 0.29
+  },
+  {
+   "city": "Vanleer",
+   "slug": "vanleer",
+   "counties": [
+    "DICKSON"
+   ],
+   "codes": [
+    "2205"
+   ],
+   "rooftops": 304,
+   "file_elsewhere": 16,
+   "file_uninc": 16,
+   "file_claims": 23,
+   "layers_claim": 3,
+   "biz": 15,
+   "cc": 0,
+   "br": 6,
+   "pe": 31,
+   "labels": 47,
+   "mb": 0.08
+  },
+  {
+   "city": "Viola",
+   "slug": "viola",
+   "counties": [
+    "WARREN"
+   ],
+   "codes": [
+    "8904"
+   ],
+   "rooftops": 88,
+   "file_elsewhere": 6,
+   "file_uninc": 0,
+   "file_claims": 0,
+   "layers_claim": 5,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.01
+  },
+  {
+   "city": "Vonore",
+   "slug": "vonore",
+   "counties": [
+    "MONROE"
+   ],
+   "codes": [
+    "6204"
+   ],
+   "rooftops": 1535,
+   "file_elsewhere": 27,
+   "file_uninc": 27,
+   "file_claims": 12,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.12
+  },
+  {
+   "city": "Walden",
+   "slug": "walden",
+   "counties": [
+    "HAMILTON"
+   ],
+   "codes": [
+    "3310"
+   ],
+   "rooftops": 973,
+   "file_elsewhere": 41,
+   "file_uninc": 29,
+   "file_claims": 65,
+   "layers_claim": 0,
+   "biz": 143,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 149,
+   "mb": 1.1
+  },
+  {
+   "city": "Wartburg",
+   "slug": "wartburg",
+   "counties": [
+    "MORGAN"
+   ],
+   "codes": [
+    "6501"
+   ],
+   "rooftops": 609,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 35,
+   "layers_claim": 27,
+   "biz": 31,
+   "cc": 0,
+   "br": 0,
+   "pe": 43,
+   "labels": 75,
+   "mb": 0.04
+  },
+  {
+   "city": "Wartrace",
+   "slug": "wartrace",
+   "counties": [
+    "BEDFORD"
+   ],
+   "codes": [
+    "0204"
+   ],
+   "rooftops": 332,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 14,
+   "cc": 0,
+   "br": 2,
+   "pe": 68,
+   "labels": 84,
+   "mb": 0.07
+  },
+  {
+   "city": "Watauga",
+   "slug": "watauga",
+   "counties": [
+    "CARTER",
+    "WASHINGTON"
+   ],
+   "codes": [
+    "1002",
+    "9003"
+   ],
+   "rooftops": 223,
+   "file_elsewhere": 0,
+   "file_uninc": 0,
+   "file_claims": 116,
+   "layers_claim": 0,
+   "biz": 3,
+   "cc": 0,
+   "br": 1,
+   "pe": 19,
+   "labels": 23,
+   "mb": 3.29
+  },
+  {
+   "city": "Watertown",
+   "slug": "watertown",
+   "counties": [
+    "WILSON"
+   ],
+   "codes": [
+    "9502"
+   ],
+   "rooftops": 783,
+   "file_elsewhere": 5,
+   "file_uninc": 5,
+   "file_claims": 52,
+   "layers_claim": 6,
+   "biz": 120,
+   "cc": 0,
+   "br": 15,
+   "pe": 152,
+   "labels": 302,
+   "mb": 0.27
+  },
+  {
+   "city": "Waverly",
+   "slug": "waverly",
+   "counties": [
+    "HUMPHREYS"
+   ],
+   "codes": [
+    "4301"
+   ],
+   "rooftops": 2121,
+   "file_elsewhere": 15,
+   "file_uninc": 15,
+   "file_claims": 29,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.13
+  },
+  {
+   "city": "Waynesboro",
+   "slug": "waynesboro",
+   "counties": [
+    "WAYNE"
+   ],
+   "codes": [
+    "9101"
+   ],
+   "rooftops": 1287,
+   "file_elsewhere": 35,
+   "file_uninc": 35,
+   "file_claims": 76,
+   "layers_claim": 0,
+   "biz": 40,
+   "cc": 0,
+   "br": 5,
+   "pe": 58,
+   "labels": 98,
+   "mb": 0.1
+  },
+  {
+   "city": "Westmoreland",
+   "slug": "westmoreland",
+   "counties": [
+    "SUMNER"
+   ],
+   "codes": [
+    "8304"
+   ],
+   "rooftops": 1614,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 133,
+   "layers_claim": 182,
+   "biz": 82,
+   "cc": 0,
+   "br": 5,
+   "pe": 88,
+   "labels": 219,
+   "mb": 0.55
+  },
+  {
+   "city": "White Bluff",
+   "slug": "white-bluff",
+   "counties": [
+    "DICKSON"
+   ],
+   "codes": [
+    "2206"
+   ],
+   "rooftops": 2186,
+   "file_elsewhere": 38,
+   "file_uninc": 38,
+   "file_claims": 95,
+   "layers_claim": 6,
+   "biz": 94,
+   "cc": 0,
+   "br": 9,
+   "pe": 90,
+   "labels": 187,
+   "mb": 0.24
+  },
+  {
+   "city": "White House",
+   "slug": "white-house",
+   "counties": [
+    "ROBERTSON",
+    "SUMNER"
+   ],
+   "codes": [
+    "7407",
+    "8306"
+   ],
+   "rooftops": 5178,
+   "file_elsewhere": 3,
+   "file_uninc": 3,
+   "file_claims": 978,
+   "layers_claim": 523,
+   "biz": 59,
+   "cc": 0,
+   "br": 12,
+   "pe": 37,
+   "labels": 96,
+   "mb": 0.5
+  },
+  {
+   "city": "White Pine",
+   "slug": "white-pine",
+   "counties": [
+    "HAMBLEN",
+    "JEFFERSON"
+   ],
+   "codes": [
+    "3202",
+    "4503"
+   ],
+   "rooftops": 1213,
+   "file_elsewhere": 5,
+   "file_uninc": 5,
+   "file_claims": 170,
+   "layers_claim": 78,
+   "biz": 60,
+   "cc": 0,
+   "br": 12,
+   "pe": 84,
+   "labels": 146,
+   "mb": 0.47
+  },
+  {
+   "city": "Whiteville",
+   "slug": "whiteville",
+   "counties": [
+    "HARDEMAN"
+   ],
+   "codes": [
+    "3509"
+   ],
+   "rooftops": 791,
+   "file_elsewhere": 3,
+   "file_uninc": 1,
+   "file_claims": 8,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.15
+  },
+  {
+   "city": "Whitwell",
+   "slug": "whitwell",
+   "counties": [
+    "MARION"
+   ],
+   "codes": [
+    "5806"
+   ],
+   "rooftops": 985,
+   "file_elsewhere": 4,
+   "file_uninc": 1,
+   "file_claims": 14,
+   "layers_claim": 0,
+   "biz": 4,
+   "cc": 0,
+   "br": 2,
+   "pe": 78,
+   "labels": 83,
+   "mb": 0.07
+  },
+  {
+   "city": "Williston",
+   "slug": "williston",
+   "counties": [
+    "FAYETTE"
+   ],
+   "codes": [
+    "2408"
+   ],
+   "rooftops": 210,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 3,
+   "layers_claim": 0,
+   "biz": 6,
+   "cc": 0,
+   "br": 0,
+   "pe": 21,
+   "labels": 27,
+   "mb": 0.03
+  },
+  {
+   "city": "Winchester",
+   "slug": "winchester",
+   "counties": [
+    "FRANKLIN"
+   ],
+   "codes": [
+    "2601"
+   ],
+   "rooftops": 5451,
+   "file_elsewhere": 31,
+   "file_uninc": 7,
+   "file_claims": 130,
+   "layers_claim": 2,
+   "biz": 360,
+   "cc": 0,
+   "br": 45,
+   "pe": 193,
+   "labels": 564,
+   "mb": 5.73
+  },
+  {
+   "city": "Winfield",
+   "slug": "winfield",
+   "counties": [
+    "SCOTT"
+   ],
+   "codes": [
+    "7603"
+   ],
+   "rooftops": 628,
+   "file_elsewhere": 28,
+   "file_uninc": 26,
+   "file_claims": 214,
+   "layers_claim": 13,
+   "biz": 26,
+   "cc": 0,
+   "br": 4,
+   "pe": 26,
+   "labels": 53,
+   "mb": 0.38
+  },
+  {
+   "city": "Woodbury",
+   "slug": "woodbury",
+   "counties": [
+    "CANNON"
+   ],
+   "codes": [
+    "0801"
+   ],
+   "rooftops": 1609,
+   "file_elsewhere": 1,
+   "file_uninc": 1,
+   "file_claims": 69,
+   "layers_claim": 18,
+   "biz": 85,
+   "cc": 0,
+   "br": 22,
+   "pe": 188,
+   "labels": 276,
+   "mb": 0.15
+  },
+  {
+   "city": "Woodland Mills",
+   "slug": "woodland-mills",
+   "counties": [
+    "OBION"
+   ],
+   "codes": [
+    "6609"
+   ],
+   "rooftops": 193,
+   "file_elsewhere": 8,
+   "file_uninc": 8,
+   "file_claims": 11,
+   "layers_claim": 0,
+   "biz": 0,
+   "cc": 0,
+   "br": 0,
+   "pe": 0,
+   "labels": 0,
+   "mb": 0.23
+  },
+  {
+   "city": "Yorkville",
+   "slug": "yorkville",
+   "counties": [
+    "GIBSON"
+   ],
+   "codes": [
+    "2709"
+   ],
+   "rooftops": 141,
+   "file_elsewhere": 7,
+   "file_uninc": 7,
+   "file_claims": 6,
+   "layers_claim": 0,
+   "biz": 4,
+   "cc": 0,
+   "br": 2,
+   "pe": 15,
+   "labels": 19,
+   "mb": 0.05
+  }
+ ]
+}

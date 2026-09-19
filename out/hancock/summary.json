@@ -1,7 +1,7 @@
 {
   "county": "HANCOCK",
   "slug": "hancock",
-  "generated_utc": "2026-09-13T05:31:42.933901+00:00",
+  "generated_utc": "2026-09-13T17:22:51.142688+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 5047,
     "unplaced": 7,
     "sst_range_match_rate_pct": 71.7,
-    "business_points": 85,
+    "business_points": 87,
     "seams": 4,
     "seam_miles": 75.3,
     "cross_county_seam_miles": 60.7
@@ -47,8 +47,8 @@
     "E3_BOUNDARY_PROXIMITY": 101
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 3556,
-    "REVIEW - analyst": 1454,
+    "READY - analyst sign-off then submit": 3557,
+    "REVIEW - analyst": 1453,
     "HOLD - insufficient evidence": 21,
     "HOLD - mandatory human adjudication": 16
   },
@@ -77,11 +77,11 @@
   },
   "business_flags": {
     "POSTAL_CITY_EXPOSURE": 46,
-    "CROSS_COUNTY_POSTAL": 21,
+    "CROSS_COUNTY_POSTAL": 23,
     "": 16
   },
   "label_kinds": {
-    "business": 83,
+    "business": 85,
     "institution": 2
   }
 }

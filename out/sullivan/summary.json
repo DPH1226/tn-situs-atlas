@@ -1,7 +1,7 @@
 {
   "county": "SULLIVAN",
   "slug": "sullivan",
-  "generated_utc": "2026-09-13T05:52:45.430627+00:00",
+  "generated_utc": "2026-09-13T17:38:47.883716+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 91357,
     "unplaced": 16,
     "sst_range_match_rate_pct": 86.3,
-    "business_points": 4735,
+    "business_points": 4761,
     "seams": 11,
     "seam_miles": 396.1,
     "cross_county_seam_miles": 84.9
@@ -53,8 +53,8 @@
     "E3_BOUNDARY_PROXIMITY": 7445
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 73579,
-    "REVIEW - analyst": 15295,
+    "READY - analyst sign-off then submit": 73583,
+    "REVIEW - analyst": 15291,
     "HOLD - mandatory human adjudication": 1250,
     "HOLD - insufficient evidence": 1233
   },
@@ -102,13 +102,13 @@
     "polygon 8203 -> file 8200": 9
   },
   "business_flags": {
-    "": 3372,
-    "POSTAL_CITY_EXPOSURE": 985,
+    "": 3389,
+    "POSTAL_CITY_EXPOSURE": 994,
     "BOUNDARY_RISK": 316,
     "CROSS_COUNTY_POSTAL": 11
   },
   "label_kinds": {
-    "business": 4684,
+    "business": 4710,
     "place": 29,
     "institution": 19,
     "unnamed": 3

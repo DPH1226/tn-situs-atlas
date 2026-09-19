@@ -1,7 +1,7 @@
 {
   "county": "DYER",
   "slug": "dyer",
-  "generated_utc": "2026-09-13T05:26:39.468998+00:00",
+  "generated_utc": "2026-09-13T17:18:53.145322+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 20734,
     "unplaced": 0,
     "sst_range_match_rate_pct": 85.5,
-    "business_points": 805,
+    "business_points": 807,
     "seams": 9,
     "seam_miles": 157.3,
     "cross_county_seam_miles": 90.2
@@ -86,14 +86,14 @@
     "polygon 2300 -> file 2302": 17
   },
   "business_flags": {
-    "": 511,
+    "": 512,
     "POSTAL_CITY_EXPOSURE": 235,
     "BOUNDARY_RISK": 42,
     "CROSS_COUNTY_POSTAL": 12
   },
   "label_kinds": {
-    "business": 800,
-    "place": 3,
+    "business": 801,
+    "place": 4,
     "institution": 2
   }
 }

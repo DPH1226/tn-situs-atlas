@@ -1,7 +1,7 @@
 {
   "county": "MACON",
   "slug": "macon",
-  "generated_utc": "2026-09-13T05:39:54.807482+00:00",
+  "generated_utc": "2026-09-13T17:28:47.863453+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 16991,
     "unplaced": 2,
     "sst_range_match_rate_pct": 86.1,
-    "business_points": 563,
+    "business_points": 566,
     "seams": 7,
     "seam_miles": 99.2,
     "cross_county_seam_miles": 51.9
@@ -83,13 +83,13 @@
     "polygon 5602 -> file 5600": 20
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 301,
-    "": 140,
+    "POSTAL_CITY_EXPOSURE": 302,
+    "": 142,
     "CROSS_COUNTY_POSTAL": 95,
     "BOUNDARY_RISK": 20
   },
   "label_kinds": {
-    "business": 556,
+    "business": 559,
     "institution": 5,
     "place": 2
   }

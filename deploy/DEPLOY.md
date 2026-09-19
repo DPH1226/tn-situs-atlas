@@ -14,13 +14,13 @@ for either half if you'd rather keep it there.
 The credentialed steps below are yours to run — the tooling here doesn't hold your GitHub or
 Railway logins.
 
+The repo is already initialized with one commit on `main` at `~/Downloads/tn-situs-atlas`
+(cloned from the git bundle in `~/Downloads/tn-situs-atlas-bundle/`). From Terminal:
+
 ```bash
-cd ~/Downloads/civvix-wilson-situs
-git init -b main
-git add .
-git commit -m "Tennessee situs engine + atlas, 95 counties"
+cd ~/Downloads/tn-situs-atlas
 # with the GitHub CLI (brew install gh; gh auth login):
-gh repo create navigation-holdings/tn-situs-atlas --private --source . --push
+gh repo create tn-situs-atlas --private --source . --push
 # or without gh: create an empty private repo in the browser, then
 #   git remote add origin git@github.com:<you>/tn-situs-atlas.git && git push -u origin main
 ```

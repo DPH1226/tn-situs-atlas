@@ -1,7 +1,7 @@
 {
   "county": "GILES",
   "slug": "giles",
-  "generated_utc": "2026-09-13T05:29:58.677111+00:00",
+  "generated_utc": "2026-09-13T17:21:36.890476+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -26,7 +26,7 @@
     "address_points": 19408,
     "unplaced": 1,
     "sst_range_match_rate_pct": 87.6,
-    "business_points": 854,
+    "business_points": 855,
     "seams": 10,
     "seam_miles": 207.6,
     "cross_county_seam_miles": 99.6
@@ -110,13 +110,13 @@
     "polygon 2803 -> file 2800": 3
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 407,
+    "POSTAL_CITY_EXPOSURE": 408,
     "": 339,
     "BOUNDARY_RISK": 56,
     "CROSS_COUNTY_POSTAL": 38
   },
   "label_kinds": {
-    "business": 840,
+    "business": 841,
     "place": 7,
     "institution": 7
   }

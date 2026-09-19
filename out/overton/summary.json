@@ -1,7 +1,7 @@
 {
   "county": "OVERTON",
   "slug": "overton",
-  "generated_utc": "2026-09-13T05:43:15.454530+00:00",
+  "generated_utc": "2026-09-13T17:31:38.235906+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 14666,
     "unplaced": 0,
     "sst_range_match_rate_pct": 85.5,
-    "business_points": 604,
+    "business_points": 605,
     "seams": 6,
     "seam_miles": 116.3,
     "cross_county_seam_miles": 98.1
@@ -83,12 +83,12 @@
   },
   "business_flags": {
     "": 305,
-    "POSTAL_CITY_EXPOSURE": 155,
+    "POSTAL_CITY_EXPOSURE": 156,
     "CROSS_COUNTY_POSTAL": 129,
     "BOUNDARY_RISK": 9
   },
   "label_kinds": {
-    "business": 598,
+    "business": 599,
     "institution": 5,
     "place": 1
   }

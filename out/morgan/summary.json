@@ -1,7 +1,7 @@
 {
   "county": "MORGAN",
   "slug": "morgan",
-  "generated_utc": "2026-09-13T05:42:55.635213+00:00",
+  "generated_utc": "2026-09-13T17:31:21.434198+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 14151,
     "unplaced": 0,
     "sst_range_match_rate_pct": 84.8,
-    "business_points": 384,
+    "business_points": 389,
     "seams": 12,
     "seam_miles": 147.7,
     "cross_county_seam_miles": 118.0
@@ -53,8 +53,8 @@
     "E3_BOUNDARY_PROXIMITY": 319
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 11740,
-    "REVIEW - analyst": 2258,
+    "READY - analyst sign-off then submit": 11741,
+    "REVIEW - analyst": 2257,
     "HOLD - mandatory human adjudication": 112,
     "HOLD - insufficient evidence": 41
   },
@@ -93,13 +93,13 @@
     "polygon 6501 -> file 6500": 2
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 173,
-    "": 157,
-    "CROSS_COUNTY_POSTAL": 46,
+    "POSTAL_CITY_EXPOSURE": 174,
+    "": 160,
+    "CROSS_COUNTY_POSTAL": 47,
     "BOUNDARY_RISK": 1
   },
   "label_kinds": {
-    "business": 377,
+    "business": 382,
     "place": 5,
     "institution": 2
   }

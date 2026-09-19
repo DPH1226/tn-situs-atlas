@@ -1,7 +1,7 @@
 {
   "county": "HICKMAN",
   "slug": "hickman",
-  "generated_utc": "2026-09-13T05:34:03.555165+00:00",
+  "generated_utc": "2026-09-13T17:24:46.592327+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 13376,
     "unplaced": 0,
     "sst_range_match_rate_pct": 81.7,
-    "business_points": 532,
+    "business_points": 536,
     "seams": 8,
     "seam_miles": 159.8,
     "cross_county_seam_miles": 115.1
@@ -83,13 +83,13 @@
     "polygon 4100 -> file 4101": 200
   },
   "business_flags": {
-    "": 413,
-    "POSTAL_CITY_EXPOSURE": 87,
+    "": 414,
+    "POSTAL_CITY_EXPOSURE": 90,
     "CROSS_COUNTY_POSTAL": 19,
     "BOUNDARY_RISK": 10
   },
   "label_kinds": {
-    "business": 529,
+    "business": 533,
     "place": 2,
     "institution": 1
   }

@@ -1,7 +1,7 @@
 {
   "county": "LEWIS",
   "slug": "lewis",
-  "generated_utc": "2026-09-13T05:38:59.746748+00:00",
+  "generated_utc": "2026-09-13T17:28:02.115825+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 9257,
     "unplaced": 0,
     "sst_range_match_rate_pct": 82.2,
-    "business_points": 413,
+    "business_points": 414,
     "seams": 6,
     "seam_miles": 116.5,
     "cross_county_seam_miles": 94.4
@@ -78,13 +78,13 @@
     "polygon 5101 -> file 5100": 119
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 184,
+    "POSTAL_CITY_EXPOSURE": 185,
     "": 145,
     "CROSS_COUNTY_POSTAL": 69,
     "BOUNDARY_RISK": 6
   },
   "label_kinds": {
-    "business": 404,
+    "business": 405,
     "place": 7,
     "unnamed": 1,
     "institution": 1

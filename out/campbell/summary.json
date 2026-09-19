@@ -1,7 +1,7 @@
 {
   "county": "CAMPBELL",
   "slug": "campbell",
-  "generated_utc": "2026-09-13T05:23:34.593697+00:00",
+  "generated_utc": "2026-09-13T17:16:27.660295+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -26,7 +26,7 @@
     "address_points": 24724,
     "unplaced": 0,
     "sst_range_match_rate_pct": 90.8,
-    "business_points": 1083,
+    "business_points": 1089,
     "seams": 11,
     "seam_miles": 196.5,
     "cross_county_seam_miles": 111.3
@@ -98,13 +98,13 @@
     "polygon 0705 -> file 0700": 1
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 628,
-    "": 359,
+    "POSTAL_CITY_EXPOSURE": 632,
+    "": 361,
     "CROSS_COUNTY_POSTAL": 48,
     "BOUNDARY_RISK": 31
   },
   "label_kinds": {
-    "business": 1066,
+    "business": 1072,
     "place": 10,
     "institution": 7
   }

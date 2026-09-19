@@ -1,7 +1,7 @@
 {
   "county": "HENRY",
   "slug": "henry",
-  "generated_utc": "2026-09-13T05:33:37.842304+00:00",
+  "generated_utc": "2026-09-13T17:24:25.343398+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -26,7 +26,7 @@
     "address_points": 25384,
     "unplaced": 6,
     "sst_range_match_rate_pct": 83.1,
-    "business_points": 816,
+    "business_points": 820,
     "seams": 10,
     "seam_miles": 146.7,
     "cross_county_seam_miles": 94.5
@@ -93,12 +93,12 @@
     "polygon 4002 -> file 4000": 3
   },
   "business_flags": {
-    "": 515,
-    "POSTAL_CITY_EXPOSURE": 277,
+    "": 518,
+    "POSTAL_CITY_EXPOSURE": 278,
     "BOUNDARY_RISK": 17
   },
   "label_kinds": {
-    "business": 809,
+    "business": 813,
     "place": 5,
     "institution": 2
   }

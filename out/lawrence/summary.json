@@ -1,7 +1,7 @@
 {
   "county": "LAWRENCE",
   "slug": "lawrence",
-  "generated_utc": "2026-09-13T05:38:52.339974+00:00",
+  "generated_utc": "2026-09-13T17:27:56.133163+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 25571,
     "unplaced": 0,
     "sst_range_match_rate_pct": 87.9,
-    "business_points": 1075,
+    "business_points": 1079,
     "seams": 8,
     "seam_miles": 178.3,
     "cross_county_seam_miles": 97.2
@@ -96,13 +96,13 @@
     "polygon 5004 -> file 5003": 1
   },
   "business_flags": {
-    "": 674,
-    "POSTAL_CITY_EXPOSURE": 330,
+    "": 676,
+    "POSTAL_CITY_EXPOSURE": 332,
     "BOUNDARY_RISK": 40,
     "CROSS_COUNTY_POSTAL": 17
   },
   "label_kinds": {
-    "business": 1061,
+    "business": 1065,
     "place": 9,
     "institution": 5
   }

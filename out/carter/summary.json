@@ -1,7 +1,7 @@
 {
   "county": "CARTER",
   "slug": "carter",
-  "generated_utc": "2026-09-13T05:24:14.892976+00:00",
+  "generated_utc": "2026-09-13T17:17:00.369771+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 34699,
     "unplaced": 1,
     "sst_range_match_rate_pct": 88.9,
-    "business_points": 981,
+    "business_points": 986,
     "seams": 15,
     "seam_miles": 143.4,
     "cross_county_seam_miles": 75.5
@@ -51,8 +51,8 @@
     "E3_BOUNDARY_PROXIMITY": 2585
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 28693,
-    "REVIEW - analyst": 5353,
+    "READY - analyst sign-off then submit": 28697,
+    "REVIEW - analyst": 5349,
     "HOLD - mandatory human adjudication": 406,
     "HOLD - insufficient evidence": 247
   },
@@ -84,14 +84,14 @@
     "polygon 1003 -> file 1000": 27
   },
   "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 456,
     "": 455,
-    "POSTAL_CITY_EXPOSURE": 452,
     "BOUNDARY_RISK": 33,
     "CROSS_COUNTY_POSTAL": 27
   },
   "label_kinds": {
-    "business": 967,
-    "place": 11,
+    "business": 971,
+    "place": 12,
     "institution": 3
   }
 }

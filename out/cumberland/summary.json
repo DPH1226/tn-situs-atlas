@@ -1,7 +1,7 @@
 {
   "county": "CUMBERLAND",
   "slug": "cumberland",
-  "generated_utc": "2026-09-13T05:25:39.084279+00:00",
+  "generated_utc": "2026-09-13T17:18:04.204703+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 46157,
     "unplaced": 0,
     "sst_range_match_rate_pct": 86.9,
-    "business_points": 1885,
+    "business_points": 1894,
     "seams": 11,
     "seam_miles": 244.4,
     "cross_county_seam_miles": 127.1
@@ -51,8 +51,8 @@
     "E3_BOUNDARY_PROXIMITY": 2154
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 38398,
-    "REVIEW - analyst": 6934,
+    "READY - analyst sign-off then submit": 38403,
+    "REVIEW - analyst": 6929,
     "HOLD - mandatory human adjudication": 516,
     "HOLD - insufficient evidence": 309
   },
@@ -90,13 +90,13 @@
     "polygon 1800 -> file 1802": 1
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 932,
-    "": 801,
+    "POSTAL_CITY_EXPOSURE": 938,
+    "": 803,
     "CROSS_COUNTY_POSTAL": 85,
-    "BOUNDARY_RISK": 45
+    "BOUNDARY_RISK": 46
   },
   "label_kinds": {
-    "business": 1863,
+    "business": 1872,
     "place": 13,
     "institution": 8,
     "unnamed": 1

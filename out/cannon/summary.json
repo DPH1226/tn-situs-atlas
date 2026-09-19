@@ -1,7 +1,7 @@
 {
   "county": "CANNON",
   "slug": "cannon",
-  "generated_utc": "2026-09-13T05:23:42.584228+00:00",
+  "generated_utc": "2026-09-13T17:16:34.084597+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 8425,
     "unplaced": 0,
     "sst_range_match_rate_pct": 92.5,
-    "business_points": 449,
+    "business_points": 451,
     "seams": 7,
     "seam_miles": 107.3,
     "cross_county_seam_miles": 80.4
@@ -86,12 +86,12 @@
   },
   "business_flags": {
     "POSTAL_CITY_EXPOSURE": 210,
-    "": 135,
+    "": 137,
     "CROSS_COUNTY_POSTAL": 70,
     "BOUNDARY_RISK": 30
   },
   "label_kinds": {
-    "business": 445,
+    "business": 447,
     "institution": 3,
     "place": 1
   }

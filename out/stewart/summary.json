@@ -1,7 +1,7 @@
 {
   "county": "STEWART",
   "slug": "stewart",
-  "generated_utc": "2026-09-13T05:49:46.454487+00:00",
+  "generated_utc": "2026-09-13T17:36:36.048359+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 9149,
     "unplaced": 0,
     "sst_range_match_rate_pct": 80.2,
-    "business_points": 289,
+    "business_points": 291,
     "seams": 8,
     "seam_miles": 85.6,
     "cross_county_seam_miles": 53.5
@@ -49,8 +49,8 @@
     "E3_BOUNDARY_PROXIMITY": 349
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 7066,
-    "REVIEW - analyst": 2013,
+    "READY - analyst sign-off then submit": 7067,
+    "REVIEW - analyst": 2012,
     "HOLD - insufficient evidence": 41,
     "HOLD - mandatory human adjudication": 29
   },
@@ -81,12 +81,12 @@
     "polygon 8100 -> file 8102": 7
   },
   "business_flags": {
-    "": 138,
-    "POSTAL_CITY_EXPOSURE": 129,
+    "": 139,
+    "POSTAL_CITY_EXPOSURE": 130,
     "BOUNDARY_RISK": 12,
     "CROSS_COUNTY_POSTAL": 10
   },
   "label_kinds": {
-    "business": 289
+    "business": 291
   }
 }

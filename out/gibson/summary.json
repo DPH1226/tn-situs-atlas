@@ -1,7 +1,7 @@
 {
   "county": "GIBSON",
   "slug": "gibson",
-  "generated_utc": "2026-09-13T05:29:22.956019+00:00",
+  "generated_utc": "2026-09-13T17:21:08.064550+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -31,7 +31,7 @@
     "address_points": 26797,
     "unplaced": 0,
     "sst_range_match_rate_pct": 80.8,
-    "business_points": 1106,
+    "business_points": 1109,
     "seams": 21,
     "seam_miles": 267.9,
     "cross_county_seam_miles": 124.2
@@ -65,8 +65,8 @@
     "E3_BOUNDARY_PROXIMITY": 1290
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 20899,
-    "REVIEW - analyst": 5430,
+    "READY - analyst sign-off then submit": 20900,
+    "REVIEW - analyst": 5429,
     "HOLD - insufficient evidence": 275,
     "HOLD - mandatory human adjudication": 193
   },
@@ -120,13 +120,13 @@
     "polygon 2708 -> file 2703": 1
   },
   "business_flags": {
-    "": 602,
-    "POSTAL_CITY_EXPOSURE": 442,
+    "": 604,
+    "POSTAL_CITY_EXPOSURE": 443,
     "BOUNDARY_RISK": 53,
     "CROSS_COUNTY_POSTAL": 1
   },
   "label_kinds": {
-    "business": 1098,
+    "business": 1101,
     "institution": 7,
     "place": 1
   }

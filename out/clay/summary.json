@@ -1,7 +1,7 @@
 {
   "county": "CLAY",
   "slug": "clay",
-  "generated_utc": "2026-09-13T05:24:40.055903+00:00",
+  "generated_utc": "2026-09-13T17:17:15.192941+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 6480,
     "unplaced": 26,
     "sst_range_match_rate_pct": 83.3,
-    "business_points": 219,
+    "business_points": 222,
     "seams": 5,
     "seam_miles": 72.8,
     "cross_county_seam_miles": 66.2
@@ -74,13 +74,13 @@
     "polygon 1400 -> file 1401": 7
   },
   "business_flags": {
+    "POSTAL_CITY_EXPOSURE": 88,
     "": 87,
-    "POSTAL_CITY_EXPOSURE": 85,
     "CROSS_COUNTY_POSTAL": 44,
     "BOUNDARY_RISK": 1
   },
   "label_kinds": {
-    "business": 217,
+    "business": 220,
     "place": 2
   }
 }

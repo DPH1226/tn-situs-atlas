@@ -1,7 +1,7 @@
 {
   "county": "MARSHALL",
   "slug": "marshall",
-  "generated_utc": "2026-09-13T05:41:00.294069+00:00",
+  "generated_utc": "2026-09-13T17:29:42.306685+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 19971,
     "unplaced": 0,
     "sst_range_match_rate_pct": 91.0,
-    "business_points": 1203,
+    "business_points": 1212,
     "seams": 11,
     "seam_miles": 209.4,
     "cross_county_seam_miles": 116.4
@@ -98,13 +98,13 @@
     "polygon 5900 -> file 5904": 2
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 579,
-    "": 512,
-    "BOUNDARY_RISK": 47,
-    "CROSS_COUNTY_POSTAL": 46
+    "POSTAL_CITY_EXPOSURE": 582,
+    "": 517,
+    "CROSS_COUNTY_POSTAL": 47,
+    "BOUNDARY_RISK": 47
   },
   "label_kinds": {
-    "business": 1184,
+    "business": 1193,
     "institution": 16,
     "unnamed": 2,
     "place": 1

@@ -1,7 +1,7 @@
 {
   "county": "SMITH",
   "slug": "smith",
-  "generated_utc": "2026-09-13T05:49:12.423352+00:00",
+  "generated_utc": "2026-09-13T17:36:13.221085+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 11185,
     "unplaced": 0,
     "sst_range_match_rate_pct": 87.0,
-    "business_points": 495,
+    "business_points": 499,
     "seams": 10,
     "seam_miles": 131.3,
     "cross_county_seam_miles": 99.6
@@ -51,8 +51,8 @@
     "E3_BOUNDARY_PROXIMITY": 316
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 9514,
-    "REVIEW - analyst": 1577,
+    "READY - analyst sign-off then submit": 9515,
+    "REVIEW - analyst": 1576,
     "HOLD - mandatory human adjudication": 48,
     "HOLD - insufficient evidence": 46
   },
@@ -100,14 +100,14 @@
     "polygon 8000 -> file 8002": 1
   },
   "business_flags": {
-    "": 316,
+    "": 320,
     "POSTAL_CITY_EXPOSURE": 134,
     "CROSS_COUNTY_POSTAL": 35,
     "BOUNDARY_RISK": 6
   },
   "label_kinds": {
-    "business": 491,
-    "institution": 2,
-    "place": 2
+    "business": 495,
+    "place": 2,
+    "institution": 2
   }
 }

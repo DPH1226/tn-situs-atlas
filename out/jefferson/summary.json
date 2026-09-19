@@ -1,7 +1,7 @@
 {
   "county": "JEFFERSON",
   "slug": "jefferson",
-  "generated_utc": "2026-09-13T05:34:58.652032+00:00",
+  "generated_utc": "2026-09-13T17:25:31.136339+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -26,7 +26,7 @@
     "address_points": 31958,
     "unplaced": 0,
     "sst_range_match_rate_pct": 90.1,
-    "business_points": 1595,
+    "business_points": 1600,
     "seams": 15,
     "seam_miles": 245.0,
     "cross_county_seam_miles": 111.1
@@ -105,13 +105,13 @@
     "polygon 4502 -> file 4504": 3
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 961,
-    "": 388,
+    "POSTAL_CITY_EXPOSURE": 965,
+    "": 389,
     "CROSS_COUNTY_POSTAL": 157,
     "BOUNDARY_RISK": 64
   },
   "label_kinds": {
-    "business": 1570,
+    "business": 1575,
     "place": 16,
     "institution": 7,
     "unnamed": 2

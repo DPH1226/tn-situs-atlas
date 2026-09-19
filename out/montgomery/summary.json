@@ -1,7 +1,7 @@
 {
   "county": "MONTGOMERY",
   "slug": "montgomery",
-  "generated_utc": "2026-09-13T05:43:03.505009+00:00",
+  "generated_utc": "2026-09-13T17:31:30.271174+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 100325,
     "unplaced": 2,
     "sst_range_match_rate_pct": 93.6,
-    "business_points": 7415,
+    "business_points": 7468,
     "seams": 6,
     "seam_miles": 147.6,
     "cross_county_seam_miles": 78.9
@@ -47,8 +47,8 @@
     "E3_BOUNDARY_PROXIMITY": 2343
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 92017,
-    "REVIEW - analyst": 7759,
+    "READY - analyst sign-off then submit": 92018,
+    "REVIEW - analyst": 7758,
     "HOLD - mandatory human adjudication": 493,
     "HOLD - insufficient evidence": 56
   },
@@ -86,13 +86,13 @@
     "polygon 6301 -> file 6300": 198
   },
   "business_flags": {
-    "": 5613,
-    "POSTAL_CITY_EXPOSURE": 1569,
+    "": 5656,
+    "POSTAL_CITY_EXPOSURE": 1579,
     "BOUNDARY_RISK": 124,
     "CROSS_COUNTY_POSTAL": 25
   },
   "label_kinds": {
-    "business": 7331,
+    "business": 7384,
     "institution": 45,
     "place": 34,
     "unnamed": 5

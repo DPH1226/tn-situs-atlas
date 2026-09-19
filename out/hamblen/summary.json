@@ -1,7 +1,7 @@
 {
   "county": "HAMBLEN",
   "slug": "hamblen",
-  "generated_utc": "2026-09-13T05:31:35.971256+00:00",
+  "generated_utc": "2026-09-13T17:22:45.704716+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 35416,
     "unplaced": 0,
     "sst_range_match_rate_pct": 94.3,
-    "business_points": 1936,
+    "business_points": 1945,
     "seams": 10,
     "seam_miles": 215.7,
     "cross_county_seam_miles": 93.4
@@ -79,13 +79,13 @@
     "polygon 3201 -> file 3200": 256
   },
   "business_flags": {
-    "": 1300,
-    "POSTAL_CITY_EXPOSURE": 481,
+    "": 1305,
+    "POSTAL_CITY_EXPOSURE": 485,
     "BOUNDARY_RISK": 123,
     "CROSS_COUNTY_POSTAL": 7
   },
   "label_kinds": {
-    "business": 1911,
+    "business": 1920,
     "place": 14,
     "institution": 8,
     "unnamed": 3

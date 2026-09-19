@@ -40,7 +40,7 @@ jobs:
           python3 run_all.py --skip-ingest --workers 4 ${{ inputs.county && format('--counties {0}', inputs.county) || '' }}
       - name: Build site
         if: steps.watch.outputs.changed == 'true' || inputs.force
-        run: python3 build_index.py && python3 build_site.py
+        run: python3 build_index.py && python3 build_cities.py && python3 build_site.py
       - name: Upload snapshots
         if: steps.watch.outputs.changed == 'true' || inputs.force
         uses: actions/upload-artifact@v4

@@ -1,7 +1,7 @@
 {
   "county": "GRAINGER",
   "slug": "grainger",
-  "generated_utc": "2026-09-13T05:30:25.801192+00:00",
+  "generated_utc": "2026-09-13T17:21:58.389457+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 17630,
     "unplaced": 0,
     "sst_range_match_rate_pct": 82.7,
-    "business_points": 550,
+    "business_points": 554,
     "seams": 13,
     "seam_miles": 203.6,
     "cross_county_seam_miles": 136.4
@@ -87,13 +87,13 @@
     "polygon 2902 -> file 2900": 3
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 303,
+    "POSTAL_CITY_EXPOSURE": 307,
     "": 215,
     "CROSS_COUNTY_POSTAL": 12,
     "BOUNDARY_RISK": 9
   },
   "label_kinds": {
-    "business": 539,
+    "business": 543,
     "place": 8,
     "institution": 3
   }

@@ -1,7 +1,7 @@
 {
   "county": "JOHNSON",
   "slug": "johnson",
-  "generated_utc": "2026-09-13T05:35:07.391236+00:00",
+  "generated_utc": "2026-09-13T17:25:38.366310+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 11979,
     "unplaced": 0,
     "sst_range_match_rate_pct": 78.6,
-    "business_points": 415,
+    "business_points": 416,
     "seams": 3,
     "seam_miles": 55.7,
     "cross_county_seam_miles": 43.0
@@ -70,11 +70,11 @@
   },
   "business_flags": {
     "POSTAL_CITY_EXPOSURE": 217,
-    "": 184,
+    "": 185,
     "BOUNDARY_RISK": 2
   },
   "label_kinds": {
-    "business": 403,
+    "business": 404,
     "place": 7,
     "institution": 5
   }

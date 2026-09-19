@@ -1,7 +1,7 @@
 {
   "county": "MCMINN",
   "slug": "mcminn",
-  "generated_utc": "2026-09-13T05:41:54.740985+00:00",
+  "generated_utc": "2026-09-13T17:30:40.469747+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -27,7 +27,7 @@
     "address_points": 32588,
     "unplaced": 0,
     "sst_range_match_rate_pct": 41.3,
-    "business_points": 680,
+    "business_points": 681,
     "seams": 17,
     "seam_miles": 195.2,
     "cross_county_seam_miles": 107.2
@@ -103,13 +103,13 @@
     "polygon 5406 -> file 5400": 1
   },
   "business_flags": {
-    "": 581,
+    "": 582,
     "POSTAL_CITY_EXPOSURE": 62,
     "BOUNDARY_RISK": 35
   },
   "label_kinds": {
-    "business": 678,
-    "institution": 1,
-    "place": 1
+    "business": 679,
+    "place": 1,
+    "institution": 1
   }
 }

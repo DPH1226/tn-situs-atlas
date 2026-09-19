@@ -1,7 +1,7 @@
 {
   "county": "GRUNDY",
   "slug": "grundy",
-  "generated_utc": "2026-09-13T05:31:09.326234+00:00",
+  "generated_utc": "2026-09-13T17:22:26.339282+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -28,7 +28,7 @@
     "address_points": 10275,
     "unplaced": 0,
     "sst_range_match_rate_pct": 69.2,
-    "business_points": 223,
+    "business_points": 225,
     "seams": 18,
     "seam_miles": 207.7,
     "cross_county_seam_miles": 90.2
@@ -59,8 +59,8 @@
     "E3_BOUNDARY_PROXIMITY": 900
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 6541,
-    "REVIEW - analyst": 3416,
+    "READY - analyst sign-off then submit": 6543,
+    "REVIEW - analyst": 3414,
     "HOLD - insufficient evidence": 219,
     "HOLD - mandatory human adjudication": 99
   },
@@ -111,12 +111,12 @@
     "polygon 3104 -> file 3106": 2
   },
   "business_flags": {
-    "": 102,
+    "": 104,
     "POSTAL_CITY_EXPOSURE": 91,
     "BOUNDARY_RISK": 27
   },
   "label_kinds": {
-    "business": 220,
+    "business": 222,
     "institution": 2,
     "unnamed": 1
   }

@@ -1,7 +1,7 @@
 {
   "county": "PICKETT",
   "slug": "pickett",
-  "generated_utc": "2026-09-13T05:43:22.195825+00:00",
+  "generated_utc": "2026-09-13T17:31:44.337737+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 4748,
     "unplaced": 0,
     "sst_range_match_rate_pct": 79.2,
-    "business_points": 111,
+    "business_points": 113,
     "seams": 5,
     "seam_miles": 71.4,
     "cross_county_seam_miles": 64.4
@@ -76,13 +76,13 @@
     "polygon 6901 -> file 6900": 11
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 71,
+    "POSTAL_CITY_EXPOSURE": 73,
     "": 22,
     "CROSS_COUNTY_POSTAL": 16,
     "BOUNDARY_RISK": 1
   },
   "label_kinds": {
-    "business": 110,
+    "business": 112,
     "place": 1
   }
 }

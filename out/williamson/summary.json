@@ -1,7 +1,7 @@
 {
   "county": "WILLIAMSON",
   "slug": "williamson",
-  "generated_utc": "2026-09-13T05:59:33.188931+00:00",
+  "generated_utc": "2026-09-13T17:43:57.124546+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -27,7 +27,7 @@
     "address_points": 123055,
     "unplaced": 0,
     "sst_range_match_rate_pct": 90.9,
-    "business_points": 28037,
+    "business_points": 28157,
     "seams": 24,
     "seam_miles": 403.4,
     "cross_county_seam_miles": 121.5
@@ -57,8 +57,8 @@
     "E3_BOUNDARY_PROXIMITY": 5948
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 108628,
-    "REVIEW - analyst": 12746,
+    "READY - analyst sign-off then submit": 108638,
+    "REVIEW - analyst": 12736,
     "HOLD - mandatory human adjudication": 1247,
     "HOLD - insufficient evidence": 434
   },
@@ -111,14 +111,14 @@
     "polygon 9404 -> file 9401": 2
   },
   "business_flags": {
-    "": 26007,
-    "BOUNDARY_RISK": 1614,
-    "POSTAL_CITY_EXPOSURE": 75
+    "": 26119,
+    "BOUNDARY_RISK": 1619,
+    "POSTAL_CITY_EXPOSURE": 76
   },
   "label_kinds": {
-    "business": 27696,
+    "business": 27814,
     "institution": 162,
-    "place": 158,
+    "place": 160,
     "unnamed": 21
   }
 }

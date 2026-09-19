@@ -1,7 +1,7 @@
 {
   "county": "COCKE",
   "slug": "cocke",
-  "generated_utc": "2026-09-13T05:24:53.505635+00:00",
+  "generated_utc": "2026-09-13T17:17:26.762387+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 30347,
     "unplaced": 0,
     "sst_range_match_rate_pct": 36.1,
-    "business_points": 669,
+    "business_points": 675,
     "seams": 6,
     "seam_miles": 126.3,
     "cross_county_seam_miles": 82.0
@@ -49,8 +49,8 @@
     "E3_BOUNDARY_PROXIMITY": 1512
   },
   "dispositions": {
-    "REVIEW - analyst": 17663,
-    "READY - analyst sign-off then submit": 11367,
+    "REVIEW - analyst": 17661,
+    "READY - analyst sign-off then submit": 11369,
     "HOLD - insufficient evidence": 966,
     "HOLD - mandatory human adjudication": 351
   },
@@ -90,12 +90,12 @@
     "polygon 1501 -> file 1500": 1
   },
   "business_flags": {
-    "": 326,
-    "POSTAL_CITY_EXPOSURE": 320,
+    "": 328,
+    "POSTAL_CITY_EXPOSURE": 324,
     "BOUNDARY_RISK": 15
   },
   "label_kinds": {
-    "business": 661,
+    "business": 667,
     "place": 7,
     "institution": 1
   }

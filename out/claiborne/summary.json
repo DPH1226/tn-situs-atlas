@@ -1,7 +1,7 @@
 {
   "county": "CLAIBORNE",
   "slug": "claiborne",
-  "generated_utc": "2026-09-13T05:24:47.344227+00:00",
+  "generated_utc": "2026-09-13T17:17:20.970390+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 20343,
     "unplaced": 2,
     "sst_range_match_rate_pct": 87.7,
-    "business_points": 625,
+    "business_points": 632,
     "seams": 9,
     "seam_miles": 138.9,
     "cross_county_seam_miles": 88.3
@@ -87,12 +87,12 @@
     "polygon 1303 -> file 1301": 5
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 307,
-    "": 288,
+    "POSTAL_CITY_EXPOSURE": 310,
+    "": 292,
     "BOUNDARY_RISK": 16
   },
   "label_kinds": {
-    "business": 611,
+    "business": 618,
     "place": 10,
     "institution": 4
   }

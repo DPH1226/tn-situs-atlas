@@ -1,7 +1,7 @@
 {
   "county": "HAMILTON",
   "slug": "hamilton",
-  "generated_utc": "2026-09-13T05:38:00.640043+00:00",
+  "generated_utc": "2026-09-13T17:27:14.679888+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -31,7 +31,7 @@
     "address_points": 217394,
     "unplaced": 5,
     "sst_range_match_rate_pct": 94.8,
-    "business_points": 21262,
+    "business_points": 21382,
     "seams": 24,
     "seam_miles": 376.1,
     "cross_county_seam_miles": 95.5
@@ -65,8 +65,8 @@
     "E3_BOUNDARY_PROXIMITY": 8268
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 200147,
-    "REVIEW - analyst": 15705,
+    "READY - analyst sign-off then submit": 200155,
+    "REVIEW - analyst": 15697,
     "HOLD - mandatory human adjudication": 947,
     "HOLD - insufficient evidence": 595
   },
@@ -144,13 +144,13 @@
     "polygon 3305 -> file 3301": 1
   },
   "business_flags": {
-    "": 18559,
-    "POSTAL_CITY_EXPOSURE": 1805,
-    "BOUNDARY_RISK": 612,
+    "": 18669,
+    "POSTAL_CITY_EXPOSURE": 1812,
+    "BOUNDARY_RISK": 615,
     "CROSS_COUNTY_POSTAL": 100
   },
   "label_kinds": {
-    "business": 21076,
+    "business": 21196,
     "place": 104,
     "institution": 69,
     "unnamed": 13

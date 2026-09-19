@@ -1,7 +1,7 @@
 {
   "county": "SUMNER",
   "slug": "sumner",
-  "generated_utc": "2026-09-13T05:54:38.759280+00:00",
+  "generated_utc": "2026-09-13T17:40:19.181223+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -29,7 +29,7 @@
     "address_points": 107045,
     "unplaced": 5,
     "sst_range_match_rate_pct": 93.1,
-    "business_points": 14938,
+    "business_points": 14987,
     "seams": 31,
     "seam_miles": 376.7,
     "cross_county_seam_miles": 96.6
@@ -61,8 +61,8 @@
     "E3_BOUNDARY_PROXIMITY": 7271
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 94152,
-    "REVIEW - analyst": 11010,
+    "READY - analyst sign-off then submit": 94156,
+    "REVIEW - analyst": 11006,
     "HOLD - mandatory human adjudication": 1438,
     "HOLD - insufficient evidence": 445
   },
@@ -119,16 +119,16 @@
     "polygon 8305 -> file 8307": 2
   },
   "business_flags": {
-    "": 10182,
-    "POSTAL_CITY_EXPOSURE": 2306,
-    "BOUNDARY_RISK": 477,
+    "": 10218,
+    "POSTAL_CITY_EXPOSURE": 2316,
+    "BOUNDARY_RISK": 478,
     "CODED_MISMATCH": 46
   },
   "label_kinds": {
-    "business": 13011,
+    "business": 13058,
     "place": 1723,
     "unnamed": 144,
-    "institution": 60
+    "institution": 62
   },
   "calibration_source": {
     "rows_with_coded_situs": 2429,

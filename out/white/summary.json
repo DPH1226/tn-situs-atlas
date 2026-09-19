@@ -1,7 +1,7 @@
 {
   "county": "WHITE",
   "slug": "white",
-  "generated_utc": "2026-09-13T05:57:52.091477+00:00",
+  "generated_utc": "2026-09-13T17:42:39.908119+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -23,7 +23,7 @@
     "address_points": 17781,
     "unplaced": 0,
     "sst_range_match_rate_pct": 92.3,
-    "business_points": 803,
+    "business_points": 808,
     "seams": 8,
     "seam_miles": 139.4,
     "cross_county_seam_miles": 114.4
@@ -74,15 +74,15 @@
     "polygon 9302 -> file 9300": 5
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 481,
-    "": 284,
+    "POSTAL_CITY_EXPOSURE": 485,
+    "": 285,
     "CROSS_COUNTY_POSTAL": 20,
     "BOUNDARY_RISK": 12
   },
   "label_kinds": {
-    "business": 797,
+    "business": 802,
     "unnamed": 2,
-    "place": 2,
-    "institution": 2
+    "institution": 2,
+    "place": 2
   }
 }

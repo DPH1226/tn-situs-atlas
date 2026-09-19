@@ -1,7 +1,7 @@
 {
   "county": "HOUSTON",
   "slug": "houston",
-  "generated_utc": "2026-09-13T05:34:15.262609+00:00",
+  "generated_utc": "2026-09-13T17:24:56.595230+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -92,7 +92,7 @@
   },
   "label_kinds": {
     "business": 130,
-    "place": 1,
-    "institution": 1
+    "institution": 1,
+    "place": 1
   }
 }

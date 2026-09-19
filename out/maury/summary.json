@@ -1,7 +1,7 @@
 {
   "county": "MAURY",
   "slug": "maury",
-  "generated_utc": "2026-09-13T05:42:02.789029+00:00",
+  "generated_utc": "2026-09-13T17:30:35.165334+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 65225,
     "unplaced": 0,
     "sst_range_match_rate_pct": 93.9,
-    "business_points": 4819,
+    "business_points": 4850,
     "seams": 12,
     "seam_miles": 353.0,
     "cross_county_seam_miles": 133.3
@@ -98,13 +98,13 @@
     "polygon 6003 -> file 6000": 16
   },
   "business_flags": {
-    "": 3212,
-    "POSTAL_CITY_EXPOSURE": 1305,
-    "BOUNDARY_RISK": 244,
+    "": 3229,
+    "POSTAL_CITY_EXPOSURE": 1316,
+    "BOUNDARY_RISK": 247,
     "CROSS_COUNTY_POSTAL": 6
   },
   "label_kinds": {
-    "business": 4767,
+    "business": 4798,
     "institution": 28,
     "place": 20,
     "unnamed": 4

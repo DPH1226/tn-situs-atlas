@@ -1,7 +1,7 @@
 {
   "county": "FAYETTE",
   "slug": "fayette",
-  "generated_utc": "2026-09-13T05:27:02.603384+00:00",
+  "generated_utc": "2026-09-13T17:19:12.711561+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -31,7 +31,7 @@
     "address_points": 24330,
     "unplaced": 0,
     "sst_range_match_rate_pct": 82.8,
-    "business_points": 1493,
+    "business_points": 1503,
     "seams": 20,
     "seam_miles": 237.5,
     "cross_county_seam_miles": 81.9
@@ -65,8 +65,8 @@
     "E3_BOUNDARY_PROXIMITY": 1627
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 18969,
-    "REVIEW - analyst": 4742,
+    "READY - analyst sign-off then submit": 18972,
+    "REVIEW - analyst": 4739,
     "HOLD - mandatory human adjudication": 361,
     "HOLD - insufficient evidence": 258
   },
@@ -129,13 +129,13 @@
     "polygon 2400 -> file 2402": 1
   },
   "business_flags": {
-    "": 722,
-    "POSTAL_CITY_EXPOSURE": 541,
-    "CROSS_COUNTY_POSTAL": 142,
+    "": 726,
+    "POSTAL_CITY_EXPOSURE": 543,
+    "CROSS_COUNTY_POSTAL": 146,
     "BOUNDARY_RISK": 70
   },
   "label_kinds": {
-    "business": 1475,
+    "business": 1485,
     "institution": 11,
     "place": 6,
     "unnamed": 1

@@ -1,7 +1,7 @@
 {
   "county": "SCOTT",
   "slug": "scott",
-  "generated_utc": "2026-09-13T05:46:06.130026+00:00",
+  "generated_utc": "2026-09-13T17:33:47.543865+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 14305,
     "unplaced": 1,
     "sst_range_match_rate_pct": 84.1,
-    "business_points": 575,
+    "business_points": 578,
     "seams": 9,
     "seam_miles": 203.3,
     "cross_county_seam_miles": 91.6
@@ -93,12 +93,12 @@
     "polygon 7601 -> file 7602": 1
   },
   "business_flags": {
-    "": 336,
-    "POSTAL_CITY_EXPOSURE": 190,
+    "": 337,
+    "POSTAL_CITY_EXPOSURE": 192,
     "BOUNDARY_RISK": 41
   },
   "label_kinds": {
-    "business": 567,
+    "business": 570,
     "place": 6,
     "institution": 2
   }

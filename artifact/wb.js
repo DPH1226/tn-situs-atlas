@@ -280,7 +280,7 @@
   (function () {
     var L = $("layers"), items = [
       ["hd", "Layers"], ["situs", "DOR situs polygons", "--s-9501"], ["seams", "Jurisdictional seams", "--ink"], ["annex", "Annexations (" + nf(W.annexations.features.length) + ")", "--annex"],
-      ["roads", "Roads (NG911)", "--road-major"], ["band", "Boundary-band rooftops (" + nf(W.band_pts.length) + ")", "--sev-high"],
+      ["roads", "Roads (NG911)", "--road-major"], ["band", "Boundary-band rooftops (" + (W.band_total && W.band_total > W.band_pts.length ? nf(W.band_pts.length) + " of " + nf(W.band_total) + " drawn" : nf(W.band_pts.length)) + ")", "--sev-high"],
       ["labels", "Non-business labels (" + nf(BIZ.filter(function (b) { return b.kind !== "business"; }).length) + ")", "--ink-3"], ["hd", "Businesses"],
       ["f:CROSS_COUNTY_POSTAL", "Cross-county postal", "--sev-crit"], ["f:BOUNDARY_RISK", "Boundary risk", "--sev-high"], ["f:POSTAL_CITY_EXPOSURE", "Postal exposure", "--sev-watch"], ["f:CODED_MISMATCH", "Coded ≠ measured (DOR file)", "--ink"], ["f:CLEAR", "No flag", "--ink-3"]];
     items.forEach(function (it) {

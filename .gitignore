@@ -23,3 +23,6 @@ artifact/*/
 !artifact/wb.js
 !artifact/workbench.html
 !artifact/atlas.html
+
+data/sos_base_RECORDS_*.txt
+data/sos_prev/

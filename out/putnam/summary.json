@@ -1,7 +1,7 @@
 {
   "county": "PUTNAM",
   "slug": "putnam",
-  "generated_utc": "2026-09-13T05:43:55.086037+00:00",
+  "generated_utc": "2026-09-13T17:32:08.006517+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 48279,
     "unplaced": 0,
     "sst_range_match_rate_pct": 94.7,
-    "business_points": 3031,
+    "business_points": 3039,
     "seams": 12,
     "seam_miles": 238.1,
     "cross_county_seam_miles": 152.2
@@ -94,13 +94,13 @@
     "polygon 7102 -> file 7100": 3
   },
   "business_flags": {
-    "": 1945,
-    "POSTAL_CITY_EXPOSURE": 967,
+    "": 1949,
+    "POSTAL_CITY_EXPOSURE": 971,
     "BOUNDARY_RISK": 64,
     "CROSS_COUNTY_POSTAL": 19
   },
   "label_kinds": {
-    "business": 2995,
+    "business": 3003,
     "place": 18,
     "institution": 14,
     "unnamed": 4

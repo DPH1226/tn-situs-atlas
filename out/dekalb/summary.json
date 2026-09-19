@@ -1,7 +1,7 @@
 {
   "county": "DEKALB",
   "slug": "dekalb",
-  "generated_utc": "2026-09-13T05:26:01.753381+00:00",
+  "generated_utc": "2026-09-13T17:18:23.190559+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 13498,
     "unplaced": 0,
     "sst_range_match_rate_pct": 82.8,
-    "business_points": 690,
+    "business_points": 695,
     "seams": 11,
     "seam_miles": 152.0,
     "cross_county_seam_miles": 108.1
@@ -97,13 +97,13 @@
     "polygon 2103 -> file 2100": 1
   },
   "business_flags": {
-    "": 582,
+    "": 586,
     "CROSS_COUNTY_POSTAL": 60,
     "BOUNDARY_RISK": 33,
-    "POSTAL_CITY_EXPOSURE": 8
+    "POSTAL_CITY_EXPOSURE": 9
   },
   "label_kinds": {
-    "business": 683,
+    "business": 688,
     "place": 4,
     "institution": 3
   }

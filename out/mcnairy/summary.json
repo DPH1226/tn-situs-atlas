@@ -1,7 +1,7 @@
 {
   "county": "MCNAIRY",
   "slug": "mcnairy",
-  "generated_utc": "2026-09-13T05:42:23.421123+00:00",
+  "generated_utc": "2026-09-13T17:30:56.397508+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -31,7 +31,7 @@
     "address_points": 17688,
     "unplaced": 2,
     "sst_range_match_rate_pct": 75.2,
-    "business_points": 591,
+    "business_points": 594,
     "seams": 20,
     "seam_miles": 224.9,
     "cross_county_seam_miles": 84.3
@@ -127,13 +127,13 @@
     "polygon 5505 -> file 5500": 1
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 284,
-    "": 277,
+    "POSTAL_CITY_EXPOSURE": 286,
+    "": 278,
     "BOUNDARY_RISK": 19,
     "CROSS_COUNTY_POSTAL": 6
   },
   "label_kinds": {
-    "business": 586,
+    "business": 589,
     "place": 3,
     "unnamed": 1,
     "institution": 1

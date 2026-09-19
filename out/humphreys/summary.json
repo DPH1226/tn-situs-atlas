@@ -1,7 +1,7 @@
 {
   "county": "HUMPHREYS",
   "slug": "humphreys",
-  "generated_utc": "2026-09-13T05:34:26.699788+00:00",
+  "generated_utc": "2026-09-13T17:25:06.551267+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 11899,
     "unplaced": 0,
     "sst_range_match_rate_pct": 83.1,
-    "business_points": 438,
+    "business_points": 442,
     "seams": 9,
     "seam_miles": 169.0,
     "cross_county_seam_miles": 112.2
@@ -73,12 +73,12 @@
     "polygon 4303 -> file 4300": 2
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 253,
+    "POSTAL_CITY_EXPOSURE": 257,
     "": 169,
     "BOUNDARY_RISK": 12
   },
   "label_kinds": {
-    "business": 434,
+    "business": 438,
     "institution": 2,
     "place": 1,
     "unnamed": 1

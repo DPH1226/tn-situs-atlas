@@ -1,7 +1,7 @@
 {
   "county": "LOUDON",
   "slug": "loudon",
-  "generated_utc": "2026-09-13T05:39:44.095540+00:00",
+  "generated_utc": "2026-09-13T17:28:38.362934+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -26,7 +26,7 @@
     "address_points": 35719,
     "unplaced": 0,
     "sst_range_match_rate_pct": 86.4,
-    "business_points": 2037,
+    "business_points": 2049,
     "seams": 18,
     "seam_miles": 252.2,
     "cross_county_seam_miles": 116.7
@@ -55,8 +55,8 @@
     "E3_BOUNDARY_PROXIMITY": 3050
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 28707,
-    "REVIEW - analyst": 6190,
+    "READY - analyst sign-off then submit": 28708,
+    "REVIEW - analyst": 6189,
     "HOLD - mandatory human adjudication": 437,
     "HOLD - insufficient evidence": 385
   },
@@ -101,13 +101,13 @@
     "polygon 5305 -> file 5300": 1
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 1394,
-    "": 495,
+    "POSTAL_CITY_EXPOSURE": 1404,
+    "": 497,
     "BOUNDARY_RISK": 80,
     "CROSS_COUNTY_POSTAL": 46
   },
   "label_kinds": {
-    "business": 2015,
+    "business": 2027,
     "institution": 11,
     "place": 9,
     "unnamed": 2

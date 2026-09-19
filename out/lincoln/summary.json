@@ -1,7 +1,7 @@
 {
   "county": "LINCOLN",
   "slug": "lincoln",
-  "generated_utc": "2026-09-13T05:39:20.052400+00:00",
+  "generated_utc": "2026-09-13T17:28:18.696364+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -24,7 +24,7 @@
     "address_points": 20910,
     "unplaced": 2,
     "sst_range_match_rate_pct": 96.4,
-    "business_points": 959,
+    "business_points": 962,
     "seams": 10,
     "seam_miles": 141.6,
     "cross_county_seam_miles": 86.7
@@ -89,12 +89,12 @@
     "polygon 5200 -> file 5202": 2
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 474,
-    "": 443,
+    "POSTAL_CITY_EXPOSURE": 476,
+    "": 444,
     "BOUNDARY_RISK": 30
   },
   "label_kinds": {
-    "business": 947,
+    "business": 950,
     "place": 10,
     "institution": 2
   }

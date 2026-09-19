@@ -1,7 +1,7 @@
 {
   "county": "TROUSDALE",
   "slug": "trousdale",
-  "generated_utc": "2026-09-13T05:55:14.606618+00:00",
+  "generated_utc": "2026-09-13T17:40:52.300571+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -21,7 +21,7 @@
     "address_points": 6315,
     "unplaced": 0,
     "sst_range_match_rate_pct": 85.2,
-    "business_points": 297,
+    "business_points": 298,
     "seams": 4,
     "seam_miles": 61.4,
     "cross_county_seam_miles": 61.4
@@ -78,11 +78,11 @@
   "dor_conflict_direction": {},
   "business_flags": {
     "POSTAL_CITY_EXPOSURE": 151,
-    "": 85,
+    "": 86,
     "CROSS_COUNTY_POSTAL": 56
   },
   "label_kinds": {
-    "business": 292,
+    "business": 293,
     "institution": 3,
     "place": 2
   }

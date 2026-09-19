@@ -1,7 +1,7 @@
 {
   "county": "ROBERTSON",
   "slug": "robertson",
-  "generated_utc": "2026-09-13T05:45:46.098537+00:00",
+  "generated_utc": "2026-09-13T17:33:31.514575+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -32,7 +32,7 @@
     "address_points": 38872,
     "unplaced": 6,
     "sst_range_match_rate_pct": 89.7,
-    "business_points": 2803,
+    "business_points": 2812,
     "seams": 33,
     "seam_miles": 287.5,
     "cross_county_seam_miles": 72.9
@@ -141,13 +141,13 @@
     "polygon 7406 -> file 7404": 1
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 1302,
-    "": 1185,
-    "CROSS_COUNTY_POSTAL": 186,
+    "POSTAL_CITY_EXPOSURE": 1306,
+    "": 1189,
+    "CROSS_COUNTY_POSTAL": 187,
     "BOUNDARY_RISK": 107
   },
   "label_kinds": {
-    "business": 2780,
+    "business": 2789,
     "place": 12,
     "institution": 7,
     "unnamed": 4

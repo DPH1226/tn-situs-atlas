@@ -1,7 +1,7 @@
 {
   "county": "OBION",
   "slug": "obion",
-  "generated_utc": "2026-09-13T05:43:10.435506+00:00",
+  "generated_utc": "2026-09-13T17:31:34.362252+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -31,7 +31,7 @@
     "address_points": 18463,
     "unplaced": 1,
     "sst_range_match_rate_pct": 78.4,
-    "business_points": 726,
+    "business_points": 729,
     "seams": 16,
     "seam_miles": 206.8,
     "cross_county_seam_miles": 86.8
@@ -126,13 +126,13 @@
     "polygon 6608 -> file 6601": 1
   },
   "business_flags": {
-    "": 441,
-    "POSTAL_CITY_EXPOSURE": 226,
+    "": 442,
+    "POSTAL_CITY_EXPOSURE": 228,
     "BOUNDARY_RISK": 52,
     "CROSS_COUNTY_POSTAL": 2
   },
   "label_kinds": {
-    "business": 721,
+    "business": 724,
     "place": 5
   }
 }

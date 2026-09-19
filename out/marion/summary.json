@@ -1,7 +1,7 @@
 {
   "county": "MARION",
   "slug": "marion",
-  "generated_utc": "2026-09-13T05:40:48.920798+00:00",
+  "generated_utc": "2026-09-13T17:29:31.229529+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -29,7 +29,7 @@
     "address_points": 19388,
     "unplaced": 1,
     "sst_range_match_rate_pct": 67.9,
-    "business_points": 722,
+    "business_points": 725,
     "seams": 17,
     "seam_miles": 198.8,
     "cross_county_seam_miles": 78.1
@@ -114,13 +114,13 @@
     "polygon 5806 -> file 5802": 1
   },
   "business_flags": {
-    "": 340,
-    "POSTAL_CITY_EXPOSURE": 288,
+    "": 342,
+    "POSTAL_CITY_EXPOSURE": 289,
     "CROSS_COUNTY_POSTAL": 58,
     "BOUNDARY_RISK": 29
   },
   "label_kinds": {
-    "business": 715,
+    "business": 718,
     "institution": 4,
     "place": 3
   }

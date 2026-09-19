@@ -1,7 +1,7 @@
 {
   "county": "HARDIN",
   "slug": "hardin",
-  "generated_utc": "2026-09-13T05:32:09.371377+00:00",
+  "generated_utc": "2026-09-13T17:23:15.168491+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -26,7 +26,7 @@
     "address_points": 24064,
     "unplaced": 0,
     "sst_range_match_rate_pct": 82.5,
-    "business_points": 612,
+    "business_points": 622,
     "seams": 18,
     "seam_miles": 167.3,
     "cross_county_seam_miles": 86.9
@@ -55,8 +55,8 @@
     "E3_BOUNDARY_PROXIMITY": 985
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 18684,
-    "REVIEW - analyst": 4583,
+    "READY - analyst sign-off then submit": 18685,
+    "REVIEW - analyst": 4582,
     "HOLD - mandatory human adjudication": 694,
     "HOLD - insufficient evidence": 103
   },
@@ -111,13 +111,13 @@
     "polygon 3602 -> file 3600": 2
   },
   "business_flags": {
-    "": 364,
-    "POSTAL_CITY_EXPOSURE": 205,
+    "": 368,
+    "POSTAL_CITY_EXPOSURE": 210,
     "CROSS_COUNTY_POSTAL": 23,
-    "BOUNDARY_RISK": 11
+    "BOUNDARY_RISK": 12
   },
   "label_kinds": {
-    "business": 603,
+    "business": 613,
     "place": 7,
     "institution": 2
   }

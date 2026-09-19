@@ -1,7 +1,7 @@
 {
   "county": "CHEATHAM",
   "slug": "cheatham",
-  "generated_utc": "2026-09-13T05:24:32.381002+00:00",
+  "generated_utc": "2026-09-13T17:17:08.952999+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 19928,
     "unplaced": 0,
     "sst_range_match_rate_pct": 93.5,
-    "business_points": 1694,
+    "business_points": 1706,
     "seams": 15,
     "seam_miles": 186.8,
     "cross_county_seam_miles": 107.0
@@ -96,13 +96,13 @@
     "polygon 1102 -> file 1100": 1
   },
   "business_flags": {
-    "": 835,
-    "POSTAL_CITY_EXPOSURE": 679,
-    "CROSS_COUNTY_POSTAL": 149,
+    "": 841,
+    "POSTAL_CITY_EXPOSURE": 683,
+    "CROSS_COUNTY_POSTAL": 151,
     "BOUNDARY_RISK": 19
   },
   "label_kinds": {
-    "business": 1682,
+    "business": 1694,
     "institution": 7,
     "place": 4,
     "unnamed": 1

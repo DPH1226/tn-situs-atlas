@@ -1,7 +1,7 @@
 {
   "county": "JACKSON",
   "slug": "jackson",
-  "generated_utc": "2026-09-13T05:34:35.634128+00:00",
+  "generated_utc": "2026-09-13T17:25:13.792581+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 8565,
     "unplaced": 0,
     "sst_range_match_rate_pct": 87.7,
-    "business_points": 260,
+    "business_points": 261,
     "seams": 6,
     "seam_miles": 108.2,
     "cross_county_seam_miles": 88.7
@@ -78,11 +78,11 @@
   "business_flags": {
     "POSTAL_CITY_EXPOSURE": 109,
     "": 81,
-    "CROSS_COUNTY_POSTAL": 56,
+    "CROSS_COUNTY_POSTAL": 57,
     "BOUNDARY_RISK": 13
   },
   "label_kinds": {
-    "business": 259,
+    "business": 260,
     "place": 1
   }
 }

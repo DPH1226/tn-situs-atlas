@@ -1,7 +1,7 @@
 {
   "county": "BLEDSOE",
   "slug": "bledsoe",
-  "generated_utc": "2026-09-13T05:22:47.035977+00:00",
+  "generated_utc": "2026-09-13T17:15:47.129580+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -22,7 +22,7 @@
     "address_points": 10335,
     "unplaced": 0,
     "sst_range_match_rate_pct": 77.9,
-    "business_points": 246,
+    "business_points": 247,
     "seams": 6,
     "seam_miles": 120.3,
     "cross_county_seam_miles": 107.7
@@ -80,13 +80,13 @@
     "polygon 0401 -> file 0400": 1
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 111,
+    "POSTAL_CITY_EXPOSURE": 112,
     "": 72,
     "CROSS_COUNTY_POSTAL": 56,
     "BOUNDARY_RISK": 6
   },
   "label_kinds": {
-    "business": 245,
+    "business": 246,
     "place": 1
   }
 }

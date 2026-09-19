@@ -1,7 +1,7 @@
 {
   "county": "WARREN",
   "slug": "warren",
-  "generated_utc": "2026-09-13T05:55:52.247554+00:00",
+  "generated_utc": "2026-09-13T17:41:24.308586+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -25,7 +25,7 @@
     "address_points": 23433,
     "unplaced": 0,
     "sst_range_match_rate_pct": 92.9,
-    "business_points": 1182,
+    "business_points": 1187,
     "seams": 11,
     "seam_miles": 155.5,
     "cross_county_seam_miles": 99.5
@@ -82,13 +82,13 @@
     "polygon 8903 -> file 8900": 2
   },
   "business_flags": {
-    "POSTAL_CITY_EXPOSURE": 581,
-    "": 549,
+    "POSTAL_CITY_EXPOSURE": 585,
+    "": 550,
     "BOUNDARY_RISK": 40,
     "CROSS_COUNTY_POSTAL": 1
   },
   "label_kinds": {
-    "business": 1171,
+    "business": 1176,
     "place": 8,
     "institution": 3
   }

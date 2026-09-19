@@ -1,7 +1,7 @@
 {
   "county": "DAVIDSON",
   "slug": "davidson",
-  "generated_utc": "2026-09-13T05:28:49.095110+00:00",
+  "generated_utc": "2026-09-13T17:20:38.592169+00:00",
   "rubric": "v2",
   "confidential_dor_data_used": false,
   "situs_names": {
@@ -27,7 +27,7 @@
     "address_points": 462529,
     "unplaced": 0,
     "sst_range_match_rate_pct": 97.2,
-    "business_points": 59293,
+    "business_points": 59646,
     "seams": 26,
     "seam_miles": 142.4,
     "cross_county_seam_miles": 105.3
@@ -57,8 +57,8 @@
     "E3_BOUNDARY_PROXIMITY": 4555
   },
   "dispositions": {
-    "READY - analyst sign-off then submit": 447842,
-    "REVIEW - analyst": 13942,
+    "READY - analyst sign-off then submit": 447853,
+    "REVIEW - analyst": 13931,
     "HOLD - mandatory human adjudication": 474,
     "HOLD - insufficient evidence": 271
   },
@@ -120,15 +120,15 @@
     "polygon 1904 -> file 1902": 1
   },
   "business_flags": {
-    "": 53951,
-    "POSTAL_CITY_EXPOSURE": 2891,
-    "CROSS_COUNTY_POSTAL": 1318,
-    "BOUNDARY_RISK": 471
+    "": 54279,
+    "POSTAL_CITY_EXPOSURE": 2907,
+    "CROSS_COUNTY_POSTAL": 1322,
+    "BOUNDARY_RISK": 472
   },
   "label_kinds": {
-    "business": 58631,
-    "place": 358,
-    "institution": 264,
+    "business": 58980,
+    "place": 361,
+    "institution": 265,
     "unnamed": 40
   }
 }
