@@ -10,6 +10,7 @@ python3 fetch/postal_map.py
 python3 run_all.py --skip-ingest --workers "${WORKERS:-4}"
 python3 build_index.py
 python3 build_cities.py
+python3 build_flows.py
 python3 build_site.py --domain "${SITE_DOMAIN:-navigationholdings.com}"
 if [ -n "${GIT_PUSH:-}" ]; then
   git config user.name civvix-bot && git config user.email bot@civvix.ai

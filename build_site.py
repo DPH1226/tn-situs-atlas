@@ -75,6 +75,12 @@ def main():
         if ci.exists():
             (cdst / "index.html").write_text(wrap(ci.read_text()))
 
+    # revenue flows page (build_flows.py) -> site/flows/index.html
+    flows_built = (ROOT / "artifact" / "flows.html").exists()
+    if flows_built:
+        fdst = fresh(out / "flows")
+        (fdst / "index.html").write_text(wrap((ROOT / "artifact" / "flows.html").read_text()))
+
     # atlas: rebuild with relative links to the county pages
     import importlib
     sys.argv = ["build_index.py"]
@@ -85,12 +91,13 @@ def main():
     exec(compile(code, str(bi), "exec"), ns)
     atlas = (ROOT / "artifact" / "atlas.html").read_text()
     atlas = atlas.replace('target="_blank" rel="noopener"', "")
-    if cities_built:
+    if cities_built or flows_built:
         NAV_CSS = ('.views{display:flex;gap:2px;margin:14px 0 0;font-family:Archivo,sans-serif;font-size:.74rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}'
                    '.views a{padding:7px 14px;border:1px solid var(--rule);border-bottom:0;color:var(--ink-3);background:var(--surface-2);text-decoration:none}'
                    '.views a.on{color:var(--ink);background:var(--surface);border-color:var(--ink);border-bottom:2px solid var(--surface);margin-bottom:-2px}')
         atlas = atlas.replace("</style>", NAV_CSS + "</style>", 1)
-        atlas = atlas.replace("</div></header>", '<nav class="views"><a class="on" href="./">Counties</a><a href="./cities/">Cities</a></nav></div></header>', 1)
+        tabs = '<a class="on" href="./">Counties</a>' + ('<a href="./cities/">Cities</a>' if cities_built else '') + ('<a href="./flows/">Revenue flows</a>' if flows_built else '')
+        atlas = atlas.replace("</div></header>", '<nav class="views">' + tabs + '</nav></div></header>', 1)
     (out / "index.html").write_text(wrap(atlas))
     # restore the artifact atlas with claude.ai links for the published copy
     ns2 = {"__name__": "build_index_restore", "__file__": str(bi)}
@@ -103,9 +110,9 @@ def main():
     (out / ".nojekyll").write_text("")
     (out / "robots.txt").write_text("User-agent: *\nDisallow: /\n")
     size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
-    ci = ROOT / "out" / "cities_index.json"
-    if ci.exists(): shutil.copy(ci, out / "data" / "cities_index.json")
-    print(f"site: {len(built)} county workbenches rebuilt, {len(kept)} kept + {cities_built} city workbenches + atlas -> {out} ({size/1e6:.0f} MB)")
+    for extra in ("cities_index.json", "flows_index.json"):
+        if (ROOT / "out" / extra).exists(): shutil.copy(ROOT / "out" / extra, out / "data" / extra)
+    print(f"site: {len(built)} county workbenches rebuilt, {len(kept)} kept + {cities_built} city workbenches + {'flows' if flows_built else 'no flows'} + atlas -> {out} ({size/1e6:.0f} MB)")
 
 
 if __name__ == "__main__":
