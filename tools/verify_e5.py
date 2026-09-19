@@ -5,17 +5,26 @@ Is a county's Tier-A "DOR file ≠ polygon" signal real, or a matching artifact?
     python3 tools/verify_e5.py wilson            # one county
     python3 tools/verify_e5.py --all             # every county with out/<slug>/address_points_scored.csv
 
-Six tests. 1 Referee: on every deep E5 rooftop, do the 911 authority and the Comptroller side with the
-polygon against the file? 2 Geography: does the E5 share fall with distance from the seam (annexation
-fringe) rather than scatter? 3 Streets: do whole streets flip together (stale range table) or random
-rooftops (bad match)? 4 Labels: does the file's own city label name the annexing city while its code
-says unincorporated? 5 Commerce: do E5 rooftops carry business points at least as often as others?
-6 Match quality: how much of the match used the ZIP-less fallback, and how often does the file's label
-disagree with the rooftop's own postal city - the wrong-street signature.
+The E5 class says: the State's address-range file assigns situs X, the State's own polygon says Y.
+That is a disagreement by construction. What matters is whether the FILE is the thing that is wrong,
+or whether our match to the file is. Five tests separate those:
 
-REAL = referee >= 90% and >= 50% of E5 on all-or-nothing streets and >= 85% label coherence.
-MIXED = referee passes plus one other. SUSPECT = looks like a matching artifact. Written to
-out/<slug>/e5_verification.json; build_flows.py reads it and excludes SUSPECT from the verified headline.
+  1. Referee.  For each disagreeing rooftop, where do the two other authorities put it - the 911
+     addressing authority and the Comptroller's certified municipal limits?  If both side with the
+     polygon, the file is the odd one out: three independent sources against one.
+  2. Geography.  A stale file is stale where boundaries moved - the annexation fringe.  Matching
+     noise scatters evenly.  The E5 share should fall with distance from the nearest seam.
+  3. Streets.  A stale range table mis-codes whole street segments.  A bad match hits rooftops at
+     random.  Streets with any E5 should be mostly all-or-nothing.
+  4. Labels.  If the file's own city label names the polygon's city while its code says unincorporated,
+     the record is internally coherent - it describes the address as it was before annexation - and
+     the match is to the right street.  Random labels would mean a wrong-street match.
+  5. Commerce.  If the disagreement follows annexed commercial corridors, E5 rooftops should carry
+     business points at least as often as rooftops in general.
+
+A county passes when (1) >= 90% referee agreement with the polygon, (3) >= 50% of E5 rooftops sit on
+streets that are >= 90% E5, and (4) >= 85% label coherence.  Verdicts are printed with the numbers so
+the reasoning is inspectable, and written to out/<slug>/e5_verification.json.
 """
 from __future__ import annotations
 import argparse, json, sys
@@ -54,7 +63,8 @@ def verify(slug: str) -> dict | None:
     r = {"county": slug, "rooftops": int(len(a)), "tierA_e5": int(len(e5)), "tierA_e5_pct": round(100 * len(e5) / max(1, len(a)), 2)}
     if len(e5) < 20:
         r["verdict"] = "TOO FEW TO JUDGE"; return r
-    # 1. referee - on EVERY deep E5 rooftop, not the Tier-A subset (Tier A already requires layer agreement)
+    # 1. referee - measured on EVERY deep E5 rooftop, not the Tier-A subset. Tier A requires placement >= 85,
+    #    which a layer-conflict rooftop cannot reach, so testing agreement inside Tier A would be circular.
     e5all = deep[deep.E5]
     comp = (e5all.muni_comptroller == e5all.muni_dor).mean(); e911 = (e5all.muni_e911 == e5all.muni_dor).mean()
     both = ((e5all.muni_comptroller == e5all.muni_dor) & (e5all.muni_e911 == e5all.muni_dor)).mean()
@@ -80,16 +90,20 @@ def verify(slug: str) -> dict | None:
     r["labels"] = {"file_says_unincorporated": int(len(x)), "file_city_label_matches_polygon_city_pct": round(100 * coh, 1) if len(x) else None}
     # 5. commerce
     r["commerce"] = {"e5_with_business_point_pct": round(100 * e5.biz.mean(), 1), "all_deep_rooftops_pct": round(100 * deep.biz.mean(), 1)}
-    # 6. match quality
+    # 6. match quality - what a wrong-street match looks like: the file's city label disagrees with the rooftop's own
+    #    postal city, or the match came through the ZIP-less fallback (blank ZIP in the 911 layer)
     zip_blank = e5.Zip_Code.isna() | (e5.Zip_Code.astype(str).str.strip().isin(["", "nan", "None"]))
     label_vs_postal = (e5.sst_city != e5.Post_City) & (e5.Post_City != "NAN")
     r["match_quality"] = {"zip_blank_pct": round(100 * zip_blank.mean(), 1), "file_label_differs_from_postal_city_pct": round(100 * label_vs_postal.mean(), 1),
                           "top_mismatches": {f"{k[0]} (postal) vs {k[1]} (file)": int(v) for k, v in e5[label_vs_postal].groupby(["Post_City", "sst_city"]).size().sort_values(ascending=False).head(4).items()}}
     # verdict
     ok1 = both >= .90; ok3 = r["streets"]["e5_on_systematic_streets_pct"] >= 50; ok4 = (coh >= .85) if len(x) else True
-    r["checks"] = {"referee": bool(ok1), "streets": bool(ok3), "labels": bool(ok4)}
-    r["verdict"] = "REAL - the State's address file is the odd one out" if (ok1 and ok3 and ok4) else \
-                   "MIXED - inspect before quoting" if (ok1 and (ok3 or ok4)) else "SUSPECT - likely a matching artifact"
+    # wrong-street evidence: the file's own label rarely names the polygon's city, or often contradicts the rooftop's postal city
+    # on a county whose streets do not flip together
+    bad_match = (len(x) > 0 and coh < .50) or (label_vs_postal.mean() >= .20 and not ok3)
+    r["checks"] = {"referee": bool(ok1), "streets": bool(ok3), "labels": bool(ok4), "wrong_street_evidence": bool(bad_match)}
+    r["verdict"] = "SUSPECT - likely a matching artifact" if bad_match else \
+                   "REAL - the State's address file is the odd one out" if (ok1 and ok3 and ok4) else "MIXED - inspect before quoting"
     return r
 
 
@@ -117,7 +131,8 @@ def main():
     if a.all and rows:
         print("\n" + "-" * 78)
         for r in sorted(rows, key=lambda r: -r["tierA_e5"])[:20]:
-            print(f"  {r['county']:<12} {r['tierA_e5']:>7,} ({r['tierA_e5_pct']:>5}%)  {r.get('referee', {}).get('both_pct', '—'):>6}  {r.get('streets', {}).get('e5_on_systematic_streets_pct', '—'):>6}  {r.get('labels', {}).get('file_city_label_matches_polygon_city_pct', '—'):>6}  {r.get('match_quality', {}).get('file_label_differs_from_postal_city_pct', '—'):>6}  {r['verdict']}")
+            g = lambda *k: (lambda v: "—" if v is None else v)(r.get(k[0], {}).get(k[1]) if len(k) > 1 else r.get(k[0]))
+            print(f"  {r['county']:<12} {r['tierA_e5']:>7,} ({r['tierA_e5_pct']:>5}%)  {str(g('referee','both_pct')):>6}  {str(g('streets','e5_on_systematic_streets_pct')):>6}  {str(g('labels','file_city_label_matches_polygon_city_pct')):>6}  {str(g('match_quality','file_label_differs_from_postal_city_pct')):>6}  {r['verdict']}")
         print("  columns: Tier-A E5 · referee both% · systematic-street% · label-coherence% · label≠postal% · verdict")
 
 

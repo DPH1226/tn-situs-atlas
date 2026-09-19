@@ -25625,13 +25625,13 @@
    "label_pct": 100.0
   },
   "BLOUNT": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 23.4,
    "referee_pct": 71.9,
    "label_pct": 95.7
   },
   "BRADLEY": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 63.1,
    "referee_pct": 39.2,
    "label_pct": 100.0
@@ -25655,7 +25655,7 @@
    "label_pct": 31.8
   },
   "CARTER": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 35.6,
    "referee_pct": 99.8,
    "label_pct": 79.5
@@ -25703,7 +25703,7 @@
    "label_pct": 86.7
   },
   "CUMBERLAND": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 35.8,
    "referee_pct": 84.0,
    "label_pct": 93.0
@@ -25739,7 +25739,7 @@
    "label_pct": 100.0
   },
   "FAYETTE": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 22.5,
    "referee_pct": 54.1,
    "label_pct": 79.3
@@ -25751,7 +25751,7 @@
    "label_pct": 21.1
   },
   "FRANKLIN": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 42.6,
    "referee_pct": 83.4,
    "label_pct": 100.0
@@ -25781,13 +25781,13 @@
    "label_pct": 36.0
   },
   "GRUNDY": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 35.7,
    "referee_pct": 100.0,
    "label_pct": 100.0
   },
   "HAMBLEN": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 56.3,
    "referee_pct": 47.3,
    "label_pct": 98.4
@@ -25811,7 +25811,7 @@
    "label_pct": 96.6
   },
   "HARDIN": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 36.7,
    "referee_pct": 20.6,
    "label_pct": 81.4
@@ -25823,7 +25823,7 @@
    "label_pct": 92.5
   },
   "HAYWOOD": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 0.0,
    "referee_pct": 100.0,
    "label_pct": 100.0
@@ -25865,7 +25865,7 @@
    "label_pct": 100.0
   },
   "JEFFERSON": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 35.8,
    "referee_pct": 72.9,
    "label_pct": 93.5
@@ -25877,7 +25877,7 @@
    "label_pct": null
   },
   "KNOX": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 35.0,
    "referee_pct": 99.4,
    "label_pct": 99.3
@@ -25913,7 +25913,7 @@
    "label_pct": 100.0
   },
   "LOUDON": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 0.0,
    "referee_pct": 77.5,
    "label_pct": 100.0
@@ -25925,7 +25925,7 @@
    "label_pct": 100.0
   },
   "MADISON": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 39.3,
    "referee_pct": 50.7,
    "label_pct": 98.5
@@ -25943,7 +25943,7 @@
    "label_pct": 100.0
   },
   "MAURY": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 55.6,
    "referee_pct": 87.1,
    "label_pct": 99.4
@@ -25955,7 +25955,7 @@
    "label_pct": 100.0
   },
   "MCNAIRY": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 0.0,
    "referee_pct": 64.2,
    "label_pct": 93.1
@@ -25973,7 +25973,7 @@
    "label_pct": 99.1
   },
   "MONTGOMERY": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 73.8,
    "referee_pct": 66.7,
    "label_pct": 100.0
@@ -25985,7 +25985,7 @@
    "label_pct": null
   },
   "MORGAN": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 0.0,
    "referee_pct": 68.3,
    "label_pct": 100.0
@@ -26021,13 +26021,13 @@
    "label_pct": 91.9
   },
   "PUTNAM": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 59.1,
    "referee_pct": 77.2,
    "label_pct": 100.0
   },
   "RHEA": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 21.9,
    "referee_pct": 79.3,
    "label_pct": 73.7
@@ -26039,19 +26039,19 @@
    "label_pct": 100.0
   },
   "ROBERTSON": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 36.6,
    "referee_pct": 69.1,
    "label_pct": 93.4
   },
   "RUTHERFORD": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 39.4,
    "referee_pct": 55.5,
    "label_pct": 100.0
   },
   "SCOTT": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 28.0,
    "referee_pct": 96.4,
    "label_pct": 79.6
@@ -26063,7 +26063,7 @@
    "label_pct": 100.0
   },
   "SEVIER": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 40.0,
    "referee_pct": 81.9,
    "label_pct": 85.8
@@ -26075,7 +26075,7 @@
    "label_pct": 70.6
   },
   "SMITH": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 17.3,
    "referee_pct": 100.0,
    "label_pct": 71.4
@@ -26087,13 +26087,13 @@
    "label_pct": 100.0
   },
   "SULLIVAN": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 50.7,
    "referee_pct": 88.1,
    "label_pct": 60.7
   },
   "SUMNER": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 21.3,
    "referee_pct": 67.7,
    "label_pct": 91.5

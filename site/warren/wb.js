@@ -121,7 +121,7 @@
     ctx.fillStyle = css("--map-bg"); ctx.fillRect(0, 0, CW, CH);
     var ftpx = 1 / view.s; // feet per pixel
 
-    // neighbours
+    // neighbors
     ctx.fillStyle = css("--surface-2"); ctx.strokeStyle = css("--rule"); ctx.lineWidth = 1;
     NBR.forEach(function (f) { fillRings(f.r); ctx.fill(); ctx.stroke(); });
 

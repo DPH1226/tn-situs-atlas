@@ -16,7 +16,7 @@ Confidence is a MODEL SCORE, not a measured rate. Its rubric:
                 match, business point, seam distance. For E4 the -20 layer-conflict penalty is restored,
                 because there the conflict IS the evidence.
     tier        A  the State's own instruments contradict each other, so the misdirection does not depend
-                   on any taxpayer's behaviour: DOR's address-range file assigns a different situs than
+                   on any taxpayer's behavior: DOR's address-range file assigns a different situs than
                    DOR's polygon (E5, >250 ft from any seam), or DOR's polygon leaves a rooftop outside a
                    city that both the 911 authority and the Comptroller's CERTIFIED limits put inside it
                    (E4, >250 ft). Prior 0.90.
@@ -392,9 +392,9 @@ def write_page(agg: dict):
 
 <div class="explain"><h3>How to read this</h3><ul>
 <li><b>Owed to it</b> — named businesses physically inside the jurisdiction whose evidence says their local tax is going somewhere else. If corrected, this money comes <b>in</b>.</li>
-<li><b>Receiving in error</b> — named businesses physically outside the jurisdiction whose evidence says their local tax is going to it. If a neighbour corrects them, this money goes <b>out</b>.</li>
+<li><b>Receiving in error</b> — named businesses physically outside the jurisdiction whose evidence says their local tax is going to it. If a neighbor corrects them, this money goes <b>out</b>.</li>
 <li><b>Every flow appears twice</b> — once as owed to the jurisdiction it belongs to, once as received in error by the jurisdiction currently getting it. Statewide, the two columns describe the same dollars.</li>
-<li><b>Tier A</b> — the State's own instruments contradict each other. The Department's address-range file assigns a different situs than the Department's own polygon, or the Department's polygon leaves a rooftop outside a city that both the 911 authority and the Comptroller's certified limits place inside it. More than 250 ft from any seam. This does not depend on any taxpayer's behaviour.</li>
+<li><b>Tier A</b> — the State's own instruments contradict each other. The Department's address-range file assigns a different situs than the Department's own polygon, or the Department's polygon leaves a rooftop outside a city that both the 911 authority and the Comptroller's certified limits place inside it. More than 250 ft from any seam. This does not depend on any taxpayer's behavior.</li>
 <li><b>Tier B</b> — the mechanism that produces miscoding is present: the business sits inside this county but its mailing city belongs to another county. Situs codes are keyed from whatever address the registrant wrote down. More than 250 ft from any seam, official layers in agreement.</li>
 <li><b>Tier C</b> — exposure: a city mailing address on a rooftop outside that city, or A/B evidence within 250 ft of a seam, where boundary precision alone could explain it.</li>
 <li><b>County rows</b> show cross-county flows only. <b>Treasury rows</b> show the county's unincorporated code against its own cities. <b>City rows</b> show each city against everything around it.</li>
@@ -421,7 +421,7 @@ def write_page(agg: dict):
 <div class="scen" id="stw" data-tier-a="{tierA_val}"><h3>Scenario</h3>
 <div class="ctl">
 <div><label for="pin">Share of <b>owed</b> businesses the jurisdiction recovers: <output id="pin_v">10%</output></label><input type="range" id="pin" min="0" max="50" step="1" value="10"></div>
-<div><label for="pout">Share of <b>received-in-error</b> businesses a neighbour corrects: <output id="pout_v">10%</output></label><input type="range" id="pout" min="0" max="50" step="1" value="10"></div>
+<div><label for="pout">Share of <b>received-in-error</b> businesses a neighbor corrects: <output id="pout_v">10%</output></label><input type="range" id="pout" min="0" max="50" step="1" value="10"></div>
 <div><label for="tsel">Tiers included</label><select id="tsel"><option value="A">A only — State contradicts itself</option><option value="AB" selected>A + B — plus cross-county mechanism</option><option value="ABC">A + B + C — everything flagged</option></select></div>
 <div><label for="grow">Growth since {FY} (1.00 = as published)</label><input type="number" id="grow" min="0.5" max="2" step="0.01" value="1.00"></div>
 </div>
