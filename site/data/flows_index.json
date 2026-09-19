@@ -25590,13 +25590,13 @@
   },
   "businesses_flagged": 57376,
   "A_verified": {
-   "owed": 2930,
-   "value": 16717185,
-   "counties": 17
+   "owed": 2446,
+   "value": 11705720,
+   "counties": 12
   },
   "A_unverified": {
-   "owed": 1495,
-   "value": 11131486
+   "owed": 1979,
+   "value": 16142951
   }
  },
  "verification": {
@@ -25609,7 +25609,7 @@
   "BEDFORD": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 5.8,
-   "referee_pct": 100.0,
+   "referee_pct": 99.0,
    "label_pct": 100.0
   },
   "BENTON": {
@@ -25625,15 +25625,15 @@
    "label_pct": 100.0
   },
   "BLOUNT": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 23.4,
-   "referee_pct": 100.0,
+   "referee_pct": 71.9,
    "label_pct": 95.7
   },
   "BRADLEY": {
-   "verdict": "REAL - the State's address file is the odd one out",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 63.1,
-   "referee_pct": 100.0,
+   "referee_pct": 39.2,
    "label_pct": 100.0
   },
   "CAMPBELL": {
@@ -25651,13 +25651,13 @@
   "CARROLL": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 24.0,
-   "referee_pct": 100.0,
+   "referee_pct": 95.4,
    "label_pct": 31.8
   },
   "CARTER": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 35.6,
-   "referee_pct": 100.0,
+   "referee_pct": 99.8,
    "label_pct": 79.5
   },
   "CHEATHAM": {
@@ -25693,25 +25693,25 @@
   "COFFEE": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 9.3,
-   "referee_pct": 100.0,
+   "referee_pct": 53.5,
    "label_pct": 46.7
   },
   "CROCKETT": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 0.0,
-   "referee_pct": 100.0,
+   "referee_pct": 50.6,
    "label_pct": 86.7
   },
   "CUMBERLAND": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 35.8,
-   "referee_pct": 100.0,
+   "referee_pct": 84.0,
    "label_pct": 93.0
   },
   "DAVIDSON": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 22.9,
-   "referee_pct": 100.0,
+   "referee_pct": 99.9,
    "label_pct": null
   },
   "DECATUR": {
@@ -25723,13 +25723,13 @@
   "DEKALB": {
    "verdict": "REAL - the State's address file is the odd one out",
    "systematic_pct": 59.0,
-   "referee_pct": 100.0,
+   "referee_pct": 99.6,
    "label_pct": 100.0
   },
   "DICKSON": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 44.5,
-   "referee_pct": 100.0,
+   "referee_pct": 97.3,
    "label_pct": 92.8
   },
   "DYER": {
@@ -25741,7 +25741,7 @@
   "FAYETTE": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 22.5,
-   "referee_pct": 100.0,
+   "referee_pct": 54.1,
    "label_pct": 79.3
   },
   "FENTRESS": {
@@ -25751,27 +25751,27 @@
    "label_pct": 21.1
   },
   "FRANKLIN": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 42.6,
-   "referee_pct": 100.0,
+   "referee_pct": 83.4,
    "label_pct": 100.0
   },
   "GIBSON": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 37.3,
-   "referee_pct": 100.0,
+   "referee_pct": 87.5,
    "label_pct": 74.1
   },
   "GILES": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 25.9,
-   "referee_pct": 100.0,
+   "referee_pct": 99.2,
    "label_pct": 97.7
   },
   "GRAINGER": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 20.5,
-   "referee_pct": 100.0,
+   "referee_pct": 98.7,
    "label_pct": 100.0
   },
   "GREENE": {
@@ -25787,15 +25787,15 @@
    "label_pct": 100.0
   },
   "HAMBLEN": {
-   "verdict": "REAL - the State's address file is the odd one out",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 56.3,
-   "referee_pct": 100.0,
+   "referee_pct": 47.3,
    "label_pct": 98.4
   },
   "HAMILTON": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 39.0,
-   "referee_pct": 100.0,
+   "referee_pct": 97.1,
    "label_pct": 12.0
   },
   "HANCOCK": {
@@ -25807,19 +25807,19 @@
   "HARDEMAN": {
    "verdict": "REAL - the State's address file is the odd one out",
    "systematic_pct": 60.8,
-   "referee_pct": 100.0,
+   "referee_pct": 98.8,
    "label_pct": 96.6
   },
   "HARDIN": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 36.7,
-   "referee_pct": 100.0,
+   "referee_pct": 20.6,
    "label_pct": 81.4
   },
   "HAWKINS": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 29.9,
-   "referee_pct": 100.0,
+   "referee_pct": 99.3,
    "label_pct": 92.5
   },
   "HAYWOOD": {
@@ -25831,7 +25831,7 @@
   "HENDERSON": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 48.5,
-   "referee_pct": 100.0,
+   "referee_pct": 95.8,
    "label_pct": 100.0
   },
   "HENRY": {
@@ -25865,9 +25865,9 @@
    "label_pct": 100.0
   },
   "JEFFERSON": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 35.8,
-   "referee_pct": 100.0,
+   "referee_pct": 72.9,
    "label_pct": 93.5
   },
   "JOHNSON": {
@@ -25879,7 +25879,7 @@
   "KNOX": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 35.0,
-   "referee_pct": 100.0,
+   "referee_pct": 99.4,
    "label_pct": 99.3
   },
   "LAKE": {
@@ -25897,7 +25897,7 @@
   "LAWRENCE": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 26.1,
-   "referee_pct": 100.0,
+   "referee_pct": 99.4,
    "label_pct": 95.3
   },
   "LEWIS": {
@@ -25909,25 +25909,25 @@
   "LINCOLN": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 26.5,
-   "referee_pct": 100.0,
+   "referee_pct": 93.3,
    "label_pct": 100.0
   },
   "LOUDON": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 0.0,
-   "referee_pct": 100.0,
+   "referee_pct": 77.5,
    "label_pct": 100.0
   },
   "MACON": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 7.2,
-   "referee_pct": 100.0,
+   "referee_pct": 99.0,
    "label_pct": 100.0
   },
   "MADISON": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 39.3,
-   "referee_pct": 100.0,
+   "referee_pct": 50.7,
    "label_pct": 98.5
   },
   "MARION": {
@@ -25939,13 +25939,13 @@
   "MARSHALL": {
    "verdict": "REAL - the State's address file is the odd one out",
    "systematic_pct": 54.7,
-   "referee_pct": 100.0,
+   "referee_pct": 96.0,
    "label_pct": 100.0
   },
   "MAURY": {
-   "verdict": "REAL - the State's address file is the odd one out",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 55.6,
-   "referee_pct": 100.0,
+   "referee_pct": 87.1,
    "label_pct": 99.4
   },
   "MCMINN": {
@@ -25955,9 +25955,9 @@
    "label_pct": 100.0
   },
   "MCNAIRY": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 0.0,
-   "referee_pct": 100.0,
+   "referee_pct": 64.2,
    "label_pct": 93.1
   },
   "MEIGS": {
@@ -25969,13 +25969,13 @@
   "MONROE": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 43.0,
-   "referee_pct": 100.0,
+   "referee_pct": 98.8,
    "label_pct": 99.1
   },
   "MONTGOMERY": {
-   "verdict": "REAL - the State's address file is the odd one out",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 73.8,
-   "referee_pct": 100.0,
+   "referee_pct": 66.7,
    "label_pct": 100.0
   },
   "MOORE": {
@@ -25985,15 +25985,15 @@
    "label_pct": null
   },
   "MORGAN": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 0.0,
-   "referee_pct": 100.0,
+   "referee_pct": 68.3,
    "label_pct": 100.0
   },
   "OBION": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 53.1,
-   "referee_pct": 100.0,
+   "referee_pct": 95.3,
    "label_pct": 77.1
   },
   "OVERTON": {
@@ -26021,39 +26021,39 @@
    "label_pct": 91.9
   },
   "PUTNAM": {
-   "verdict": "REAL - the State's address file is the odd one out",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 59.1,
-   "referee_pct": 100.0,
+   "referee_pct": 77.2,
    "label_pct": 100.0
   },
   "RHEA": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 21.9,
-   "referee_pct": 100.0,
+   "referee_pct": 79.3,
    "label_pct": 73.7
   },
   "ROANE": {
    "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 10.3,
-   "referee_pct": 100.0,
+   "referee_pct": 92.9,
    "label_pct": 100.0
   },
   "ROBERTSON": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 36.6,
-   "referee_pct": 100.0,
+   "referee_pct": 69.1,
    "label_pct": 93.4
   },
   "RUTHERFORD": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 39.4,
-   "referee_pct": 100.0,
+   "referee_pct": 55.5,
    "label_pct": 100.0
   },
   "SCOTT": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 28.0,
-   "referee_pct": 100.0,
+   "referee_pct": 96.4,
    "label_pct": 79.6
   },
   "SEQUATCHIE": {
@@ -26063,15 +26063,15 @@
    "label_pct": 100.0
   },
   "SEVIER": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 40.0,
-   "referee_pct": 100.0,
+   "referee_pct": 81.9,
    "label_pct": 85.8
   },
   "SHELBY": {
    "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 39.2,
-   "referee_pct": 100.0,
+   "referee_pct": 87.6,
    "label_pct": 70.6
   },
   "SMITH": {
@@ -26087,21 +26087,21 @@
    "label_pct": 100.0
   },
   "SULLIVAN": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 50.7,
-   "referee_pct": 100.0,
+   "referee_pct": 88.1,
    "label_pct": 60.7
   },
   "SUMNER": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 21.3,
-   "referee_pct": 100.0,
+   "referee_pct": 67.7,
    "label_pct": 91.5
   },
   "TIPTON": {
    "verdict": "REAL - the State's address file is the odd one out",
    "systematic_pct": 54.0,
-   "referee_pct": 100.0,
+   "referee_pct": 95.1,
    "label_pct": 96.8
   },
   "TROUSDALE": {
@@ -26135,9 +26135,9 @@
    "label_pct": 100.0
   },
   "WASHINGTON": {
-   "verdict": "MIXED - inspect before quoting",
+   "verdict": "SUSPECT - likely a matching artifact",
    "systematic_pct": 13.7,
-   "referee_pct": 100.0,
+   "referee_pct": 66.2,
    "label_pct": 100.0
   },
   "WAYNE": {
@@ -26161,13 +26161,13 @@
   "WILLIAMSON": {
    "verdict": "REAL - the State's address file is the odd one out",
    "systematic_pct": 58.2,
-   "referee_pct": 100.0,
+   "referee_pct": 90.9,
    "label_pct": 93.3
   },
   "WILSON": {
    "verdict": "REAL - the State's address file is the odd one out",
    "systematic_pct": 67.8,
-   "referee_pct": 100.0,
+   "referee_pct": 96.7,
    "label_pct": 95.7
   }
  },
