@@ -25697,7 +25697,7 @@
    "label_pct": 46.7
   },
   "CROCKETT": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 0.0,
    "referee_pct": 50.6,
    "label_pct": 86.7
@@ -25781,7 +25781,7 @@
    "label_pct": 36.0
   },
   "GRUNDY": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 35.7,
    "referee_pct": 100.0,
    "label_pct": 100.0
@@ -25823,7 +25823,7 @@
    "label_pct": 92.5
   },
   "HAYWOOD": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 0.0,
    "referee_pct": 100.0,
    "label_pct": 100.0
@@ -25877,7 +25877,7 @@
    "label_pct": null
   },
   "KNOX": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 35.0,
    "referee_pct": 99.4,
    "label_pct": 99.3
@@ -26135,7 +26135,7 @@
    "label_pct": 100.0
   },
   "WASHINGTON": {
-   "verdict": "SUSPECT - likely a matching artifact",
+   "verdict": "MIXED - inspect before quoting",
    "systematic_pct": 13.7,
    "referee_pct": 66.2,
    "label_pct": 100.0
